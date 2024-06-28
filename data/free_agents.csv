@@ -1,0 +1,556 @@
+player,team,position,age,contract_status,cap_hit,signing_year,expiry_status
+Steven Stamkos,TBL,34,"LW, C",Right,79,40,41
+Sam Reinhart,FLA,28,RW,Right,82,57,37
+Matt Murray,TOR,30,G,Left,0,-,-
+Jake Guentzel,CAR,29,"LW, RW",Left,67,30,47
+Adam Henrique,EDM,34,"LW, C",Left,82,24,27
+Anthony Mantha,VGK,29,"LW, RW",Left,74,23,21
+Tyler Bertuzzi,TOR,29,"LW, RW",Left,80,21,22
+Teuvo Teräväinen,CAR,29,"LW, RW",Left,76,25,28
+Jason Zucker,NSH,32,"LW, RW",Left,69,14,18
+Alec Martinez,VGK,36,LD,Left,55,4,13
+Brady Skjei,CAR,30,LD,Left,80,13,34
+Jakub Vrána,STL,28,LW,Left,21,2,4
+Tyler Johnson,CHI,33,"RW, C, LW",Right,67,17,14
+Vladimir Tarasenko,FLA,32,RW,Left,76,23,32
+Jonathan Marchessault,VGK,33,"RW, LW",Right,82,42,27
+TJ Brodie,TOR,34,LD/RD,Left,78,1,25
+Elias Lindholm,VAN,29,"C, RW",Right,75,15,29
+David Perron,DET,36,"RW, LW",Right,76,17,30
+Victor Olofsson,BUF,28,"RW, LW",Left,51,7,8
+Kevin Labanc,SJS,28,"RW, LW",Right,46,2,7
+Tyson Barrie,NSH,32,RD,Right,41,1,14
+Alexander Wennberg,NYR,29,C,Left,79,10,20
+Nikita Zaitsev,CHI,32,RD,Right,38,2,5
+Mike Hoffman,SJS,34,LW,Left,66,10,13
+Christopher Tanev,DAL,34,RD,Right,75,2,17
+Tyler Toffoli,WPG,32,"RW, LW",Right,79,33,22
+Viktor Arvidsson,LAK,31,"RW, LW",Right,18,6,9
+Anthony Beauvillier,NSH,27,"RW, LW",Left,60,5,12
+John Klingberg,TOR,31,RD,Right,14,0,5
+Shayne Gostisbehere,DET,31,LD/RD,Left,81,10,46
+Brett Pesce,CAR,29,RD,Right,70,3,10
+Jake DeBrusk,BOS,27,"RW, LW",Left,80,19,21
+Jack Roslovic,NYR,27,"C, RW",Right,59,9,22
+Carter Hart,PHI,25,G,Left,26,-,-
+Brenden Dillon,WPG,33,LD,Left,77,8,12
+Matt Dumba,TBL,29,RD,Right,76,4,8
+Nikita Zadorov,VAN,29,LD/RD,Left,75,6,14
+Matt Grzelcyk,BOS,30,LD,Left,63,2,9
+Ilya Samsonov,TOR,27,G,Left,40,-,-
+Brandon Montour,FLA,30,RD,Right,66,8,25
+Chris Driedger,SEA,30,G,Left,2,-,-
+Joe Pavelski,DAL,39,RW,Right,82,27,40
+Joel Edmundson,TOR,31,LD/RD,Left,53,1,5
+Jeremy Swayman,BOS,25,G,Left,44,-,-
+Marco Scandella,STL,34,LD,Left,65,2,6
+Erik Johnson,PHI,36,RD,Right,67,5,1
+Tanner Pearson,MTL,31,LW,Left,54,5,8
+Kasperi Kapanen,STL,27,RW,Right,73,6,16
+Matt Roy,LAK,29,RD,Right,81,5,20
+Derek Forbort,BOS,32,LD,Left,35,0,4
+Matt Duchene,DAL,33,"RW, C",Left,80,25,40
+Ryan Lindgren,NYR,26,LD,Left,76,3,14
+Ian Cole,VAN,35,LD/RD,Left,78,2,9
+Anthony Duclair,TBL,28,"LW, RW",Left,73,24,18
+Max Domi,TOR,29,"C, RW",Left,80,9,38
+Martin Necas,CAR,25,RW,Right,77,24,29
+Justin Schultz,SEA,33,RD,Right,70,7,19
+Kaapo Kähkönen,NJD,27,G,Left,37,-,-
+Luke Kunin,SJS,26,"RW, C",Right,77,11,7
+Chandler Stephenson,VGK,30,"C, LW",Left,75,16,35
+Ilya Lyubushkin,TOR,30,RD,Right,74,0,8
+Warren Foegele,EDM,28,"LW, RW",Left,82,20,21
+Patrick Kane,DET,35,RW,Left,50,20,27
+Sean Walker,COL,29,LD/RD,Right,81,10,19
+Alexander Barabanov,SJS,30,"RW, LW",Left,46,4,9
+Zemgus Girgensons,BUF,30,"LW, C",Left,63,8,6
+Oliver Kylington,CGY,27,LD/RD,Left,33,3,5
+Henri Jokiharju,BUF,25,RD,Right,74,3,17
+Dominik Kubalik,OTT,28,"LW, RW",Left,74,11,4
+Alexandre Carrier,NSH,27,RD,Right,73,4,16
+Kyle Okposo,FLA,36,RW,Right,67,12,10
+Jake Bean,CBJ,26,LD/RD,Left,72,4,9
+Dillon Dubé,CGY,25,"LW, RW, C",Left,43,3,4
+Oliver Ekman-Larsson,FLA,32,LD,Left,80,9,23
+Max Pacioretty,WSH,35,LW,Left,47,4,19
+Tyson Jost,BUF,26,C,Left,43,3,3
+Erik Brännström,OTT,24,"LD/RD, LW",Left,76,3,17
+Kevin Lankinen,NSH,29,G,Left,24,-,-
+Alex Goligoski,MIN,38,LD/RD,Left,36,0,10
+Daniel Sprong,DET,27,"RW, LW",Right,76,18,25
+Sean Monahan,WPG,29,"C, LW, RW",Left,83,26,33
+Colin Miller,WPG,31,RD,Right,46,4,5
+Jacob Bryson,BUF,26,LD/RD,Left,36,1,7
+Eric Comrie,BUF,28,G,Left,10,-,-
+Isac Lundeström,ANA,24,"C, LW",Left,46,5,6
+Casey DeSmith,VAN,32,G,Left,29,-,-
+Jordan Martinook,CAR,31,"LW, RW",Left,82,14,18
+Barrett Hayton,UTA,24,"C, LW",Left,33,3,7
+Laurent Brossoit,WPG,31,G,Left,23,-,-
+Cal Clutterbuck,NYI,36,RW,Right,82,7,12
+Travis Boyd,UTA,30,"C, RW",Right,16,2,6
+Sean Durzi,UTA,25,LD/RD,Right,76,9,32
+Yakov Trenin,COL,27,"LW, C",Left,76,12,5
+Anthony Deangelo,CAR,28,RD,Right,31,3,8
+Blake Lizotte,LAK,26,C,Left,62,7,8
+Eric Robinson,BUF,29,LW,Left,47,3,7
+Alexandre Texier,CBJ,24,"LW, C, RW",Left,78,12,18
+Antti Raanta,CAR,35,G,Left,24,-,-
+Tomas Tatar,SEA,33,"LW, RW",Left,70,9,15
+Pheonix Copley,LAK,32,G,Left,8,-,-
+James Reimer,DET,36,G,Left,25,-,-
+Jani Hakanpää,DAL,32,RD,Right,64,2,10
+Matt Martin,NYI,35,"LW, RW",Left,57,4,4
+Kailer Yamamoto,SEA,25,RW,Right,59,8,8
+Eeli Tolvanen,SEA,25,"LW, RW",Left,81,16,25
+William Carrier,VGK,29,LW,Left,39,6,2
+Timothy Liljegren,TOR,25,RD,Right,55,3,20
+Philippe Myers,TBL,27,RD,Right,5,0,0
+Michael McLeod,NJD,26,C,Right,45,10,9
+Riley Stillman,BUF,26,LD,Left,0,0,0
+Carl Grundström,SJS,26,"LW, RW",Left,50,8,4
+Max Jones,ANA,26,"LW, RW",Left,52,5,10
+Joshua Brown,UTA,30,RD,Right,51,3,7
+Jarred Tinordi,CHI,32,LD,Left,52,0,9
+Nicolas Aubé-Kubel,WSH,28,RW,Right,60,6,10
+Colin Blackwell,CHI,31,"C, RW",Right,44,8,4
+Sam Lafferty,CHI,29,"RW, C, LW",Right,79,13,11
+Jakub Zboril,CBJ,27,LD/RD,Left,0,0,0
+Christian Fischer,DET,27,"RW, LW",Right,79,5,14
+Marc Staal,PHI,37,LD,Left,35,1,4
+Rem Pitlick,CHI,27,"LW, RW",Left,9,0,0
+Nick Cousins,FLA,30,"LW, C",Left,69,7,8
+Filip Zadina,SJS,24,"RW, LW",Left,72,13,10
+Troy Stecher,EDM,30,RD,Right,54,1,6
+Anthony Stolarz,FLA,30,G,Left,27,-,-
+Brendan Smith,NJD,35,"LD/RD, LW",Left,63,5,10
+Brandon Duhaime,COL,27,"RW, LW",Left,80,5,8
+Steven Lorentz,FLA,28,"C, LW, RW",Left,38,1,2
+Kevin Shattenkirk,BOS,35,RD,Right,61,6,18
+Cam Talbot,LAK,36,G,Left,54,-,-
+Craig Smith,DAL,34,RW,Right,75,11,9
+Mattias Janmark,EDM,31,"LW, RW",Left,71,4,8
+Dmitry Kulikov,FLA,33,LD/RD,Left,76,1,19
+Scott Wedgewood,DAL,31,G,Left,32,-,-
+Patrick Maroon,BOS,36,"LW, RW",Left,51,4,12
+James van Riemsdyk,BOS,35,"LW, RW",Left,71,11,27
+Kevin Stenlund,FLA,27,"C, RW",Right,81,11,4
+Juuso Välimäki,UTA,25,LD,Left,68,2,15
+Tomas Nosek,NJD,31,"LW, C",Left,36,2,4
+Milan Lucic,BOS,36,"LW, RW",Left,4,0,2
+Mike Reilly,NYI,30,LD,Left,61,6,18
+Logan Stanley,WPG,26,LD,Left,25,1,1
+Samuel Blais,STL,28,"LW, RW",Left,53,1,6
+Gustav Lindström,ANA,25,RD,Right,46,3,7
+Andre Heim,-,26,"C, RW, LW",Left,0,0,0
+Robert Bortuzzo,NYI,35,RD,Right,27,0,0
+Jack Drury,CAR,24,C,Left,74,8,19
+Michael Kesselring,UTA,24,RD,Right,65,5,16
+Kirill Marchenko,CBJ,23,RW,Right,78,23,19
+Spencer Stastney,NSH,24,LD,Left,20,2,2
+Nikita Nesterenko,ANA,22,C,Left,3,1,0
+Corey Andonovski,PIT,25,RW,Right,0,0,0
+Lucas Raymond,DET,22,"RW, LW",Right,82,31,41
+Vladislav Firstov,-,23,LW,Left,0,0,0
+Jonatan Berggren,DET,23,"RW, LW",Left,12,2,4
+Ivan Morozov,VGK,24,C,Right,0,0,0
+Justin Barron,MTL,22,RD,Right,48,7,6
+Braden Schneider,NYR,22,RD,Right,82,5,14
+Anton Lundell,FLA,22,"C, LW",Left,78,13,22
+Cole Sillinger,CBJ,21,C,Left,77,13,19
+Curtis Hall,BOS,24,C,Right,0,0,0
+Bobby Brink,PHI,22,RW,Right,57,11,12
+Jackson LaCombe,ANA,23,LD/RD,Left,71,2,15
+Aidan McDonough,VAN,24,LW,Left,0,0,0
+Kent Johnson,CBJ,21,"LW, C",Left,42,6,10
+Jordan Oesterle,CGY,32,LD/RD,Left,22,0,2
+Nils Lundkvist,DAL,23,RD,Right,59,2,17
+Dylan Holloway,EDM,22,"LW, C",Left,38,6,3
+Mads Søgaard,OTT,23,G,Left,6,-,-
+Bobby Trivigno,NYR,25,LW,Left,0,0,0
+Josh Mahura,FLA,26,LD/RD,Left,30,0,9
+Carter Savoie,EDM,22,LW,Left,0,0,0
+Filip Roos,CHI,25,LD,Left,4,0,0
+Will Zmolek,PHI,25,LD,Left,0,0,0
+Thomas Bordeleau,SJS,22,"C, LW",Left,27,6,5
+Henry Thrun,SJS,23,LD,Left,51,3,8
+Ty Dellandrea,SJS,23,RW,Right,42,2,7
+Emil Bemström,PIT,25,"RW, LW",Right,56,8,8
+Layton Ahac,VGK,23,LD,Left,0,0,0
+Mack Guzda,FLA,23,G,Left,0,-,-
+Matthew Beniers,SEA,21,C,Left,77,15,22
+Quinton Byfield,LAK,21,"LW, C",Left,80,20,35
+Adam Beckman,NJD,23,LW,Left,11,0,2
+Arthur Kaliyev,LAK,23,"RW, LW",Left,51,7,8
+Dawson Mercer,NJD,22,"RW, C",Right,82,20,13
+Seth Jarvis,CAR,22,RW,Right,81,33,34
+Cole Perfetti,WPG,22,"LW, C",Left,71,19,19
+Moser,UTA,24,LD/RD,Left,80,5,21
+Filip Johansson,VAN,24,RD,Right,0,0,0
+Blake McLaughlin,ANA,24,LW,Left,0,0,0
+Michael Callahan,BOS,24,LD,Left,0,0,0
+Jaxson Stauber,CHI,25,G,Left,0,-,-
+Ryan Fanti,EDM,24,G,Left,0,-,-
+Ville Petman,SEA,24,"C, LW",Left,0,0,0
+Alex Beaucage,COL,22,RW,Right,0,0,0
+Martin Jones,TOR,34,G,Left,22,-,-
+Erik Portillo,LAK,23,G,Left,0,-,-
+Oliver Wahlstrom,NYI,24,RW,Right,32,2,4
+Raphael Lavoie,EDM,23,"RW, C",Right,7,0,0
+Jason Polin,COL,25,RW,Right,7,1,0
+Ales Stezka,SEA,27,G,Left,0,-,-
+Waltteri Merelä,TBL,25,RW,Right,19,1,0
+Karl Henriksson,NYR,23,C,Left,0,0,0
+Hardy Häman Aktell,WSH,25,LD,Left,6,0,1
+Yan Kuznetsov,CGY,22,LD,Left,1,0,0
+Mitchell Gibson,WSH,25,G,Left,0,-,-
+Thomas Harley,DAL,22,LD,Left,79,15,32
+Nolan Foote,NJD,23,LW,Left,4,1,0
+Ville Heinola,WPG,23,LD,Left,0,0,0
+Jakob Pelletier,CGY,23,LW,Left,13,1,2
+Simon Holmström,NYI,23,RW,Left,75,15,10
+Peyton Krebs,BUF,23,"C, LW",Left,80,4,13
+Lassi Thomson,OTT,23,RD,Right,0,0,0
+Philip Broberg,EDM,23,LD,Left,12,0,2
+Moritz Seider,DET,23,RD,Right,82,9,33
+Brayden Tracey,ANA,23,LW,Left,0,0,0
+Victor Söderström,UTA,23,RD,Right,3,0,0
+Philip Tomasino,NSH,22,"LW, RW",Right,41,7,13
+Connor McMichael,WSH,23,"LW, C",Left,80,18,15
+Keean Washkurak,STL,22,C,Left,0,0,0
+Mattias Norlinder,MTL,24,LD,Left,0,0,0
+Kim Nousiainen,-,23,LD,Left,0,0,0
+Isaak Phillips,CHI,22,LD,Left,33,0,6
+Félix Robert,TBL,24,"C, LW",Left,0,0,0
+Cole Schwindt,CGY,23,"RW, C",Right,4,0,0
+Samuel Walker,MIN,25,"RW, LW",Right,4,0,0
+Peetro Seppälä,SEA,23,LD,Left,0,0,0
+Oskari Salminen,WPG,24,G,Left,0,-,-
+Simon Johansson,MIN,25,RD,Right,0,0,0
+Olof Lindbom,NYR,23,G,Left,0,-,-
+Pavol Regenda,ANA,24,"LW, RW",Left,5,0,0
+Santtu Kinnunen,FLA,25,RD,Right,0,0,0
+Calle Själin,BUF,24,LD,Left,0,0,0
+Sam Hentges,MIN,24,C,Right,0,0,0
+Ruslan Iskhakov,NYI,23,C,Left,1,0,1
+Simon Lundmark,WPG,23,RD,Right,0,0,0
+Juuso Pärssinen,NSH,23,C,Left,44,8,4
+Santeri Hatakka,NJD,23,LD,Left,12,0,2
+Hugo Alnefelt,TBL,23,G,Left,0,-,-
+Tyler Angle,CBJ,23,C,Left,2,0,0
+Brandon Coe,SJS,22,RW,Right,0,0,0
+Hunter Skinner,STL,23,RD,Right,0,0,0
+Louis Crevier,CHI,23,RD,Right,24,0,3
+Marc Del Gaizo,NSH,24,LD,Left,9,0,3
+Akira Schmid,NJD,24,G,Left,19,-,-
+Maxim Cajkovic,PIT,23,RW,Right,0,0,0
+Michael Vukojevic,NJD,23,LD,Left,0,0,0
+Graeme Clarke,MIN,23,"RW, C",Right,3,0,0
+Nico Daws,NJD,23,G,Left,21,-,-
+Sam Carrick,EDM,32,"C, RW",Right,77,10,6
+Taro Hirose,DET,28,LW,Left,0,0,0
+Denis Gurianov,PHI,27,"RW, LW",Left,18,1,1
+Sam Steel,DAL,26,"C, LW",Left,77,9,15
+Urho Vaakanainen,ANA,25,LD/RD,Left,68,1,13
+Jack Rathbone,PIT,25,LD,Left,0,0,0
+Jansen Harkins,PIT,27,LW,Left,45,0,4
+Dylan Coghlan,CAR,26,RD,Right,1,0,0
+Filip Cederqvist,MTL,23,"LW, RW",Left,0,0,0
+Isaiah Saville,VGK,23,G,Right,0,-,-
+Adam Raska,MIN,22,"LW, RW",Right,5,0,0
+Gianni Fairbrother,COL,23,LD/RD,Left,0,0,0
+Noel Hoefenmayer,EDM,25,LD,Left,0,0,0
+Adam Wilsby,NSH,23,LD,Left,0,0,0
+Max Ellis,TOR,24,RW,Right,0,0,0
+Ukko-Pekka Luukkonen,BUF,25,G,Left,54,-,-
+Curtis Douglas,UTA,24,C,Left,0,0,0
+Dmitry Ovchinnikov,MIN,21,"C, LW, RW",Left,0,0,0
+Nick Cicek,VAN,24,LD,Left,0,0,0
+Alex Steeves,TOR,24,"LW, RW",Left,1,0,0
+Adam Klapka,CGY,23,"RW, C",Right,6,1,0
+Reece Newkirk,NYI,23,C,Left,0,0,0
+Arber Xhekaj,MTL,23,LD/RD,Left,44,3,7
+Ilya Solovyov,CGY,23,LD,Left,10,0,3
+Alexander Pashin,-,21,"C, LW, RW",Left,0,0,0
+Pavel Dorofeyev,VGK,23,"LW, RW",Left,47,13,11
+Mason Primeau,VGK,22,C,Left,0,0,0
+Calen Addison,SJS,24,RD,Right,72,1,16
+Joseph Veleno,DET,24,C,Left,80,12,16
+Pierre-Olivier Joseph,PIT,25,LD,Left,52,2,9
+Nick Blankenburg,CBJ,26,LD/RD,Right,12,1,0
+Jonathan Drouin,COL,29,"LW, RW",Left,79,19,37
+Erik Gustafsson,NYR,32,LD,Left,76,6,25
+Sebastian Aho,NYI,28,LD,Left,58,2,7
+Tuukka Tieksola,CAR,23,RW,Right,0,0,0
+Jordan Spence,LAK,23,RD,Right,71,2,22
+Michal Teplý,CHI,23,LW,Right,0,0,0
+Mason Millman,PHI,22,LD,Left,0,0,0
+Keith Petruzzelli,TOR,25,G,Left,0,-,-
+Milos Kelemen,UTA,24,RW,Left,10,0,1
+Nikita Alexandrov,STL,23,C,Left,23,0,2
+Dustin Wolf,CGY,23,G,Left,17,-,-
+Patrick Giles,FLA,24,C,Right,0,0,0
+Mikhail Abramov,STL,23,C,Left,0,0,0
+James Hamblin,EDM,25,"RW, C",Left,31,2,1
+Andreas Johnsson,-,29,"LW, RW",Left,0,0,0
+Otto Koivula,NYI,25,"LW, RW, C",Left,0,0,0
+Mike Hardman,CHI,25,"LW, RW",Left,0,0,0
+Joey Anderson,CHI,26,RW,Right,55,5,12
+Joe Snively,WSH,28,LW,Left,3,0,0
+Cal Foote,NJD,25,RD,Right,4,0,1
+Mackenzie Entwistle,CHI,24,"LW, C",Right,67,5,6
+Hayden Hodgson,LAK,28,RW,Right,0,0,0
+Ryan Lomberg,FLA,29,"LW, RW",Left,75,5,2
+Blake Wheeler,NYR,37,RW,Right,54,9,12
+Steven Santini,LAK,29,RD,Right,0,0,0
+Mark Giordano,TOR,40,LD,Left,46,3,6
+Oskar Steen,BOS,26,"C, RW",Right,34,1,0
+Nick Bonino,-,36,"C, LW",Left,45,1,4
+Chad Ruhwedel,NYR,34,RD,Right,52,1,3
+Reese Johnson,CHI,25,"RW, C",Right,42,2,3
+Alex Stalock,ANA,36,G,Left,0,-,-
+Travis Dermott,UTA,27,LD/RD,Left,50,2,5
+Tyler Motte,TBL,29,"LW, RW",Left,69,6,3
+Connor Dewar,TOR,25,"LW, C",Left,74,11,8
+Matthew Robertson,NYR,23,LD,Left,0,0,0
+Nicholas Robertson,TOR,22,"LW, RW",Left,56,14,13
+Blake Murray,CAR,22,C,Left,0,0,0
+Luke Henman,SEA,24,C,Left,0,0,0
+Griffin Mendel,CAR,25,LD,Left,0,0,0
+Egor Afanasyev,SJS,23,"C, LW",Left,2,0,0
+Artemi Kniazev,WPG,23,LD,Left,0,0,0
+Dillon Hamaliuk,PIT,23,LW,Left,0,0,0
+Nikita Okhotiuk,CGY,23,LD,Left,52,1,8
+Kaedan Korczak,VGK,23,RD,Right,26,1,8
+Tynan,LAK,32,C,Right,0,0,0
+Jared McIsaac,DET,24,LD,Left,0,0,0
+Hunter Jones,MIN,23,G,Left,0,-,-
+Tyler Pitlick,NYR,32,RW,Right,34,1,3
+Wyatt Newpower,DET,26,RD,Right,0,0,0
+Arturs Silovs,VAN,23,G,Left,4,-,-
+Magnus Hellberg,FLA,33,G,Left,3,-,-
+Wade Allison,NSH,26,RW,Right,0,0,0
+Marcus Kallionkieli,-,23,C,Left,0,0,0
+Austin Watson,TBL,32,"RW, LW",Right,33,2,2
+Malcolm Subban,CBJ,30,G,Left,1,-,-
+Dakota Mermis,MIN,30,LD/RD,Left,47,3,5
+Kale Clague,BUF,26,LD/RD,Left,3,0,1
+Riley Tufte,COL,26,LW,Left,5,1,1
+Casey Fitzgerald,FLA,27,RD,Right,0,0,0
+Caleb Jones,COL,27,LD/RD,Left,25,0,5
+Brian Pinho,NYI,29,"C, RW",Right,0,0,0
+Marian Studenic,SEA,25,"LW, RW",Left,2,0,0
+Mason Shaw,MIN,25,"LW, C",Left,20,1,2
+Kyle Keyser,BOS,25,G,Left,0,-,-
+Jiri Patera,VGK,25,G,Left,6,-,-
+Wyatt Kalynuk,STL,27,LD,Left,0,0,0
+Jesse Ylönen,MTL,24,"RW, LW",Right,59,4,4
+Jasper Weatherby,NSH,26,C,Left,0,0,0
+Jeffrey Viel,WPG,27,LW,Left,0,0,0
+Aaron Dell,LAK,35,G,Left,0,-,-
+Pierre-Édouard Bellemare,SEA,39,"C, LW",Left,40,4,3
+Devin Shore,SEA,29,"LW, C, RW",Left,21,1,3
+Felix Sandström,PHI,27,G,Left,5,-,-
+Danton Heinen,BOS,28,"LW, RW",Left,74,17,19
+Cam Dineen,EDM,26,LD,Left,0,0,0
+Travis Barron,UTA,25,LW,Left,0,0,0
+Nolan Stevens,-,27,C,Left,0,0,0
+Jesper Boqvist,BOS,25,"C, LW",Left,47,6,8
+Zach Aston-Reese,DET,29,"LW, RW",Left,3,0,0
+Brett Leason,ANA,25,RW,Right,68,11,11
+Jacob Peterson,SJS,24,"LW, C",Left,6,0,0
+Yegor Zamula,PHI,24,LD/RD,Left,66,5,16
+Karson Kuhlman,NYI,28,RW,Right,0,0,0
+Mac Hollowell,NYR,25,RD,Right,0,0,0
+Alex True,FLA,26,"C, RW",Left,0,0,0
+Joel Kiviranta,COL,28,"RW, LW",Left,56,3,6
+Justin Richards,BUF,26,"C, RW",Right,0,0,0
+Marc McLaughlin,BOS,24,C,Right,1,1,0
+Wyatt Aamodt,COL,26,LD,Left,0,0,0
+Derrick Pouliot,DAL,30,LD,Left,5,0,0
+Keith Kinkaid,NJD,34,G,Left,0,-,-
+Dustin Tokarski,BUF,34,G,Left,0,-,-
+Josh Jacobs,STL,28,RD,Right,0,0,0
+Mitchell Stephens,MTL,27,C,Right,23,2,1
+Mikhail Maltsev,LAK,26,"C, LW",Left,0,0,0
+Nathan Clurman,COL,26,RD,Right,0,0,0
+Gavin Bayreuther,DAL,30,LD/RD,Left,0,0,0
+Ivan Prosvetov,COL,25,G,Left,11,-,-
+Linus Weissbach,BUF,26,"LW, RW",Left,0,0,0
+Kyle Criscuolo,NJD,32,C,Right,0,0,0
+Nikolas Brouillard,NYR,29,D,Left,0,0,0
+John Leonard,UTA,25,"LW, RW",Left,6,1,0
+Radim Zohorna,PIT,28,"LW, RW",Left,33,4,3
+Corey Schueneman,COL,28,LD/RD,Left,0,0,0
+Michael Hutchinson,DET,34,G,Right,1,-,-
+Trevor Lewis,LAK,37,"RW, C",Right,82,8,8
+Connor Carrick,SEA,30,RD,Right,0,0,0
+Steven Kampfer,UTA,35,RD,Right,0,0,0
+Trevor Carrick,ANA,29,LD,Left,0,0,0
+Justin Bailey,SJS,29,RW,Right,59,5,9
+William Lagesson,ANA,28,LD/RD,Left,40,0,4
+Sean Day,TBL,26,LD,Left,0,0,0
+Zach Sawchenko,VAN,26,G,Left,0,-,-
+Matthew Phillips,WSH,26,"RW, C",Right,31,1,4
+Garrett Pilon,OTT,26,C,Right,0,0,0
+Bokondji Imama,OTT,27,LW,Left,6,0,0
+Chase Priskie,WSH,28,RD,Right,0,0,0
+Josh Currie,OTT,31,"RW, C",Right,0,0,0
+Kole Lind,SEA,25,RW,Right,1,0,0
+Eetu Mäkiniemi,SJS,25,G,Left,0,-,-
+Chase Priskie,WSH,28,RD,Right,0,0,0
+Josh Currie,OTT,31,"RW, C",Right,0,0,0
+Kole Lind,SEA,25,RW,Right,1,0,0
+Eetu Mäkiniemi,SJS,25,G,Left,0,-,-
+Philippe Maillet,MTL,31,C,Left,0,0,0
+David Gustafsson,WPG,24,"LW, C",Left,39,3,4
+Riley Sutter,WSH,24,RW,Right,0,0,0
+Cole Koepke,TBL,26,"LW, RW",Left,9,0,2
+Marcus Bjork,CBJ,26,RD,Right,0,0,0
+Jujhar Khaira,MIN,29,"LW, C",Left,1,0,0
+Alex Petrovic,DAL,32,RD,Right,1,0,0
+Matt Irwin,VAN,36,LD/RD,Left,0,0,0
+Rasmus Asplund,FLA,26,"LW, C",Left,0,0,0
+Maxime Lajoie,TOR,26,LD,Left,7,0,1
+Justin Kirkland,UTA,27,"LW, RW",Left,2,0,0
+Lucas Carlsson,FLA,26,LD,Left,0,0,0
+Brett Murray,BUF,25,LW,Left,2,0,0
+Evan Cormier,FLA,26,G,Left,0,-,-
+Ryan Shea,PIT,27,LD,Left,31,1,0
+Matt Luff,DET,27,RW,Right,0,0,0
+Reilly Walsh,BOS,25,RD,Right,0,0,0
+Scott Reedy,DAL,25,C,Right,0,0,0
+Ryan McGregor,UTA,25,C,Left,0,0,0
+Dmitri Samorukov,PIT,25,LD,Left,0,0,0
+Collin Delia,WPG,30,G,Left,0,-,-
+Declan Chisholm,MIN,24,LD/RD,Left,31,3,6
+Shane Pinto,OTT,23,C,Right,41,9,18
+Joey Abate,BOS,25,LW,Left,0,0,0
+Calvin De Haan,TBL,33,LD/RD,Left,59,3,7
+Adam Erne,EDM,29,"LW, RW",Left,24,1,1
+Rourke Chartier,OTT,28,C,Left,37,2,1
+Victor Mete,PHI,26,LD/RD,Left,1,0,0
+Noah Gregor,TOR,25,"LW, RW",Left,63,6,6
+Fredrik Karlström,DAL,26,C,Left,0,0,0
+Matt Murray,DAL,26,G,Left,1,-,-
+Joseph Cecconi,BUF,27,RD,Right,0,0,0
+Jeremy Davies,BUF,27,LD,Left,0,0,0
+Cameron Crotty,UTA,25,RD,Right,1,0,0
+Benjamin Jones,CGY,25,C,Left,0,0,0
+Ty Emberson,SJS,24,RD,Right,30,1,9
+Riley Damiani,CGY,24,C,Right,0,0,0
+Jacob Ingham,LAK,24,G,Left,0,-,-
+Alec Regula,BOS,23,RD,Right,0,0,0
+Kiefer Sherwood,NSH,29,"LW, RW",Right,68,10,17
+Brady Keeper,MTL,28,RD,Right,0,0,0
+Luke Philp,CHI,28,C,Right,0,0,0
+Jimmy Schuldt,SEA,29,LD,Left,0,0,0
+Jerad Rosburg,DAL,28,LD,Left,0,0,0
+Callahan Burke,CAR,27,"C, RW",Right,1,0,0
+Gustavs Grigals,NSH,25,G,Left,0,-,-
+Jayson Megna,BOS,34,"C, LW, RW",Right,1,0,0
+Oscar Dansk,CGY,30,G,Left,0,-,-
+Vinnie Hinostroza,PIT,30,"RW, LW",Right,14,1,2
+Zane McIntyre,MIN,31,G,Left,0,-,-
+Logan Brown,TBL,26,"C, LW",Left,0,0,0
+Anthony Richard,BOS,27,"LW, RW",Left,9,1,2
+Dylan Gambrell,TOR,27,C,Right,0,0,0
+John Hayden,SEA,29,"C, LW, RW",Right,2,0,0
+Joshua Dunne,CBJ,25,C,Right,0,0,0
+Carson Meyer,CBJ,26,RW,Right,14,1,1
+Nick Swaney,MIN,26,RW,Right,0,0,0
+Tyler Madden,LAK,24,C,Right,0,0,0
+Mitch Reinke,SEA,28,RD,Right,0,0,0
+Nathan Smith,UTA,25,C,Right,0,0,0
+Devin Cooley,SJS,27,G,Left,6,-,-
+Alex Limoges,WSH,26,"C, LW",Left,0,0,0
+Sam Gagner,EDM,34,"RW, C",Right,28,5,5
+Andrew Agozzino,ANA,33,"C, LW",Left,0,0,0
+Connor Brown,EDM,30,"RW, LW",Right,71,4,8
+Jack Johnson,COL,37,LD,Left,80,3,13
+Ryan Carpenter,SJS,33,"RW, C",Right,62,5,7
+Chris Tierney,NJD,30,C,Left,52,4,8
+Ashton Sautner,WPG,30,LD,Left,0,0,0
+Colin White,MTL,27,"C, RW",Right,28,0,0
+Alexander Nylander,CBJ,26,"RW, LW",Right,28,11,4
+Nicholas Caamano,DAL,25,"LW, RW",Left,0,0,0
+Fredrik Olofsson,COL,28,"C, LW",Left,57,3,6
+Adam Gaudette,STL,27,"C, RW",Right,2,0,0
+Will Butcher,MIN,29,LD,Left,0,0,0
+Maxime Comtois,CAR,25,LW,Left,1,0,1
+Lias Andersson,MTL,25,"C, LW",Left,0,0,0
+Jaret Anderson-Dolan,NSH,24,"C, LW, RW",Left,31,1,3
+Jake Christiansen,CBJ,24,LD/RD,Left,12,0,2
+Benoit-Olivier Groulx,ANA,24,C,Left,45,0,2
+Jett Woo,VAN,23,RD,Right,0,0,0
+Jan Jeník,UTA,23,C,Left,5,0,1
+Kevin Mandolese,OTT,23,G,Left,0,-,-
+Egor Sokolov,OTT,24,LW,Right,0,0,0
+Jacob Lucchini,MIN,29,"RW, C, LW",Left,40,2,3
+Gerald Mayhew,FLA,31,"C, RW",Right,0,0,0
+Colton Poolman,CGY,28,LD,Left,0,0,0
+Ben Meyers,ANA,25,"LW, C",Left,23,1,2
+Ethen Frank,WSH,26,C,Right,0,0,0
+Dillon Heatherington,OTT,29,LD,Left,0,0,0
+Markus Niemeläinen,EDM,26,LD,Left,0,0,0
+Daniel Renouf,BOS,30,LD,Left,0,0,0
+Lucas Johansen,WSH,26,LD,Left,6,0,1
+Cooper Marody,PHI,27,"C, RW",Right,0,0,0
+Sheldon Rempal,VGK,28,"LW, RW",Right,9,2,1
+Sheldon Dries,VAN,30,C,Left,0,0,0
+Roland McKeown,NSH,28,RD,Right,0,0,0
+Greg McKegg,EDM,32,"C, LW",Left,0,0,0
+Nicolas Petan,NYR,29,"C, LW, RW",Left,6,0,2
+Chase De Leo,ANA,28,"C, LW, RW",Left,0,0,0
+Byron Froese,VGK,33,C,Right,16,0,1
+Michael Amadio,VGK,28,"RW, LW",Right,73,14,13
+Adam Brooks,PHI,28,C,Left,0,0,0
+Colton White,ANA,27,LD,Left,0,0,0
+Cameron Hughes,SEA,27,"C, LW",Left,0,0,0
+Tyce Thompson,NYI,24,RW,Right,0,0,0
+Matt Kiersted,FLA,26,LD,Left,0,0,0
+Jaycob Megna,CHI,31,LD,Left,44,0,2
+Taylor Fedun,PIT,36,RD,Right,0,0,0
+Tanner Laczynski,PHI,27,"RW, C",Right,0,0,0
+Jordan Gross,NSH,29,RD,Right,0,0,0
+Brad Hunt,COL,35,LD/RD,Left,0,0,0
+Turner Elson,MIN,31,LW,Left,0,0,0
+Calvin Pickard,EDM,32,G,Left,23,-,-
+Ken Appleby,NYI,29,G,Left,1,-,-
+Steven Fogarty,MIN,31,"C, RW",Right,0,0,0
+Paul LaDue,NYI,31,RD,Right,0,0,0
+Glenn Gawdin,ANA,27,"C, RW",Right,1,0,0
+Calle Rosén,STL,30,LD,Left,6,0,1
+Jeff Malott,WPG,27,LW,Left,0,0,0
+Stefan Noesen,CAR,31,"LW, RW",Right,81,14,23
+Matthew Peca,STL,31,"LW, C",Left,0,0,0
+Haydn Fleury,TBL,27,LD/RD,Left,24,1,4
+Dennis Gilbert,CGY,27,LD,Left,34,1,6
+Will Bitten,STL,25,"RW, C",Right,0,0,0
+AJ Greer,CGY,27,"RW, LW",Left,59,6,6
+Vincent Desharnais,EDM,28,RD,Right,78,1,10
+Max McCormick,SEA,32,LW,Left,1,0,0
+Kevin Connauton,LAK,34,LD/RD,Left,0,0,0
+Brendan Gaunce,CBJ,30,"LW, C",Left,24,2,2
+Kyle Capobianco,WPG,26,LD,Left,0,0,0
+Beck Malenstyn,WSH,26,"C, LW",Left,81,6,15
+Dennis Cholowski,NYI,26,LD,Left,0,0,0
+Jack Studnicka,SJS,25,"RW, C",Right,22,1,0
+Tyler Wotherspoon,NJD,31,LD,Left,0,0,0
+Chris Wideman,MTL,34,RD,Right,0,0,0
+Austin Czarnik,DET,31,"C, RW",Right,34,0,1
+Andrew Poturalski,SEA,30,C,Right,2,0,0
+Spencer Smallman,COL,27,RW,Right,0,0,0
+Liam Foudy,NSH,24,"LW, C",Left,13,0,3
+Jacob MacDonald,SJS,31,LD/RD,Left,34,7,2
+Brandon Biro,BUF,26,LW,Left,5,2,0
+Kyle Clifford,TOR,33,LW,Left,0,0,0
+Arnaud Durandeau,MTL,25,LW,Left,0,0,0
+Parker Kelly,OTT,25,LW,Left,80,8,10
+David Gust,CHI,30,RW,Right,0,0,0
+Billy Sweezey,CBJ,28,RD,Right,0,0,0
+Taylor Raddysh,CHI,26,RW,Right,73,5,9
+Jet Greaves,CBJ,23,G,Left,9,-,-
+Alex Barré-Boulet,TBL,27,"RW, LW",Left,36,6,3
+Boris Katchouk,OTT,26,LW,Left,59,7,6
