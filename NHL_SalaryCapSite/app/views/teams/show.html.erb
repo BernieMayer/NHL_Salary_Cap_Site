@@ -1,6 +1,11 @@
-<h1 class="text-2xl font-bold mb-4"><%= @team.name %></h1>
+<div class="container mx-auto px-4 py-8">
+  <div class="bg-white shadow-md rounded-lg overflow-hidden">
+    <div class="p-6">
+      <!-- Back to Teams button -->
+      <%= link_to "Back to Teams", teams_path, class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4 inline-block" %>
 
-<!-- Example: Display additional details about the team -->
-<p>City: <%= @team.name %></p>
-<!-- Add more details as needed -->
-
+      <h1 class="text-3xl  mb-4"><%= @team.name %></h1>
+      <!-- Add more team details if needed -->
+    </div>
+  </div>
+</div>
