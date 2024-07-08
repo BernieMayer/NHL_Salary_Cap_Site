@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "build": "tailwindcss build ./app/assets/stylesheets/application.css -o ./public/assets/application.css"
+  }
+
+}
