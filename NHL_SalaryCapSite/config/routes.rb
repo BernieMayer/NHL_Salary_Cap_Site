@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   resources :players, only: [:index]
   root to: 'players#index'
 
+  resources :teams, only: [:index, :show]
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
