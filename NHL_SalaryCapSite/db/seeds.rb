@@ -7,3 +7,8 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Player.create(name: 'Blake Coleman', team: 'CGY', position: 'LW, RW')
+Player.create(name: 'Jack Eichel', team: 'VGK', position: 'C')
+# Add more players as needed
+
