@@ -2,10 +2,39 @@
   <div class="bg-white shadow-md rounded-lg overflow-hidden">
     <div class="p-6">
       <!-- Back to Teams button -->
-      <%= link_to "Back to Teams", teams_path, class: "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4 inline-block" %>
+      <%= link_to "Back to Teams", teams_path, class: "bg-blue-500 hover:bg-blue-700 text-white font-italic py-2 px-4 rounded mb-4 inline-block" %>
 
-      <h1 class="text-3xl  mb-4"><%= @team.name %></h1>
-      <!-- Add more team details if needed -->
+      <h1 class="text-3xl font-bold mb-4"><%= @team.name %></h1>
+
+      <!-- Salary Cap Table -->
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white border-gray-200">
+          <thead>
+            <tr>
+              <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Player name</th>
+              <% (2023..2030).each do |year| %>
+                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase"><%= year %></th>
+              <% end %>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Replace with actual salary data if available -->
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">Player 1</td>
+              <% (2023..2030).each do |year| %>
+                <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">$XX,XXX,XXX</td>
+              <% end %>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">Player 2</td>
+              <% (2023..2030).each do |year| %>
+                <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">$XX,XXX,XXX</td>
+              <% end %>
+            </tr>
+            <!-- Add more rows as needed -->
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
