@@ -19,19 +19,15 @@
           </thead>
           <tbody>
             <!-- Replace with actual salary data if available -->
-            <tr>
-              <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">Player 1</td>
-              <% (2023..2030).each do |year| %>
-                <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">$XX,XXX,XXX</td>
-              <% end %>
-            </tr>
-            <tr>
-              <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">Player 2</td>
-              <% (2023..2030).each do |year| %>
-                <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">$XX,XXX,XXX</td>
-              <% end %>
-            </tr>
-            <!-- Add more rows as needed -->
+            <% @team.players.each do |player| %>
+              <tr>
+                  <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.name %> </td>
+                
+                  <% (2023..2030).each do |year| %>
+                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">$XX,XXX,XXX</td>
+                  <% end %>
+              </tr>
+            <% end %>
           </tbody>
         </table>
       </div>
