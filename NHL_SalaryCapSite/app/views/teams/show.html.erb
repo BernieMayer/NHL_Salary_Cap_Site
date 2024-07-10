@@ -12,6 +12,7 @@
           <thead>
             <tr>
               <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Player name</th>
+              <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Position</th>
               <% (2023..2030).each do |year| %>
                 <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase"><%= year %></th>
               <% end %>
@@ -22,7 +23,7 @@
             <% @team.players.each do |player| %>
               <tr>
                   <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.name %> </td>
-                
+                  <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.position %> </td>
                   <% (2023..2030).each do |year| %>
                     <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">$XX,XXX,XXX</td>
                   <% end %>
