@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_07_10_221421) do
+ActiveRecord::Schema[7.1].define(version: 2024_07_11_224955) do
+  create_table "cap_hits", force: :cascade do |t|
+    t.decimal "cap_value", precision: 12, scale: 2
+    t.integer "team_id", null: false
+    t.integer "player_id", null: false
+    t.integer "year"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["player_id"], name: "index_cap_hits_on_player_id"
+    t.index ["team_id"], name: "index_cap_hits_on_team_id"
+  end
+
   create_table "players", force: :cascade do |t|
     t.string "name"
     t.integer "team_id"
@@ -27,5 +38,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_07_10_221421) do
     t.string "code", limit: 3
   end
 
+  add_foreign_key "cap_hits", "players"
+  add_foreign_key "cap_hits", "teams"
   add_foreign_key "players", "teams"
 end
