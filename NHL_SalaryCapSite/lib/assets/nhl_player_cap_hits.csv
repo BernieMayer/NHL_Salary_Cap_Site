@@ -1,0 +1,991 @@
+player_name,2024-25,2025-26,2026-27,2027-28,team
+"Strome, Ryan",5000000.0,5000000.0,5000000.0,,Anaheim Ducks
+"Killorn, Alex",6250000.0,6250000.0,6250000.0,,Anaheim Ducks
+"McGinn, Brock",2750000.0,,,,Anaheim Ducks
+"Johnston, Ross",1100000.0,1100000.0,,,Anaheim Ducks
+"Fabbri, Robby",4000000.0,,,,Anaheim Ducks
+"Vatrano, Frank",3650000.0,,,,Anaheim Ducks
+"Harkins, Jansen",787500.0,787500.0,,,Anaheim Ducks
+"Terry, Troy",7000000.0,7000000.0,7000000.0,7000000.0,Anaheim Ducks
+"Lundestrom, Isac",1500000.0,,,,Anaheim Ducks
+"Zegras, Trevor",5750000.0,5750000.0,,,Anaheim Ducks
+"Leason, Brett",1050000.0,,,,Anaheim Ducks
+"McTavish, Mason",894167.0,,,,Anaheim Ducks
+"Gauthier, Cutter",950000.0,950000.0,,,Anaheim Ducks
+"Carlsson, Leo",950000.0,950000.0,,,Anaheim Ducks
+Totals,41631667.0,27787500.0,18250000.0,7000000.0,Anaheim Ducks
+"Backlund, Mikael",4500000.0,4500000.0,,,Calgary Flames
+"Kadri, Nazem",7000000.0,7000000.0,7000000.0,7000000.0,Calgary Flames
+"Huberdeau, Jonathan",10500000.0,10500000.0,10500000.0,10500000.0,Calgary Flames
+"Coleman, Blake",4900000.0,4900000.0,4900000.0,,Calgary Flames
+"Mantha, Anthony",3500000.0,,,,Calgary Flames
+"Lomberg, Ryan",2000000.0,2000000.0,,,Calgary Flames
+"Hunt, Dryden",775000.0,,,,Calgary Flames
+"Rooney, Kevin",1300000.0,,,,Calgary Flames
+"Pospisil, Martin",1000000.0,1000000.0,,,Calgary Flames
+"Sharangovich, Yegor",3100000.0,5750000.0,5750000.0,5750000.0,Calgary Flames
+"Zary, Connor",863334.0,,,,Calgary Flames
+"Duehr, Walker",825000.0,,,,Calgary Flames
+"Coronato, Matt",925000.0,,,,Calgary Flames
+"Klapka, Adam",,,,,Calgary Flames
+"Kuzmenko, Andrei",5500000.0,,,,Calgary Flames
+Totals,46688334.0,35650000.0,28150000.0,23250000.0,Calgary Flames
+"Perry, Corey",1150000.0,,,,Edmonton Oilers
+"Gagner, Sam",,,,,Edmonton Oilers
+"Henrique, Adam",3000000.0,3000000.0,,,Edmonton Oilers
+"Kane, Evander",5125000.0,5125000.0,,,Edmonton Oilers
+"Skinner, Jeff",3000000.0,,,,Edmonton Oilers
+"Hyman, Zach",5500000.0,5500000.0,5500000.0,5500000.0,Edmonton Oilers
+"Nugent-Hopkins, Ryan",5125000.0,5125000.0,5125000.0,5125000.0,Edmonton Oilers
+"Brown, Connor",1000000.0,,,,Edmonton Oilers
+"Erne, Adam",,,,,Edmonton Oilers
+"Janmark, Mattias",1450000.0,1450000.0,1450000.0,,Edmonton Oilers
+"Draisaitl, Leon",8500000.0,,,,Edmonton Oilers
+"Arvidsson, Viktor",4000000.0,4000000.0,,,Edmonton Oilers
+"Ryan, Derek",900000.0,,,,Edmonton Oilers
+"McDavid, Connor",12500000.0,12500000.0,,,Edmonton Oilers
+"Holloway, Dylan",,,,,Edmonton Oilers
+Totals,51250000.0,36700000.0,12075000.0,10625000.0,Edmonton Oilers
+"Kopitar, Anze",7000000.0,7000000.0,,,Los Angeles Kings
+"Lewis, Trevor",800000.0,,,,Los Angeles Kings
+"Danault, Phillip",5500000.0,5500000.0,5500000.0,,Los Angeles Kings
+"Fiala, Kevin",7875000.0,7875000.0,7875000.0,7875000.0,Los Angeles Kings
+"Kempe, Adrian",5500000.0,5500000.0,,,Los Angeles Kings
+"Foegele, Warren",3500000.0,3500000.0,3500000.0,,Los Angeles Kings
+"Moore, Trevor",4200000.0,4200000.0,4200000.0,4200000.0,Los Angeles Kings
+"Jeannot, Tanner",2665000.0,,,,Los Angeles Kings
+"Turcotte, Alex",775000.0,775000.0,775000.0,,Los Angeles Kings
+"Kaliyev, Arthur",,,,,Los Angeles Kings
+"Byfield, Quinton",,,,,Los Angeles Kings
+"Laferriere, Alex",875000.0,,,,Los Angeles Kings
+Totals,38690000.0,34350000.0,21850000.0,12075000.0,Los Angeles Kings
+"Couture, Logan",8000000.0,8000000.0,8000000.0,,San Jose Sharks
+"Hoffman, Mike",,,,,San Jose Sharks
+"Granlund, Mikael",5000000.0,,,,San Jose Sharks
+"Toffoli, Tyler",6000000.0,6000000.0,6000000.0,6000000.0,San Jose Sharks
+"Wennberg, Alexander",5000000.0,5000000.0,,,San Jose Sharks
+"Goodrow, Barclay",3641667.0,3641667.0,3641667.0,,San Jose Sharks
+"Labanc, Kevin",,,,,San Jose Sharks
+"Kunin, Luke",2750000.0,,,,San Jose Sharks
+"Grundstrom, Carl",1800000.0,1800000.0,,,San Jose Sharks
+"Kostin, Klim",2000000.0,,,,San Jose Sharks
+"Zetterlund, Fabian",1450000.0,,,,San Jose Sharks
+"Zadina, Filip",,,,,San Jose Sharks
+"Dellandrea, Ty",1300000.0,1300000.0,,,San Jose Sharks
+"Sturm, Nico",2000000.0,,,,San Jose Sharks
+"Barabanov, Alexander",,,,,San Jose Sharks
+"Bordeleau, Thomas",,,,,San Jose Sharks
+"Eklund, William",863333.0,863333.0,,,San Jose Sharks
+"Smith, Will",950000.0,950000.0,950000.0,,San Jose Sharks
+"Celebrini, Macklin",975000.0,975000.0,975000.0,,San Jose Sharks
+Totals,41730000.0,28530000.0,19566667.0,6000000.0,San Jose Sharks
+"Eberle, Jordan",4750000.0,4750000.0,,,Seattle Kraken
+"Schwartz, Jaden",5500000.0,5500000.0,,,Seattle Kraken
+"Stephenson, Chandler",6250000.0,6250000.0,6250000.0,6250000.0,Seattle Kraken
+"Burakovsky, Andre",5500000.0,5500000.0,5500000.0,,Seattle Kraken
+"Bjorkstrand, Oliver",5400000.0,5400000.0,,,Seattle Kraken
+"Bellemare, Pierre-Edouard",,,,,Seattle Kraken
+"McCann, Jared",5000000.0,5000000.0,5000000.0,,Seattle Kraken
+"Gourde, Yanni",5166667.0,,,,Seattle Kraken
+"Tanev, Brandon",3500000.0,,,,Seattle Kraken
+"Yamamoto, Kailer",,,,,Seattle Kraken
+"Tolvanen, Eeli",3475000.0,3475000.0,,,Seattle Kraken
+"Beniers, Matthew",,,,,Seattle Kraken
+"Kartye, Tye",859167.0,,,,Seattle Kraken
+"Meyers, Ben",775000.0,,,,Seattle Kraken
+Totals,46175834.0,35875000.0,16750000.0,6250000.0,Seattle Kraken
+"Miller, J.T.",8000000.0,8000000.0,8000000.0,8000000.0,Vancouver Canucks
+"Di Giuseppe, Phillip",775000.0,,,,Vancouver Canucks
+"Blueger, Teddy",1800000.0,1800000.0,,,Vancouver Canucks
+"Garland, Conor",4950000.0,4950000.0,,,Vancouver Canucks
+"Joshua, Dakota",3250000.0,3250000.0,3250000.0,3250000.0,Vancouver Canucks
+"DeBrusk, Jake",5500000.0,5500000.0,5500000.0,5500000.0,Vancouver Canucks
+"Boeser, Brock",6650000.0,,,,Vancouver Canucks
+"Heinen, Danton",2250000.0,2250000.0,,,Vancouver Canucks
+"Pettersson, Elias",11600000.0,11600000.0,11600000.0,11600000.0,Vancouver Canucks
+"Suter, Pius",1600000.0,,,,Vancouver Canucks
+"Sherwood, Kiefer",1500000.0,1500000.0,,,Vancouver Canucks
+"Podkolzin, Vasily",1000000.0,1000000.0,,,Vancouver Canucks
+"Hoglander, Nils",1100000.0,,,,Vancouver Canucks
+"Aman, Nils",825000.0,825000.0,,,Vancouver Canucks
+Totals,50800000.0,40675000.0,28350000.0,28350000.0,Vancouver Canucks
+"Stone, Mark",9500000.0,9500000.0,9500000.0,,Vegas Golden Knights
+"Karlsson, William",5900000.0,5900000.0,5900000.0,,Vegas Golden Knights
+"Hertl, Tomas",6749999.0,6749999.0,6749999.0,6749999.0,Vegas Golden Knights
+"Barbashev, Ivan",5000000.0,5000000.0,5000000.0,5000000.0,Vegas Golden Knights
+"Olofsson, Victor",1075000.0,,,,Vegas Golden Knights
+"Eichel, Jack",10000000.0,10000000.0,,,Vegas Golden Knights
+"Kolesar, Keegan",1400000.0,,,,Vegas Golden Knights
+"Roy, Nicolas",3000000.0,3000000.0,3000000.0,,Vegas Golden Knights
+"Howden, Brett",1900000.0,,,,Vegas Golden Knights
+"Laczynski, Tanner",775000.0,775000.0,,,Vegas Golden Knights
+"Rondbjerg, Jonas",766667.0,,,,Vegas Golden Knights
+"Dorofeyev, Pavel",1835000.0,1835000.0,,,Vegas Golden Knights
+"Holtz, Alexander",894167.0,,,,Vegas Golden Knights
+"Brisson, Brendan",925000.0,,,,Vegas Golden Knights
+Totals,49720833.0,42759999.0,30149999.0,11749999.0,Vegas Golden Knights
+"Foligno, Nick",4500000.0,4500000.0,,,Chicago Blackhawks
+"Maroon, Pat",1300000.0,,,,Chicago Blackhawks
+"Smith, Craig",1000000.0,,,,Chicago Blackhawks
+"Hall, Taylor",6000000.0,,,,Chicago Blackhawks
+"Johnson, Tyler",,,,,Chicago Blackhawks
+"Teravainen, Teuvo",5400000.0,5400000.0,5400000.0,,Chicago Blackhawks
+"Athanasiou, Andreas",4250000.0,,,,Chicago Blackhawks
+"Dickinson, Jason",4250000.0,4250000.0,,,Chicago Blackhawks
+"Bertuzzi, Tyler",5500000.0,5500000.0,5500000.0,5500000.0,Chicago Blackhawks
+"Donato, Ryan",2000000.0,,,,Chicago Blackhawks
+"Anderson, Joey",800000.0,800000.0,,,Chicago Blackhawks
+"Kurashev, Philipp",2250000.0,,,,Chicago Blackhawks
+"Mikheyev, Ilya",4037500.0,4037500.0,,,Chicago Blackhawks
+"Reichel, Lukas",1200000.0,1200000.0,,,Chicago Blackhawks
+"Bedard, Connor",950000.0,950000.0,,,Chicago Blackhawks
+Totals,43437500.0,26637500.0,10900000.0,5500000.0,Chicago Blackhawks
+"Parise, Zach",,,,,Colorado Avalanche
+"Cogliano, Andrew",,,,,Colorado Avalanche
+"Landeskog, Gabriel",7000000.0,7000000.0,7000000.0,7000000.0,Colorado Avalanche
+"MacKinnon, Nathan",12600000.0,12600000.0,12600000.0,12600000.0,Colorado Avalanche
+"Drouin, Jonathan",2500000.0,,,,Colorado Avalanche
+"Lehkonen, Artturi",4500000.0,4500000.0,4500000.0,,Colorado Avalanche
+"Wood, Miles",2500000.0,2500000.0,2500000.0,2500000.0,Colorado Avalanche
+"Rantanen, Mikko",9250000.0,,,,Colorado Avalanche
+"Colton, Ross",4000000.0,4000000.0,4000000.0,,Colorado Avalanche
+"Mittelstadt, Casey",5750000.0,5750000.0,5750000.0,,Colorado Avalanche
+"Nichushkin, Valeri",6125000.0,6125000.0,6125000.0,6125000.0,Colorado Avalanche
+"O'Connor, Logan",1050000.0,,,,Colorado Avalanche
+"Kelly, Parker",825000.0,825000.0,,,Colorado Avalanche
+"Kiviranta, Joel",775000.0,,,,Colorado Avalanche
+Totals,56875000.0,43300000.0,42475000.0,28225000.0,Colorado Avalanche
+"Pavelski, Joe",,,,,Dallas Stars
+"Benn, Jamie",9500000.0,,,,Dallas Stars
+"Duchene, Matt",3000000.0,,,,Dallas Stars
+"Dadonov, Evgenii",2250000.0,,,,Dallas Stars
+"Seguin, Tyler",9850000.0,9850000.0,9850000.0,,Dallas Stars
+"Hintz, Roope",8450000.0,8450000.0,8450000.0,8450000.0,Dallas Stars
+"Marchment, Mason",4500000.0,4500000.0,,,Dallas Stars
+"Steel, Sam",1200000.0,,,,Dallas Stars
+"Robertson, Jason",7750000.0,7750000.0,,,Dallas Stars
+"Blackwell, Colin",775000.0,,,,Dallas Stars
+"Johnston, Wyatt",894167.0,,,,Dallas Stars
+"Stankoven, Logan",814167.0,814167.0,,,Dallas Stars
+Totals,48983334.0,31364167.0,18300000.0,8450000.0,Dallas Stars
+"Johansson, Marcus",2000000.0,,,,Minnesota Wild
+"Foligno, Marcus",4000000.0,4000000.0,4000000.0,4000000.0,Minnesota Wild
+"Zuccarello, Mats",4125000.0,4125000.0,,,Minnesota Wild
+"Gaudreau, Frederick",2100000.0,2100000.0,2100000.0,2100000.0,Minnesota Wild
+"Hartman, Ryan",4000000.0,4000000.0,4000000.0,,Minnesota Wild
+"Eriksson Ek, Joel",5250000.0,5250000.0,5250000.0,5250000.0,Minnesota Wild
+"Trenin, Yakov",3500000.0,3500000.0,3500000.0,3500000.0,Minnesota Wild
+"Kaprizov, Kirill",9000000.0,9000000.0,,,Minnesota Wild
+"Lauko, Jakub",787500.0,,,,Minnesota Wild
+"Boldy, Matthew",7000000.0,7000000.0,7000000.0,7000000.0,Minnesota Wild
+"Rossi, Marco",863334.0,,,,Minnesota Wild
+"Khusnutdinov, Marat",925000.0,,,,Minnesota Wild
+"Öhgren, Liam",886666.0,886666.0,886666.0,,Minnesota Wild
+Totals,44437500.0,39861666.0,26736666.0,21850000.0,Minnesota Wild
+"Stamkos, Steven",8000000.0,8000000.0,8000000.0,8000000.0,Nashville Predators
+"O'Reilly, Ryan",4500000.0,4500000.0,4500000.0,,Nashville Predators
+"Nyquist, Gustav",3185000.0,,,,Nashville Predators
+"Marchessault, Jonathan",5500000.0,5500000.0,5500000.0,5500000.0,Nashville Predators
+"Forsberg, Filip",8500000.0,8500000.0,8500000.0,8500000.0,Nashville Predators
+"Jankowski, Mark",800000.0,800000.0,,,Nashville Predators
+"Sissons, Colton",2857143.0,2857143.0,,,Nashville Predators
+"McCarron, Michael",900000.0,900000.0,,,Nashville Predators
+"Novak, Thomas",3500000.0,3500000.0,3500000.0,,Nashville Predators
+"Glass, Cody",2500000.0,,,,Nashville Predators
+"Smith, Cole",1000000.0,1000000.0,,,Nashville Predators
+"Evangelista, Luke",797500.0,,,,Nashville Predators
+Totals,42039643.0,35557143.0,30000000.0,22000000.0,Nashville Predators
+"Schenn, Brayden",6500000.0,6500000.0,6500000.0,6500000.0,St Louis Blues
+"Saad, Brandon",4500000.0,4500000.0,,,St Louis Blues
+"Faksa, Radek",3250000.0,,,,St Louis Blues
+"Sundqvist, Oskar",1500000.0,1500000.0,,,St Louis Blues
+"Buchnevich, Pavel",5800000.0,8000000.0,8000000.0,8000000.0,St Louis Blues
+"Walker, Nathan",775000.0,775000.0,,,St Louis Blues
+"Kapanen, Kasperi",1000000.0,,,,St Louis Blues
+"Blais, Sammy",,,,,St Louis Blues
+"Joseph, Mathieu",2950000.0,2950000.0,,,St Louis Blues
+"Kyrou, Jordan",8125000.0,8125000.0,8125000.0,8125000.0,St Louis Blues
+"Thomas, Robert",8125000.0,8125000.0,8125000.0,8125000.0,St Louis Blues
+"Texier, Alexandre",2100000.0,2100000.0,,,St Louis Blues
+"Toropchenko, Alexei",1250000.0,,,,St Louis Blues
+"Alexandrov, Nikita",,,,,St Louis Blues
+"Neighbours, Jake",835834.0,,,,St Louis Blues
+Totals,46710834.0,42575000.0,30750000.0,30750000.0,St Louis Blues
+"Little, Bryan",,,,,Utah Hc
+"Voracek, Jakub",,,,,Utah Hc
+"Bjugstad, Nick",2100000.0,,,,Utah Hc
+"Kerfoot, Alexander",3500000.0,,,,Utah Hc
+"O'Brien, Liam",1000000.0,1000000.0,1000000.0,,Utah Hc
+"Schmaltz, Nick",5850000.0,5850000.0,,,Utah Hc
+"Crouse, Lawson",4300000.0,4300000.0,4300000.0,,Utah Hc
+"Stenlund, Kevin",2000000.0,2000000.0,,,Utah Hc
+"Keller, Clayton",7150000.0,7150000.0,7150000.0,7150000.0,Utah Hc
+"Carcone, Michael",775000.0,,,,Utah Hc
+"Hayton, Barrett",2650000.0,2650000.0,,,Utah Hc
+"McBain, Jack",1599999.0,,,,Utah Hc
+"Maccelli, Matias",3425000.0,3425000.0,,,Utah Hc
+"Guenther, Dylan",894167.0,,,,Utah Hc
+"Doan, Josh",925000.0,925000.0,,,Utah Hc
+"Cooley, Logan",950000.0,950000.0,,,Utah Hc
+Totals,37119166.0,28250000.0,12450000.0,7150000.0,Utah Hc
+"Niederreiter, Nino",4000000.0,4000000.0,4000000.0,,Winnipeg Jets
+"Scheifele, Mark",8500000.0,8500000.0,8500000.0,8500000.0,Winnipeg Jets
+"Namestnikov, Vladislav",2000000.0,,,,Winnipeg Jets
+"Lowry, Adam",3250000.0,3250000.0,,,Winnipeg Jets
+"Ehlers, Nikolaj",6000000.0,,,,Winnipeg Jets
+"Connor, Kyle",7142857.0,7142857.0,,,Winnipeg Jets
+"Appleton, Mason",2166667.0,,,,Winnipeg Jets
+"Jonsson-Fjallby, Axel",775000.0,,,,Winnipeg Jets
+"Iafallo, Alex",4000000.0,,,,Winnipeg Jets
+"Vilardi, Gabriel",3437500.0,,,,Winnipeg Jets
+"Anderson-Dolan, Jaret",775000.0,775000.0,,,Winnipeg Jets
+"Barron, Morgan",1350000.0,,,,Winnipeg Jets
+"Kupari, Rasmus",1000000.0,,,,Winnipeg Jets
+"Gustafsson, David",835000.0,835000.0,,,Winnipeg Jets
+"Perfetti, Cole",,,,,Winnipeg Jets
+Totals,45232024.0,24502857.0,12500000.0,8500000.0,Winnipeg Jets
+"Staal, Jordan",2900000.0,2900000.0,2900000.0,,Carolina Hurricanes
+"Kuznetsov, Evgeny",3900000.0,,,,Carolina Hurricanes
+"Fast, Jesper",2400000.0,,,,Carolina Hurricanes
+"Martinook, Jordan",3050000.0,3050000.0,3050000.0,,Carolina Hurricanes
+"Carrier, William",2000000.0,2000000.0,2000000.0,2000000.0,Carolina Hurricanes
+"Lemieux, Brendan",775000.0,,,,Carolina Hurricanes
+"Roslovic, Jack",2800000.0,,,,Carolina Hurricanes
+"Aho, Sebastian",9750000.0,9750000.0,9750000.0,9750000.0,Carolina Hurricanes
+"Robinson, Eric",950000.0,,,,Carolina Hurricanes
+"Jost, Tyson",775000.0,,,,Carolina Hurricanes
+"Necas, Martin",,,,,Carolina Hurricanes
+"Svechnikov, Andrei",7750000.0,7750000.0,7750000.0,7750000.0,Carolina Hurricanes
+"Kotkaniemi, Jesperi",4820000.0,4820000.0,4820000.0,4820000.0,Carolina Hurricanes
+"Drury, Jack",,,,,Carolina Hurricanes
+"Jarvis, Seth",,,,,Carolina Hurricanes
+"Nadeau, Bradly",918333.0,918333.0,918333.0,,Carolina Hurricanes
+Totals,42788333.0,31188333.0,31188333.0,24320000.0,Carolina Hurricanes
+"Jenner, Boone",3750000.0,3750000.0,,,Columbus Blue Jackets
+"Gaudreau, Johnny",9750000.0,9750000.0,9750000.0,9750000.0,Columbus Blue Jackets
+"Kuraly, Sean",2500000.0,,,,Columbus Blue Jackets
+"Monahan, Sean",5500000.0,5500000.0,5500000.0,5500000.0,Columbus Blue Jackets
+"Laine, Patrik",8700000.0,8700000.0,,,Columbus Blue Jackets
+"Nylander, Alexander",,,,,Columbus Blue Jackets
+"Marchenko, Kirill",,,,,Columbus Blue Jackets
+"Olivier, Mathieu",1100000.0,,,,Columbus Blue Jackets
+"Voronkov, Dimitri",925000.0,,,,Columbus Blue Jackets
+"Chinakhov, Yegor",2100000.0,2100000.0,,,Columbus Blue Jackets
+"Danforth, Justin",1100000.0,,,,Columbus Blue Jackets
+"Sillinger, Cole",,,,,Columbus Blue Jackets
+"Johnson, Kent",,,,,Columbus Blue Jackets
+"Fantilli, Adam",950000.0,950000.0,,,Columbus Blue Jackets
+"Brindley, Gavin",950000.0,950000.0,,,Columbus Blue Jackets
+Totals,37325000.0,31700000.0,15250000.0,15250000.0,Columbus Blue Jackets
+"Tatar, Tomas",1800000.0,,,,New Jersey Devils
+"Haula, Erik",3150000.0,3150000.0,,,New Jersey Devils
+"Noesen, Stefan",2750000.0,2750000.0,2750000.0,,New Jersey Devils
+"Palat, Ondrej",6000000.0,6000000.0,6000000.0,,New Jersey Devils
+"Tierney, Chris",,,,,New Jersey Devils
+"MacDermid, Kurtis",1150000.0,1150000.0,1150000.0,,New Jersey Devils
+"Lazar, Curtis",1000000.0,,,,New Jersey Devils
+"Meier, Timo",8800000.0,8800000.0,8800000.0,8800000.0,New Jersey Devils
+"McLeod, Michael",,,,,New Jersey Devils
+"Bastian, Nathan",1350000.0,,,,New Jersey Devils
+"Bratt, Jesper",7875000.0,7875000.0,7875000.0,7875000.0,New Jersey Devils
+"Hischier, Nico",7250000.0,7250000.0,7250000.0,,New Jersey Devils
+"Cotter, Paul",775000.0,775000.0,,,New Jersey Devils
+"Hughes, Jack",8000000.0,8000000.0,8000000.0,8000000.0,New Jersey Devils
+"Foote, Nolan",,,,,New Jersey Devils
+"Mercer, Dawson",,,,,New Jersey Devils
+Totals,49900000.0,45750000.0,41825000.0,24675000.0,New Jersey Devils
+"Wheeler, Blake",,,,,New York Rangers
+"Kreider, Chris",6500000.0,6500000.0,6500000.0,,New York Rangers
+"Smith, Reilly",3750000.0,,,,New York Rangers
+"Carrick, Sam",1000000.0,1000000.0,1000000.0,,New York Rangers
+"Zibanejad, Mika",8500000.0,8500000.0,8500000.0,8500000.0,New York Rangers
+"Trocheck, Vincent",5625000.0,5625000.0,5625000.0,5625000.0,New York Rangers
+"Vesey, Jimmy",800000.0,,,,New York Rangers
+"Brodzinski, Jonny",787500.0,787500.0,,,New York Rangers
+"Panarin, Artemi",11642857.0,11642857.0,,,New York Rangers
+"Chytil, Filip",4437500.0,4437500.0,4437500.0,,New York Rangers
+"Kakko, Kaapo",2400000.0,,,,New York Rangers
+"Edstrom, Adam",846667.0,,,,New York Rangers
+"Lafreniere, Alexis",2325000.0,,,,New York Rangers
+"Cuylle, William",828333.0,,,,New York Rangers
+"Rempe, Matt",820000.0,,,,New York Rangers
+Totals,50262857.0,38492857.0,26062500.0,14125000.0,New York Rangers
+"Deslauriers, Nicolas",1750000.0,1750000.0,,,Philadelphia Flyers
+"Johansen, Ryan",4000000.0,,,,Philadelphia Flyers
+"Couturier, Sean",7750000.0,7750000.0,7750000.0,7750000.0,Philadelphia Flyers
+"Laughton, Scott",3000000.0,3000000.0,,,Philadelphia Flyers
+"Hathaway, Garnet",2375000.0,2400000.0,2400000.0,,Philadelphia Flyers
+"Gurianov, Denis",,,,,Philadelphia Flyers
+"Konecny, Travis",5500000.0,,,,Philadelphia Flyers
+"Tippett, Owen",6200000.0,6200000.0,6200000.0,6200000.0,Philadelphia Flyers
+"Poehling, Ryan",1900000.0,1900000.0,,,Philadelphia Flyers
+"Frost, Morgan",2100000.0,,,,Philadelphia Flyers
+"Cates, Noah",2625000.0,,,,Philadelphia Flyers
+"Farabee, Joel",5000000.0,5000000.0,5000000.0,5000000.0,Philadelphia Flyers
+"Brink, Bobby",1500000.0,1500000.0,,,Philadelphia Flyers
+"Foerster, Tyson",863334.0,,,,Philadelphia Flyers
+"Michkov, Matvei",950000.0,950000.0,950000.0,,Philadelphia Flyers
+Totals,45513334.0,30450000.0,22300000.0,18950000.0,Philadelphia Flyers
+"Crosby, Sidney",8700000.0,,,,Pittsburgh Penguins
+"Malkin, Evgeni",6100000.0,6100000.0,,,Pittsburgh Penguins
+"Eller, Lars",2450000.0,,,,Pittsburgh Penguins
+"Hayes, Kevin",3571429.0,3571429.0,,,Pittsburgh Penguins
+"Rust, Bryan",5125000.0,5125000.0,5125000.0,5125000.0,Pittsburgh Penguins
+"Rakell, Rickard",5000000.0,5000000.0,5000000.0,5000000.0,Pittsburgh Penguins
+"Nieto, Matt",900000.0,,,,Pittsburgh Penguins
+"Bunting, Michael",4500000.0,4500000.0,,,Pittsburgh Penguins
+"Beauvillier, Anthony",1250000.0,,,,Pittsburgh Penguins
+"Acciari, Noel",2000000.0,2000000.0,,,Pittsburgh Penguins
+"Puljujarvi, Jesse",800000.0,,,,Pittsburgh Penguins
+"Bemstrom, Emil",775000.0,,,,Pittsburgh Penguins
+"Lizotte, Blake",1850000.0,1850000.0,,,Pittsburgh Penguins
+"O'Connor, Drew",925000.0,,,,Pittsburgh Penguins
+Totals,43946429.0,28146429.0,10125000.0,10125000.0,Pittsburgh Penguins
+"Ovechkin, Alex",9500000.0,9500000.0,,,Washington Capitals
+"Backstrom, Nicklas",9200000.0,,,,Washington Capitals
+"Oshie, T.J.",5750000.0,,,,Washington Capitals
+"Pacioretty, Max",,,,,Washington Capitals
+"Dowd, Nic",1300000.0,,,,Washington Capitals
+"Wilson, Tom",6500000.0,6500000.0,6500000.0,6500000.0,Washington Capitals
+"Milano, Sonny",1900000.0,1900000.0,,,Washington Capitals
+"Strome, Dylan",5000000.0,5000000.0,5000000.0,5000000.0,Washington Capitals
+"Mangiapane, Andrew",5800000.0,,,,Washington Capitals
+"Dubois, Pierre-Luc",8500000.0,8500000.0,8500000.0,8500000.0,Washington Capitals
+"Raddysh, Taylor",1000000.0,,,,Washington Capitals
+"Duhaime, Brandon",1850000.0,1850000.0,,,Washington Capitals
+"McMichael, Connor",2100000.0,2100000.0,,,Washington Capitals
+"Protas, Aliaksei",3375000.0,3375000.0,3375000.0,3375000.0,Washington Capitals
+"Lapierre, Hendrix",863334.0,,,,Washington Capitals
+Totals,62638334.0,38725000.0,23375000.0,23375000.0,Washington Capitals
+"Lucic, Milan",,,,,Boston Bruins
+"Marchand, Brad",6125000.0,,,,Boston Bruins
+"van Riemsdyk, James",,,,,Boston Bruins
+"Coyle, Charlie",5250000.0,5250000.0,,,Boston Bruins
+"Lindholm, Elias",7750000.0,7750000.0,7750000.0,7750000.0,Boston Bruins
+"Pastrnak, David",11250000.0,11250000.0,11250000.0,11250000.0,Boston Bruins
+"Brown, Patrick",800000.0,,,,Boston Bruins
+"Zacha, Pavel",4750000.0,4750000.0,4750000.0,,Boston Bruins
+"Jones, Max",1000000.0,1000000.0,,,Boston Bruins
+"Frederic, Trent",2300000.0,,,,Boston Bruins
+"Lettieri, Vinni",775000.0,,,,Boston Bruins
+"Geekie, Morgan",2000000.0,,,,Boston Bruins
+"Brazeau, Justin",775000.0,,,,Boston Bruins
+"Beecher, John",925000.0,,,,Boston Bruins
+"Kastelic, Mark",835000.0,,,,Boston Bruins
+"Poitras, Matthew",870000.0,870000.0,,,Boston Bruins
+Totals,45405000.0,30870000.0,23750000.0,19000000.0,Boston Bruins
+"Zucker, Jason",5000000.0,,,,Buffalo Sabres
+"Aube-Kubel, Nicolas",1500000.0,,,,Buffalo Sabres
+"Tuch, Alex",4750000.0,4750000.0,,,Buffalo Sabres
+"Lafferty, Sam",2000000.0,2000000.0,,,Buffalo Sabres
+"Greenway, Jordan",3000000.0,,,,Buffalo Sabres
+"Thompson, Tage",7142857.0,7142857.0,7142857.0,7142857.0,Buffalo Sabres
+"Malenstyn, Beck",,,,,Buffalo Sabres
+"McLeod, Ryan",2100000.0,,,,Buffalo Sabres
+"Cozens, Dylan",7100000.0,7100000.0,7100000.0,7100000.0,Buffalo Sabres
+"Krebs, Peyton",,,,,Buffalo Sabres
+"Quinn, Jack",863334.0,,,,Buffalo Sabres
+"Peterka, John-Jason",855834.0,,,,Buffalo Sabres
+"Benson, Zach",950000.0,950000.0,,,Buffalo Sabres
+Totals,35262025.0,21942857.0,14242857.0,14242857.0,Buffalo Sabres
+"Kane, Patrick",4000000.0,,,,Detroit Red Wings
+"Tarasenko, Vladimir",4750000.0,4750000.0,,,Detroit Red Wings
+"Compher, J.T.",5100000.0,5100000.0,5100000.0,5100000.0,Detroit Red Wings
+"Copp, Andrew",5625000.0,5625000.0,5625000.0,,Detroit Red Wings
+"Motte, Tyler",800000.0,,,,Detroit Red Wings
+"Larkin, Dylan",8700000.0,8700000.0,8700000.0,8700000.0,Detroit Red Wings
+"Fischer, Christian",1125000.0,,,,Detroit Red Wings
+"Sprong, Daniel",,,,,Detroit Red Wings
+"Debrincat, Alex",7875000.0,7875000.0,7875000.0,,Detroit Red Wings
+"Rasmussen, Michael",3200000.0,3200000.0,3200000.0,3200000.0,Detroit Red Wings
+"Veleno, Joseph",,,,,Detroit Red Wings
+"Raymond, Lucas",,,,,Detroit Red Wings
+Totals,41175000.0,35250000.0,30500000.0,17000000.0,Detroit Red Wings
+"Okposo, Kyle",,,,,Florida Panthers
+"Cousins, Nick",,,,,Florida Panthers
+"Barkov, Aleksander",10000000.0,10000000.0,10000000.0,10000000.0,Florida Panthers
+"Verhaeghe, Carter",4166667.0,,,,Florida Panthers
+"Nosek, Tomas",775000.0,,,,Florida Panthers
+"Reinhart, Sam",8625000.0,8625000.0,8625000.0,8625000.0,Florida Panthers
+"Bennett, Sam",4425000.0,,,,Florida Panthers
+"Rodrigues, Evan",3000000.0,3000000.0,3000000.0,,Florida Panthers
+"Greer, A.J.",850000.0,850000.0,,,Florida Panthers
+"Lorentz, Steven",,,,,Florida Panthers
+"Tkachuk, Matthew",9500000.0,9500000.0,9500000.0,9500000.0,Florida Panthers
+"Boqvist, Jesper",775000.0,,,,Florida Panthers
+"Luostarinen, Eetu",3000000.0,3000000.0,3000000.0,,Florida Panthers
+"Gadjovich, Jonah",775000.0,775000.0,,,Florida Panthers
+"Lundell, Anton",5000000.0,5000000.0,5000000.0,5000000.0,Florida Panthers
+"Samoskevich, Matthew",925000.0,,,,Florida Panthers
+Totals,51816667.0,40750000.0,39125000.0,33125000.0,Florida Panthers
+"Gallagher, Brendan",6500000.0,6500000.0,6500000.0,,Montreal Canadiens
+"Armia, Joel",3400000.0,,,,Montreal Canadiens
+"Pearson, Tanner",,,,,Montreal Canadiens
+"Anderson, Josh",5500000.0,5500000.0,5500000.0,,Montreal Canadiens
+"Dvorak, Christian",4450000.0,,,,Montreal Canadiens
+"Evans, Jake",1700000.0,,,,Montreal Canadiens
+"White, Colin",,,,,Montreal Canadiens
+"Pezzetta, Michael",812500.0,,,,Montreal Canadiens
+"Suzuki, Nick",7875000.0,7875000.0,7875000.0,7875000.0,Montreal Canadiens
+"Dach, Kirby",3362500.0,3362500.0,,,Montreal Canadiens
+"Caufield, Cole",7850000.0,7850000.0,7850000.0,7850000.0,Montreal Canadiens
+"Newhook, Alex",2900000.0,2900000.0,2900000.0,,Montreal Canadiens
+"Harvey-Pinard, Rafael",1100000.0,,,,Montreal Canadiens
+"Slafkovský, Juraj",950000.0,7600000.0,7600000.0,7600000.0,Montreal Canadiens
+Totals,46400000.0,41587500.0,38225000.0,23325000.0,Montreal Canadiens
+"Giroux, Claude",6500000.0,,,,Ottawa Senators
+"Perron, David",4000000.0,4000000.0,,,Ottawa Senators
+"Kubalik, Dominik",,,,,Ottawa Senators
+"Amadio, Michael",2600000.0,2600000.0,2600000.0,,Ottawa Senators
+"Katchouk, Boris",,,,,Ottawa Senators
+"Gregor, Noah",850000.0,,,,Ottawa Senators
+"MacEwen, Zack",775000.0,775000.0,,,Ottawa Senators
+"Norris, Joshua",7950000.0,7950000.0,7950000.0,7950000.0,Ottawa Senators
+"Batherson, Drake",4975000.0,4975000.0,4975000.0,,Ottawa Senators
+"Tkachuk, Brady",8205714.0,8205714.0,8205714.0,8205714.0,Ottawa Senators
+"Crookshank, Angus",775000.0,,,,Ottawa Senators
+"Pinto, Shane",3750000.0,3750000.0,,,Ottawa Senators
+"Greig, Ridly",863334.0,,,,Ottawa Senators
+"Stuetzle, Tim",8350000.0,8350000.0,8350000.0,8350000.0,Ottawa Senators
+Totals,49594048.0,40605714.0,32080714.0,24505714.0,Ottawa Senators
+"Watson, Austin",,,,,Tampa Bay Lightning
+"Atkinson, Cam",900000.0,,,,Tampa Bay Lightning
+"Kucherov, Nikita",9500000.0,9500000.0,9500000.0,,Tampa Bay Lightning
+"Girgensons, Zemgus",850000.0,850000.0,850000.0,,Tampa Bay Lightning
+"Guentzel, Jake",9000000.0,9000000.0,9000000.0,9000000.0,Tampa Bay Lightning
+"Paul, Nick",3150000.0,3150000.0,3150000.0,3150000.0,Tampa Bay Lightning
+"Glendening, Luke",800000.0,,,,Tampa Bay Lightning
+"Point, Brayden",9500000.0,9500000.0,9500000.0,9500000.0,Tampa Bay Lightning
+"Sheary, Conor",2000000.0,2000000.0,,,Tampa Bay Lightning
+"Cirelli, Anthony",6250000.0,6250000.0,6250000.0,6250000.0,Tampa Bay Lightning
+"Brown, Logan",,,,,Tampa Bay Lightning
+"Eyssimont, Michael",800000.0,,,,Tampa Bay Lightning
+"Hagel, Brandon",6500000.0,6500000.0,6500000.0,6500000.0,Tampa Bay Lightning
+"Ylonen, Jesse",775000.0,,,,Tampa Bay Lightning
+"Chaffee, Mitchell",800000.0,800000.0,,,Tampa Bay Lightning
+Totals,50825000.0,47550000.0,44750000.0,34400000.0,Tampa Bay Lightning
+"Reaves, Ryan",1350000.0,1350000.0,,,Toronto Maple Leafs
+"Tavares, John",11000000.0,,,,Toronto Maple Leafs
+"Jarnkrok, Calle",2100000.0,2100000.0,,,Toronto Maple Leafs
+"Domi, Max",3750000.0,3750000.0,3750000.0,3750000.0,Toronto Maple Leafs
+"Nylander, William",11500000.0,11500000.0,11500000.0,11500000.0,Toronto Maple Leafs
+"Marner, Mitchell",10903000.0,,,,Toronto Maple Leafs
+"Matthews, Auston",13250000.0,13250000.0,13250000.0,13250000.0,Toronto Maple Leafs
+"Kampf, David",2400000.0,2400000.0,2400000.0,,Toronto Maple Leafs
+"Dewar, Connor",,,,,Toronto Maple Leafs
+"Holmberg, Pontus",800000.0,,,,Toronto Maple Leafs
+"Robertson, Nicholas",,,,,Toronto Maple Leafs
+"Knies, Matthew",925000.0,,,,Toronto Maple Leafs
+"McMann, Bobby",1350000.0,1350000.0,,,Toronto Maple Leafs
+Totals,59328000.0,35700000.0,30900000.0,28500000.0,Toronto Maple Leafs
+"Wheeler, Blake",,,,,New York Rangers
+"Kreider, Chris",6500000.0,6500000.0,6500000.0,,New York Rangers
+"Smith, Reilly",3750000.0,,,,New York Rangers
+"Carrick, Sam",1000000.0,1000000.0,1000000.0,,New York Rangers
+"Zibanejad, Mika",8500000.0,8500000.0,8500000.0,8500000.0,New York Rangers
+"Trocheck, Vincent",5625000.0,5625000.0,5625000.0,5625000.0,New York Rangers
+"Vesey, Jimmy",800000.0,,,,New York Rangers
+"Brodzinski, Jonny",787500.0,787500.0,,,New York Rangers
+"Panarin, Artemi",11642857.0,11642857.0,,,New York Rangers
+"Chytil, Filip",4437500.0,4437500.0,4437500.0,,New York Rangers
+"Kakko, Kaapo",2400000.0,,,,New York Rangers
+"Edstrom, Adam",846667.0,,,,New York Rangers
+"Lafreniere, Alexis",2325000.0,,,,New York Rangers
+"Cuylle, William",828333.0,,,,New York Rangers
+"Rempe, Matt",820000.0,,,,New York Rangers
+Totals,50262857.0,38492857.0,26062500.0,14125000.0,New York Rangers
+"Parise, Zach",,,,,Colorado Avalanche
+"Cogliano, Andrew",,,,,Colorado Avalanche
+"Landeskog, Gabriel",7000000.0,7000000.0,7000000.0,7000000.0,Colorado Avalanche
+"MacKinnon, Nathan",12600000.0,12600000.0,12600000.0,12600000.0,Colorado Avalanche
+"Drouin, Jonathan",2500000.0,,,,Colorado Avalanche
+"Lehkonen, Artturi",4500000.0,4500000.0,4500000.0,,Colorado Avalanche
+"Wood, Miles",2500000.0,2500000.0,2500000.0,2500000.0,Colorado Avalanche
+"Rantanen, Mikko",9250000.0,,,,Colorado Avalanche
+"Colton, Ross",4000000.0,4000000.0,4000000.0,,Colorado Avalanche
+"Mittelstadt, Casey",5750000.0,5750000.0,5750000.0,,Colorado Avalanche
+"Nichushkin, Valeri",6125000.0,6125000.0,6125000.0,6125000.0,Colorado Avalanche
+"O'Connor, Logan",1050000.0,,,,Colorado Avalanche
+"Kelly, Parker",825000.0,825000.0,,,Colorado Avalanche
+"Kiviranta, Joel",775000.0,,,,Colorado Avalanche
+Totals,56875000.0,43300000.0,42475000.0,28225000.0,Colorado Avalanche
+"Kane, Patrick",4000000.0,,,,Detroit Red Wings
+"Tarasenko, Vladimir",4750000.0,4750000.0,,,Detroit Red Wings
+"Compher, J.T.",5100000.0,5100000.0,5100000.0,5100000.0,Detroit Red Wings
+"Copp, Andrew",5625000.0,5625000.0,5625000.0,,Detroit Red Wings
+"Motte, Tyler",800000.0,,,,Detroit Red Wings
+"Larkin, Dylan",8700000.0,8700000.0,8700000.0,8700000.0,Detroit Red Wings
+"Fischer, Christian",1125000.0,,,,Detroit Red Wings
+"Sprong, Daniel",,,,,Detroit Red Wings
+"Debrincat, Alex",7875000.0,7875000.0,7875000.0,,Detroit Red Wings
+"Rasmussen, Michael",3200000.0,3200000.0,3200000.0,3200000.0,Detroit Red Wings
+"Veleno, Joseph",,,,,Detroit Red Wings
+"Raymond, Lucas",,,,,Detroit Red Wings
+Totals,41175000.0,35250000.0,30500000.0,17000000.0,Detroit Red Wings
+"Lucic, Milan",,,,,Boston Bruins
+"Marchand, Brad",6125000.0,,,,Boston Bruins
+"van Riemsdyk, James",,,,,Boston Bruins
+"Coyle, Charlie",5250000.0,5250000.0,,,Boston Bruins
+"Lindholm, Elias",7750000.0,7750000.0,7750000.0,7750000.0,Boston Bruins
+"Pastrnak, David",11250000.0,11250000.0,11250000.0,11250000.0,Boston Bruins
+"Brown, Patrick",800000.0,,,,Boston Bruins
+"Zacha, Pavel",4750000.0,4750000.0,4750000.0,,Boston Bruins
+"Jones, Max",1000000.0,1000000.0,,,Boston Bruins
+"Frederic, Trent",2300000.0,,,,Boston Bruins
+"Lettieri, Vinni",775000.0,,,,Boston Bruins
+"Geekie, Morgan",2000000.0,,,,Boston Bruins
+"Brazeau, Justin",775000.0,,,,Boston Bruins
+"Beecher, John",925000.0,,,,Boston Bruins
+"Kastelic, Mark",835000.0,,,,Boston Bruins
+"Poitras, Matthew",870000.0,870000.0,,,Boston Bruins
+Totals,45405000.0,30870000.0,23750000.0,19000000.0,Boston Bruins
+"Clutterbuck, Cal",,,,,New York Islanders
+"Martin, Matt",,,,,New York Islanders
+"Palmieri, Kyle",5000000.0,,,,New York Islanders
+"Cizikas, Casey",2500000.0,2500000.0,2500000.0,,New York Islanders
+"Lee, Anders",7000000.0,7000000.0,,,New York Islanders
+"Nelson, Brock",6000000.0,,,,New York Islanders
+"Pageau, Jean-Gabriel",5000000.0,5000000.0,,,New York Islanders
+"Duclair, Anthony",3500000.0,3500000.0,3500000.0,3500000.0,New York Islanders
+"Horvat, Bo",8500000.0,8500000.0,8500000.0,8500000.0,New York Islanders
+"Fasching, Hudson",775000.0,,,,New York Islanders
+"Barzal, Mathew",9150000.0,9150000.0,9150000.0,9150000.0,New York Islanders
+"Wahlstrom, Oliver",,,,,New York Islanders
+"Engvall, Pierre",3000000.0,3000000.0,3000000.0,3000000.0,New York Islanders
+"MacLean, Kyle",775000.0,775000.0,775000.0,,New York Islanders
+"Holmstrom, Simon",,,,,New York Islanders
+Totals,51200000.0,39425000.0,27425000.0,24150000.0,New York Islanders
+"Staal, Jordan",2900000.0,2900000.0,2900000.0,,Carolina Hurricanes
+"Kuznetsov, Evgeny",3900000.0,,,,Carolina Hurricanes
+"Fast, Jesper",2400000.0,,,,Carolina Hurricanes
+"Martinook, Jordan",3050000.0,3050000.0,3050000.0,,Carolina Hurricanes
+"Carrier, William",2000000.0,2000000.0,2000000.0,2000000.0,Carolina Hurricanes
+"Lemieux, Brendan",775000.0,,,,Carolina Hurricanes
+"Roslovic, Jack",2800000.0,,,,Carolina Hurricanes
+"Aho, Sebastian",9750000.0,9750000.0,9750000.0,9750000.0,Carolina Hurricanes
+"Robinson, Eric",950000.0,,,,Carolina Hurricanes
+"Jost, Tyson",775000.0,,,,Carolina Hurricanes
+"Necas, Martin",,,,,Carolina Hurricanes
+"Svechnikov, Andrei",7750000.0,7750000.0,7750000.0,7750000.0,Carolina Hurricanes
+"Kotkaniemi, Jesperi",4820000.0,4820000.0,4820000.0,4820000.0,Carolina Hurricanes
+"Drury, Jack",,,,,Carolina Hurricanes
+"Jarvis, Seth",,,,,Carolina Hurricanes
+"Nadeau, Bradly",918333.0,918333.0,918333.0,,Carolina Hurricanes
+Totals,42788333.0,31188333.0,31188333.0,24320000.0,Carolina Hurricanes
+"Wheeler, Blake",,,,,New York Rangers
+"Kreider, Chris",6500000.0,6500000.0,6500000.0,,New York Rangers
+"Smith, Reilly",3750000.0,,,,New York Rangers
+"Carrick, Sam",1000000.0,1000000.0,1000000.0,,New York Rangers
+"Zibanejad, Mika",8500000.0,8500000.0,8500000.0,8500000.0,New York Rangers
+"Trocheck, Vincent",5625000.0,5625000.0,5625000.0,5625000.0,New York Rangers
+"Vesey, Jimmy",800000.0,,,,New York Rangers
+"Brodzinski, Jonny",787500.0,787500.0,,,New York Rangers
+"Panarin, Artemi",11642857.0,11642857.0,,,New York Rangers
+"Chytil, Filip",4437500.0,4437500.0,4437500.0,,New York Rangers
+"Kakko, Kaapo",2400000.0,,,,New York Rangers
+"Edstrom, Adam",846667.0,,,,New York Rangers
+"Lafreniere, Alexis",2325000.0,,,,New York Rangers
+"Cuylle, William",828333.0,,,,New York Rangers
+"Rempe, Matt",820000.0,,,,New York Rangers
+Totals,50262857.0,38492857.0,26062500.0,14125000.0,New York Rangers
+"Crosby, Sidney",8700000.0,,,,Pittsburgh Penguins
+"Malkin, Evgeni",6100000.0,6100000.0,,,Pittsburgh Penguins
+"Eller, Lars",2450000.0,,,,Pittsburgh Penguins
+"Hayes, Kevin",3571429.0,3571429.0,,,Pittsburgh Penguins
+"Rust, Bryan",5125000.0,5125000.0,5125000.0,5125000.0,Pittsburgh Penguins
+"Rakell, Rickard",5000000.0,5000000.0,5000000.0,5000000.0,Pittsburgh Penguins
+"Nieto, Matt",900000.0,,,,Pittsburgh Penguins
+"Bunting, Michael",4500000.0,4500000.0,,,Pittsburgh Penguins
+"Beauvillier, Anthony",1250000.0,,,,Pittsburgh Penguins
+"Acciari, Noel",2000000.0,2000000.0,,,Pittsburgh Penguins
+"Puljujarvi, Jesse",800000.0,,,,Pittsburgh Penguins
+"Bemstrom, Emil",775000.0,,,,Pittsburgh Penguins
+"Lizotte, Blake",1850000.0,1850000.0,,,Pittsburgh Penguins
+"O'Connor, Drew",925000.0,,,,Pittsburgh Penguins
+Totals,43946429.0,28146429.0,10125000.0,10125000.0,Pittsburgh Penguins
+"Reaves, Ryan",1350000.0,1350000.0,,,Toronto Maple Leafs
+"Tavares, John",11000000.0,,,,Toronto Maple Leafs
+"Jarnkrok, Calle",2100000.0,2100000.0,,,Toronto Maple Leafs
+"Domi, Max",3750000.0,3750000.0,3750000.0,3750000.0,Toronto Maple Leafs
+"Nylander, William",11500000.0,11500000.0,11500000.0,11500000.0,Toronto Maple Leafs
+"Marner, Mitchell",10903000.0,,,,Toronto Maple Leafs
+"Matthews, Auston",13250000.0,13250000.0,13250000.0,13250000.0,Toronto Maple Leafs
+"Kampf, David",2400000.0,2400000.0,2400000.0,,Toronto Maple Leafs
+"Dewar, Connor",,,,,Toronto Maple Leafs
+"Holmberg, Pontus",800000.0,,,,Toronto Maple Leafs
+"Robertson, Nicholas",,,,,Toronto Maple Leafs
+"Knies, Matthew",925000.0,,,,Toronto Maple Leafs
+"McMann, Bobby",1350000.0,1350000.0,,,Toronto Maple Leafs
+Totals,59328000.0,35700000.0,30900000.0,28500000.0,Toronto Maple Leafs
+"Giroux, Claude",6500000.0,,,,Ottawa Senators
+"Perron, David",4000000.0,4000000.0,,,Ottawa Senators
+"Kubalik, Dominik",,,,,Ottawa Senators
+"Amadio, Michael",2600000.0,2600000.0,2600000.0,,Ottawa Senators
+"Katchouk, Boris",,,,,Ottawa Senators
+"Gregor, Noah",850000.0,,,,Ottawa Senators
+"MacEwen, Zack",775000.0,775000.0,,,Ottawa Senators
+"Norris, Joshua",7950000.0,7950000.0,7950000.0,7950000.0,Ottawa Senators
+"Batherson, Drake",4975000.0,4975000.0,4975000.0,,Ottawa Senators
+"Tkachuk, Brady",8205714.0,8205714.0,8205714.0,8205714.0,Ottawa Senators
+"Crookshank, Angus",775000.0,,,,Ottawa Senators
+"Pinto, Shane",3750000.0,3750000.0,,,Ottawa Senators
+"Greig, Ridly",863334.0,,,,Ottawa Senators
+"Stuetzle, Tim",8350000.0,8350000.0,8350000.0,8350000.0,Ottawa Senators
+Totals,49594048.0,40605714.0,32080714.0,24505714.0,Ottawa Senators
+"Zucker, Jason",5000000.0,,,,Buffalo Sabres
+"Aube-Kubel, Nicolas",1500000.0,,,,Buffalo Sabres
+"Tuch, Alex",4750000.0,4750000.0,,,Buffalo Sabres
+"Lafferty, Sam",2000000.0,2000000.0,,,Buffalo Sabres
+"Greenway, Jordan",3000000.0,,,,Buffalo Sabres
+"Thompson, Tage",7142857.0,7142857.0,7142857.0,7142857.0,Buffalo Sabres
+"Malenstyn, Beck",,,,,Buffalo Sabres
+"McLeod, Ryan",2100000.0,,,,Buffalo Sabres
+"Cozens, Dylan",7100000.0,7100000.0,7100000.0,7100000.0,Buffalo Sabres
+"Krebs, Peyton",,,,,Buffalo Sabres
+"Quinn, Jack",863334.0,,,,Buffalo Sabres
+"Peterka, John-Jason",855834.0,,,,Buffalo Sabres
+"Benson, Zach",950000.0,950000.0,,,Buffalo Sabres
+Totals,35262025.0,21942857.0,14242857.0,14242857.0,Buffalo Sabres
+"Gallagher, Brendan",6500000.0,6500000.0,6500000.0,,Montreal Canadiens
+"Armia, Joel",3400000.0,,,,Montreal Canadiens
+"Pearson, Tanner",,,,,Montreal Canadiens
+"Anderson, Josh",5500000.0,5500000.0,5500000.0,,Montreal Canadiens
+"Dvorak, Christian",4450000.0,,,,Montreal Canadiens
+"Evans, Jake",1700000.0,,,,Montreal Canadiens
+"White, Colin",,,,,Montreal Canadiens
+"Pezzetta, Michael",812500.0,,,,Montreal Canadiens
+"Suzuki, Nick",7875000.0,7875000.0,7875000.0,7875000.0,Montreal Canadiens
+"Dach, Kirby",3362500.0,3362500.0,,,Montreal Canadiens
+"Caufield, Cole",7850000.0,7850000.0,7850000.0,7850000.0,Montreal Canadiens
+"Newhook, Alex",2900000.0,2900000.0,2900000.0,,Montreal Canadiens
+"Harvey-Pinard, Rafael",1100000.0,,,,Montreal Canadiens
+"Slafkovský, Juraj",950000.0,7600000.0,7600000.0,7600000.0,Montreal Canadiens
+Totals,46400000.0,41587500.0,38225000.0,23325000.0,Montreal Canadiens
+"Deslauriers, Nicolas",1750000.0,1750000.0,,,Philadelphia Flyers
+"Johansen, Ryan",4000000.0,,,,Philadelphia Flyers
+"Couturier, Sean",7750000.0,7750000.0,7750000.0,7750000.0,Philadelphia Flyers
+"Laughton, Scott",3000000.0,3000000.0,,,Philadelphia Flyers
+"Hathaway, Garnet",2375000.0,2400000.0,2400000.0,,Philadelphia Flyers
+"Gurianov, Denis",,,,,Philadelphia Flyers
+"Konecny, Travis",5500000.0,,,,Philadelphia Flyers
+"Tippett, Owen",6200000.0,6200000.0,6200000.0,6200000.0,Philadelphia Flyers
+"Poehling, Ryan",1900000.0,1900000.0,,,Philadelphia Flyers
+"Frost, Morgan",2100000.0,,,,Philadelphia Flyers
+"Cates, Noah",2625000.0,,,,Philadelphia Flyers
+"Farabee, Joel",5000000.0,5000000.0,5000000.0,5000000.0,Philadelphia Flyers
+"Brink, Bobby",1500000.0,1500000.0,,,Philadelphia Flyers
+"Foerster, Tyson",863334.0,,,,Philadelphia Flyers
+"Michkov, Matvei",950000.0,950000.0,950000.0,,Philadelphia Flyers
+Totals,45513334.0,30450000.0,22300000.0,18950000.0,Philadelphia Flyers
+"Tatar, Tomas",1800000.0,,,,New Jersey Devils
+"Haula, Erik",3150000.0,3150000.0,,,New Jersey Devils
+"Noesen, Stefan",2750000.0,2750000.0,2750000.0,,New Jersey Devils
+"Palat, Ondrej",6000000.0,6000000.0,6000000.0,,New Jersey Devils
+"Tierney, Chris",,,,,New Jersey Devils
+"MacDermid, Kurtis",1150000.0,1150000.0,1150000.0,,New Jersey Devils
+"Lazar, Curtis",1000000.0,,,,New Jersey Devils
+"Meier, Timo",8800000.0,8800000.0,8800000.0,8800000.0,New Jersey Devils
+"McLeod, Michael",,,,,New Jersey Devils
+"Bastian, Nathan",1350000.0,,,,New Jersey Devils
+"Bratt, Jesper",7875000.0,7875000.0,7875000.0,7875000.0,New Jersey Devils
+"Hischier, Nico",7250000.0,7250000.0,7250000.0,,New Jersey Devils
+"Cotter, Paul",775000.0,775000.0,,,New Jersey Devils
+"Hughes, Jack",8000000.0,8000000.0,8000000.0,8000000.0,New Jersey Devils
+"Foote, Nolan",,,,,New Jersey Devils
+"Mercer, Dawson",,,,,New Jersey Devils
+Totals,49900000.0,45750000.0,41825000.0,24675000.0,New Jersey Devils
+"Okposo, Kyle",,,,,Florida Panthers
+"Cousins, Nick",,,,,Florida Panthers
+"Barkov, Aleksander",10000000.0,10000000.0,10000000.0,10000000.0,Florida Panthers
+"Verhaeghe, Carter",4166667.0,,,,Florida Panthers
+"Nosek, Tomas",775000.0,,,,Florida Panthers
+"Reinhart, Sam",8625000.0,8625000.0,8625000.0,8625000.0,Florida Panthers
+"Bennett, Sam",4425000.0,,,,Florida Panthers
+"Rodrigues, Evan",3000000.0,3000000.0,3000000.0,,Florida Panthers
+"Greer, A.J.",850000.0,850000.0,,,Florida Panthers
+"Lorentz, Steven",,,,,Florida Panthers
+"Tkachuk, Matthew",9500000.0,9500000.0,9500000.0,9500000.0,Florida Panthers
+"Boqvist, Jesper",775000.0,,,,Florida Panthers
+"Luostarinen, Eetu",3000000.0,3000000.0,3000000.0,,Florida Panthers
+"Gadjovich, Jonah",775000.0,775000.0,,,Florida Panthers
+"Lundell, Anton",5000000.0,5000000.0,5000000.0,5000000.0,Florida Panthers
+"Samoskevich, Matthew",925000.0,,,,Florida Panthers
+Totals,51816667.0,40750000.0,39125000.0,33125000.0,Florida Panthers
+"Ovechkin, Alex",9500000.0,9500000.0,,,Washington Capitals
+"Backstrom, Nicklas",9200000.0,,,,Washington Capitals
+"Oshie, T.J.",5750000.0,,,,Washington Capitals
+"Pacioretty, Max",,,,,Washington Capitals
+"Dowd, Nic",1300000.0,,,,Washington Capitals
+"Wilson, Tom",6500000.0,6500000.0,6500000.0,6500000.0,Washington Capitals
+"Milano, Sonny",1900000.0,1900000.0,,,Washington Capitals
+"Strome, Dylan",5000000.0,5000000.0,5000000.0,5000000.0,Washington Capitals
+"Mangiapane, Andrew",5800000.0,,,,Washington Capitals
+"Dubois, Pierre-Luc",8500000.0,8500000.0,8500000.0,8500000.0,Washington Capitals
+"Raddysh, Taylor",1000000.0,,,,Washington Capitals
+"Duhaime, Brandon",1850000.0,1850000.0,,,Washington Capitals
+"McMichael, Connor",2100000.0,2100000.0,,,Washington Capitals
+"Protas, Aliaksei",3375000.0,3375000.0,3375000.0,3375000.0,Washington Capitals
+"Lapierre, Hendrix",863334.0,,,,Washington Capitals
+Totals,62638334.0,38725000.0,23375000.0,23375000.0,Washington Capitals
+"Schenn, Brayden",6500000.0,6500000.0,6500000.0,6500000.0,St Louis Blues
+"Saad, Brandon",4500000.0,4500000.0,,,St Louis Blues
+"Faksa, Radek",3250000.0,,,,St Louis Blues
+"Sundqvist, Oskar",1500000.0,1500000.0,,,St Louis Blues
+"Buchnevich, Pavel",5800000.0,8000000.0,8000000.0,8000000.0,St Louis Blues
+"Walker, Nathan",775000.0,775000.0,,,St Louis Blues
+"Kapanen, Kasperi",1000000.0,,,,St Louis Blues
+"Blais, Sammy",,,,,St Louis Blues
+"Joseph, Mathieu",2950000.0,2950000.0,,,St Louis Blues
+"Kyrou, Jordan",8125000.0,8125000.0,8125000.0,8125000.0,St Louis Blues
+"Thomas, Robert",8125000.0,8125000.0,8125000.0,8125000.0,St Louis Blues
+"Texier, Alexandre",2100000.0,2100000.0,,,St Louis Blues
+"Toropchenko, Alexei",1250000.0,,,,St Louis Blues
+"Alexandrov, Nikita",,,,,St Louis Blues
+"Neighbours, Jake",835834.0,,,,St Louis Blues
+Totals,46710834.0,42575000.0,30750000.0,30750000.0,St Louis Blues
+"Watson, Austin",,,,,Tampa Bay Lightning
+"Atkinson, Cam",900000.0,,,,Tampa Bay Lightning
+"Kucherov, Nikita",9500000.0,9500000.0,9500000.0,,Tampa Bay Lightning
+"Girgensons, Zemgus",850000.0,850000.0,850000.0,,Tampa Bay Lightning
+"Guentzel, Jake",9000000.0,9000000.0,9000000.0,9000000.0,Tampa Bay Lightning
+"Paul, Nick",3150000.0,3150000.0,3150000.0,3150000.0,Tampa Bay Lightning
+"Glendening, Luke",800000.0,,,,Tampa Bay Lightning
+"Point, Brayden",9500000.0,9500000.0,9500000.0,9500000.0,Tampa Bay Lightning
+"Sheary, Conor",2000000.0,2000000.0,,,Tampa Bay Lightning
+"Cirelli, Anthony",6250000.0,6250000.0,6250000.0,6250000.0,Tampa Bay Lightning
+"Brown, Logan",,,,,Tampa Bay Lightning
+"Eyssimont, Michael",800000.0,,,,Tampa Bay Lightning
+"Hagel, Brandon",6500000.0,6500000.0,6500000.0,6500000.0,Tampa Bay Lightning
+"Ylonen, Jesse",775000.0,,,,Tampa Bay Lightning
+"Chaffee, Mitchell",800000.0,800000.0,,,Tampa Bay Lightning
+Totals,50825000.0,47550000.0,44750000.0,34400000.0,Tampa Bay Lightning
+"Backlund, Mikael",4500000.0,4500000.0,,,Calgary Flames
+"Kadri, Nazem",7000000.0,7000000.0,7000000.0,7000000.0,Calgary Flames
+"Huberdeau, Jonathan",10500000.0,10500000.0,10500000.0,10500000.0,Calgary Flames
+"Coleman, Blake",4900000.0,4900000.0,4900000.0,,Calgary Flames
+"Mantha, Anthony",3500000.0,,,,Calgary Flames
+"Lomberg, Ryan",2000000.0,2000000.0,,,Calgary Flames
+"Hunt, Dryden",775000.0,,,,Calgary Flames
+"Rooney, Kevin",1300000.0,,,,Calgary Flames
+"Pospisil, Martin",1000000.0,1000000.0,,,Calgary Flames
+"Sharangovich, Yegor",3100000.0,5750000.0,5750000.0,5750000.0,Calgary Flames
+"Zary, Connor",863334.0,,,,Calgary Flames
+"Duehr, Walker",825000.0,,,,Calgary Flames
+"Coronato, Matt",925000.0,,,,Calgary Flames
+"Klapka, Adam",,,,,Calgary Flames
+"Kuzmenko, Andrei",5500000.0,,,,Calgary Flames
+Totals,46688334.0,35650000.0,28150000.0,23250000.0,Calgary Flames
+"Little, Bryan",,,,,Utah Hc
+"Voracek, Jakub",,,,,Utah Hc
+"Bjugstad, Nick",2100000.0,,,,Utah Hc
+"Kerfoot, Alexander",3500000.0,,,,Utah Hc
+"O'Brien, Liam",1000000.0,1000000.0,1000000.0,,Utah Hc
+"Schmaltz, Nick",5850000.0,5850000.0,,,Utah Hc
+"Crouse, Lawson",4300000.0,4300000.0,4300000.0,,Utah Hc
+"Stenlund, Kevin",2000000.0,2000000.0,,,Utah Hc
+"Keller, Clayton",7150000.0,7150000.0,7150000.0,7150000.0,Utah Hc
+"Carcone, Michael",775000.0,,,,Utah Hc
+"Hayton, Barrett",2650000.0,2650000.0,,,Utah Hc
+"McBain, Jack",1599999.0,,,,Utah Hc
+"Maccelli, Matias",3425000.0,3425000.0,,,Utah Hc
+"Guenther, Dylan",894167.0,,,,Utah Hc
+"Doan, Josh",925000.0,925000.0,,,Utah Hc
+"Cooley, Logan",950000.0,950000.0,,,Utah Hc
+Totals,37119166.0,28250000.0,12450000.0,7150000.0,Utah Hc
+"Pavelski, Joe",,,,,Dallas Stars
+"Benn, Jamie",9500000.0,,,,Dallas Stars
+"Duchene, Matt",3000000.0,,,,Dallas Stars
+"Dadonov, Evgenii",2250000.0,,,,Dallas Stars
+"Seguin, Tyler",9850000.0,9850000.0,9850000.0,,Dallas Stars
+"Hintz, Roope",8450000.0,8450000.0,8450000.0,8450000.0,Dallas Stars
+"Marchment, Mason",4500000.0,4500000.0,,,Dallas Stars
+"Steel, Sam",1200000.0,,,,Dallas Stars
+"Robertson, Jason",7750000.0,7750000.0,,,Dallas Stars
+"Blackwell, Colin",775000.0,,,,Dallas Stars
+"Johnston, Wyatt",894167.0,,,,Dallas Stars
+"Stankoven, Logan",814167.0,814167.0,,,Dallas Stars
+Totals,48983334.0,31364167.0,18300000.0,8450000.0,Dallas Stars
+"Couture, Logan",8000000.0,8000000.0,8000000.0,,San Jose Sharks
+"Hoffman, Mike",,,,,San Jose Sharks
+"Granlund, Mikael",5000000.0,,,,San Jose Sharks
+"Toffoli, Tyler",6000000.0,6000000.0,6000000.0,6000000.0,San Jose Sharks
+"Wennberg, Alexander",5000000.0,5000000.0,,,San Jose Sharks
+"Goodrow, Barclay",3641667.0,3641667.0,3641667.0,,San Jose Sharks
+"Labanc, Kevin",,,,,San Jose Sharks
+"Kunin, Luke",2750000.0,,,,San Jose Sharks
+"Grundstrom, Carl",1800000.0,1800000.0,,,San Jose Sharks
+"Kostin, Klim",2000000.0,,,,San Jose Sharks
+"Zetterlund, Fabian",1450000.0,,,,San Jose Sharks
+"Zadina, Filip",,,,,San Jose Sharks
+"Dellandrea, Ty",1300000.0,1300000.0,,,San Jose Sharks
+"Sturm, Nico",2000000.0,,,,San Jose Sharks
+"Barabanov, Alexander",,,,,San Jose Sharks
+"Bordeleau, Thomas",,,,,San Jose Sharks
+"Eklund, William",863333.0,863333.0,,,San Jose Sharks
+"Smith, Will",950000.0,950000.0,950000.0,,San Jose Sharks
+"Celebrini, Macklin",975000.0,975000.0,975000.0,,San Jose Sharks
+Totals,41730000.0,28530000.0,19566667.0,6000000.0,San Jose Sharks
+"Foligno, Nick",4500000.0,4500000.0,,,Chicago Blackhawks
+"Maroon, Pat",1300000.0,,,,Chicago Blackhawks
+"Smith, Craig",1000000.0,,,,Chicago Blackhawks
+"Hall, Taylor",6000000.0,,,,Chicago Blackhawks
+"Johnson, Tyler",,,,,Chicago Blackhawks
+"Teravainen, Teuvo",5400000.0,5400000.0,5400000.0,,Chicago Blackhawks
+"Athanasiou, Andreas",4250000.0,,,,Chicago Blackhawks
+"Dickinson, Jason",4250000.0,4250000.0,,,Chicago Blackhawks
+"Bertuzzi, Tyler",5500000.0,5500000.0,5500000.0,5500000.0,Chicago Blackhawks
+"Donato, Ryan",2000000.0,,,,Chicago Blackhawks
+"Anderson, Joey",800000.0,800000.0,,,Chicago Blackhawks
+"Kurashev, Philipp",2250000.0,,,,Chicago Blackhawks
+"Mikheyev, Ilya",4037500.0,4037500.0,,,Chicago Blackhawks
+"Reichel, Lukas",1200000.0,1200000.0,,,Chicago Blackhawks
+"Bedard, Connor",950000.0,950000.0,,,Chicago Blackhawks
+Totals,43437500.0,26637500.0,10900000.0,5500000.0,Chicago Blackhawks
+"Kopitar, Anze",7000000.0,7000000.0,,,Los Angeles Kings
+"Lewis, Trevor",800000.0,,,,Los Angeles Kings
+"Danault, Phillip",5500000.0,5500000.0,5500000.0,,Los Angeles Kings
+"Fiala, Kevin",7875000.0,7875000.0,7875000.0,7875000.0,Los Angeles Kings
+"Kempe, Adrian",5500000.0,5500000.0,,,Los Angeles Kings
+"Foegele, Warren",3500000.0,3500000.0,3500000.0,,Los Angeles Kings
+"Moore, Trevor",4200000.0,4200000.0,4200000.0,4200000.0,Los Angeles Kings
+"Jeannot, Tanner",2665000.0,,,,Los Angeles Kings
+"Turcotte, Alex",775000.0,775000.0,775000.0,,Los Angeles Kings
+"Kaliyev, Arthur",,,,,Los Angeles Kings
+"Byfield, Quinton",,,,,Los Angeles Kings
+"Laferriere, Alex",875000.0,,,,Los Angeles Kings
+Totals,38690000.0,34350000.0,21850000.0,12075000.0,Los Angeles Kings
+"Perry, Corey",1150000.0,,,,Edmonton Oilers
+"Gagner, Sam",,,,,Edmonton Oilers
+"Henrique, Adam",3000000.0,3000000.0,,,Edmonton Oilers
+"Kane, Evander",5125000.0,5125000.0,,,Edmonton Oilers
+"Skinner, Jeff",3000000.0,,,,Edmonton Oilers
+"Hyman, Zach",5500000.0,5500000.0,5500000.0,5500000.0,Edmonton Oilers
+"Nugent-Hopkins, Ryan",5125000.0,5125000.0,5125000.0,5125000.0,Edmonton Oilers
+"Brown, Connor",1000000.0,,,,Edmonton Oilers
+"Erne, Adam",,,,,Edmonton Oilers
+"Janmark, Mattias",1450000.0,1450000.0,1450000.0,,Edmonton Oilers
+"Draisaitl, Leon",8500000.0,,,,Edmonton Oilers
+"Arvidsson, Viktor",4000000.0,4000000.0,,,Edmonton Oilers
+"Ryan, Derek",900000.0,,,,Edmonton Oilers
+"McDavid, Connor",12500000.0,12500000.0,,,Edmonton Oilers
+"Holloway, Dylan",,,,,Edmonton Oilers
+Totals,51250000.0,36700000.0,12075000.0,10625000.0,Edmonton Oilers
+"Strome, Ryan",5000000.0,5000000.0,5000000.0,,Anaheim Ducks
+"Killorn, Alex",6250000.0,6250000.0,6250000.0,,Anaheim Ducks
+"McGinn, Brock",2750000.0,,,,Anaheim Ducks
+"Johnston, Ross",1100000.0,1100000.0,,,Anaheim Ducks
+"Fabbri, Robby",4000000.0,,,,Anaheim Ducks
+"Vatrano, Frank",3650000.0,,,,Anaheim Ducks
+"Harkins, Jansen",787500.0,787500.0,,,Anaheim Ducks
+"Terry, Troy",7000000.0,7000000.0,7000000.0,7000000.0,Anaheim Ducks
+"Lundestrom, Isac",1500000.0,,,,Anaheim Ducks
+"Zegras, Trevor",5750000.0,5750000.0,,,Anaheim Ducks
+"Leason, Brett",1050000.0,,,,Anaheim Ducks
+"McTavish, Mason",894167.0,,,,Anaheim Ducks
+"Gauthier, Cutter",950000.0,950000.0,,,Anaheim Ducks
+"Carlsson, Leo",950000.0,950000.0,,,Anaheim Ducks
+Totals,41631667.0,27787500.0,18250000.0,7000000.0,Anaheim Ducks
+"Miller, J.T.",8000000.0,8000000.0,8000000.0,8000000.0,Vancouver Canucks
+"Di Giuseppe, Phillip",775000.0,,,,Vancouver Canucks
+"Blueger, Teddy",1800000.0,1800000.0,,,Vancouver Canucks
+"Garland, Conor",4950000.0,4950000.0,,,Vancouver Canucks
+"Joshua, Dakota",3250000.0,3250000.0,3250000.0,3250000.0,Vancouver Canucks
+"DeBrusk, Jake",5500000.0,5500000.0,5500000.0,5500000.0,Vancouver Canucks
+"Boeser, Brock",6650000.0,,,,Vancouver Canucks
+"Heinen, Danton",2250000.0,2250000.0,,,Vancouver Canucks
+"Pettersson, Elias",11600000.0,11600000.0,11600000.0,11600000.0,Vancouver Canucks
+"Suter, Pius",1600000.0,,,,Vancouver Canucks
+"Sherwood, Kiefer",1500000.0,1500000.0,,,Vancouver Canucks
+"Podkolzin, Vasily",1000000.0,1000000.0,,,Vancouver Canucks
+"Hoglander, Nils",1100000.0,,,,Vancouver Canucks
+"Aman, Nils",825000.0,825000.0,,,Vancouver Canucks
+Totals,50800000.0,40675000.0,28350000.0,28350000.0,Vancouver Canucks
+"Stamkos, Steven",8000000.0,8000000.0,8000000.0,8000000.0,Nashville Predators
+"O'Reilly, Ryan",4500000.0,4500000.0,4500000.0,,Nashville Predators
+"Nyquist, Gustav",3185000.0,,,,Nashville Predators
+"Marchessault, Jonathan",5500000.0,5500000.0,5500000.0,5500000.0,Nashville Predators
+"Forsberg, Filip",8500000.0,8500000.0,8500000.0,8500000.0,Nashville Predators
+"Jankowski, Mark",800000.0,800000.0,,,Nashville Predators
+"Sissons, Colton",2857143.0,2857143.0,,,Nashville Predators
+"McCarron, Michael",900000.0,900000.0,,,Nashville Predators
+"Novak, Thomas",3500000.0,3500000.0,3500000.0,,Nashville Predators
+"Glass, Cody",2500000.0,,,,Nashville Predators
+"Smith, Cole",1000000.0,1000000.0,,,Nashville Predators
+"Evangelista, Luke",797500.0,,,,Nashville Predators
+Totals,42039643.0,35557143.0,30000000.0,22000000.0,Nashville Predators
+"Niederreiter, Nino",4000000.0,4000000.0,4000000.0,,Winnipeg Jets
+"Scheifele, Mark",8500000.0,8500000.0,8500000.0,8500000.0,Winnipeg Jets
+"Namestnikov, Vladislav",2000000.0,,,,Winnipeg Jets
+"Lowry, Adam",3250000.0,3250000.0,,,Winnipeg Jets
+"Ehlers, Nikolaj",6000000.0,,,,Winnipeg Jets
+"Connor, Kyle",7142857.0,7142857.0,,,Winnipeg Jets
+"Appleton, Mason",2166667.0,,,,Winnipeg Jets
+"Jonsson-Fjallby, Axel",775000.0,,,,Winnipeg Jets
+"Iafallo, Alex",4000000.0,,,,Winnipeg Jets
+"Vilardi, Gabriel",3437500.0,,,,Winnipeg Jets
+"Anderson-Dolan, Jaret",775000.0,775000.0,,,Winnipeg Jets
+"Barron, Morgan",1350000.0,,,,Winnipeg Jets
+"Kupari, Rasmus",1000000.0,,,,Winnipeg Jets
+"Gustafsson, David",835000.0,835000.0,,,Winnipeg Jets
+"Perfetti, Cole",,,,,Winnipeg Jets
+Totals,45232024.0,24502857.0,12500000.0,8500000.0,Winnipeg Jets
+"Johansson, Marcus",2000000.0,,,,Minnesota Wild
+"Foligno, Marcus",4000000.0,4000000.0,4000000.0,4000000.0,Minnesota Wild
+"Zuccarello, Mats",4125000.0,4125000.0,,,Minnesota Wild
+"Gaudreau, Frederick",2100000.0,2100000.0,2100000.0,2100000.0,Minnesota Wild
+"Hartman, Ryan",4000000.0,4000000.0,4000000.0,,Minnesota Wild
+"Eriksson Ek, Joel",5250000.0,5250000.0,5250000.0,5250000.0,Minnesota Wild
+"Trenin, Yakov",3500000.0,3500000.0,3500000.0,3500000.0,Minnesota Wild
+"Kaprizov, Kirill",9000000.0,9000000.0,,,Minnesota Wild
+"Lauko, Jakub",787500.0,,,,Minnesota Wild
+"Boldy, Matthew",7000000.0,7000000.0,7000000.0,7000000.0,Minnesota Wild
+"Rossi, Marco",863334.0,,,,Minnesota Wild
+"Khusnutdinov, Marat",925000.0,,,,Minnesota Wild
+"Öhgren, Liam",886666.0,886666.0,886666.0,,Minnesota Wild
+Totals,44437500.0,39861666.0,26736666.0,21850000.0,Minnesota Wild
+"Jenner, Boone",3750000.0,3750000.0,,,Columbus Blue Jackets
+"Gaudreau, Johnny",9750000.0,9750000.0,9750000.0,9750000.0,Columbus Blue Jackets
+"Kuraly, Sean",2500000.0,,,,Columbus Blue Jackets
+"Monahan, Sean",5500000.0,5500000.0,5500000.0,5500000.0,Columbus Blue Jackets
+"Laine, Patrik",8700000.0,8700000.0,,,Columbus Blue Jackets
+"Nylander, Alexander",,,,,Columbus Blue Jackets
+"Marchenko, Kirill",,,,,Columbus Blue Jackets
+"Olivier, Mathieu",1100000.0,,,,Columbus Blue Jackets
+"Voronkov, Dimitri",925000.0,,,,Columbus Blue Jackets
+"Chinakhov, Yegor",2100000.0,2100000.0,,,Columbus Blue Jackets
+"Danforth, Justin",1100000.0,,,,Columbus Blue Jackets
+"Sillinger, Cole",,,,,Columbus Blue Jackets
+"Johnson, Kent",,,,,Columbus Blue Jackets
+"Fantilli, Adam",950000.0,950000.0,,,Columbus Blue Jackets
+"Brindley, Gavin",950000.0,950000.0,,,Columbus Blue Jackets
+Totals,37325000.0,31700000.0,15250000.0,15250000.0,Columbus Blue Jackets
+"Stone, Mark",9500000.0,9500000.0,9500000.0,,Vegas Golden Knights
+"Karlsson, William",5900000.0,5900000.0,5900000.0,,Vegas Golden Knights
+"Hertl, Tomas",6749999.0,6749999.0,6749999.0,6749999.0,Vegas Golden Knights
+"Barbashev, Ivan",5000000.0,5000000.0,5000000.0,5000000.0,Vegas Golden Knights
+"Olofsson, Victor",1075000.0,,,,Vegas Golden Knights
+"Eichel, Jack",10000000.0,10000000.0,,,Vegas Golden Knights
+"Kolesar, Keegan",1400000.0,,,,Vegas Golden Knights
+"Roy, Nicolas",3000000.0,3000000.0,3000000.0,,Vegas Golden Knights
+"Howden, Brett",1900000.0,,,,Vegas Golden Knights
+"Laczynski, Tanner",775000.0,775000.0,,,Vegas Golden Knights
+"Rondbjerg, Jonas",766667.0,,,,Vegas Golden Knights
+"Dorofeyev, Pavel",1835000.0,1835000.0,,,Vegas Golden Knights
+"Holtz, Alexander",894167.0,,,,Vegas Golden Knights
+"Brisson, Brendan",925000.0,,,,Vegas Golden Knights
+Totals,49720833.0,42759999.0,30149999.0,11749999.0,Vegas Golden Knights
+"Eberle, Jordan",4750000.0,4750000.0,,,Seattle Kraken
+"Schwartz, Jaden",5500000.0,5500000.0,,,Seattle Kraken
+"Stephenson, Chandler",6250000.0,6250000.0,6250000.0,6250000.0,Seattle Kraken
+"Burakovsky, Andre",5500000.0,5500000.0,5500000.0,,Seattle Kraken
+"Bjorkstrand, Oliver",5400000.0,5400000.0,,,Seattle Kraken
+"Bellemare, Pierre-Edouard",,,,,Seattle Kraken
+"McCann, Jared",5000000.0,5000000.0,5000000.0,,Seattle Kraken
+"Gourde, Yanni",5166667.0,,,,Seattle Kraken
+"Tanev, Brandon",3500000.0,,,,Seattle Kraken
+"Yamamoto, Kailer",,,,,Seattle Kraken
+"Tolvanen, Eeli",3475000.0,3475000.0,,,Seattle Kraken
+"Beniers, Matthew",,,,,Seattle Kraken
+"Kartye, Tye",859167.0,,,,Seattle Kraken
+"Meyers, Ben",775000.0,,,,Seattle Kraken
+Totals,46175834.0,35875000.0,16750000.0,6250000.0,Seattle Kraken
