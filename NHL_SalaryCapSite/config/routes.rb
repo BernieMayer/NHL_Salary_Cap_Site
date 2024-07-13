@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   resources :players, only: [:index]
   root to: 'players#index'
 
-  resources :teams, only: [:index, :show]
+  resources :teams, param: :code  # Use code as a parameter
 
   # Defines the root path route ("/")
   # root "posts#index"

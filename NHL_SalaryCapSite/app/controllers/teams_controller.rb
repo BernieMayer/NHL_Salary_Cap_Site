@@ -4,7 +4,7 @@ class TeamsController < ApplicationController
   end
 
   def show
-    @team = Team.find(params[:id])
+    @team = Team.find_by!(code: params[:code]) 
     @players = @team.players.includes(:cap_hits)
 
     
