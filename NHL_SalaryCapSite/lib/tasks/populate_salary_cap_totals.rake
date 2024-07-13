@@ -11,8 +11,7 @@ namespace :salary_cap do
 
                 cap_hits_total = 0.0
                 team.players.each do |player|
-                    puts "Adding cap hit"
-                    cap_hits_total += CapHit.find_by(team: team, year:year, player: player).cap_value
+                    cap_hits_total += player.cap_hits.find_by(year: year).cap_value
                 end
                 salary_cap_total.total = cap_hits_total
                 salary_cap_total.save!
