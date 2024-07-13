@@ -20,12 +20,12 @@
           </thead>
           <tbody>
             <!-- Replace with actual salary data if available -->
-            <% @team.players.each do |player| %>
+            <% @players.each do |player| %>
               <tr>
                   <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.name %> </td>
                   <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.position %> </td>
-                  <% (2023..2030).each do |year| %>
-                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">$XX,XXX,XXX</td>
+                  <% player.cap_hits.each do |cap_hit| %>
+                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">  <%= number_to_currency(cap_hit.cap_value) %> </td>
                   <% end %>
               </tr>
             <% end %>
