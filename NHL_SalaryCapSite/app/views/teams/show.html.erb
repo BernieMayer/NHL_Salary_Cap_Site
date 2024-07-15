@@ -5,7 +5,7 @@
 
       <%= image_tag "logos/#{@team.name.downcase.parameterize}.gif" %>
       <h1 class="text-3xl font-bold mb-4"><%= @team.name %></h1>
-      <p>Total salary hit for 2024 is: <%= @salary_cap_total_2024 %> </p>
+      <p>Total salary hit for 2024 is: <%= number_to_currency(@salary_cap_total_2024) %> </p>
 
       <div class="overflow-x-auto">
         <h2>Forwards</h2>
