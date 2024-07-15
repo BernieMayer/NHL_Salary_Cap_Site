@@ -7,4 +7,5 @@ class Player < ApplicationRecord
     validates :position, presence: true
 
     scope :forwards, -> { where(position: ["C", "LW", "RW"]) }
+    scope :defence, -> { where(position: ["D", "LD", "RD"]) }
 end
