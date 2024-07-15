@@ -13,7 +13,7 @@
             <tr>
                 <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.name %> </td>
                 <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.position %> </td>
-                <% (2023..2030).each do |year| %>
+                <% (2024..2030).each do |year| %>
                     <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> 
                         <%= number_to_currency(player.cap_hits.find_by(year: year)&.cap_value ) %> 
                     </td>
