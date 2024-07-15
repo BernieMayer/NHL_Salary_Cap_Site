@@ -8,4 +8,5 @@ class Player < ApplicationRecord
 
     scope :forwards, -> { where(position: ["C", "LW", "RW"]) }
     scope :defence, -> { where(position: ["D", "LD", "RD"]) }
+    scope :goalies, -> { where(position: ["G"])}
 end
