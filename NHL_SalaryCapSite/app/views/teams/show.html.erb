@@ -6,6 +6,7 @@
 
       <%= image_tag "logos/#{@team.name.downcase.parameterize}.gif" %>
       <h1 class="text-3xl font-bold mb-4"><%= @team.name %></h1>
+      <p>Total salary hit for 2024 is: <%= @salary_cap_total_2024 %> </p>
 
       <!-- Salary Cap Table -->
       <div class="overflow-x-auto">
@@ -14,7 +15,7 @@
             <tr>
               <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Player name</th>
               <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Position</th>
-              <% (2023..2030).each do |year| %>
+              <% (2024..2030).each do |year| %>
                 <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase"><%= year %></th>
               <% end %>
             </tr>
