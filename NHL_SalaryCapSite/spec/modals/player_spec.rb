@@ -2,6 +2,25 @@ require 'rails_helper'
 
 RSpec.describe Player, type: :model do
 
+    describe 'status' do
+        let!(:team) { Team.create(name:"Calgary Flames", code: "CGY") }
+        let!(:player) { Player.create(name: "Jake Bean", position: "LW", team: team, status: Player::ROSTER) }
+    
+        it 'has a valid status' do
+            expect(player.status).to eq("Roster")
+        end
+    
+        it 'can change status to Non-Roster' do
+            player.update(status: Player::NON_ROSTER)
+            expect(player.status).to eq("Non-Roster")
+        end
+    
+        it 'can change status to IR' do
+            player.update(status: Player::IR)
+            expect(player.status).to eq("IR")
+        end
+    end
+
     describe '#forwards' do
         let!(:team) { Team.create(name:"Calgary Flames", code: "CGY") }
         let!(:forward1) { Player.create(name: "Blake Coleman", position: 'C', team: team) }
