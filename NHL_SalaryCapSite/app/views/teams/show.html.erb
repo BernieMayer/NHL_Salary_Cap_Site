@@ -10,80 +10,12 @@
 
       <!-- Salary Cap Table -->
       <div class="overflow-x-auto">
-            <!-- Replace with actual salary data if available -->
-
-          <h2>Forwards</h2>
-          <table class="min-w-full bg-white border-gray-200">
-            <thead>
-              <tr>
-                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Player name</th>
-                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Position</th>
-                <% (2024..2030).each do |year| %>
-                  <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase"><%= year %></th>
-                <% end %>
-              </tr>
-            </thead>
-            <tbody>
-              <% @forwards.each do |player| %>
-                <tr>
-                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.name %> </td>
-                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.position %> </td>
-                    <% player.cap_hits.each do |cap_hit| %>
-                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">  <%= number_to_currency(cap_hit.cap_value) %> </td>
-                    <% end %>
-                </tr>
-              <% end %>
-            </tbody>
-            </table>
-
-            
-            <h2>Defence</h2>
-              <table class="min-w-full bg-white border-gray-200">
-              <thead>
-                <tr>
-                  <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Player name</th>
-                  <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Position</th>
-                  <% (2024..2030).each do |year| %>
-                    <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase"><%= year %></th>
-                  <% end %>
-                </tr>
-              </thead>
-              <tbody>
-              <% @defence.each do |player| %>
-                <tr>
-                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.name %> </td>
-                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.position %> </td>
-                    <% player.cap_hits.each do |cap_hit| %>
-                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">  <%= number_to_currency(cap_hit.cap_value) %> </td>
-                    <% end %>
-                </tr>
-                <% end %>
-              </tbody>
-            </table>
-
-            <h2>Goalies</h2>
-            <table class="min-w-full bg-white border-gray-200">
-            <thead>
-              <tr>
-                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Player name</th>
-                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase">Position</th>
-                <% (2024..2030).each do |year| %>
-                  <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm font-bold uppercase"><%= year %></th>
-                <% end %>
-              </tr>
-            </thead>
-            <tbody>
-            <% @goalies.each do |player| %>
-                <tr>
-                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.name %> </td>
-                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200"> <%= player.position %> </td>
-                    <% player.cap_hits.each do |cap_hit| %>
-                      <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200">  <%= number_to_currency(cap_hit.cap_value) %> </td>
-                    <% end %>
-                </tr>
-              <% end %>
-          </tbody>
-        </table>
+        <h2>Forwards</h2>
+        <%= render(CapTableComponent.new(players: @forwards)) %> 
+        <h2>Defence</h2>
+        <%= render(CapTableComponent.new(players: @defence)) %> 
+        <h2>Goalies</h2>
+        <%= render(CapTableComponent.new(players: @goalies)) %> 
       </div>
     </div>
   </div>
