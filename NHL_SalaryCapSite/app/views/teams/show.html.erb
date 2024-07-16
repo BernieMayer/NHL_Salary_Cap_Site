@@ -8,11 +8,11 @@
       <p>Total salary hit for 2024 is: <%= number_to_currency(@salary_cap_total_2024) %> </p>
 
       <div class="overflow-x-auto">
-        <h2>Forwards</h2>
+        <h2 class="text-lg font-semibold">Forwards</h2>
         <%= render(CapTableComponent.new(players: @forwards)) %> 
-        <h2>Defence</h2>
+        <h2 class="text-lg font-semibold">Defence</h2>
         <%= render(CapTableComponent.new(players: @defence)) %> 
-        <h2>Goalies</h2>
+        <h2 class="text-lg font-semibold">Goalies</h2>
         <%= render(CapTableComponent.new(players: @goalies)) %> 
       </div>
     </div>
