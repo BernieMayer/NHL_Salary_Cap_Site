@@ -9,7 +9,7 @@ namespace :salary_cap do
                 next if salary_cap_total.nil?
 
                 cap_hits_total = 0.0
-                team.players.each do |player|
+                team.players.roster.each do |player|
                     cap_hit =  player.cap_hits.find_by(year: year)
                     next if cap_hit.nil?
                     

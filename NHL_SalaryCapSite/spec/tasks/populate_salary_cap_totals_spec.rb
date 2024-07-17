@@ -82,6 +82,17 @@ describe 'salary_cap:populate' do
             expect(SalaryCapTotal.find_by(team: team).total).to eq(expected_cap_hit)
         end
 
+        context "non roster players on the roster" do
+            let!(:non_roster_player) { Player.create(name: "Parker Bell", team: team, position: "LW", status: Player::NON_ROSTER) }
+            let!(:non_roster_cap_hit) { CapHit.create(team_id: team.id, player_id: non_roster_player.id, year: 2024, cap_value: 9000000.0 )}
+
+            it "should not include the non roster salary in the cap hit sum" do
+                Rake::Task['salary_cap:populate'].invoke
+
+                expect(SalaryCapTotal.find_by(team: team).total).to eq(expected_cap_hit)
+            end
+        end
+
         context "multiple years" do
             let!(:cap_hit_3) { CapHit.create(team_id: team.id, player_id: player.id, year: 2025, cap_value: player_cap_hit )}
             let!(:cap_hit_4) { CapHit.create(team_id: team.id, player_id: player_2.id, year: 2025, cap_value: blake_coleman_cap_hit)}
