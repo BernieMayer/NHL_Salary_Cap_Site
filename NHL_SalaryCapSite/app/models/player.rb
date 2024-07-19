@@ -1,10 +1,8 @@
 class Player < ApplicationRecord
     has_many :cap_hits, dependent: :destroy
-    belongs_to :team
+    belongs_to :team, optional: true
 
     validates :name, presence: true
-    validates :team, presence: true
-    validates :position, presence: true
 
     ROSTER = "Roster"
     NON_ROSTER = "Non-Roster"

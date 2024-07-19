@@ -2,6 +2,22 @@ require 'rails_helper'
 
 RSpec.describe Player, type: :model do
 
+    describe "validates" do
+        describe "no team required" do
+            let!(:player) {Player.create(name: "Jake Smith", position: "LW")}
+
+            it { expect(player).to be_valid }
+        end
+
+        describe "no position required" do
+            describe "no position required" do
+                let!(:player) {Player.create(name: "Jake Smith")}
+
+                it { expect(player).to be_valid }
+            end
+        end
+    end
+
     describe 'status' do
         let!(:team) { Team.create(name:"Calgary Flames", code: "CGY") }
         let!(:player) { Player.create(name: "Jake Bean", position: "LW", team: team, status: Player::ROSTER) }
