@@ -39,28 +39,10 @@ namespace :nhl do
             last_name, first_name = raw_player_name.split(', ').map(&:strip)
             player_name = "#{first_name} #{last_name}"
             team = Team.find_by(name: team_name)
-            player = Player.find_by(name: player_name)
+            player = Player.find_or_create_by(name: player_name)
 
             next if player.nil?
             status == 'NHL' ?   player.update( status: Player::ROSTER) : player.update(status: Player::NON_ROSTER)
- 
-            if player && team
-                cap_hits.each do |year, cap_hit|
-                  # Check if a cap hit already exists for the player and year
-                  existing_cap_hit = CapHit.find_by(player: player, year: year)
-                  next if cap_hit.nil?
-
-                  if existing_cap_hit.nil? && cap_hit > 0
-                    # Create new cap hit if it doesn't exist
-                    CapHit.create(player: player, team: team, year: year, cap_value: cap_hit)
-                    puts "Added cap hit for #{player_name} - #{year}: #{cap_hit}"
-                  else
-                    puts "Skipping #{player_name} - #{year}: Cap hit already exists or is zero."
-                  end
-                end
-              else
-                puts "Skipping #{player_name} - #{team_name}: Player or team not found."
-              end
  
             player.save!
         end
