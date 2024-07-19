@@ -37,13 +37,11 @@ namespace :nhl do
             team = Team.find_by(name: team_name)
             player = Player.find_by(name: player_name)
 
-          
             next if player.nil?
             status == 'NHL' ?   player.update( status: Player::ROSTER) : player.update(status: Player::NON_ROSTER)
  
             player.save!
         end
+        puts 'Player statuses have been updated successfully.'
     end
-
-    puts 'Player statuses have been updated successfully.'
 end
