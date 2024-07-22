@@ -4,4 +4,6 @@ class CapHit < ApplicationRecord
   
     validates :cap_value, presence: true
     validates :year, presence: true
+
+    TYPES = ["Roster", "Retained", "Buyout", "Buried"]
 end

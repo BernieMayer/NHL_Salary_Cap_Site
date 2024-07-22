@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_07_15_200722) do
+ActiveRecord::Schema[7.1].define(version: 2024_07_22_045334) do
   create_table "cap_hits", force: :cascade do |t|
     t.decimal "cap_value", precision: 12, scale: 2
     t.integer "team_id", null: false
@@ -18,6 +18,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_07_15_200722) do
     t.integer "year"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "cap_type", default: "Roster"
     t.index ["player_id"], name: "index_cap_hits_on_player_id"
     t.index ["team_id"], name: "index_cap_hits_on_team_id"
   end
