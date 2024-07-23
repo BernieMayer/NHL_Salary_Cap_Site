@@ -12,5 +12,7 @@ class TeamsController < ApplicationController
     @forwards = @players.forwards
     @defence = @players.defence
     @goalies = @players.goalies
+
+    @buyout_players = @team.buyout_players
   end
 end
