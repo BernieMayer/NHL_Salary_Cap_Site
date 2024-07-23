@@ -5,5 +5,12 @@ class CapHit < ApplicationRecord
     validates :cap_value, presence: true
     validates :year, presence: true
 
-    TYPES = ["Roster", "Retained", "Buyout", "Buried"]
+    ROSTER = "Roster"
+    RETAINED = "Retained"
+    BUYOUT = "Buyout"
+    BURIED = "Buried"    
+
+    TYPES = [ROSTER, RETAINED,  BUYOUT, BURIED]
+
+    scope :buyout, -> { where(cap_type: 'Buyout') }
 end
