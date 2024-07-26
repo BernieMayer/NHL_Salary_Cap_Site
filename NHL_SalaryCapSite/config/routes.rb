@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   resources :players, only: [:index]
-  root to: 'players#index'
+  root to: 'teams#index'
 
   resources :teams, param: :code  # Use code as a parameter
 
