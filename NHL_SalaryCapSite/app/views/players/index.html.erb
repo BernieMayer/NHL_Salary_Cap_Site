@@ -13,7 +13,7 @@
       <% @players.each do |player| %>
         <tr>
           <td class="px-6 py-4 whitespace-nowrap"><%= player.name %></td>
-          <td class="px-6 py-4 whitespace-nowrap"><%= player.team %></td>
+          <td class="px-6 py-4 whitespace-nowrap"><%= display_team_name(player)%></td>
           <td class="px-6 py-4 whitespace-nowrap"><%= player.position %></td>
         </tr>
       <% end %>
