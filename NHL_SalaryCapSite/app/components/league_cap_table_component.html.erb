@@ -11,7 +11,7 @@
       <% @teams.each do |team| %>
         <tr>
           <td class="w-72 border-b border-gray-300">
-           <%= link_to team_path( code: team.code) do %>
+            <%= render(LinkComponent.new(href: team_path( code: team.code))) do %>
               <div class="flex items-center">
                 <%= image_tag "logos/#{team.name.downcase.parameterize}.gif", class: "h-8 mr-2" %>
                 <span><%= team.name %></span>
