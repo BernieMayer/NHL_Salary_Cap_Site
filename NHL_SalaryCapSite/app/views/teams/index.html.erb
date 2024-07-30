@@ -2,7 +2,7 @@
   <h1 class="text-2xl font-bold mb-4">NHL Teams</h1>
   <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
     <% @teams.each do |team| %>
-      <%= link_to team_path( code: team.code) do %>
+      <%= render(LinkComponent.new(href: team_path( code: team.code), css_class: "")) do %>
         <div class="team ">
           <%= image_tag "logos/#{team.name.downcase.parameterize}.gif" %>
           <span><%= team.name %></span>
