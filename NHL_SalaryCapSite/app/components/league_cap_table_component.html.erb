@@ -3,14 +3,21 @@
   <table class="table-auto w-full">
     <thead>
       <tr>
-        <th>Team</th>
-        <th>Cap Hit</th>
+        <th class="text-left">Team</th>
+        <th class="text-left">Cap Hit</th>
       </tr>
     </thead>
     <tbody>
       <% @teams.each do |team| %>
         <tr>
-          <td><%= team.name %></td>
+          <td class="w-72 border-b border-gray-300">
+           <%= link_to team_path( code: team.code) do %>
+              <div class="flex items-center">
+                <%= image_tag "logos/#{team.name.downcase.parameterize}.gif", class: "h-8 mr-2" %>
+                <span><%= team.name %></span>
+            </div>
+          <% end %>
+          </td>
           <td><%= formatted_cap_hit(total_cap_hit(team)) %></td>
         </tr>
       <% end %>
