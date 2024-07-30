@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/index'
   get 'players/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -7,7 +8,7 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   resources :players, only: [:index]
-  root to: 'teams#index'
+  root 'home#index'
 
   resources :teams, param: :code  # Use code as a parameter
 
