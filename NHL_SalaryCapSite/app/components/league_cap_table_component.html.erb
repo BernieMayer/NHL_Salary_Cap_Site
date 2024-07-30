@@ -1,0 +1,19 @@
+<div data-controller="league-cap-table">
+  <h2>League Cap Table</h2>
+  <table class="table-auto w-full">
+    <thead>
+      <tr>
+        <th>Team</th>
+        <th>Cap Hit</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @teams.each do |team| %>
+        <tr>
+          <td><%= team.name %></td>
+          <td><%= formatted_cap_hit(total_cap_hit(team)) %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
