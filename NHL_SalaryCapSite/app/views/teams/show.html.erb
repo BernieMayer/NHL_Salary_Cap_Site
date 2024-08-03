@@ -16,7 +16,7 @@
         <%= render(CapTableComponent.new(players: @goalies)) %> 
 
         <h2 class="text-lg font-semibold">Buyout players</h2>
-        <%= render(CapTableComponent.new(players: @buyout_players)) %>
+        <%= render(CapTableComponent.new(players: @buyout_players, cap_type: 'Buyout' )) %>
       </div>
     </div>
   </div>
