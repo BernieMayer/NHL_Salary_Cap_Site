@@ -16,44 +16,44 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_03_191445) do
 
   create_table "cap_hits", force: :cascade do |t|
     t.decimal "cap_value", precision: 12, scale: 2
-    t.integer "team_id", null: false
-    t.integer "player_id", null: false
-    t.integer "year"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "cap_type", default: "Roster"
-    t.index ["player_id"], name: "index_cap_hits_on_player_id"
-    t.index ["team_id"], name: "index_cap_hits_on_team_id"
+    t.bigint "team_id"
+    t.bigint "player_id"
+    t.bigint "year"
+    t.timestamptz "created_at"
+    t.timestamptz "updated_at"
+    t.text "cap_type", default: "Roster"
+    t.index ["player_id"], name: "idx_16946_index_cap_hits_on_player_id"
+    t.index ["team_id"], name: "idx_16946_index_cap_hits_on_team_id"
   end
 
   create_table "players", force: :cascade do |t|
-    t.string "name"
-    t.integer "team_id"
-    t.string "position"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "status", default: "Roster", null: false
-    t.index ["team_id"], name: "index_players_on_team_id"
+    t.text "name"
+    t.bigint "team_id"
+    t.text "position"
+    t.timestamptz "created_at"
+    t.timestamptz "updated_at"
+    t.text "status", default: "Roster"
+    t.index ["team_id"], name: "idx_16931_index_players_on_team_id"
   end
 
   create_table "salary_cap_totals", force: :cascade do |t|
-    t.integer "team_id", null: false
+    t.bigint "team_id"
     t.decimal "total"
-    t.integer "year"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["team_id"], name: "index_salary_cap_totals_on_team_id"
+    t.bigint "year"
+    t.timestamptz "created_at"
+    t.timestamptz "updated_at"
+    t.index ["team_id"], name: "idx_16939_index_salary_cap_totals_on_team_id"
   end
 
   create_table "teams", force: :cascade do |t|
     t.text "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.timestamptz "created_at"
+    t.timestamptz "updated_at"
     t.text "code"
   end
 
-  add_foreign_key "cap_hits", "players"
-  add_foreign_key "cap_hits", "teams"
-  add_foreign_key "players", "teams"
-  add_foreign_key "salary_cap_totals", "teams"
+  add_foreign_key "cap_hits", "players", name: "cap_hits_player_id_fkey"
+  add_foreign_key "cap_hits", "teams", name: "cap_hits_team_id_fkey"
+  add_foreign_key "players", "teams", name: "players_team_id_fkey"
+  add_foreign_key "salary_cap_totals", "teams", name: "salary_cap_totals_team_id_fkey"
 end
