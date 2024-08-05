@@ -23,8 +23,3 @@ test:
 production:
   <<: *default
   database: NHL_SalaryCapSite_production
-  host: <%= ENV["PGHOST"] %>
-  database: <%= ENV["PGDATABASE"] %>
-  username: <%= ENV["PGUSER"] %>
-  password: <%= ENV["PGPASSWORD"] %>
-  port: <%= ENV["PGPORT"] %
