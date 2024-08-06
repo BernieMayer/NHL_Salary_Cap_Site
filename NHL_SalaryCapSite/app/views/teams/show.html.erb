@@ -1,6 +1,6 @@
-<div class="container mx-auto px-4 py-8">
+<div class="container mx-auto px-2 py-2">
   <div class="bg-white shadow-md rounded-lg overflow-hidden">
-    <div class="p-6">
+    <div>
       <%= image_tag "logos/#{@team.name.downcase.parameterize}.gif" %>
       <h1 class="text-3xl font-bold mb-4"><%= @team.name %></h1>
       <p>Total salary hit for 2024 is: <%= number_to_currency(@salary_cap_total_2024) %> </p>
