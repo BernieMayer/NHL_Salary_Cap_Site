@@ -1,20 +1,20 @@
-<table class="min-w-full bg-white border-gray-200">
+<table class="table-fixed bg-white border-gray-200">
     <thead>
         <tr>
-            <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-xs font-bold uppercase">Player name</th>
-            <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-xs font-bold uppercase">Position</th>
+            <th class="min-w-28 py-3 border-b-2 border-gray-300 text-left text-xs font-bold uppercase">Player name</th>
+            <th class="px-1 py-3 border-b-2 border-gray-300 text-center text-xs font-bold uppercase">Position</th>
             <% (2024..2030).each do |year| %>
-                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-xs font-bold uppercase"><%= year %></th>
+                <th class="min-w-24 px-2 py-3 border-b-2 border-gray-300 text-left text-xs font-bold uppercase"><%= year %></th>
             <% end %>
         </tr>
     </thead>
     <tbody>
         <% @players.each do |player| %>
             <tr>
-                <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200 text-xs"> <%= player.name %> </td>
-                <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200 text-xs"> <%= player.position %> </td>
+                <td class="py-4 whitespace-nowrap border-b border-gray-200 text-xs"> <%= player.name %> </td>
+                <td class="px-2 py-4 whitespace-nowrap border-b border-gray-200 text-xs"> <%= player.position %> </td>
                 <% (2024..2030).each do |year| %>
-                    <td class="px-6 py-4 whitespace-nowrap border-b border-gray-200 text-xs"> 
+                    <td class="px-2 py-4 whitespace-nowrap border-b border-gray-200 text-xs"> 
                         <%= number_to_currency(get_cap_hit(player, year)) %> 
                     </td>
                 <% end %>
