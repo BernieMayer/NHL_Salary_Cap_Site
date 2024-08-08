@@ -14,5 +14,6 @@ class TeamsController < ApplicationController
     @goalies = @players.goalies
 
     @buyout_players = @team.buyout_players
+    @retained_players = @team.retained_players
   end
 end

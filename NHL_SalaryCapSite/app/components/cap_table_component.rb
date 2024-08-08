@@ -13,6 +13,8 @@ class CapTableComponent < ViewComponent::Base
             player.team_cap_hits.find_by(year: year)&.cap_value
         elsif @cap_type == "Buyout"
             player.cap_hits.buyout.find_by(year: year)&.cap_value
+        elsif @cap_type == "Retained"
+            player.cap_hits.retained.find_by(year: year)&.cap_value
         end
     end
 end

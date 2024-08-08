@@ -9,4 +9,8 @@ class Team < ApplicationRecord
     def buyout_players
         Player.joins(:cap_hits).where(cap_hits: { team_id: self.id, cap_type: 'Buyout' }).distinct
     end
+
+    def retained_players
+        Player.joins(:cap_hits).where(cap_hits: { team_id: self.id, cap_type: 'Retained'}).distinct
+    end
 end

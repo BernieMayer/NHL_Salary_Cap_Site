@@ -13,4 +13,5 @@ class CapHit < ApplicationRecord
     TYPES = [ROSTER, RETAINED,  BUYOUT, BURIED]
 
     scope :buyout, -> { where(cap_type: 'Buyout') }
+    scope :retained, -> { where(cap_type: 'Retained')}
 end
