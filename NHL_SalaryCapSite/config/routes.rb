@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-    mount Motor::Admin => '/admin'
+  devise_for :admins
+  mount Motor::Admin => '/admin'
   get 'home/index'
   get 'players/index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
