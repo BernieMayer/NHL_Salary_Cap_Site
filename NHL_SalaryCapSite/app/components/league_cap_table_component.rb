@@ -18,4 +18,11 @@ class LeagueCapTableComponent < ViewComponent::Base
   end
 
 
+  def cap_space_text_color(cap_space)
+    if cap_space.positive?
+      "text-green-500"
+    else
+      "text-red-500"
+    end
+  end
 end

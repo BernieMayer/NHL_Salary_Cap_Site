@@ -8,6 +8,10 @@ module.exports = {
     './app/components/**/*.{html,erb}',
     './app/views/**/*.{erb,haml,html,slim}'
   ],
+  safelist: [
+    "text-green-500",
+    "text-red-500"
+  ],
   theme: {
     extend: {
       fontFamily: {
