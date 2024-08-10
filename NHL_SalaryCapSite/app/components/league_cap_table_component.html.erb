@@ -5,6 +5,7 @@
       <tr>
         <th class="text-center">Team</th>
         <th class="text-center">Cap Hit</th>
+        <th class="text-center">Cap Space</th>
       </tr>
     </thead>
     <tbody>
@@ -18,7 +19,8 @@
             </div>
           <% end %>
           </td>
-          <td><%= formatted_cap_hit(total_cap_hit(team)) %></td>
+          <td class= "px-2"><%= formatted_cap_hit(total_cap_hit(team)) %></td>
+          <td class= "px-2"><%= formatted_cap_hit(cap_space(team)) %></td>
         </tr>
       <% end %>
     </tbody>

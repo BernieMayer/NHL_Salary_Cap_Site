@@ -9,7 +9,13 @@ class LeagueCapTableComponent < ViewComponent::Base
     team.salary_cap_totals.find_by(year: 2024).total
   end
 
+  def cap_space(team) 
+    team.salary_cap_totals.find_by(year: 2024).calculate_cap_space
+  end
+
   def formatted_cap_hit(cap_hit)
     number_to_currency(cap_hit, unit: "$", precision: 2)
   end
+
+
 end
