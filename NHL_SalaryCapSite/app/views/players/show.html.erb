@@ -1,0 +1,26 @@
+<div class="flex flex-col items-center">
+  <h1 class="text-4xl font-bold text-center mb-4">
+    <%= @player.name %>
+  </h1>
+
+  <div class="bg-white shadow-md rounded-lg p-6 max-w-lg w-full">
+    <dl class="divide-y divide-gray-200">
+      
+      <div class="py-4">
+        <dt class="text-sm font-medium text-gray-500">Team:</dt>
+        <dd class="mt-1 text-lg font-semibold text-gray-900"><%= @player.team.name %></dd>
+      </div>
+      
+      <div class="py-4">
+        <dt class="text-sm font-medium text-gray-500">Position:</dt>
+        <dd class="mt-1 text-lg font-semibold text-gray-900"><%= @player.position %></dd>
+      </div>
+
+      <div class="py-4">
+        <dt class="text-sm font-medium text-gray-500">Cap Hit:</dt>
+        <dd class="mt-1 text-lg font-semibold text-gray-900"><%= number_to_currency @player.current_salary%></dd>
+      </div>
+      
+    </dl>
+  </div>
+</div>
