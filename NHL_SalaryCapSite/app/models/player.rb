@@ -14,7 +14,7 @@ class Player < ApplicationRecord
     scope :forwards, -> { where("LOWER(position) LIKE '%c%' OR LOWER(position) LIKE '%lw%' OR LOWER(position) LIKE '%rw%'") }
     scope :defence, -> {where("LOWER(position) LIKE '%d%' OR LOWER(position) LIKE '%ld%' OR LOWER(position) LIKE '%rd%'") }
     scope :goalies, -> { where(position: ["G"])}
-
+    scope :free_agents, -> { where(team: nil)}
 
     def team_cap_hits
       self.cap_hits.where(team: self.team)

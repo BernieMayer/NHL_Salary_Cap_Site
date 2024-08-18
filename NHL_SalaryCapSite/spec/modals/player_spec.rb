@@ -81,6 +81,16 @@ RSpec.describe Player, type: :model do
         it 'returns only the goalies' do
             expect(Player.goalies).to match_array([goalie, goalie1])
         end
+    end
 
+    describe "#free_agents" do
+        let!(:team) { Team.create(name:"Calgary Flames", code: "CGY") }
+        let!(:free_agent_1) { Player.create(name: "Jake Smith", team: nil)}
+        let!(:free_agent_2) { Player.create(name: "Adam Bob", team: nil)}
+        let!(:roster_player) { Player.create(name: "Dan Vladar", team: team)}
+
+        it 'retuns the free agents' do
+          expect(Player.free_agents).to match_array([free_agent_1, free_agent_2])
+        end
     end
 end
