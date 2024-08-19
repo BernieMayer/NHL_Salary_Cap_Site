@@ -39,8 +39,11 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_19_190536) do
   end
 
   create_table "contracts", force: :cascade do |t|
+    t.bigint "player_id", null: false
+    t.string "expiry_status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["player_id"], name: "index_contracts_on_player_id"
   end
 
   create_table "motor_alert_locks", force: :cascade do |t|
@@ -264,6 +267,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_19_190536) do
 
   add_foreign_key "cap_hits", "players", name: "cap_hits_player_id_fkey"
   add_foreign_key "cap_hits", "teams", name: "cap_hits_team_id_fkey"
+  add_foreign_key "contracts", "players"
   add_foreign_key "motor_alert_locks", "motor_alerts", column: "alert_id"
   add_foreign_key "motor_alerts", "motor_queries", column: "query_id"
   add_foreign_key "motor_note_tag_tags", "motor_note_tags", column: "tag_id"
