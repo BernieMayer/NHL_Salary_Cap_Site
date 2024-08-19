@@ -18,6 +18,11 @@ RSpec.describe Player, type: :model do
         end
     end
 
+    describe "contracts" do
+        it { should have_many(:contracts) }
+
+    end
+
     describe 'status' do
         let!(:team) { Team.create(name:"Calgary Flames", code: "CGY") }
         let!(:player) { Player.create(name: "Jake Bean", position: "LW", team: team, status: Player::ROSTER) }

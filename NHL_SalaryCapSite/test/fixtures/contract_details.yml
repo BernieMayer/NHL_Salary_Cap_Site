@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  contract: one
+  season: MyString
+  clause: MyString
+  cap_hit: 9.99
+  aav: 9.99
+  performance_bonuses: 9.99
+  signing_bonuses: 9.99
+  base_salary: 9.99
+  total_salary: 9.99
+  minors_salary: 9.99
+
+two:
+  contract: two
+  season: MyString
+  clause: MyString
+  cap_hit: 9.99
+  aav: 9.99
+  performance_bonuses: 9.99
+  signing_bonuses: 9.99
+  base_salary: 9.99
+  total_salary: 9.99
+  minors_salary: 9.99
