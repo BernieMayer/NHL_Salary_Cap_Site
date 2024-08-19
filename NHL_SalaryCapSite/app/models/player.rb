@@ -1,5 +1,6 @@
 class Player < ApplicationRecord
     has_many :cap_hits, dependent: :destroy
+    has_many :contracts
     belongs_to :team, optional: true
 
     validates :name, presence: true
