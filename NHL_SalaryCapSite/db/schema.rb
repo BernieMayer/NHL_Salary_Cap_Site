@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_08_19_190536) do
+ActiveRecord::Schema[7.1].define(version: 2024_08_19_190846) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -36,6 +36,22 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_19_190536) do
     t.text "cap_type", default: "Roster"
     t.index ["player_id"], name: "idx_16946_index_cap_hits_on_player_id"
     t.index ["team_id"], name: "idx_16946_index_cap_hits_on_team_id"
+  end
+
+  create_table "contract_details", force: :cascade do |t|
+    t.bigint "contract_id", null: false
+    t.string "season"
+    t.string "clause"
+    t.decimal "cap_hit", precision: 15, scale: 2
+    t.decimal "aav", precision: 15, scale: 2
+    t.decimal "performance_bonuses", precision: 15, scale: 2
+    t.decimal "signing_bonuses", precision: 15, scale: 2
+    t.decimal "base_salary", precision: 15, scale: 2
+    t.decimal "total_salary", precision: 15, scale: 2
+    t.decimal "minors_salary", precision: 15, scale: 2
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["contract_id"], name: "index_contract_details_on_contract_id"
   end
 
   create_table "contracts", force: :cascade do |t|
@@ -267,6 +283,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_19_190536) do
 
   add_foreign_key "cap_hits", "players", name: "cap_hits_player_id_fkey"
   add_foreign_key "cap_hits", "teams", name: "cap_hits_team_id_fkey"
+  add_foreign_key "contract_details", "contracts"
   add_foreign_key "contracts", "players"
   add_foreign_key "motor_alert_locks", "motor_alerts", column: "alert_id"
   add_foreign_key "motor_alerts", "motor_queries", column: "query_id"
