@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   devise_for :admins
   authenticate :admin do
     mount Motor::Admin => '/admin'
+    get 'admin/jobs'
   end
   
   get 'home/index'

@@ -1,0 +1,30 @@
+---
+engine_version: 0.4.27
+file_version: 2024-08-18 19:06:03.993216000 Z
+resources: []
+configs:
+- key: header.links
+  value:
+  - name: Reports
+    link_type: reports
+  - name: Forms
+    link_type: forms
+  - name: "⭐ Star on GitHub"
+    path: https://github.com/motor-admin/motor-admin-rails
+  - conditions: []
+    type: header
+    name: Admin Jobs
+    path: "./jobs"
+    link_type: header
+  updated_at: 2024-08-18 19:06:03.993216000 +00:00
+queries: []
+dashboards: []
+forms: []
+alerts: []
+api_configs:
+- id: 1
+  name: origin
+  url: "/"
+  preferences: {}
+  description:
+  updated_at: 2024-08-06 19:00:50.566859000 +00:00
