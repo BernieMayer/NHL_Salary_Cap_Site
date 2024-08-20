@@ -1,0 +1,3411 @@
+{
+    "pageProps": {
+        "team": "anaheim_ducks",
+        "teamName": "Anaheim Ducks",
+        "teamMetadata": {
+            "slug": "anaheim_ducks",
+            "tricode": "ANA",
+            "logo": "anaheim_ducks.svg",
+            "name": "Anaheim Ducks",
+            "shortName": "ducks",
+            "gm": "Pat Verbeek",
+            "coach": "Greg Cronin"
+        },
+        "data": {
+            "roster": {
+                "forwards": [
+                    {
+                        "name": "Terry, Troy",
+                        "slug": "troy-terry",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW, LW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2015 Round 5, #148 Overall",
+                        "born": "Sep. 10, 1997",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$7,000,000",
+                                        "aav": "$7,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,000,000",
+                                        "totalSalary": "$7,000,000",
+                                        "minorsSalary": "$7,000,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$7,000,000",
+                                        "aav": "$7,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,000,000",
+                                        "totalSalary": "$7,000,000",
+                                        "minorsSalary": "$7,000,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "M-NTC",
+                                        "capHit": "$7,000,000",
+                                        "aav": "$7,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,000,000",
+                                        "totalSalary": "$7,000,000",
+                                        "minorsSalary": "$7,000,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "M-NTC",
+                                        "capHit": "$7,000,000",
+                                        "aav": "$7,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,000,000",
+                                        "totalSalary": "$7,000,000",
+                                        "minorsSalary": "$7,000,000"
+                                    },
+                                    {
+                                        "season": "2027-28",
+                                        "clause": "M-NTC",
+                                        "capHit": "$7,000,000",
+                                        "aav": "$7,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,000,000",
+                                        "totalSalary": "$7,000,000",
+                                        "minorsSalary": "$7,000,000"
+                                    },
+                                    {
+                                        "season": "2028-29",
+                                        "clause": "M-NTC",
+                                        "capHit": "$7,000,000",
+                                        "aav": "$7,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,000,000",
+                                        "totalSalary": "$7,000,000",
+                                        "minorsSalary": "$7,000,000"
+                                    },
+                                    {
+                                        "season": "2029-30",
+                                        "clause": "M-NTC",
+                                        "capHit": "$7,000,000",
+                                        "aav": "$7,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,000,000",
+                                        "totalSalary": "$7,000,000",
+                                        "minorsSalary": "$7,000,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 6,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "RW": 41556,
+                            "LW": 9410
+                        }
+                    },
+                    {
+                        "name": "Killorn, Alex",
+                        "slug": "alex-killorn",
+                        "note": "",
+                        "terms": "NTC",
+                        "termsDetails": "No-Trade Clause - (2023-24 & 2024-25: Full NTC | 2025-26 & 2026-27: 15 team no-trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2007 Round 3, #77 Overall",
+                        "born": "Sep. 14, 1989",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "NTC",
+                                        "capHit": "$6,250,000",
+                                        "aav": "$6,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$6,250,000",
+                                        "totalSalary": "$6,250,000",
+                                        "minorsSalary": "$6,250,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "NTC",
+                                        "capHit": "$6,250,000",
+                                        "aav": "$6,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$6,250,000",
+                                        "totalSalary": "$6,250,000",
+                                        "minorsSalary": "$6,250,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,250,000",
+                                        "aav": "$6,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$6,250,000",
+                                        "totalSalary": "$6,250,000",
+                                        "minorsSalary": "$6,250,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,250,000",
+                                        "aav": "$6,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$6,250,000",
+                                        "totalSalary": "$6,250,000",
+                                        "minorsSalary": "$6,250,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 1008,
+                        "careerSeasonsPlayed": 12,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 42676,
+                            "RW": 2298
+                        }
+                    },
+                    {
+                        "name": "Zegras, Trevor",
+                        "slug": "trevor-zegras",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, C, RW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2019 Round 1, #9 Overall",
+                        "born": "Mar. 20, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$5,750,000",
+                                        "aav": "$5,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,750,000",
+                                        "totalSalary": "$5,750,000",
+                                        "minorsSalary": "$5,750,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$5,750,000",
+                                        "aav": "$5,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,750,000",
+                                        "totalSalary": "$5,750,000",
+                                        "minorsSalary": "$5,750,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$5,750,000",
+                                        "aav": "$5,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,750,000",
+                                        "totalSalary": "$5,750,000",
+                                        "minorsSalary": "$5,750,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA",
+                                "details": []
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 4,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 8441,
+                            "RW": 2066,
+                            "C": 7492
+                        }
+                    },
+                    {
+                        "name": "Strome, Ryan",
+                        "slug": "ryan-strome",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, C, RW",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2011 Round 1, #5 Overall",
+                        "born": "Jul. 11, 1993",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 819,
+                        "careerSeasonsPlayed": 12,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "C": 15796,
+                            "RW": 4609,
+                            "LW": 26119
+                        }
+                    },
+                    {
+                        "name": "Fabbri, Robby",
+                        "slug": "robby-fabbri",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2014 Round 1, #21 Overall",
+                        "born": "Jan. 22, 1996",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,250,000",
+                                        "totalSalary": "$4,250,000",
+                                        "minorsSalary": "$4,250,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,250,000",
+                                        "totalSalary": "$4,250,000",
+                                        "minorsSalary": "$4,250,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 428,
+                        "careerSeasonsPlayed": 8,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 24755,
+                            "RW": 9225
+                        }
+                    },
+                    {
+                        "name": "Vatrano, Frank",
+                        "slug": "frank-vatrano",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW, LW",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Mar. 14, 1994",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$3,650,000",
+                                        "aav": "$3,650,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,650,000",
+                                        "totalSalary": "$3,650,000",
+                                        "minorsSalary": "$3,650,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$3,650,000",
+                                        "aav": "$3,650,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,650,000",
+                                        "totalSalary": "$3,650,000",
+                                        "minorsSalary": "$3,650,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 598,
+                        "careerSeasonsPlayed": 11,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "RW": 45014,
+                            "LW": 8244
+                        }
+                    },
+                    {
+                        "name": "McGinn, Brock",
+                        "slug": "brock-mcginn",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2012 Round 2, #47 Overall",
+                        "born": "Feb. 2, 1994",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$2,750,000",
+                                        "aav": "$2,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$2,750,000",
+                                        "totalSalary": "$2,750,000",
+                                        "minorsSalary": "$2,750,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$2,750,000",
+                                        "aav": "$2,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$2,750,000",
+                                        "totalSalary": "$2,750,000",
+                                        "minorsSalary": "$2,750,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 549,
+                        "careerSeasonsPlayed": 10,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 7667
+                        }
+                    },
+                    {
+                        "name": "Lundestrom, Isac",
+                        "slug": "isac-lundestrom",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, LW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2018 Round 1, #23 Overall",
+                        "born": "Nov. 6, 1999",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$1,500,000",
+                                        "aav": "$1,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,500,000",
+                                        "totalSalary": "$1,500,000",
+                                        "minorsSalary": "$1,500,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$1,800,000",
+                                        "aav": "$1,800,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,800,000",
+                                        "totalSalary": "$1,800,000",
+                                        "minorsSalary": "$1,800,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 6,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "C": 16243,
+                            "LW": 5619
+                        }
+                    },
+                    {
+                        "name": "Johnston, Ross",
+                        "slug": "ross-johnston",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "NHL",
+                        "acquired": "Waivers claim",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Feb. 18, 1994",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$1,100,000",
+                                        "aav": "$1,100,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,100,000",
+                                        "totalSalary": "$1,100,000",
+                                        "minorsSalary": "$1,100,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$1,100,000",
+                                        "aav": "$1,100,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,100,000",
+                                        "totalSalary": "$1,100,000",
+                                        "minorsSalary": "$1,100,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$1,100,000",
+                                        "aav": "$1,100,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,100,000",
+                                        "totalSalary": "$1,100,000",
+                                        "minorsSalary": "$1,100,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 207,
+                        "careerSeasonsPlayed": 7,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "RW": 4049,
+                            "LW": 20774
+                        }
+                    },
+                    {
+                        "name": "Leason, Brett",
+                        "slug": "brett-leason",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW, LW",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2019 Round 2, #56 Overall",
+                        "born": "Apr. 30, 1999",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$1,050,000",
+                                        "aav": "$1,050,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,050,000",
+                                        "totalSalary": "$1,050,000",
+                                        "minorsSalary": "$1,050,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA (No QO)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$800,000",
+                                        "totalSalary": "$800,000",
+                                        "minorsSalary": "$800,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 159,
+                        "careerSeasonsPlayed": 3,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "RW": 27686,
+                            "LW": 2665
+                        }
+                    },
+                    {
+                        "name": "Gauthier, Cutter",
+                        "slug": "cutter-gauthier",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $950,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, C",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2022 Round 1, #5 Overall",
+                        "born": "Jan. 19, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "10.2(c)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$950,000",
+                                        "aav": "$1,900,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$950,000",
+                                        "aav": "$1,900,000",
+                                        "performanceBonuses": "$950,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$950,000",
+                                        "aav": "$1,900,000",
+                                        "performanceBonuses": "$1,900,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 763
+                        }
+                    },
+                    {
+                        "name": "Carlsson, Leo",
+                        "slug": "leo-carlsson",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $3,250,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, LW, RW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2023 Round 1, #2 Overall",
+                        "born": "Dec. 26, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$950,000",
+                                        "aav": "$4,200,000",
+                                        "performanceBonuses": "$3,250,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$950,000",
+                                        "aav": "$4,200,000",
+                                        "performanceBonuses": "$3,250,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$950,000",
+                                        "aav": "$4,200,000",
+                                        "performanceBonuses": "$3,250,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 6611,
+                            "RW": 2936,
+                            "C": 30730
+                        }
+                    },
+                    {
+                        "name": "McTavish, Mason",
+                        "slug": "mason-mctavish",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $2,500,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, LW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2021 Round 1, #3 Overall",
+                        "born": "Jan. 30, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$894,167",
+                                        "aav": "$3,394,167",
+                                        "performanceBonuses": "$2,500,000",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$894,167",
+                                        "aav": "$3,394,167",
+                                        "performanceBonuses": "$2,500,000",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$832,500",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 2,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "C": 35635,
+                            "LW": 4497
+                        }
+                    },
+                    {
+                        "name": "Harkins, Jansen",
+                        "slug": "jansen-harkins",
+                        "pos": "LW, RW",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2015 Round 2, #47 Overall",
+                        "status": "NHL",
+                        "born": "May. 23, 1997",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$800,000",
+                                        "aav": "$800,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$800,000",
+                                        "totalSalary": "$800,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$850,000",
+                                        "aav": "$850,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$875,000",
+                                        "totalSalary": "$875,000",
+                                        "minorsSalary": "$875,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 203,
+                        "careerSeasonsPlayed": 5,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 11152,
+                            "RW": 4507
+                        }
+                    }
+                ],
+                "defense": [
+                    {
+                        "name": "Fowler, Cam",
+                        "slug": "cam-fowler",
+                        "note": "",
+                        "terms": "M-NTC",
+                        "termsDetails": "Modified No-Trade Clause - (Player submits a 4 team trade list.)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD, RD",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2010 Round 1, #12 Overall",
+                        "born": "Dec. 5, 1991",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,500,000",
+                                        "totalSalary": "$7,500,000",
+                                        "minorsSalary": "$7,500,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,500,000",
+                                        "totalSalary": "$7,500,000",
+                                        "minorsSalary": "$7,500,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$6,250,000",
+                                        "totalSalary": "$6,250,000",
+                                        "minorsSalary": "$6,250,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 1036,
+                        "careerSeasonsPlayed": 14,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LD": 83508
+                        }
+                    },
+                    {
+                        "name": "Gudas, Radko",
+                        "slug": "radko-gudas",
+                        "note": "",
+                        "terms": "M-NTC",
+                        "termsDetails": "Modified No-Trade Clause - (2023-24: Full NTC | 2024-25: 16 team no-trade list | 2025-26: 10 team no-trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2010 Round 3, #66 Overall",
+                        "born": "Jun. 5, 1990",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "NTC",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,000,000",
+                                        "totalSalary": "$4,000,000",
+                                        "minorsSalary": "$4,000,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,000,000",
+                                        "totalSalary": "$4,000,000",
+                                        "minorsSalary": "$4,000,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,000,000",
+                                        "totalSalary": "$4,000,000",
+                                        "minorsSalary": "$4,000,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 805,
+                        "careerSeasonsPlayed": 12,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "RD": 60022,
+                            "LD": 2316
+                        }
+                    },
+                    {
+                        "name": "Dumoulin, Brian",
+                        "slug": "brian-dumoulin",
+                        "note": "",
+                        "terms": "M-NTC",
+                        "termsDetails": "Modified No-Trade Clause - (M-NTC: 10 team no-trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2009 Round 2, #51 Overall",
+                        "born": "Sep. 6, 1991",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "M-NTC",
+                                        "capHit": "$3,150,000",
+                                        "aav": "$3,150,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,300,000",
+                                        "totalSalary": "$3,300,000",
+                                        "minorsSalary": "$3,300,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "M-NTC",
+                                        "capHit": "$3,150,000",
+                                        "aav": "$3,150,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,000,000",
+                                        "totalSalary": "$3,000,000",
+                                        "minorsSalary": "$3,000,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 707,
+                        "careerSeasonsPlayed": 9,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LD": 70169,
+                            "RD": 2657
+                        }
+                    },
+                    {
+                        "name": "Vaakanainen, Urho",
+                        "slug": "urho-vaakanainen",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD, RD",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2017 Round 1, #18 Overall",
+                        "born": "Jan. 1, 1999",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$1,100,000",
+                                        "aav": "$1,100,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,100,000",
+                                        "totalSalary": "$1,100,000",
+                                        "minorsSalary": "$1,100,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA (No QO)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$850,000",
+                                        "aav": "$850,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$900,000",
+                                        "totalSalary": "$900,000",
+                                        "minorsSalary": "$900,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 4,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "RD": 13332,
+                            "LD": 47556
+                        }
+                    },
+                    {
+                        "name": "LaCombe, Jackson",
+                        "slug": "jackson-lacombe",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "Waivers Exempt, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD, LD",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2019 Round 2, #39 Overall",
+                        "born": "Jan. 9, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$925,000",
+                                        "totalSalary": "$925,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$925,000",
+                                        "totalSalary": "$925,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "10.2(c)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$1,387,500",
+                                        "performanceBonuses": "$925,000",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$70,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LD": 30790,
+                            "RD": 34238
+                        }
+                    },
+                    {
+                        "name": "Mintyukov, Pavel",
+                        "slug": "pavel-mintyukov",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $800,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD, RD",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2022 Round 1, #10 Overall",
+                        "born": "Nov. 25, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$918,333",
+                                        "aav": "$1,701,667",
+                                        "performanceBonuses": "$550,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$918,333",
+                                        "aav": "$1,701,667",
+                                        "performanceBonuses": "$800,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$918,333",
+                                        "aav": "$1,701,667",
+                                        "performanceBonuses": "$1,000,000",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$855,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LD": 52402,
+                            "RD": 2820
+                        }
+                    },
+                    {
+                        "name": "Zellweger, Olen",
+                        "slug": "olen-zellweger",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD, LD",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2021 Round 2, #34 Overall",
+                        "born": "Sep. 10, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$844,167",
+                                        "aav": "$871,667",
+                                        "performanceBonuses": "$82,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$844,167",
+                                        "aav": "$871,667",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$832,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$844,167",
+                                        "aav": "$871,667",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$832,500",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "RD": 23600
+                        }
+                    }
+                ],
+                "goalies": [
+                    {
+                        "name": "Gibson, John",
+                        "slug": "john-gibson",
+                        "note": "",
+                        "terms": "M-NTC",
+                        "termsDetails": "Modified No-Trade Clause - (Player submits a 10 team no trade list.)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2011 Round 2, #39 Overall",
+                        "born": "Jul. 14, 1993",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,400,000",
+                                        "aav": "$6,400,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$6,400,000",
+                                        "totalSalary": "$6,400,000",
+                                        "minorsSalary": "$6,400,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,400,000",
+                                        "aav": "$6,400,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$6,400,000",
+                                        "totalSalary": "$6,400,000",
+                                        "minorsSalary": "$6,400,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,400,000",
+                                        "aav": "$6,400,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$6,400,000",
+                                        "totalSalary": "$6,400,000",
+                                        "minorsSalary": "$6,400,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,400,000",
+                                        "aav": "$6,400,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$6,400,000",
+                                        "totalSalary": "$6,400,000",
+                                        "minorsSalary": "$6,400,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 503,
+                        "careerSeasonsPlayed": 10,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Dostal, Lukas",
+                        "slug": "lukas-dostal",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2018 Round 3, #85 Overall",
+                        "born": "Jun. 22, 2000",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$812,500",
+                                        "aav": "$812,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$325,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$812,500",
+                                        "aav": "$812,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$850,000",
+                                        "totalSalary": "$850,000",
+                                        "minorsSalary": "$850,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA",
+                                "details": []
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 2,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    }
+                ]
+            },
+            "dead cap": {
+                "buyout history": [
+                    {
+                        "name": "Despres, Simon",
+                        "slug": "simon-despres",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "Retired",
+                        "acquired": "",
+                        "acquisitionDetails": "2009 Round 1, #30 Overall",
+                        "born": "Jul. 27, 1991",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "",
+                                        "aav": "",
+                                        "performanceBonuses": "",
+                                        "signingBonuses": "",
+                                        "baseSalary": "",
+                                        "totalSalary": "",
+                                        "minorsSalary": "",
+                                        "buyout": {
+                                            "teamName": "Anaheim Ducks",
+                                            "cost": "$662,500",
+                                            "earning": "$662,500",
+                                            "savings": "-$662,500",
+                                            "capHit": "$0"
+                                        }
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "",
+                                        "aav": "",
+                                        "performanceBonuses": "",
+                                        "signingBonuses": "",
+                                        "baseSalary": "",
+                                        "totalSalary": "",
+                                        "minorsSalary": "",
+                                        "buyout": {
+                                            "teamName": "Anaheim Ducks",
+                                            "cost": "$662,500",
+                                            "earning": "$662,500",
+                                            "savings": "-$662,500",
+                                            "capHit": "$0"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 222,
+                        "careerSeasonsPlayed": 6,
+                        "currentTeamTricode": "",
+                        "currentTeamSlug": ""
+                    }
+                ]
+            },
+            "non-roster": {
+                "forwards": [
+                    {
+                        "name": "Sennecke, Beckett",
+                        "slug": "beckett-sennecke",
+                        "pos": "RW",
+                        "born": "Jan. 28, 2006",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$975,000",
+                                        "aav": "$975,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$975,000",
+                                        "totalSalary": "$975,000",
+                                        "minorsSalary": "$0"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$975,000",
+                                        "aav": "$975,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$975,000",
+                                        "totalSalary": "$975,000",
+                                        "minorsSalary": "$0"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$975,000",
+                                        "aav": "$975,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$975,000",
+                                        "totalSalary": "$975,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            }
+                        ],
+                        "terms": "ELC",
+                        "termsSlideCandidate": true,
+                        "termsDetails": "Entry-Level Contract, Slide Candidate, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2024 Round 1, #3 Overall",
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Colangelo, Sam",
+                        "slug": "sam-colangelo",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $750,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2020 Round 2, #36 Overall",
+                        "born": "Dec. 26, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "10.2(c)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$1,300,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$1,300,000",
+                                        "performanceBonuses": "$750,000",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 1697
+                        }
+                    },
+                    {
+                        "name": "Myatovic, Nico",
+                        "slug": "nico-myatovic",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $80,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2023 Round 2, #33 Overall",
+                        "born": "Dec. 1, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$896,667",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$896,667",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$896,667",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Gaucher, Nathan",
+                        "slug": "nathan-gaucher",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $77,500, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2022 Round 1, #22 Overall",
+                        "born": "Nov. 6, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$918,333",
+                                        "aav": "$1,160,833",
+                                        "performanceBonuses": "\u2013",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "ENTRY-LEVEL SLIDE"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$886,667",
+                                        "aav": "$1,129,167",
+                                        "performanceBonuses": "$77,500",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$886,667",
+                                        "aav": "$1,129,167",
+                                        "performanceBonuses": "$300,000",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$855,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$886,667",
+                                        "aav": "$1,129,167",
+                                        "performanceBonuses": "$350,000",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$855,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Lopina, Josh",
+                        "slug": "josh-lopina",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2021 Round 4, #98 Overall",
+                        "born": "Feb. 16, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$878,333",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$878,333",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Nesterenko, Nikita",
+                        "slug": "nikita-nesterenko",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "Waivers Exempt, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, C",
+                        "status": "Minor",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2019 Round 6, #172 Overall",
+                        "born": "Sep. 10, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$874,125",
+                                        "aav": "$874,125",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$874,125",
+                                        "totalSalary": "$874,125",
+                                        "minorsSalary": "$70,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "10.2(c)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$70,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 1689
+                        }
+                    },
+                    {
+                        "name": "Sidorov, Yegor",
+                        "slug": "yegor-sidorov",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $35,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW, LW",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2023 Round 3, #85 Overall",
+                        "born": "Jun. 18, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$865,000",
+                                        "aav": "$900,000",
+                                        "performanceBonuses": "$35,000",
+                                        "signingBonuses": "$90,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$865,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$865,000",
+                                        "aav": "$900,000",
+                                        "performanceBonuses": "$35,000",
+                                        "signingBonuses": "$90,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$865,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$865,000",
+                                        "aav": "$900,000",
+                                        "performanceBonuses": "$35,000",
+                                        "signingBonuses": "$90,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$865,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Pitre, Coulson",
+                        "slug": "coulson-pitre",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2023 Round 3, #65 Overall",
+                        "born": "Dec. 13, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$860,000",
+                                        "aav": "$860,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$85,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$860,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$860,000",
+                                        "aav": "$860,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$85,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$860,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$860,000",
+                                        "aav": "$860,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$85,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$860,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Wiebe, Jaxsen",
+                        "slug": "jaxsen-wiebe",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW, C",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "May. 16, 2002",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$852,500",
+                                        "aav": "$852,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$80,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$855,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$852,500",
+                                        "aav": "$852,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$77,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$852,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$852,500",
+                                        "aav": "$852,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$75,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$850,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Caulfield, Judd",
+                        "slug": "judd-caulfield",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW",
+                        "status": "Minor",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2019 Round 5, #145 Overall",
+                        "born": "Mar. 19, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$837,500",
+                                        "aav": "$837,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$62,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$837,500",
+                                        "minorsSalary": "$70,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$837,500",
+                                        "aav": "$837,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$62,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$837,500",
+                                        "minorsSalary": "$70,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Mysak, Jan",
+                        "slug": "jan-mysak",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $57,500, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, LW",
+                        "status": "Minor",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2020 Round 2, #48 Overall",
+                        "born": "Jun. 24, 2002",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$828,333",
+                                        "aav": "$902,500",
+                                        "performanceBonuses": "$82,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$828,333",
+                                        "aav": "$902,500",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Pastujov, Sasha",
+                        "slug": "sasha-pastujov",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $82,500, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2021 Round 3, #66 Overall",
+                        "born": "Jul. 15, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$825,000",
+                                        "aav": "$880,000",
+                                        "performanceBonuses": "$82,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$825,000",
+                                        "aav": "$880,000",
+                                        "performanceBonuses": "$82,500",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$825,000",
+                                        "aav": "$880,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$832,500",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Meyer, Carson",
+                        "slug": "carson-meyer",
+                        "pos": "LW, RW",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2017 Round 6, #179 Overall",
+                        "status": "NHL",
+                        "born": "Aug. 18, 1997",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA (Group 6)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$190,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 3,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "RW": 1652,
+                            "LW": 3642
+                        }
+                    },
+                    {
+                        "name": "Regenda, Pavol",
+                        "slug": "pavol-regenda",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "Waivers Exempt, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Dec. 7, 1999",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$855,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "LW": 1501
+                        }
+                    }
+                ],
+                "defense": [
+                    {
+                        "name": "Solberg, Stian",
+                        "slug": "stian-solberg",
+                        "pos": "LD",
+                        "born": "Dec. 29, 2005",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$975,000",
+                                        "aav": "$975,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$975,000",
+                                        "totalSalary": "$975,000",
+                                        "minorsSalary": "$0"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$975,000",
+                                        "aav": "$975,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$975,000",
+                                        "totalSalary": "$975,000",
+                                        "minorsSalary": "$0"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$975,000",
+                                        "aav": "$975,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$975,000",
+                                        "totalSalary": "$975,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            }
+                        ],
+                        "terms": "ELC",
+                        "termsSlideCandidate": true,
+                        "termsDetails": "Entry-Level Contract, Slide Candidate, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2024 Round 1, #23 Overall",
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Dionicio, Rodwin",
+                        "slug": "rodwin-dionicio",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2023 Round 5, #129 Overall",
+                        "born": "Mar. 30, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$950,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$950,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$950,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Helleson, Drew",
+                        "slug": "drew-helleson",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "Minor",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2019 Round 2, #47 Overall",
+                        "born": "Mar. 26, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$70,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$70,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Luneau, Tristan",
+                        "slug": "tristan-luneau",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $80,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "Loan",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2022 Round 2, #53 Overall",
+                        "born": "Jan. 12, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$896,667",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "\u2013",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "ENTRY-LEVEL SLIDE"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$865,000",
+                                        "aav": "$918,333",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$865,000",
+                                        "aav": "$918,333",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$865,000",
+                                        "aav": "$918,333",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$855,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks",
+                        "positions": {
+                            "RD": 5447
+                        }
+                    },
+                    {
+                        "name": "Warren, Noah",
+                        "slug": "noah-warren",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $80,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "Junior",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2022 Round 2, #42 Overall",
+                        "born": "Jul. 15, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$896,667",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "\u2013",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "ENTRY-LEVEL SLIDE"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$865,000",
+                                        "aav": "$918,333",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$865,000",
+                                        "aav": "$918,333",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$865,000",
+                                        "aav": "$918,333",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$855,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Hinds, Tyson",
+                        "slug": "tyson-hinds",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2021 Round 3, #76 Overall",
+                        "born": "Mar. 12, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$829,444",
+                                        "aav": "$829,444",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$82,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$857,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$829,444",
+                                        "aav": "$829,444",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$80,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$855,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$829,444",
+                                        "aav": "$829,444",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    }
+                ],
+                "goalies": [
+                    {
+                        "name": "Clang, Calle",
+                        "slug": "calle-clang",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "Minor",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2020 Round 3, #77 Overall",
+                        "born": "May. 20, 2002",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$878,333",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$878,333",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Clara, Damian",
+                        "slug": "damian-clara",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $80,000, Entry Level Contract Slide Candidate, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": true,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2023 Round 2, #60 Overall",
+                        "born": "Jan. 13, 2005",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$878,333",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$878,333",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$878,333",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$55,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$800,000",
+                                        "totalSalary": "$895,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Suchanek, Tomas",
+                        "slug": "tomas-suchanek",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $80,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Apr. 30, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$870,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$870,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$870,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    },
+                    {
+                        "name": "Buteyets, Vyacheslav",
+                        "slug": "vyacheslav-buteyets",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2022 Round 6, #178 Overall",
+                        "born": "May. 29, 2002",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$852,500",
+                                        "aav": "$852,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$77,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$852,500",
+                                        "minorsSalary": "$75,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$852,500",
+                                        "aav": "$852,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$77,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$852,500",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Anaheim Ducks",
+                        "currentTeamTricode": "ANA",
+                        "currentTeamSlug": "anaheim_ducks"
+                    }
+                ]
+            }
+        },
+        "teamSummary": {
+            "capHit": {
+                "total": 66269167,
+                "forwards": 41619167,
+                "defense": 17437500,
+                "goalies": 7212500,
+                "deadCap": 0,
+                "dead cap": null
+            },
+            "capSpace": 21730833,
+            "ltir": 0,
+            "roster": 23,
+            "totalContracts": 44,
+            "carryover": 0,
+            "upperLimit": 88000000,
+            "lowerLimit": 65000000
+        },
+        "draftPicks": [
+            {
+                "year": "2025",
+                "round": 1,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 2,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": true,
+                "tradedDate": "Jan. 8, 2024"
+            },
+            {
+                "year": "2025",
+                "round": 3,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 3,
+                "team": "Toronto Maple Leafs",
+                "conditions": [
+                    "Trade on Mar. 1, 2024"
+                ],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 4,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 5,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 5,
+                "team": "Edmonton Oilers",
+                "conditions": [
+                    "Trade on Mar. 6, 2024"
+                ],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 6,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 7,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 1,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 2,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 3,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 4,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": true,
+                "tradedDate": "2024-07-02",
+                "description": "The Anaheim Ducks have acquired defenseman Brian Dumoulin from the Seattle Kraken in exchange for a fourth-round pick in the 2026 NHL Draft."
+            },
+            {
+                "year": "2026",
+                "round": 5,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 6,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 7,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 1,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 2,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 3,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 4,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 5,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 6,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 7,
+                "team": "Anaheim Ducks",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 4,
+                "team": "Detroit Red Wings",
+                "conditions": [
+                    "Anaheim will receive the earlier of Detroit\u2019s own fourth-round pick in 2025 or Boston\u2019s fourth-round pick in 2025 (previously acquired by Detroit March 2, 2023)"
+                ],
+                "tradedDate": "2024-07-03"
+            }
+        ],
+        "reserves": [
+            {
+                "name": "Blais, Alexandre",
+                "slug": "alexandre-blais",
+                "born": "Nov. 14, 2005",
+                "pos": "C, LW",
+                "draftedBy": "ANA",
+                "draftYear": 2024,
+                "round": 4,
+                "overall": 100,
+                "mustSignBy": "Jun. 1, 2026"
+            },
+            {
+                "name": "Bowen, Ethan",
+                "slug": "ethan-bowen",
+                "born": "May. 14, 2002",
+                "pos": "C",
+                "draftedBy": "ANA",
+                "draftYear": 2020,
+                "round": 7,
+                "overall": 207,
+                "mustSignBy": "Aug. 15, 2027"
+            },
+            {
+                "name": "Burnevik, Austin",
+                "slug": "austin-burnevik",
+                "born": "Jan. 3, 2005",
+                "pos": "RW",
+                "draftedBy": "ANA",
+                "draftYear": 2024,
+                "round": 6,
+                "overall": 182,
+                "mustSignBy": "Aug. 15, 2028"
+            },
+            {
+                "name": "Callow, Michael",
+                "slug": "michael-callow",
+                "born": "Jan. 15, 2004",
+                "pos": "RW",
+                "draftedBy": "ANA",
+                "draftYear": 2022,
+                "round": 5,
+                "overall": 154,
+                "mustSignBy": "Aug. 15, 2027"
+            },
+            {
+                "name": "Francis, William",
+                "slug": "william-francis",
+                "born": "Nov. 16, 2000",
+                "pos": "RD",
+                "draftedBy": "ANA",
+                "draftYear": 2019,
+                "round": 6,
+                "overall": 163,
+                "mustSignBy": "Aug. 15, 2025"
+            },
+            {
+                "name": "Galimov, Artyom",
+                "slug": "artyom-galimov",
+                "born": "Sep. 8, 1999",
+                "pos": "LW",
+                "draftedBy": "ANA",
+                "draftYear": 2020,
+                "round": 5,
+                "overall": 129,
+                "mustSignBy": "-"
+            },
+            {
+                "name": "Kukkonen, Kyle",
+                "slug": "kyle-kukkonen",
+                "born": "Nov. 13, 2002",
+                "pos": "C",
+                "draftedBy": "ANA",
+                "draftYear": 2021,
+                "round": 6,
+                "overall": 162,
+                "mustSignBy": "Aug. 15, 2026"
+            },
+            {
+                "name": "Masse, Maxim",
+                "slug": "maxim-masse",
+                "born": "Apr. 7, 2006",
+                "pos": "RW",
+                "draftedBy": "ANA",
+                "draftYear": 2024,
+                "round": 3,
+                "overall": 66,
+                "mustSignBy": "Jun. 1, 2026"
+            },
+            {
+                "name": "Moore, Ian",
+                "slug": "ian-moore",
+                "born": "Jan. 4, 2002",
+                "pos": "RD",
+                "draftedBy": "ANA",
+                "draftYear": 2020,
+                "round": 3,
+                "overall": 67,
+                "mustSignBy": "Aug. 15, 2025"
+            },
+            {
+                "name": "Pettersson, Lucas",
+                "slug": "lucas-pettersson",
+                "born": "Apr. 17, 2006",
+                "pos": "C",
+                "draftedBy": "ANA",
+                "draftYear": 2024,
+                "round": 2,
+                "overall": 35,
+                "mustSignBy": "Jun. 1, 2028"
+            },
+            {
+                "name": "Port, Vojtech",
+                "slug": "vojtech-port",
+                "born": "Aug. 3, 2005",
+                "pos": "RD",
+                "draftedBy": "ANA",
+                "draftYear": 2023,
+                "round": 6,
+                "overall": 161,
+                "mustSignBy": "Jun. 1, 2025"
+            },
+            {
+                "name": "Procyszyn, Ethan",
+                "slug": "ethan-procyszyn",
+                "born": "Jul. 11, 2006",
+                "pos": "RW",
+                "draftedBy": "ANA",
+                "draftYear": 2024,
+                "round": 3,
+                "overall": 68,
+                "mustSignBy": "Jun. 1, 2026"
+            },
+            {
+                "name": "Smith, Konnor",
+                "slug": "konnor-smith",
+                "born": "Nov. 6, 2004",
+                "pos": "LD",
+                "draftedBy": "ANA",
+                "draftYear": 2023,
+                "round": 4,
+                "overall": 97,
+                "mustSignBy": "Jun. 1, 2025"
+            },
+            {
+                "name": "Smith, Tarin",
+                "slug": "tarin-smith",
+                "born": "Mar. 24, 2006",
+                "pos": "LD",
+                "draftedBy": "ANA",
+                "draftYear": 2024,
+                "round": 3,
+                "overall": 79,
+                "mustSignBy": "Jun. 1, 2026"
+            },
+            {
+                "name": "Terrance, Carey",
+                "slug": "carey-terrance",
+                "born": "May. 10, 2005",
+                "pos": "C",
+                "draftedBy": "ANA",
+                "draftYear": 2023,
+                "round": 2,
+                "overall": 59,
+                "mustSignBy": "Jun. 1, 2025"
+            },
+            {
+                "name": "Uljanskis, Darels",
+                "slug": "darels-uljanskis",
+                "born": "Aug. 25, 2006",
+                "pos": "LD",
+                "draftedBy": "ANA",
+                "draftYear": 2024,
+                "round": 7,
+                "overall": 214,
+                "mustSignBy": "Jun. 1, 2028"
+            }
+        ]
+    },
+    "__N_SSG": true
+}

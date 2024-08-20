@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   authenticate :admin do
     mount Motor::Admin => '/admin'
   end
+
+  namespace :api do
+    post 'import_contracts', to: 'imports#import_contracts'
+  end
   
   get 'home/index'
   get 'players/index'
