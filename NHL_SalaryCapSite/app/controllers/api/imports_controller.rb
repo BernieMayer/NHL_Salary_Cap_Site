@@ -38,6 +38,7 @@ module Api
         Rails.logger.info "Authorization header: #{auth_header}"
         Rails.logger.info "Token: #{token}"
     
+        Rails.logger.info "Rails.application.credentials.secret_key_base is nil" if Rails.application.credentials.secret_key_base.nil?
         begin
           decoded_token = JWT.decode(token, Rails.application.credentials.secret_key_base, true, { algorithm: 'HS256' })
           Rails.logger.info "Decoded Token: #{decoded_token}"
