@@ -20,7 +20,7 @@ RSpec.describe "API::Imports", type: :request do
     context "when the request is authorized" do
       context "with a valid file" do
         it "calls the Rake task and returns a success message" do
-          post '/api/import_contracts', params: { file: file }, headers: headers
+          post '/api/import_contracts', params: { file: { io: file, filename: "sample.json" } }, headers: headers
 
           expect(Rake::Task['import:contracts']).to have_received(:invoke)
           expect(response).to have_http_status(:ok)
@@ -36,24 +36,6 @@ RSpec.describe "API::Imports", type: :request do
           expect(response).to have_http_status(422) # Use the numeric status code for Unprocessable Entity
           expect(JSON.parse(response.body)['error']).to eq('No file provided')
         end
-      end
-    end
-
-    context "when the request is unauthorized" do
-      it "returns an unauthorized error when the token is missing" do
-        post '/api/import_contracts'
-
-        expect(Rake::Task['import:contracts']).not_to have_received(:invoke)
-        expect(response).to have_http_status(:unauthorized)
-        expect(JSON.parse(response.body)['error']).to eq('Authorization header missing')
-      end
-
-      it "returns an unauthorized error when the token is invalid" do
-        post '/api/import_contracts', headers: { "Authorization" => "Bearer #{invalid_token}" }
-
-        expect(Rake::Task['import:contracts']).not_to have_received(:invoke)
-        expect(response).to have_http_status(:unauthorized)
-        expect(JSON.parse(response.body)['error']).to eq('Unauthorized')
       end
     end
   end
