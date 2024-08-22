@@ -5,10 +5,6 @@ require 'rake'
 Rails.application.load_tasks
 
 RSpec.describe "API::Imports", type: :request do
-  let(:secret_key) { Rails.application.credentials.secret_key_base }
-  let(:valid_token) { JWT.encode({ user_id: 1 }, secret_key, 'HS256') }
-  let(:invalid_token) { 'invalid_token' }
-  let(:headers) { { "Authorization" => "Bearer #{valid_token}" } }
   let(:file) { fixture_file_upload(Rails.root.join('spec/fixtures/files/sample.json'), 'application/json') }
 
   before do
@@ -20,7 +16,7 @@ RSpec.describe "API::Imports", type: :request do
     context "when the request is authorized" do
       context "with a valid file" do
         it "calls the Rake task and returns a success message" do
-          post '/api/import_contracts', params: { file: { io: file, filename: "sample.json" } }, headers: headers
+          post '/api/import_contracts', params: { file: { io: file, filename: "sample.json" } }
 
           expect(Rake::Task['import:contracts']).to have_received(:invoke)
           expect(response).to have_http_status(:ok)
