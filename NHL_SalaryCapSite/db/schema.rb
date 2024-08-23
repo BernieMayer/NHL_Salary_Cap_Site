@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_08_23_213552) do
+ActiveRecord::Schema[7.1].define(version: 2024_08_23_214510) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -60,6 +60,20 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_23_213552) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["player_id"], name: "index_contracts_on_player_id"
+  end
+
+  create_table "draft_picks", force: :cascade do |t|
+    t.integer "year"
+    t.integer "round"
+    t.bigint "original_team_id", null: false
+    t.bigint "current_team_id", null: false
+    t.boolean "isTradedAway"
+    t.date "tradedDate"
+    t.text "conditions"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["current_team_id"], name: "index_draft_picks_on_current_team_id"
+    t.index ["original_team_id"], name: "index_draft_picks_on_original_team_id"
   end
 
   create_table "motor_alert_locks", force: :cascade do |t|
@@ -289,6 +303,8 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_23_213552) do
   add_foreign_key "cap_hits", "teams", name: "cap_hits_team_id_fkey"
   add_foreign_key "contract_details", "contracts"
   add_foreign_key "contracts", "players"
+  add_foreign_key "draft_picks", "teams", column: "current_team_id"
+  add_foreign_key "draft_picks", "teams", column: "original_team_id"
   add_foreign_key "motor_alert_locks", "motor_alerts", column: "alert_id"
   add_foreign_key "motor_alerts", "motor_queries", column: "query_id"
   add_foreign_key "motor_note_tag_tags", "motor_note_tags", column: "tag_id"
