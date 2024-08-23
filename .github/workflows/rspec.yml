@@ -41,6 +41,7 @@ jobs:
         run: |
           gem install bundler
           bundle install
+        working-directory: ./NHL_SalaryCapSite
           
       - name: Set up database
         run: |
@@ -54,3 +55,4 @@ jobs:
         run: |
           bin/rails db:migrate RAILS_ENV=test
           bundle exec rspec
+        working-directory: ./NHL_SalaryCapSite
