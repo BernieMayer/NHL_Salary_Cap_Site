@@ -1,1 +1,17 @@
-<div>Add TeamDraftPicks template here</div>
+<table>
+    <thead>
+        <th>Year</th>
+        <% (1..7).each do |round| %>
+            <th>Round <%= round %></th>
+        <% end %>
+    </thead>
+
+    <tbody>
+        <% (2024..2030).each do |year| %>
+            <tr><%= year %> </tr>
+            <% (1..7).each do |round| %>
+                <tr>0</tr>
+            <% end %>
+        <% end %>
+    </tbody>
+</table>
