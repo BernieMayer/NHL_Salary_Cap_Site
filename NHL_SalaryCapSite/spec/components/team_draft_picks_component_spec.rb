@@ -23,13 +23,13 @@ describe "when there are draft picks" do
 
       table = rendered_component.css('table')
 
-       # Verify the number of draft picks for year 2024, round 1
+       # Verify the number of draft picks for year 2025, round 1
       expect(table.css('tbody tr:nth-child(1) td:nth-child(2)').text.strip).to eq("2")
 
-      # Verify the number of draft picks for year 2024, round 2
+      # Verify the number of draft picks for year 2025, round 2
       expect(table.css('tbody tr:nth-child(1) td:nth-child(3)').text.strip).to eq("1")
   
-      # Verify a cell with no draft picks (for example, year 2024, round 4)
+      # Verify a cell with no draft picks (for example, year 2025, round 4)
       expect(table.css('tbody tr:nth-child(1) td:nth-child(4)').text.strip).to eq("0")
     end
   end
