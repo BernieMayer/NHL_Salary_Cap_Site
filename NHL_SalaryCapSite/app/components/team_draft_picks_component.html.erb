@@ -1,17 +1,20 @@
-<table>
-    <thead>
-        <th>Year</th>
+<table class="min-w-full border-collapse text-sm">
+  <thead>
+    <tr>
+      <th class="px-2 py-1 border-b border-r border-gray-300 text-left text-gray-700">Year</th>
+      <% (1..7).each do |round| %>
+        <th class="px-2 py-1 border-b border-gray-300 text-left text-gray-700">Round <%= round %></th>
+      <% end %>
+    </tr>
+  </thead>
+  <tbody>
+    <% (2025..2027).each do |year| %>
+      <tr class="hover:bg-gray-50">
+        <td class="px-2 py-1 border-b border-r border-gray-300 text-gray-900"><%= year %></td>
         <% (1..7).each do |round| %>
-            <th>Round <%= round %></th>
+          <td class="px-2 py-1 border-b border-gray-300 text-gray-900">0</td>
         <% end %>
-    </thead>
-
-    <tbody>
-        <% (2024..2030).each do |year| %>
-            <tr><%= year %> </tr>
-            <% (1..7).each do |round| %>
-                <tr>0</tr>
-            <% end %>
-        <% end %>
-    </tbody>
+      </tr>
+    <% end %>
+  </tbody>
 </table>
