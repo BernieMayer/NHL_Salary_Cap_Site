@@ -12,7 +12,10 @@
       <tr class="hover:bg-gray-50">
         <td class="px-2 py-1 border-b border-r border-gray-300 text-gray-900"><%= year %></td>
         <% (1..7).each do |round| %>
-          <td class="px-2 py-1 border-b border-gray-300 text-gray-900">0</td>
+            <% draft_picks_count = @draft_picks_by_year_and_round.dig(year, round)&.size || 0 %>
+            <td class="px-2 py-1 border-b border-gray-300 text-gray-900">
+                <%= draft_picks_count %>
+            </td>
         <% end %>
       </tr>
     <% end %>
