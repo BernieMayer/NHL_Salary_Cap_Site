@@ -12,6 +12,20 @@ class Team < ApplicationRecord
         DraftPick.where('original_team_id = ? OR current_team_id = ?', id, id)
     end
 
+    def draft_picks_by_year_and_round
+        DraftPick
+          .where("original_team_id = ? OR current_team_id = ?", self.id, self.id)
+          .each_with_object({}) do |draft_pick, hash|
+            year = draft_pick.year
+            round = draft_pick.round
+    
+            hash[year] ||= {}
+            hash[year][round] ||= []
+            hash[year][round] << draft_pick
+          end
+    end
+
+
     def buyout_players
         Player.joins(:cap_hits).where(cap_hits: { team_id: self.id, cap_type: 'Buyout' }).distinct
     end
