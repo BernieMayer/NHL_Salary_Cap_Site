@@ -103,6 +103,26 @@ namespace :import do
       process_players(data['pageProps']['data']['roster']['defense'])
       process_players(data['pageProps']['data']['roster']['goalies'])
 
+      data['pageProps']["draftPicks"].each do |draft_pick|
+        original_team = Team.find_by(name: data['pageProps']["teamName"])
+        team = Team.find_by(name: draft_pick["team"])
+        next unless team
+  
+        DraftPick.create!(
+          year: draft_pick["year"],
+          round: draft_pick["round"],
+          original_team: original_team, 
+          current_team: team, 
+          conditions: draft_pick["conditions"],
+          isTradedAway: draft_pick["isTradedAway"],
+          tradedDate: draft_pick["tradedDate"]
+        )
+      end
+
+      if data['pageProps']['draftPicks'].nil?
+        puts "No draft picks found in the JSON data."
+      end
+
     puts 'Data import complete!'
   end
 end
