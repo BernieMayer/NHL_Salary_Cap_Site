@@ -44,6 +44,24 @@ namespace :import do
           player_record = find_player(player['name'])
           
           next unless player_record  # Skip if player not found
+          slug = player['slug']
+          pos = player['pos']
+          status = player['status']
+          acquired = player['acquired']
+          terms_details = player['termsDetails']
+          acquisition_details = player['acquisitionDetails']
+          born = player['born']
+          career_games_played = player['careerGamesPlayed']
+          career_seasons_played = player['careerSeasonsPlayed']
+
+          player_record.update(
+            acquired: acquired,
+            terms_details: terms_details,
+            draft_details: acquisition_details,
+            born: born,
+            career_games_played: career_games_played,
+            career_seasons_played: career_seasons_played
+          )
   
           player['contracts'].each do |contract|
             # Skip if contract details are empty
