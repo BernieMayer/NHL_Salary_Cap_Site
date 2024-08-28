@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_08_26_212058) do
+ActiveRecord::Schema[7.1].define(version: 2024_08_28_185348) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -294,6 +294,17 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_26_212058) do
     t.index ["team_id"], name: "idx_16939_index_salary_cap_totals_on_team_id"
   end
 
+  create_table "salary_retentions", force: :cascade do |t|
+    t.bigint "team_id", null: false
+    t.bigint "contract_id", null: false
+    t.decimal "retained_cap_hit", precision: 12, scale: 2, null: false
+    t.decimal "retention_percentage", precision: 5, scale: 2, null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["contract_id"], name: "index_salary_retentions_on_contract_id"
+    t.index ["team_id"], name: "index_salary_retentions_on_team_id"
+  end
+
   create_table "teams", force: :cascade do |t|
     t.text "name"
     t.timestamptz "created_at"
@@ -314,4 +325,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_26_212058) do
   add_foreign_key "motor_taggable_tags", "motor_tags", column: "tag_id"
   add_foreign_key "players", "teams", name: "players_team_id_fkey"
   add_foreign_key "salary_cap_totals", "teams", name: "salary_cap_totals_team_id_fkey"
+  add_foreign_key "salary_retentions", "contracts"
+  add_foreign_key "salary_retentions", "teams"
 end
