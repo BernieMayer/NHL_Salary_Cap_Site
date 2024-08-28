@@ -4,6 +4,7 @@ class Team < ApplicationRecord
     has_many :salary_cap_totals
     has_many :original_draft_picks, class_name: 'DraftPick', foreign_key: 'original_team_id'
     has_many :current_draft_picks, class_name: 'DraftPick', foreign_key: 'current_team_id'
+    has_many :salary_retentions, dependent: :destroy
     
     validates :name, presence: true
     validates :code, presence: true, length: { is: 3 }, uniqueness: true
