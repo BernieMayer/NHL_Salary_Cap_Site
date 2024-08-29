@@ -17,6 +17,25 @@ namespace :import do
     file = File.read(file_path)
     data = JSON.parse(file)
 
+    team_data = data['pageProps']['teamMetadata']
+    team_name = data['pageProps']['teamName']
+    gm = team_data['gm']
+    coach = team_data['coach']
+
+    # Find or initialize the team
+    team = Team.find_or_initialize_by(name: team_name)
+    
+    # Update the gm and coach attributes
+    team.gm = gm
+    team.coach = coach
+
+    # Save the team with updated attributes
+    if team.save
+      puts "Updated team: #{team.name} with GM: #{team.gm} and Coach: #{team.coach}"
+    else
+      puts "Failed to update team: #{team.errors.full_messages.join(', ')}"
+    end
+
     # Helper method to transform name format
     def format_name(name)
       last_name, first_name = name.split(', ').map(&:strip)
