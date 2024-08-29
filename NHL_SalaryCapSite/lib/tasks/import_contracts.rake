@@ -90,6 +90,26 @@ namespace :import do
                   total_salary: convert_currency(detail['totalSalary']),
                   minors_salary: convert_currency(detail['minorsSalary'])
                 )
+
+                if detail['retention']
+                  detail['retention'].each do |team_name, retention_data|
+                    team = Team.find_by(name: team_name)
+      
+                    # Handle case where team might not exist
+                    unless team
+                      puts "Team not found: #{team_name}. Skipping retention entry."
+                      next
+                    end
+      
+                    # Create the salary retention record
+                    SalaryRetention.create!(
+                      team: team,
+                      contract: created_contract,
+                      retained_cap_hit: retention_data['capHit'].delete('$,').to_f,
+                      retention_percentage: retention_data['retention'].delete('%').to_f
+                    )
+                  end
+                end
               end
             else
               puts "Error: Failed to create contract for player - #{player_record.name}"
