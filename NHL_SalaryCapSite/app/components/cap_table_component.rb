@@ -3,7 +3,8 @@
 class CapTableComponent < ViewComponent::Base
     attr_reader :players
 
-    def initialize(players:, cap_type: 'Roster')
+    def initialize(team:, players:, cap_type: 'Roster')
+        @team = team
         @players = players
         @cap_type = cap_type
     end

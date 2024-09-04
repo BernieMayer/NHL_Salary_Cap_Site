@@ -15,7 +15,7 @@
                 <td class="px-2 py-4 whitespace-nowrap border-b border-gray-200 text-xs"> <%= player.position %> </td>
                 <% (2024..2030).each do |year| %>
                     <td class="px-2 py-4 whitespace-nowrap border-b border-gray-200 text-xs"> 
-                        <%= number_to_currency(get_cap_hit(player, year)) %> 
+                        <%= number_to_currency(helpers.find_cap_hit(@team, player, year)) %> 
                     </td>
                 <% end %>
             </tr>
