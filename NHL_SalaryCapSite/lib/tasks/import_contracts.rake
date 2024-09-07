@@ -58,7 +58,7 @@ namespace :import do
     end
 
        # Method to process players and their contracts
-       def process_players(players)
+      def process_players(players, team)
         players.each do |player|
           player_record = find_player(player['name'])
           
@@ -74,12 +74,14 @@ namespace :import do
           career_seasons_played = player['careerSeasonsPlayed']
 
           player_record.update(
+            team: team,
             acquired: acquired,
             terms_details: terms_details,
             draft_details: acquisition_details,
             born: born,
             career_games_played: career_games_played,
-            career_seasons_played: career_seasons_played
+            career_seasons_played: career_seasons_played,
+            status: Player::ROSTER 
           )
   
           player['contracts'].each do |contract|
@@ -138,9 +140,9 @@ namespace :import do
       end
   
       # Process forwards, defense, and goalies
-      process_players(data['pageProps']['data']['roster']['forwards'])
-      process_players(data['pageProps']['data']['roster']['defense'])
-      process_players(data['pageProps']['data']['roster']['goalies'])
+      process_players(data['pageProps']['data']['roster']['forwards'], team)
+      process_players(data['pageProps']['data']['roster']['defense'], team)
+      process_players(data['pageProps']['data']['roster']['goalies'], team)
 
       data['pageProps']["draftPicks"].each do |draft_pick|
         original_team = Team.find_by(name: data['pageProps']["teamName"])
