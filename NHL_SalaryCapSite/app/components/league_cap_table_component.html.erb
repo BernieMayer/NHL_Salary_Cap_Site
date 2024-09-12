@@ -1,28 +1,39 @@
-<div data-controller="league-cap-table">
-  <h2>League Cap Table</h2>
-  <table class="table-auto w-full">
-    <thead>
-      <tr>
-        <th class="text-center">Team</th>
-        <th class="text-center">Cap Hit</th>
-        <th class="text-center">Cap Space</th>
-      </tr>
-    </thead>
-    <tbody>
-      <% @teams.each do |team| %>
+<div data-controller="league-cap-table" class="m-0 p-0">
+  <h2 class="text-xl font-bold mb-4 text-center">League Cap Table</h2>
+  <div class="overflow-x-auto">
+    <table class="table-auto w-full text-sm sm:text-base">
+      <thead>
         <tr>
-          <td class="w-72 border-b border-gray-300">
-            <%= render(LinkComponent.new(href: team_path( code: team.code))) do %>
-              <div class="flex items-center">
-                <%= image_tag "logos/#{team.name.downcase.parameterize}.gif", class: "h-8 mr-2" %>
-                <span><%= team.name %></span>
-            </div>
-          <% end %>
-          </td>
-          <td class= "px-2"><%= formatted_cap_hit(total_cap_hit(team)) %></td>
-          <td class= "px-2 <%= cap_space_text_color(cap_space(team))%>"><%= formatted_cap_hit(cap_space(team)) %></td>
+          <th class="text-center py-2">Team</th>
+          <th class="text-center py-2">Cap Hit</th>
+          <th class="text-center py-2">Cap Space</th>
         </tr>
-      <% end %>
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        <% @teams.each do |team| %>
+          <tr>
+            <!-- First column: Logo only on small screens, name on larger screens -->
+            <td class="border-b border-gray-300 py-2 px-2 sm:px-4 flex items-center">
+              <%= render(LinkComponent.new(href: team_path(code: team.code))) do %>
+                <div class="flex items-center">
+                  <!-- Adjust image size for small screens -->
+                  <%= image_tag "logos/#{team.name.downcase.parameterize}.gif", class: "h-8 sm:h-12 max-w-[50px] sm:max-w-[100px]" %>
+                  <!-- Hide text on small screens -->
+                  <span class="hidden sm:inline text-sm sm:text-base ml-2 truncate"><%= team.name %></span>
+                </div>
+              <% end %>
+            </td>
+            <!-- Second column: Text size smaller on small screens -->
+            <td class="border-b border-gray-300 px-2 text-center text-xs sm:text-base whitespace-nowrap">
+              <%= formatted_cap_hit(total_cap_hit(team)) %>
+            </td>
+            <!-- Third column: Text size smaller on small screens -->
+            <td class="border-b border-gray-300 px-2 text-center text-xs sm:text-base whitespace-nowrap <%= cap_space_text_color(cap_space(team)) %>">
+              <%= formatted_cap_hit(cap_space(team)) %>
+            </td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
 </div>
