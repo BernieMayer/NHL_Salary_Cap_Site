@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_08_29_172134) do
+ActiveRecord::Schema[7.1].define(version: 2024_09_13_015021) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -24,6 +24,18 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_29_172134) do
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_admins_on_email", unique: true
     t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
+  end
+
+  create_table "buyouts", force: :cascade do |t|
+    t.bigint "contract_id", null: false
+    t.string "team_name"
+    t.decimal "cost"
+    t.decimal "earning"
+    t.decimal "savings"
+    t.decimal "cap_hit"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["contract_id"], name: "index_buyouts_on_contract_id"
   end
 
   create_table "cap_hits", force: :cascade do |t|
@@ -314,6 +326,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_29_172134) do
     t.string "coach"
   end
 
+  add_foreign_key "buyouts", "contracts"
   add_foreign_key "cap_hits", "players", name: "cap_hits_player_id_fkey"
   add_foreign_key "cap_hits", "teams", name: "cap_hits_team_id_fkey"
   add_foreign_key "contract_details", "contracts"
