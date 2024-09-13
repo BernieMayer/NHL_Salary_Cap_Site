@@ -52,6 +52,16 @@ namespace :import do
       player
     end
 
+    def convert_status(status)
+      if status == "NHL"
+        Player::ROSTER
+      elsif status.include?("IR")
+        Player::IR
+      else 
+        status
+      end
+    end
+
     def convert_currency(value)
       return 0 if value.nil?
       value.delete('$,').to_d
@@ -75,13 +85,14 @@ namespace :import do
 
           player_record.update(
             team: team,
+            position: pos,
             acquired: acquired,
             terms_details: terms_details,
             draft_details: acquisition_details,
             born: born,
             career_games_played: career_games_played,
             career_seasons_played: career_seasons_played,
-            status: Player::ROSTER 
+            status: convert_status(status) 
           )
   
           player['contracts'].each do |contract|
@@ -143,6 +154,9 @@ namespace :import do
       process_players(data['pageProps']['data']['roster']['forwards'], team)
       process_players(data['pageProps']['data']['roster']['defense'], team)
       process_players(data['pageProps']['data']['roster']['goalies'], team)
+      process_players(data['pageProps']['data']['non-roster']['forwards'], team)
+      process_players(data['pageProps']['data']['non-roster']['defense'], team)
+      process_players(data['pageProps']['data']['non-roster']['goalies'], team)
 
       data['pageProps']["draftPicks"].each do |draft_pick|
         original_team = Team.find_by(name: data['pageProps']["teamName"])

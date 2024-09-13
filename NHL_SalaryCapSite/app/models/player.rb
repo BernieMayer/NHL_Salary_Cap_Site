@@ -7,9 +7,10 @@ class Player < ApplicationRecord
 
     ROSTER = "Roster"
     NON_ROSTER = "Non-Roster"
+    MINOR = "Minor"
     IR = "IR"
     
-    STATUSES = [ROSTER, NON_ROSTER, IR]
+    STATUSES = [ROSTER, MINOR,  NON_ROSTER, IR]
     validates :status, inclusion: { in: STATUSES }
 
     scope :forwards, -> { where("LOWER(position) LIKE '%c%' OR LOWER(position) LIKE '%lw%' OR LOWER(position) LIKE '%rw%'") }
