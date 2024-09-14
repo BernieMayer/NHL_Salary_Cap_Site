@@ -142,6 +142,26 @@ namespace :import do
                     )
                   end
                 end
+                
+                if detail["buyout"]
+                  buyout_team = Team.find_by(name: detail["buyout"]["teamName"])
+      
+                  # Handle case where team might not exist
+                  unless buyout_team
+                    puts "Team not found: #{detail["buyout"]["teamName"]}. Skipping buyout entry."
+                    next
+                  end
+
+                  Buyout.create!(
+                    contract_id: created_contract.id,
+                    team_id: buyout_team.id,
+                    cost: convert_currency(detail["buyout"]["cost"]),
+                    earning: convert_currency(detail["buyout"]["earning"]),
+                    savings: convert_currency(detail["buyout"]["savings"]),
+                    cap_hit: convert_currency(detail["buyout"]["capHit"])
+                  )
+                end
+
               end
             else
               puts "Error: Failed to create contract for player - #{player_record.name}"
@@ -157,6 +177,7 @@ namespace :import do
       process_players(data['pageProps']['data']['non-roster']['forwards'], team)
       process_players(data['pageProps']['data']['non-roster']['defense'], team)
       process_players(data['pageProps']['data']['non-roster']['goalies'], team)
+      process_players(data['pageProps']['data']['dead cap']['buyout history'], team)
 
       data['pageProps']["draftPicks"].each do |draft_pick|
         original_team = Team.find_by(name: data['pageProps']["teamName"])
