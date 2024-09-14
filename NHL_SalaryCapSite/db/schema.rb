@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_09_13_015021) do
+ActiveRecord::Schema[7.1].define(version: 2024_09_14_002850) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -35,7 +35,9 @@ ActiveRecord::Schema[7.1].define(version: 2024_09_13_015021) do
     t.decimal "cap_hit"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "team_id", null: false
     t.index ["contract_id"], name: "index_buyouts_on_contract_id"
+    t.index ["team_id"], name: "index_buyouts_on_team_id"
   end
 
   create_table "cap_hits", force: :cascade do |t|
@@ -327,6 +329,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_09_13_015021) do
   end
 
   add_foreign_key "buyouts", "contracts"
+  add_foreign_key "buyouts", "teams"
   add_foreign_key "cap_hits", "players", name: "cap_hits_player_id_fkey"
   add_foreign_key "cap_hits", "teams", name: "cap_hits_team_id_fkey"
   add_foreign_key "contract_details", "contracts"
