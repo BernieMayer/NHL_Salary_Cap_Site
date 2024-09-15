@@ -53,6 +53,10 @@ namespace :import do
     end
 
     def convert_status(status)
+      if status.nil?
+        return status
+      end
+
       if status == "NHL"
         Player::ROSTER
       elsif status.include?("IR")
@@ -69,6 +73,7 @@ namespace :import do
 
        # Method to process players and their contracts
       def process_players(players, team)
+        return if players.nil?
         players.each do |player|
           player_record = find_player(player['name'])
           
@@ -189,7 +194,7 @@ namespace :import do
           round: draft_pick["round"],
           original_team: original_team, 
           current_team: team, 
-          conditions: draft_pick["conditions"],
+          conditions: draft_pick["conditions"].first,
           isTradedAway: draft_pick["isTradedAway"],
           tradedDate: draft_pick["tradedDate"]
         )
