@@ -194,7 +194,7 @@ namespace :import do
           round: draft_pick["round"],
           original_team: original_team, 
           current_team: team, 
-          conditions: draft_pick["conditions"].first,
+          conditions: draft_pick["conditions"].nil? ? "" : draft_pick["conditions"].first,
           isTradedAway: draft_pick["isTradedAway"],
           tradedDate: draft_pick["tradedDate"]
         )
