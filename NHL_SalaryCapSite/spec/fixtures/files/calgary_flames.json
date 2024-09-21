@@ -1,0 +1,128 @@
+{
+    "pageProps": {
+      "teamMetadata": {
+        "gm": "Brad Treliving",
+        "coach": "Darryl Sutter"
+      },
+      "teamName": "Calgary Flames",
+      "data": {
+        "roster": {
+          "forwards": [
+            {
+              "name": "Gaudreau, Johnny",
+              "slug": "johnny-gaudreau",
+              "pos": "LW",
+              "status": "NHL",
+              "acquired": "Drafted",
+              "termsDetails": "7 years",
+              "acquisitionDetails": "1st round pick, 2011",
+              "born": "1993-08-13",
+              "careerGamesPlayed": 500,
+              "careerSeasonsPlayed": 8,
+              "contracts": [
+                {
+                  "expiryStatus": "UFA",
+                  "details": [
+                    {
+                      "season": "2023-2024",
+                      "clause": "No Trade Clause",
+                      "capHit": "$6,750,000",
+                      "aav": "$6,750,000",
+                      "performanceBonuses": "$0",
+                      "signingBonuses": "$0",
+                      "baseSalary": "$6,000,000",
+                      "totalSalary": "$6,750,000",
+                      "minorsSalary": "$0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "defense": [
+            {
+              "name": "Andersson, Rasmus",
+              "slug": "rasmus-andersson",
+              "pos": "D",
+              "status": "NHL",
+              "acquired": "Drafted",
+              "termsDetails": "6 years",
+              "acquisitionDetails": "2nd round pick, 2015",
+              "born": "1996-10-27",
+              "careerGamesPlayed": 300,
+              "careerSeasonsPlayed": 5,
+              "contracts": [
+                {
+                  "expiryStatus": "UFA",
+                  "details": [
+                    {
+                      "season": "2024-2025",
+                      "clause": "Modified No Trade Clause",
+                      "capHit": "$4,550,000",
+                      "aav": "$4,550,000",
+                      "performanceBonuses": "$0",
+                      "signingBonuses": "$500,000",
+                      "baseSalary": "$4,050,000",
+                      "totalSalary": "$4,550,000",
+                      "minorsSalary": "$0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "goalies": [
+            {
+              "name": "Markstrom, Jacob",
+              "slug": "jacob-markstrom",
+              "pos": "G",
+              "status": "NHL",
+              "acquired": "Free Agency",
+              "termsDetails": "6 years",
+              "acquisitionDetails": "Signed as UFA, 2020",
+              "born": "1990-01-31",
+              "careerGamesPlayed": 500,
+              "careerSeasonsPlayed": 12,
+              "contracts": [
+                {
+                  "expiryStatus": "UFA",
+                  "details": [
+                    {
+                      "season": "2025-2026",
+                      "clause": "Full No Movement Clause",
+                      "capHit": "$6,000,000",
+                      "aav": "$6,000,000",
+                      "performanceBonuses": "$0",
+                      "signingBonuses": "$1,000,000",
+                      "baseSalary": "$5,000,000",
+                      "totalSalary": "$6,000,000",
+                      "minorsSalary": "$0"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "non-roster": {
+          "forwards": [],
+          "defense": [],
+          "goalies": []
+        },
+        "dead cap": {
+          "buyout history": []
+        }
+      },
+      "draftPicks": [
+        {
+          "year": "2025",
+          "round": 1,
+          "team": "Anaheim Ducks",
+          "conditions": [],
+          "isTradedAway": false,
+          "tradedDate": null
+        }
+      ]
+    }
+  }
+  
