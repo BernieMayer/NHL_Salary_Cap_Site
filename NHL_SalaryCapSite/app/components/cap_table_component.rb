@@ -10,12 +10,10 @@ class CapTableComponent < ViewComponent::Base
     end
 
     def get_cap_hit(player, year)
-        if @cap_type == "Roster" 
-            player.team_cap_hits.find_by(year: year)&.cap_value
-        elsif @cap_type == "Buyout"
-            player.cap_hits.buyout.find_by(year: year)&.cap_value
-        elsif @cap_type == "Retained"
-            player.cap_hits.retained.find_by(year: year)&.cap_value
-        end
+        if @cap_type == "Buyout"
+            1234
+        else 
+            player.cap_hit_for_team_in_season(@team, "#{year}-#{(year + 1).to_s[-2..]}")
+        end  
     end
 end
