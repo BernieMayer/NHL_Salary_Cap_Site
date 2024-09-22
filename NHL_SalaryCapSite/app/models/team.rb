@@ -33,6 +33,8 @@ class Team < ApplicationRecord
     end
 
     def retained_players
-        Player.joins(:cap_hits).where(cap_hits: { team_id: self.id, cap_type: 'Retained'}).distinct
+        Player.joins(contracts: :salary_retentions)
+                         .where(salary_retentions: { team_id: id })
+                         .where.not(contracts: { player_id: Player.where(team_id: id) }).distinct
     end
 end

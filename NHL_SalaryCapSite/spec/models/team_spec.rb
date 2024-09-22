@@ -56,6 +56,34 @@ RSpec.describe Team, type: :model do
     end
   end
 
+  describe '#retained_players' do
+    it 'returns players with salary retention not playing for the team' do
+      # Create teams
+      team = Team.create(name: 'Team Retaining Salary', code: "TRS")
+      other_team = Team.create(name: 'Other Team', code: "OTT")
+
+      # Create players
+      player_on_other_team = Player.create(name: 'Player On Other Team', team: other_team)
+      player_on_team = Player.create(name: 'Player On Same Team', team: team)
+
+      # Create contracts (assuming the team association happens through contract details or retention)
+      contract_with_retention = Contract.create(player: player_on_other_team)
+      contract_on_team = Contract.create(player: player_on_team)
+
+      # Create salary retentions (link the contract to the team here)
+      SalaryRetention.create(contract: contract_with_retention, team: team, retained_cap_hit: 50.0, retention_percentage: 0.50)
+      SalaryRetention.create(contract: contract_on_team, team: team, retained_cap_hit: 50.0, retention_percentage: 0.50)
+      # Call the method and expect the correct player
+      result = team.retained_players
+
+      # Ensure the player not playing for the team is returned
+      expect(result).to include(player_on_other_team)
+
+      # Ensure the player playing on the team is not included
+      expect(result).not_to include(player_on_team)
+    end
+  end
+
   describe "#draft_picks" do
     before do
       @team = Team.create!(name: "Team A", code: "AAA")
