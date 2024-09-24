@@ -141,6 +141,7 @@ namespace :import do
                     # Create the salary retention record
                     SalaryRetention.create!(
                       team: team,
+                      season: detail['season'],
                       contract: created_contract,
                       retained_cap_hit: retention_data['capHit'].delete('$,').to_f,
                       retention_percentage: retention_data['retention'].delete('%').to_f
@@ -160,6 +161,7 @@ namespace :import do
                   Buyout.create!(
                     contract_id: created_contract.id,
                     team_id: buyout_team.id,
+                    season: detail['season'],
                     cost: convert_currency(detail["buyout"]["cost"]),
                     earning: convert_currency(detail["buyout"]["earning"]),
                     savings: convert_currency(detail["buyout"]["savings"]),
