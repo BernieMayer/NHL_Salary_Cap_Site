@@ -42,13 +42,9 @@ namespace :import do
       "#{first_name} #{last_name}"
     end
 
-    # Helper method to find a player by name
     def find_player(name)
       formatted_name = format_name(name)
-      player = Player.find_by(name: formatted_name)
-      unless player
-        puts "Error: Player not found - #{formatted_name}"
-      end
+      player = Player.find_or_create_by(name: formatted_name)
       player
     end
 
