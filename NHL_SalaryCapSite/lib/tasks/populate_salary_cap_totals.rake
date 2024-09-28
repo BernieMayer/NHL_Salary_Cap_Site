@@ -1,7 +1,7 @@
 namespace :salary_cap do
-    include SeasonHelper
     desc 'Populate salary cap totals'
     task populate: :environment do
+        include SeasonHelper
 
         def sum_roster_player_cap_hits(team, year)
             cap_hits_total = 0.0
