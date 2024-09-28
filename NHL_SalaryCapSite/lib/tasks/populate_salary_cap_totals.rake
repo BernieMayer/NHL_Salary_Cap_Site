@@ -20,7 +20,6 @@ namespace :salary_cap do
             buyouts = Buyout.get_buyouts_for_team_season(format_year_to_season(year), team)
             return 0 if buyouts.nil?
             buyouts.all.each do |buyout|
-                next if buyout.cap_hit.nil?
                 cap_hits_total += buyout.cap_hit
             end
             cap_hits_total 
