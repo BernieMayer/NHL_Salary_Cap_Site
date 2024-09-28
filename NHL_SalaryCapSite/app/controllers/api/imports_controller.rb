@@ -14,6 +14,8 @@ module Api
         end
 
         args = { file_path: file_path }
+        
+        Rake::Task.clear
         Rails.application.load_tasks
         Rake::Task['import:contracts'].reenable # Ensure the task can be run multiple times
         Rake::Task['import:contracts'].invoke(args[:file_path]) # Pass the file path as an argument
