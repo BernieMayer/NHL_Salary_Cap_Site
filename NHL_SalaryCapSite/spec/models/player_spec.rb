@@ -18,6 +18,47 @@ RSpec.describe Player, type: :model do
         end
     end
 
+    describe "#cap_hit_for_team_in_season" do
+        let!(:team) { Team.create(name: "Sample Team", code: "STM") }
+        let!(:player) { Player.create(name: "Sample Player", team: team) }
+        let!(:contract) { Contract.create(player: player) }
+        
+        context 'when there is a salary retention for the player' do
+            let!(:contract_detail) do
+                ContractDetail.create(contract: contract, season: "2024-25", cap_hit: 5_000_000)
+            end
+            let!(:salary_retention) do
+                SalaryRetention.create(contract: contract, team: team, retained_cap_hit: 4_000_000, retention_percentage: 0.80)
+            end
+        
+            it 'returns the retained cap hit if it exists' do
+                expect(player.cap_hit_for_team_in_season(team, "2024-25")).to eq(4_000_000)
+            end
+        end
+    
+        context 'when there is no salary retention for the player' do
+            let!(:contract_detail) do
+                ContractDetail.create(contract: contract, season: "2024-25", cap_hit: 5_000_000)
+            end
+        
+            it 'returns the cap hit from the contract details' do
+                expect(player.cap_hit_for_team_in_season(team, "2024-25")).to eq(5_000_000)
+            end
+        end
+        
+        context 'when there is no contract detail for the given season' do
+            it 'returns nil' do
+                expect(player.cap_hit_for_team_in_season(team, "2024-25")).to be_nil
+            end
+        end
+    
+        context 'when there is no contract or salary retention data' do
+            it 'returns nil' do
+                expect(player.cap_hit_for_team_in_season(team, "2024-25")).to be_nil
+            end
+        end
+    end
+
     describe "contracts" do
         it { should have_many(:contracts) }
 
