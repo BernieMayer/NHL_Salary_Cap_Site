@@ -1,128 +1,3563 @@
 {
-    "pageProps": {
-      "teamMetadata": {
-        "gm": "Brad Treliving",
-        "coach": "Darryl Sutter"
-      },
+  "pageProps": {
+      "team": "calgary_flames",
       "teamName": "Calgary Flames",
+      "teamMetadata": {
+          "name": "Calgary Flames",
+          "slug": "calgary_flames",
+          "tricode": "CGY",
+          "logo": "calgary_flames.svg",
+          "shortName": "flames",
+          "gm": "Craig Conroy",
+          "coach": "Ryan Huska"
+      },
       "data": {
-        "roster": {
-          "forwards": [
-            {
-              "name": "Gaudreau, Johnny",
-              "slug": "johnny-gaudreau",
-              "pos": "LW",
-              "status": "NHL",
-              "acquired": "Drafted",
-              "termsDetails": "7 years",
-              "acquisitionDetails": "1st round pick, 2011",
-              "born": "1993-08-13",
-              "careerGamesPlayed": 500,
-              "careerSeasonsPlayed": 8,
-              "contracts": [
-                {
-                  "expiryStatus": "UFA",
-                  "details": [
-                    {
-                      "season": "2023-2024",
-                      "clause": "No Trade Clause",
-                      "capHit": "$6,750,000",
-                      "aav": "$6,750,000",
-                      "performanceBonuses": "$0",
-                      "signingBonuses": "$0",
-                      "baseSalary": "$6,000,000",
-                      "totalSalary": "$6,750,000",
-                      "minorsSalary": "$0"
-                    }
-                  ]
-                }
+          "roster": {
+              "forwards": [
+                  {
+                      "name": "Huberdeau, Jonathan",
+                      "slug": "jonathan-huberdeau",
+                      "note": "",
+                      "terms": "NMC",
+                      "termsDetails": "No-Move Clause - (Starting 2029-30, player can list 12 teams he's willing to be traded to)",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW, LW",
+                      "status": "NHL",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2011 Round 1, #3 Overall",
+                      "born": "Jun. 4, 1993",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "NMC",
+                                      "capHit": "$10,500,000",
+                                      "aav": "$10,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$7,000,000",
+                                      "baseSalary": "$3,500,000",
+                                      "totalSalary": "$10,500,000",
+                                      "minorsSalary": "$10,500,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "NMC",
+                                      "capHit": "$10,500,000",
+                                      "aav": "$10,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$7,000,000",
+                                      "baseSalary": "$3,500,000",
+                                      "totalSalary": "$10,500,000",
+                                      "minorsSalary": "$10,500,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "NMC",
+                                      "capHit": "$10,500,000",
+                                      "aav": "$10,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$7,000,000",
+                                      "baseSalary": "$3,500,000",
+                                      "totalSalary": "$10,500,000",
+                                      "minorsSalary": "$10,500,000"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "NMC",
+                                      "capHit": "$10,500,000",
+                                      "aav": "$10,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$9,500,000",
+                                      "baseSalary": "$1,000,000",
+                                      "totalSalary": "$10,500,000",
+                                      "minorsSalary": "$10,500,000"
+                                  },
+                                  {
+                                      "season": "2027-28",
+                                      "clause": "NMC",
+                                      "capHit": "$10,500,000",
+                                      "aav": "$10,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$9,500,000",
+                                      "baseSalary": "$1,000,000",
+                                      "totalSalary": "$10,500,000",
+                                      "minorsSalary": "$10,500,000"
+                                  },
+                                  {
+                                      "season": "2028-29",
+                                      "clause": "NMC",
+                                      "capHit": "$10,500,000",
+                                      "aav": "$10,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$7,000,000",
+                                      "baseSalary": "$3,500,000",
+                                      "totalSalary": "$10,500,000",
+                                      "minorsSalary": "$10,500,000"
+                                  },
+                                  {
+                                      "season": "2029-30",
+                                      "clause": "M-NTC, NMC",
+                                      "capHit": "$10,500,000",
+                                      "aav": "$10,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$9,500,000",
+                                      "baseSalary": "$1,000,000",
+                                      "totalSalary": "$10,500,000",
+                                      "minorsSalary": "$10,500,000"
+                                  },
+                                  {
+                                      "season": "2030-31",
+                                      "clause": "M-NTC, NMC",
+                                      "capHit": "$10,500,000",
+                                      "aav": "$10,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$5,000,000",
+                                      "baseSalary": "$5,500,000",
+                                      "totalSalary": "$10,500,000",
+                                      "minorsSalary": "$10,500,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 857,
+                      "careerSeasonsPlayed": 12,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "LW": 11428,
+                          "RW": 45400
+                      }
+                  },
+                  {
+                      "name": "Kadri, Nazem",
+                      "slug": "nazem-kadri",
+                      "note": "",
+                      "terms": "NMC",
+                      "termsDetails": "No-Move Clause - (Starting 2026-27: 13 team no-trade list)",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "C",
+                      "status": "NHL",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "2009 Round 1, #7 Overall",
+                      "born": "Oct. 6, 1990",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "NMC",
+                                      "capHit": "$7,000,000",
+                                      "aav": "$7,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,500,000",
+                                      "baseSalary": "$4,500,000",
+                                      "totalSalary": "$7,000,000",
+                                      "minorsSalary": "$7,000,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "NMC",
+                                      "capHit": "$7,000,000",
+                                      "aav": "$7,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,500,000",
+                                      "baseSalary": "$4,500,000",
+                                      "totalSalary": "$7,000,000",
+                                      "minorsSalary": "$7,000,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "NMC",
+                                      "capHit": "$7,000,000",
+                                      "aav": "$7,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,500,000",
+                                      "baseSalary": "$4,500,000",
+                                      "totalSalary": "$7,000,000",
+                                      "minorsSalary": "$7,000,000"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "M-NTC",
+                                      "capHit": "$7,000,000",
+                                      "aav": "$7,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$1,000,000",
+                                      "baseSalary": "$6,000,000",
+                                      "totalSalary": "$7,000,000",
+                                      "minorsSalary": "$7,000,000"
+                                  },
+                                  {
+                                      "season": "2027-28",
+                                      "clause": "M-NTC",
+                                      "capHit": "$7,000,000",
+                                      "aav": "$7,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$7,000,000",
+                                      "totalSalary": "$7,000,000",
+                                      "minorsSalary": "$7,000,000"
+                                  },
+                                  {
+                                      "season": "2028-29",
+                                      "clause": "M-NTC",
+                                      "capHit": "$7,000,000",
+                                      "aav": "$7,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$7,000,000",
+                                      "totalSalary": "$7,000,000",
+                                      "minorsSalary": "$7,000,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 955,
+                      "careerSeasonsPlayed": 14,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "C": 53633,
+                          "RW": 758
+                      }
+                  },
+                  {
+                      "name": "Kuzmenko, Andrei",
+                      "slug": "andrei-kuzmenko",
+                      "note": "",
+                      "terms": "M-NTC",
+                      "termsDetails": "Modified No-Trade Clause - (M-NTC: 12 team no-trade list)",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LW, RW",
+                      "status": "NHL",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Feb. 4, 1996",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "M-NTC",
+                                      "capHit": "$5,500,000",
+                                      "aav": "$5,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,000,000",
+                                      "baseSalary": "$3,500,000",
+                                      "totalSalary": "$5,500,000",
+                                      "minorsSalary": "$5,500,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "M-NTC",
+                                      "capHit": "$5,500,000",
+                                      "aav": "$5,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$1,000,000",
+                                      "baseSalary": "$4,500,000",
+                                      "totalSalary": "$5,500,000",
+                                      "minorsSalary": "$5,500,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 3,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RW": 1740,
+                          "LW": 18535
+                      }
+                  },
+                  {
+                      "name": "Coleman, Blake",
+                      "slug": "blake-coleman",
+                      "note": "",
+                      "terms": "M-NTC",
+                      "termsDetails": "Modified No-Trade Clause - (2024-25 to 2026-27: 10 team trade list)",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW, LW",
+                      "status": "NHL",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "2011 Round 3, #75 Overall",
+                      "born": "Nov. 28, 1991",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "NTC",
+                                      "capHit": "$4,900,000",
+                                      "aav": "$4,900,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$5,900,000",
+                                      "totalSalary": "$5,900,000",
+                                      "minorsSalary": "$5,900,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "M-NTC",
+                                      "capHit": "$4,900,000",
+                                      "aav": "$4,900,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$4,900,000",
+                                      "totalSalary": "$4,900,000",
+                                      "minorsSalary": "$4,900,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "M-NTC",
+                                      "capHit": "$4,900,000",
+                                      "aav": "$4,900,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$4,900,000",
+                                      "totalSalary": "$4,900,000",
+                                      "minorsSalary": "$4,900,000"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "M-NTC",
+                                      "capHit": "$4,900,000",
+                                      "aav": "$4,900,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$4,900,000",
+                                      "totalSalary": "$4,900,000",
+                                      "minorsSalary": "$4,900,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 607,
+                      "careerSeasonsPlayed": 9,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RW": 32692,
+                          "LW": 23839
+                      }
+                  },
+                  {
+                      "name": "Backlund, Mikael",
+                      "slug": "mikael-backlund",
+                      "note": "\"C\"",
+                      "terms": "35+NMC",
+                      "termsDetails": "Thirty-five Plus Contract, No-Move Clause - (NMC throughout | Modified-NTC (15 team no-trade list) begins Jan 1, 2026)",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "C",
+                      "status": "NHL",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2007 Round 1, #24 Overall",
+                      "born": "Mar. 17, 1989",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "NMC",
+                                      "capHit": "$4,500,000",
+                                      "aav": "$4,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$4,500,000",
+                                      "totalSalary": "$4,500,000",
+                                      "minorsSalary": "$4,500,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "M-NTC, NMC",
+                                      "capHit": "$4,500,000",
+                                      "aav": "$4,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$4,500,000",
+                                      "totalSalary": "$4,500,000",
+                                      "minorsSalary": "$4,500,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "NMC",
+                                      "capHit": "$5,350,000",
+                                      "aav": "$5,350,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$5,350,000",
+                                      "totalSalary": "$5,350,000",
+                                      "minorsSalary": "$5,350,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 1032,
+                      "careerSeasonsPlayed": 15,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "C": 58026,
+                          "RW": 924
+                      }
+                  },
+                  {
+                      "name": "Mantha, Anthony",
+                      "slug": "anthony-mantha",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW, LW",
+                      "status": "NHL",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "2013 Round 1, #20 Overall",
+                      "born": "Sep. 16, 1994",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$3,500,000",
+                                      "aav": "$3,500,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$3,500,000",
+                                      "totalSalary": "$3,500,000",
+                                      "minorsSalary": "$3,500,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$5,700,000",
+                                      "aav": "$5,700,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$6,500,000",
+                                      "totalSalary": "$6,500,000",
+                                      "minorsSalary": "$6,500,000",
+                                      "retention": {
+                                          "Calgary Flames": {
+                                              "capHit": "$2,850,000",
+                                              "retention": "50.00%"
+                                          }
+                                      }
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 508,
+                      "careerSeasonsPlayed": 10,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RW": 11212
+                      }
+                  },
+                  {
+                      "name": "Sharangovich, Yegor",
+                      "slug": "yegor-sharangovich",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW, C, LW",
+                      "status": "NHL",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2018 Round 5, #141 Overall",
+                      "born": "Jun. 6, 1998",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$5,750,000",
+                                      "aav": "$5,750,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$5,750,000",
+                                      "totalSalary": "$5,750,000",
+                                      "minorsSalary": "$5,750,000"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "",
+                                      "capHit": "$5,750,000",
+                                      "aav": "$5,750,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$5,750,000",
+                                      "totalSalary": "$5,750,000",
+                                      "minorsSalary": "$5,750,000"
+                                  },
+                                  {
+                                      "season": "2027-28",
+                                      "clause": "",
+                                      "capHit": "$5,750,000",
+                                      "aav": "$5,750,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$5,750,000",
+                                      "totalSalary": "$5,750,000",
+                                      "minorsSalary": "$5,750,000"
+                                  },
+                                  {
+                                      "season": "2028-29",
+                                      "clause": "",
+                                      "capHit": "$5,750,000",
+                                      "aav": "$5,750,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$5,750,000",
+                                      "totalSalary": "$5,750,000",
+                                      "minorsSalary": "$5,750,000"
+                                  },
+                                  {
+                                      "season": "2029-30",
+                                      "clause": "",
+                                      "capHit": "$5,750,000",
+                                      "aav": "$5,750,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$5,750,000",
+                                      "totalSalary": "$5,750,000",
+                                      "minorsSalary": "$5,750,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$3,100,000",
+                                      "aav": "$3,100,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$3,100,000",
+                                      "totalSalary": "$3,100,000",
+                                      "minorsSalary": "$3,100,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$3,100,000",
+                                      "aav": "$3,100,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$3,100,000",
+                                      "totalSalary": "$3,100,000",
+                                      "minorsSalary": "$3,100,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 290,
+                      "careerSeasonsPlayed": 4,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RW": 21154,
+                          "C": 16473,
+                          "LW": 12962
+                      }
+                  },
+                  {
+                      "name": "Lomberg, Ryan",
+                      "slug": "ryan-lomberg",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LW, RW",
+                      "status": "NHL",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Dec. 9, 1994",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$2,000,000",
+                                      "aav": "$2,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$2,000,000",
+                                      "totalSalary": "$2,000,000",
+                                      "minorsSalary": "$2,000,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$2,000,000",
+                                      "aav": "$2,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$2,000,000",
+                                      "totalSalary": "$2,000,000",
+                                      "minorsSalary": "$2,000,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$800,000",
+                                      "aav": "$800,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$825,000",
+                                      "totalSalary": "$825,000",
+                                      "minorsSalary": "$825,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 289,
+                      "careerSeasonsPlayed": 4,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RW": 11239,
+                          "LW": 21460
+                      }
+                  },
+                  {
+                      "name": "Rooney, Kevin",
+                      "slug": "kevin-rooney",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "C",
+                      "status": "NHL",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "May. 21, 1993",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$1,300,000",
+                                      "aav": "$1,300,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$1,300,000",
+                                      "totalSalary": "$1,300,000",
+                                      "minorsSalary": "$1,300,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$1,300,000",
+                                      "aav": "$1,300,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$1,300,000",
+                                      "totalSalary": "$1,300,000",
+                                      "minorsSalary": "$1,300,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 275,
+                      "careerSeasonsPlayed": 6,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "C": 9790
+                      }
+                  },
+                  {
+                      "name": "Pospisil, Martin",
+                      "slug": "martin-pospisil",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW",
+                      "status": "NHL",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2018 Round 4, #105 Overall",
+                      "born": "Nov. 19, 1999",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$1,000,000",
+                                      "aav": "$1,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$1,000,000",
+                                      "totalSalary": "$1,000,000",
+                                      "minorsSalary": "$1,000,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$1,000,000",
+                                      "aav": "$1,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$1,000,000",
+                                      "totalSalary": "$1,000,000",
+                                      "minorsSalary": "$1,000,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$90,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": true,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 1,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RW": 38351
+                      }
+                  },
+                  {
+                      "name": "Zary, Connor",
+                      "slug": "connor-zary",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $212,500",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LW, C",
+                      "status": "NHL",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2020 Round 1, #24 Overall",
+                      "born": "Sep. 25, 2001",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$863,333",
+                                      "aav": "$1,005,000",
+                                      "performanceBonuses": "$212,500",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$832,500",
+                                      "totalSalary": "$832,500",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$863,333",
+                                      "aav": "$1,005,000",
+                                      "performanceBonuses": "$212,500",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$832,500",
+                                      "totalSalary": "$832,500",
+                                      "minorsSalary": "$80,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 1,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "C": 6492,
+                          "LW": 33022,
+                          "RW": 915
+                      }
+                  },
+                  {
+                      "name": "Duehr, Walker",
+                      "slug": "walker-duehr",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW, C",
+                      "status": "NHL",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Nov. 23, 1997",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$825,000",
+                                      "aav": "$825,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$775,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$825,000",
+                                      "aav": "$825,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$875,000",
+                                      "totalSalary": "$875,000",
+                                      "minorsSalary": "$875,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 2,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RW": 10808,
+                          "C": 1111
+                      }
+                  },
+                  {
+                      "name": "Pelletier, Jakob",
+                      "slug": "jakob-pelletier",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LW",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2019 Round 1, #26 Overall",
+                      "born": "Mar. 7, 2001",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$863,333",
+                                      "aav": "$863,333",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$832,500",
+                                      "totalSalary": "$832,500",
+                                      "minorsSalary": "$70,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 2,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "LW": 4205
+                      }
+                  }
+              ],
+              "defense": [
+                  {
+                      "name": "Weegar, MacKenzie",
+                      "slug": "mackenzie-weegar",
+                      "note": "",
+                      "terms": "NTC",
+                      "termsDetails": "No-Trade Clause - (2027-28 through 2030-31: 10 team no-trade list)",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LD, RD",
+                      "status": "NHL",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2013 Round 7, #206 Overall",
+                      "born": "Jan. 7, 1994",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "NTC",
+                                      "capHit": "$6,250,000",
+                                      "aav": "$6,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,000,000",
+                                      "baseSalary": "$4,250,000",
+                                      "totalSalary": "$6,250,000",
+                                      "minorsSalary": "$6,250,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "NTC",
+                                      "capHit": "$6,250,000",
+                                      "aav": "$6,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,000,000",
+                                      "baseSalary": "$4,250,000",
+                                      "totalSalary": "$6,250,000",
+                                      "minorsSalary": "$6,250,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "NTC",
+                                      "capHit": "$6,250,000",
+                                      "aav": "$6,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,000,000",
+                                      "baseSalary": "$4,250,000",
+                                      "totalSalary": "$6,250,000",
+                                      "minorsSalary": "$6,250,000"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "NTC",
+                                      "capHit": "$6,250,000",
+                                      "aav": "$6,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,000,000",
+                                      "baseSalary": "$4,250,000",
+                                      "totalSalary": "$6,250,000",
+                                      "minorsSalary": "$6,250,000"
+                                  },
+                                  {
+                                      "season": "2027-28",
+                                      "clause": "M-NTC",
+                                      "capHit": "$6,250,000",
+                                      "aav": "$6,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$6,250,000",
+                                      "totalSalary": "$6,250,000",
+                                      "minorsSalary": "$6,250,000"
+                                  },
+                                  {
+                                      "season": "2028-29",
+                                      "clause": "M-NTC",
+                                      "capHit": "$6,250,000",
+                                      "aav": "$6,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$6,250,000",
+                                      "totalSalary": "$6,250,000",
+                                      "minorsSalary": "$6,250,000"
+                                  },
+                                  {
+                                      "season": "2029-30",
+                                      "clause": "M-NTC",
+                                      "capHit": "$6,250,000",
+                                      "aav": "$6,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$6,250,000",
+                                      "totalSalary": "$6,250,000",
+                                      "minorsSalary": "$6,250,000"
+                                  },
+                                  {
+                                      "season": "2030-31",
+                                      "clause": "M-NTC",
+                                      "capHit": "$6,250,000",
+                                      "aav": "$6,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$6,250,000",
+                                      "totalSalary": "$6,250,000",
+                                      "minorsSalary": "$6,250,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 489,
+                      "careerSeasonsPlayed": 7,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RD": 19649,
+                          "LD": 66332
+                      }
+                  },
+                  {
+                      "name": "Andersson, Rasmus",
+                      "slug": "rasmus-andersson",
+                      "note": "",
+                      "terms": "M-NTC",
+                      "termsDetails": "Modified No-Trade Clause - (Starting July 1, 2024: Player submits a 6 team no trade list.)",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RD",
+                      "status": "NHL",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2015 Round 2, #53 Overall",
+                      "born": "Oct. 27, 1996",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$4,550,000",
+                                      "aav": "$4,550,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$4,550,000",
+                                      "totalSalary": "$4,550,000",
+                                      "minorsSalary": "$4,550,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "M-NTC",
+                                      "capHit": "$4,550,000",
+                                      "aav": "$4,550,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$4,550,000",
+                                      "totalSalary": "$4,550,000",
+                                      "minorsSalary": "$4,550,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "M-NTC",
+                                      "capHit": "$4,550,000",
+                                      "aav": "$4,550,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$4,550,000",
+                                      "totalSalary": "$4,550,000",
+                                      "minorsSalary": "$4,550,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 482,
+                      "careerSeasonsPlayed": 6,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RD": 82353,
+                          "LD": 720
+                      }
+                  },
+                  {
+                      "name": "Bean, Jake",
+                      "slug": "jake-bean",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LD, RD",
+                      "status": "NHL",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "2016 Round 1, #13 Overall",
+                      "born": "Jun. 9, 1998",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$1,750,000",
+                                      "aav": "$1,750,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$1,750,000",
+                                      "totalSalary": "$1,750,000",
+                                      "minorsSalary": "$1,750,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$1,750,000",
+                                      "aav": "$1,750,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$1,750,000",
+                                      "totalSalary": "$1,750,000",
+                                      "minorsSalary": "$1,750,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA (No QO)",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$2,333,333",
+                                      "aav": "$2,333,333",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$2,900,000",
+                                      "totalSalary": "$2,900,000",
+                                      "minorsSalary": "$2,900,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 208,
+                      "careerSeasonsPlayed": 4,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RD": 11130,
+                          "LD": 52261
+                      }
+                  },
+                  {
+                      "name": "Miromanov, Daniil",
+                      "slug": "daniil-miromanov",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RD",
+                      "status": "NHL",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Jul. 11, 1997",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$1,250,000",
+                                      "aav": "$1,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$1,250,000",
+                                      "totalSalary": "$1,250,000",
+                                      "minorsSalary": "$1,250,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$1,250,000",
+                                      "aav": "$1,250,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$1,250,000",
+                                      "totalSalary": "$1,250,000",
+                                      "minorsSalary": "$1,250,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$762,500",
+                                      "aav": "$762,500",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$775,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 2,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RD": 3339
+                      }
+                  },
+                  {
+                      "name": "Bahl, Kevin",
+                      "slug": "kevin-bahl",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LD, RD",
+                      "status": "NHL",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2018 Round 2, #55 Overall",
+                      "born": "Jun. 27, 2000",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$1,050,000",
+                                      "aav": "$1,050,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$900,000",
+                                      "totalSalary": "$900,000",
+                                      "minorsSalary": "$900,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$1,050,000",
+                                      "aav": "$1,050,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$1,200,000",
+                                      "totalSalary": "$1,200,000",
+                                      "minorsSalary": "$1,200,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA",
+                              "details": []
+                          }
+                      ],
+                      "arbitrationEligible": true,
+                      "careerGamesPlayed": 159,
+                      "careerSeasonsPlayed": 3,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RD": 17878,
+                          "LD": 56062
+                      }
+                  },
+                  {
+                      "name": "Hanley, Joel",
+                      "slug": "joel-hanley",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LD, RD",
+                      "status": "NHL",
+                      "acquired": "Waivers claim",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Jun. 8, 1991",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$787,500",
+                                      "aav": "$787,500",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$775,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$787,500",
+                                      "aav": "$787,500",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$800,000",
+                                      "totalSalary": "$800,000",
+                                      "minorsSalary": "$800,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 226,
+                      "careerSeasonsPlayed": 5,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "LD": 6940
+                      }
+                  },
+                  {
+                      "name": "Pachal, Brayden",
+                      "slug": "brayden-pachal",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RD",
+                      "status": "NHL",
+                      "acquired": "Waivers claim",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Aug. 23, 1999",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$125,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$775,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": []
+                          }
+                      ],
+                      "arbitrationEligible": true,
+                      "careerGamesPlayed": 63,
+                      "careerSeasonsPlayed": 2,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RD": 12371
+                      }
+                  }
+              ],
+              "goalies": [
+                  {
+                      "name": "Vladar, Dan",
+                      "slug": "dan-vladar",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "G",
+                      "status": "NHL",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2015 Round 3, #75 Overall",
+                      "born": "Aug. 20, 1997",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$2,200,000",
+                                      "aav": "$2,200,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$2,200,000",
+                                      "totalSalary": "$2,200,000",
+                                      "minorsSalary": "$2,200,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$2,200,000",
+                                      "aav": "$2,200,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$2,200,000",
+                                      "totalSalary": "$2,200,000",
+                                      "minorsSalary": "$2,200,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 77,
+                      "careerSeasonsPlayed": 3,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Cooley, Devin",
+                      "slug": "devin-cooley",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "G",
+                      "status": "NHL",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "May. 25, 1997",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$400,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$775,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$400,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  }
               ]
-            }
-          ],
-          "defense": [
-            {
-              "name": "Andersson, Rasmus",
-              "slug": "rasmus-andersson",
-              "pos": "D",
-              "status": "NHL",
-              "acquired": "Drafted",
-              "termsDetails": "6 years",
-              "acquisitionDetails": "2nd round pick, 2015",
-              "born": "1996-10-27",
-              "careerGamesPlayed": 300,
-              "careerSeasonsPlayed": 5,
-              "contracts": [
-                {
-                  "expiryStatus": "UFA",
-                  "details": [
-                    {
-                      "season": "2024-2025",
-                      "clause": "Modified No Trade Clause",
-                      "capHit": "$4,550,000",
-                      "aav": "$4,550,000",
-                      "performanceBonuses": "$0",
-                      "signingBonuses": "$500,000",
-                      "baseSalary": "$4,050,000",
-                      "totalSalary": "$4,550,000",
-                      "minorsSalary": "$0"
-                    }
-                  ]
-                }
+          },
+          "dead cap": {
+              "retained salary": [
+                  {
+                      "name": "Markstrom, Jacob",
+                      "slug": "jacob-markstrom",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "G",
+                      "status": "NHL",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "Traded June 19 2024, in exchange for defenceman Kevin Bahl, and a first-round draft pick in 2025.",
+                      "born": "Jan. 31, 1990",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "NMC",
+                                      "capHit": "$6,000,000",
+                                      "aav": "$6,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$8,000,000",
+                                      "totalSalary": "$8,000,000",
+                                      "minorsSalary": "$8,000,000",
+                                      "retention": {
+                                          "New Jersey Devils": {
+                                              "capHit": "$4,125,000",
+                                              "retention": "68.75%"
+                                          },
+                                          "Calgary Flames": {
+                                              "capHit": "$1,875,000",
+                                              "retention": "31.25%"
+                                          }
+                                      }
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "NMC",
+                                      "capHit": "$6,000,000",
+                                      "aav": "$6,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,500,000",
+                                      "baseSalary": "$3,500,000",
+                                      "totalSalary": "$6,000,000",
+                                      "minorsSalary": "$6,000,000",
+                                      "retention": {
+                                          "New Jersey Devils": {
+                                              "capHit": "$4,125,000",
+                                              "retention": "68.75%"
+                                          },
+                                          "Calgary Flames": {
+                                              "capHit": "$1,875,000",
+                                              "retention": "31.25%"
+                                          }
+                                      }
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "NMC",
+                                      "capHit": "$6,000,000",
+                                      "aav": "$6,000,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$2,500,000",
+                                      "baseSalary": "$3,500,000",
+                                      "totalSalary": "$6,000,000",
+                                      "minorsSalary": "$6,000,000",
+                                      "retention": {
+                                          "New Jersey Devils": {
+                                              "capHit": "$4,125,000",
+                                              "retention": "68.75%"
+                                          },
+                                          "Calgary Flames": {
+                                              "capHit": "$1,875,000",
+                                              "retention": "31.25%"
+                                          }
+                                      }
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 511,
+                      "careerSeasonsPlayed": 11,
+                      "currentTeam": "New Jersey Devils",
+                      "currentTeamTricode": "NJD",
+                      "currentTeamSlug": "new_jersey_devils"
+                  }
               ]
-            }
-          ],
-          "goalies": [
-            {
-              "name": "Markstrom, Jacob",
-              "slug": "jacob-markstrom",
-              "pos": "G",
-              "status": "NHL",
-              "acquired": "Free Agency",
-              "termsDetails": "6 years",
-              "acquisitionDetails": "Signed as UFA, 2020",
-              "born": "1990-01-31",
-              "careerGamesPlayed": 500,
-              "careerSeasonsPlayed": 12,
-              "contracts": [
-                {
-                  "expiryStatus": "UFA",
-                  "details": [
-                    {
-                      "season": "2025-2026",
-                      "clause": "Full No Movement Clause",
-                      "capHit": "$6,000,000",
-                      "aav": "$6,000,000",
-                      "performanceBonuses": "$0",
-                      "signingBonuses": "$1,000,000",
-                      "baseSalary": "$5,000,000",
-                      "totalSalary": "$6,000,000",
-                      "minorsSalary": "$0"
-                    }
-                  ]
-                }
+          },
+          "non-roster": {
+              "forwards": [
+                  {
+                      "name": "Gridin, Matvei",
+                      "slug": "matvei-gridin",
+                      "pos": "RW",
+                      "born": "Mar. 1, 2006",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$975,000",
+                                      "aav": "$975,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$975,000",
+                                      "totalSalary": "$975,000",
+                                      "minorsSalary": "$0"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$975,000",
+                                      "aav": "$975,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$975,000",
+                                      "totalSalary": "$975,000",
+                                      "minorsSalary": "$0"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "",
+                                      "capHit": "$975,000",
+                                      "aav": "$975,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$975,000",
+                                      "totalSalary": "$975,000",
+                                      "minorsSalary": "$0"
+                                  }
+                              ]
+                          }
+                      ],
+                      "terms": "ELC",
+                      "termsSlideCandidate": true,
+                      "termsDetails": "Entry-Level Contract, Slide Candidate, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2024 Round 1, #28 Overall",
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Coronato, Matt",
+                      "slug": "matt-coronato",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $850,000, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW, LW",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2021 Round 1, #13 Overall",
+                      "born": "Nov. 14, 2002",
+                      "contracts": [
+                          {
+                              "expiryStatus": "10.2(c)",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$925,000",
+                                      "aav": "$1,491,667",
+                                      "performanceBonuses": "$850,000",
+                                      "signingBonuses": "$92,500",
+                                      "baseSalary": "$832,500",
+                                      "totalSalary": "$925,000",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$925,000",
+                                      "aav": "$1,491,667",
+                                      "performanceBonuses": "$850,000",
+                                      "signingBonuses": "$92,500",
+                                      "baseSalary": "$832,500",
+                                      "totalSalary": "$925,000",
+                                      "minorsSalary": "$80,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 1,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RW": 15026,
+                          "LW": 1008
+                      }
+                  },
+                  {
+                      "name": "Honzek, Samuel",
+                      "slug": "samuel-honzek",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $500,000, Entry Level Contract Slide Candidate, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": true,
+                      "termsSPCExempt": false,
+                      "pos": "LW",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2023 Round 1, #16 Overall",
+                      "born": "Nov. 12, 2004",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$950,000",
+                                      "aav": "$1,450,000",
+                                      "performanceBonuses": "\u2013",
+                                      "signingBonuses": "$95,000",
+                                      "baseSalary": "ENTRY-LEVEL SLIDE"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$918,333",
+                                      "aav": "$1,418,333",
+                                      "performanceBonuses": "$500,000",
+                                      "signingBonuses": "$95,000",
+                                      "baseSalary": "$855,000",
+                                      "totalSalary": "$950,000",
+                                      "minorsSalary": "$82,500"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$918,333",
+                                      "aav": "$1,418,333",
+                                      "performanceBonuses": "$500,000",
+                                      "signingBonuses": "$95,000",
+                                      "baseSalary": "$855,000",
+                                      "totalSalary": "$950,000",
+                                      "minorsSalary": "$82,500"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "",
+                                      "capHit": "$918,333",
+                                      "aav": "$1,418,333",
+                                      "performanceBonuses": "$500,000",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$855,000",
+                                      "totalSalary": "$855,000",
+                                      "minorsSalary": "$82,500"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Stromgren, William",
+                      "slug": "william-stromgren",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $32,500, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LW",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2021 Round 2, #45 Overall",
+                      "born": "Jun. 7, 2003",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$900,833",
+                                      "aav": "$925,000",
+                                      "performanceBonuses": "$32,500",
+                                      "signingBonuses": "$92,500",
+                                      "baseSalary": "$800,000",
+                                      "totalSalary": "$892,500",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$900,833",
+                                      "aav": "$925,000",
+                                      "performanceBonuses": "$32,500",
+                                      "signingBonuses": "$92,500",
+                                      "baseSalary": "$800,000",
+                                      "totalSalary": "$892,500",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$900,833",
+                                      "aav": "$925,000",
+                                      "performanceBonuses": "$7,500",
+                                      "signingBonuses": "$92,500",
+                                      "baseSalary": "$825,000",
+                                      "totalSalary": "$917,500",
+                                      "minorsSalary": "$80,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Morton, Sam",
+                      "slug": "sam-morton",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LW",
+                      "status": "Minor",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Jul. 28, 1999",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$870,000",
+                                      "aav": "$870,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$95,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$870,000",
+                                      "minorsSalary": "$82,500"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Bell, Parker",
+                      "slug": "parker-bell",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LW",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2022 Round 5, #155 Overall",
+                      "born": "Sep. 26, 2003",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$857,500",
+                                      "aav": "$857,500",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$82,500",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$857,500",
+                                      "minorsSalary": "$82,500"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$857,500",
+                                      "aav": "$857,500",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$82,500",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$857,500",
+                                      "minorsSalary": "$82,500"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$857,500",
+                                      "aav": "$857,500",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$82,500",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$857,500",
+                                      "minorsSalary": "$82,500"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Kerins, Rory",
+                      "slug": "rory-kerins",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "C",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2020 Round 6, #174 Overall",
+                      "born": "Apr. 12, 2002",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$846,667",
+                                      "aav": "$846,667",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$80,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$855,000",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$846,667",
+                                      "aav": "$846,667",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$80,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$855,000",
+                                      "minorsSalary": "$80,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Nikolaev, Ilya",
+                      "slug": "ilya-nikolaev",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "C",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2019 Round 3, #88 Overall",
+                      "born": "Jun. 26, 2001",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$836,667",
+                                      "aav": "$836,667",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$70,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$845,000",
+                                      "minorsSalary": "$70,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$836,667",
+                                      "aav": "$836,667",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$70,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$845,000",
+                                      "minorsSalary": "$70,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Ciona, Lucas",
+                      "slug": "lucas-ciona",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LW",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2021 Round 6, #173 Overall",
+                      "born": "Jan. 8, 2003",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$830,000",
+                                      "aav": "$830,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$82,500",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$857,500",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$830,000",
+                                      "aav": "$830,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$82,500",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$857,500",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$830,000",
+                                      "aav": "$830,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$80,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Bishop, Clark",
+                      "slug": "clark-bishop",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "C, LW",
+                      "status": "Minor",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "2014 Round 5, #127 Overall",
+                      "born": "Mar. 29, 1996",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$275,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$275,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 49,
+                      "careerSeasonsPlayed": 2,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Frk, Martin",
+                      "slug": "martin-frk",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW",
+                      "status": "Minor",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "2012 Round 2, #49 Overall",
+                      "born": "Oct. 5, 1993",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$0"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 3,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Klapka, Adam",
+                      "slug": "adam-klapka",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "Waivers Exempt, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW, C",
+                      "status": "Minor",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Sep. 14, 2000",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$100,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$832,500",
+                                      "aav": "$832,500",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$70,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$845,000",
+                                      "minorsSalary": "$70,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": true,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Hunt, Dryden",
+                      "slug": "dryden-hunt",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LW, RW",
+                      "status": "NHL",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Nov. 24, 1995",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$350,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$350,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": []
+                          }
+                      ],
+                      "careerGamesPlayed": 235,
+                      "careerSeasonsPlayed": 6,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RW": 1808,
+                          "LW": 11816
+                      }
+                  },
+                  {
+                      "name": "Kirkland, Justin",
+                      "slug": "justin-kirkland",
+                      "pos": "LW, RW",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "2014 Round 3, #62 Overall",
+                      "status": "NHL",
+                      "born": "Aug. 2, 1996",
+                      "contracts": [
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$0"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$200,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Schwindt, Cole",
+                      "slug": "cole-schwindt",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RW, C",
+                      "status": "Minor",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2019 Round 3, #81 Overall",
+                      "born": "Apr. 25, 2001",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$855,833",
+                                      "aav": "$910,833",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$832,500",
+                                      "totalSalary": "$832,500",
+                                      "minorsSalary": "$70,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  }
+              ],
+              "defense": [
+                  {
+                      "name": "Parekh, Zayne",
+                      "slug": "zayne-parekh",
+                      "pos": "RD",
+                      "born": "Feb. 15, 2006",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$975,000",
+                                      "aav": "$975,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$975,000",
+                                      "totalSalary": "$975,000",
+                                      "minorsSalary": "$0"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$975,000",
+                                      "aav": "$975,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$975,000",
+                                      "totalSalary": "$975,000",
+                                      "minorsSalary": "$0"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "",
+                                      "capHit": "$975,000",
+                                      "aav": "$975,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$975,000",
+                                      "totalSalary": "$975,000",
+                                      "minorsSalary": "$0"
+                                  }
+                              ]
+                          }
+                      ],
+                      "terms": "ELC",
+                      "termsSlideCandidate": true,
+                      "termsDetails": "Entry-Level Contract, Slide Candidate, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2024 Round 1, #9 Overall",
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Brzustewicz, Hunter",
+                      "slug": "hunter-brzustewicz",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RD",
+                      "status": "Junior",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2023 Round 3, #75 Overall",
+                      "born": "Nov. 29, 2004",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$950,000",
+                                      "aav": "$950,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$95,000",
+                                      "baseSalary": "$855,000",
+                                      "totalSalary": "$950,000",
+                                      "minorsSalary": "$82,500"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$950,000",
+                                      "aav": "$950,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$95,000",
+                                      "baseSalary": "$855,000",
+                                      "totalSalary": "$950,000",
+                                      "minorsSalary": "$82,500"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "",
+                                      "capHit": "$950,000",
+                                      "aav": "$950,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$95,000",
+                                      "baseSalary": "$855,000",
+                                      "totalSalary": "$950,000",
+                                      "minorsSalary": "$82,500"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Morin, Etienne",
+                      "slug": "etienne-morin",
+                      "pos": "LD",
+                      "born": "Mar. 9, 2005",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$903,400",
+                                      "aav": "$903,400",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$903,400",
+                                      "totalSalary": "$903,400",
+                                      "minorsSalary": "$0"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$903,400",
+                                      "aav": "$903,400",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$903,400",
+                                      "totalSalary": "$903,400",
+                                      "minorsSalary": "$0"
+                                  },
+                                  {
+                                      "season": "2026-27",
+                                      "clause": "",
+                                      "capHit": "$903,400",
+                                      "aav": "$903,400",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$903,400",
+                                      "totalSalary": "$903,400",
+                                      "minorsSalary": "$0"
+                                  }
+                              ]
+                          }
+                      ],
+                      "terms": "ELC",
+                      "termsSlideCandidate": true,
+                      "termsDetails": "Entry-Level Contract, Slide Candidate, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2023 Round 2, #48 Overall",
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Jurmo, Joni",
+                      "slug": "joni-jurmo",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LD",
+                      "status": "Minor",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2020 Round 3, #82 Overall",
+                      "born": "Apr. 19, 2002",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$850,000",
+                                      "aav": "$850,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$75,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$850,000",
+                                      "minorsSalary": "$75,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$850,000",
+                                      "aav": "$850,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$75,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$850,000",
+                                      "minorsSalary": "$75,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Poirier, Jeremie",
+                      "slug": "jeremie-poirier",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LD",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2020 Round 3, #72 Overall",
+                      "born": "Jun. 2, 2002",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$823,333",
+                                      "aav": "$833,333",
+                                      "performanceBonuses": "$15,000",
+                                      "signingBonuses": "$85,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$860,000",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$823,333",
+                                      "aav": "$833,333",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$80,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Grushnikov, Artem",
+                      "slug": "artem-grushnikov",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $82,500, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LD",
+                      "status": "Minor",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2021 Round 2, #48 Overall",
+                      "born": "Mar. 20, 2003",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$814,167",
+                                      "aav": "$880,000",
+                                      "performanceBonuses": "$82,500",
+                                      "signingBonuses": "$92,500",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$867,500",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$814,167",
+                                      "aav": "$880,000",
+                                      "performanceBonuses": "$82,500",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$80,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$814,167",
+                                      "aav": "$880,000",
+                                      "performanceBonuses": "$32,500",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$800,000",
+                                      "totalSalary": "$800,000",
+                                      "minorsSalary": "$80,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Kuznetsov, Yan",
+                      "slug": "yan-kuznetsov",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "Waivers Exempt, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "RD, LD",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2020 Round 2, #50 Overall",
+                      "born": "Mar. 9, 2002",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$100,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$870,000",
+                                      "aav": "$894,167",
+                                      "performanceBonuses": "$7,500",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$825,000",
+                                      "totalSalary": "$825,000",
+                                      "minorsSalary": "$80,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "RD": 675
+                      }
+                  },
+                  {
+                      "name": "Aspirot, Jonathan",
+                      "slug": "jonathan-aspirot",
+                      "pos": "LD",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "May. 16, 1999",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$775,000",
+                                      "aav": "$775,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$150,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "UFA (No QO)",
+                              "details": []
+                          }
+                      ],
+                      "arbitrationEligible": true,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Okhotiuk, Nikita",
+                      "slug": "nikita-okhotiuk",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LD, RD",
+                      "status": "NHL",
+                      "acquired": "Trade",
+                      "acquisitionDetails": "2019 Round 2, #61 Overall",
+                      "born": "Dec. 4, 2000",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$789,167",
+                                      "aav": "$905,000",
+                                      "performanceBonuses": "$82,500",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$70,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": true,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 1,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "LD": 6105
+                      }
+                  },
+                  {
+                      "name": "Solovyov, Ilya",
+                      "slug": "ilya-solovyov",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "",
+                      "termsWaiversExempt": false,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "LD, RD",
+                      "status": "Minor",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2020 Round 7, #205 Overall",
+                      "born": "Jul. 20, 2000",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA (Arb)",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$828,333",
+                                      "aav": "$828,333",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$70,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$845,000",
+                                      "minorsSalary": "$80,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": true,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames",
+                      "positions": {
+                          "LD": 6094,
+                          "RD": 1512
+                      }
+                  }
+              ],
+              "goalies": [
+                  {
+                      "name": "Ignatjew, Waltteri",
+                      "slug": "waltteri-ignatjew",
+                      "note": "",
+                      "terms": "ELC",
+                      "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $80,000, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "G",
+                      "status": "Minor",
+                      "acquired": "Signed",
+                      "acquisitionDetails": "Undrafted",
+                      "born": "Dec. 3, 1999",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$870,000",
+                                      "aav": "$950,000",
+                                      "performanceBonuses": "$80,000",
+                                      "signingBonuses": "$95,000",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$870,000",
+                                      "minorsSalary": "$82,500"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 0,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  },
+                  {
+                      "name": "Wolf, Dustin",
+                      "slug": "dustin-wolf",
+                      "note": "",
+                      "terms": "",
+                      "termsDetails": "Waivers Exempt, Waivers Exempt",
+                      "termsWaiversExempt": true,
+                      "termsSlideCandidate": false,
+                      "termsSPCExempt": false,
+                      "pos": "G",
+                      "status": "NHL",
+                      "acquired": "Draft",
+                      "acquisitionDetails": "2019 Round 7, #214 Overall",
+                      "born": "Apr. 16, 2001",
+                      "contracts": [
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2024-25",
+                                      "clause": "",
+                                      "capHit": "$850,000",
+                                      "aav": "$850,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$850,000",
+                                      "totalSalary": "$850,000",
+                                      "minorsSalary": "$275,000",
+                                      "guaranteedSalary": "$375,000"
+                                  },
+                                  {
+                                      "season": "2025-26",
+                                      "clause": "",
+                                      "capHit": "$850,000",
+                                      "aav": "$850,000",
+                                      "performanceBonuses": "$0",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$850,000",
+                                      "totalSalary": "$850,000"
+                                  }
+                              ]
+                          },
+                          {
+                              "expiryStatus": "RFA",
+                              "details": [
+                                  {
+                                      "season": "2023-24",
+                                      "clause": "",
+                                      "capHit": "$813,333",
+                                      "aav": "$825,000",
+                                      "performanceBonuses": "$15,000",
+                                      "signingBonuses": "$0",
+                                      "baseSalary": "$775,000",
+                                      "totalSalary": "$775,000",
+                                      "minorsSalary": "$70,000"
+                                  }
+                              ]
+                          }
+                      ],
+                      "arbitrationEligible": false,
+                      "careerGamesPlayed": 0,
+                      "careerSeasonsPlayed": 1,
+                      "currentTeam": "Calgary Flames",
+                      "currentTeamTricode": "CGY",
+                      "currentTeamSlug": "calgary_flames"
+                  }
               ]
-            }
-          ]
-        },
-        "non-roster": {
-          "forwards": [],
-          "defense": [],
-          "goalies": []
-        },
-        "dead cap": {
-          "buyout history": []
-        }
+          }
+      },
+      "teamSummary": {
+          "capHit": {
+              "total": 66250833,
+              "forwards": 44988333,
+              "defense": 16412500,
+              "goalies": 2975000,
+              "deadCap": 0,
+              "dead cap": null
+          },
+          "capSpace": 21749167,
+          "ltir": 0,
+          "roster": 21,
+          "totalContracts": 41,
+          "carryover": 0,
+          "upperLimit": 88000000,
+          "lowerLimit": 65000000
       },
       "draftPicks": [
-        {
-          "year": "2025",
-          "round": 1,
-          "team": "Anaheim Ducks",
-          "conditions": [],
-          "isTradedAway": false,
-          "tradedDate": null
-        }
+          {
+              "year": "2025",
+              "round": 1,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": true,
+              "tradedDate": "Aug. 18, 2022"
+          },
+          {
+              "year": "2025",
+              "round": 1,
+              "team": "Florida Panthers",
+              "conditions": [
+                  "Conditional pick. Trade on Aug. 18, 2022"
+              ],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2025",
+              "round": 1,
+              "team": "New Jersey Devils",
+              "conditions": [
+                  "Conditional pick. Trade on Jun. 19, 2024. Conditions: Top 10 protected"
+              ],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2025",
+              "round": 2,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2025",
+              "round": 2,
+              "team": "Colorado Avalanche",
+              "conditions": [
+                  "Trade on Jun. 27, 2024"
+              ],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2025",
+              "round": 3,
+              "team": "Calgary Flames",
+              "conditions": [
+                  "Conditional pick. Trade on Aug. 18, 2022"
+              ],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2025",
+              "round": 4,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": true,
+              "tradedDate": "Jul. 22, 2022"
+          },
+          {
+              "year": "2025",
+              "round": 5,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2025",
+              "round": 6,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2025",
+              "round": 7,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2026",
+              "round": 1,
+              "team": "Calgary Flames",
+              "conditions": [
+                  "Conditional pick. Trade on Aug. 18, 2022"
+              ],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2026",
+              "round": 1,
+              "team": "Vegas Golden Knights",
+              "conditions": [
+                  "Trade on Mar. 7, 2024"
+              ],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2026",
+              "round": 2,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2026",
+              "round": 3,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2026",
+              "round": 3,
+              "team": "Vancouver Canucks",
+              "conditions": [
+                  "Trade on Nov. 30, 2023"
+              ],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2026",
+              "round": 4,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2026",
+              "round": 5,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2026",
+              "round": 6,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2026",
+              "round": 7,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2027",
+              "round": 1,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2027",
+              "round": 2,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2027",
+              "round": 3,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2027",
+              "round": 4,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2027",
+              "round": 5,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2027",
+              "round": 6,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          },
+          {
+              "year": "2027",
+              "round": 7,
+              "team": "Calgary Flames",
+              "conditions": [],
+              "isTradedAway": false,
+              "tradedDate": null
+          }
+      ],
+      "reserves": [
+          {
+              "name": "Basha, Andrew",
+              "slug": "andrew-basha",
+              "born": "Nov. 8, 2005",
+              "pos": "LW",
+              "draftedBy": "CGY",
+              "draftYear": 2024,
+              "round": 2,
+              "overall": 41,
+              "mustSignBy": "Jun. 1, 2026"
+          },
+          {
+              "name": "Battaglia, Jacob",
+              "slug": "jacob-battaglia",
+              "born": "Mar. 17, 2006",
+              "pos": "RW",
+              "draftedBy": "CGY",
+              "draftYear": 2024,
+              "round": 2,
+              "overall": 62,
+              "mustSignBy": "Jun. 1, 2026"
+          },
+          {
+              "name": "Chechelev, Daniil",
+              "slug": "daniil-chechelev",
+              "born": "Feb. 23, 2001",
+              "pos": "G",
+              "draftedBy": "CGY",
+              "draftYear": 2020,
+              "round": 4,
+              "overall": 96,
+              "mustSignBy": "-"
+          },
+          {
+              "name": "Hoskin, Trevor",
+              "slug": "trevor-hoskin",
+              "born": "May. 18, 2004",
+              "pos": "C",
+              "draftedBy": "CGY",
+              "draftYear": 2024,
+              "round": 4,
+              "overall": 106,
+              "mustSignBy": "Aug. 15, 2028"
+          },
+          {
+              "name": "Hurtig, Axel",
+              "slug": "axel-hurtig",
+              "born": "Jun. 10, 2005",
+              "pos": "LD",
+              "draftedBy": "CGY",
+              "draftYear": 2023,
+              "round": 7,
+              "overall": 208,
+              "mustSignBy": "Jun. 1, 2027"
+          },
+          {
+              "name": "Jamieson, Eric",
+              "slug": "eric-jamieson",
+              "born": "Jul. 15, 2005",
+              "pos": "LD",
+              "draftedBy": "CGY",
+              "draftYear": 2024,
+              "round": 6,
+              "overall": 177,
+              "mustSignBy": "Jun. 1, 2026"
+          },
+          {
+              "name": "Karnaukhov, Pavel",
+              "slug": "pavel-karnaukhov",
+              "born": "Mar. 15, 1997",
+              "pos": "LW, C",
+              "draftedBy": "CGY",
+              "draftYear": 2015,
+              "round": 5,
+              "overall": 136,
+              "mustSignBy": "-"
+          },
+          {
+              "name": "Koumontzis, Demetrios",
+              "slug": "demetrios-koumontzis",
+              "born": "Mar. 24, 2000",
+              "pos": "LW",
+              "draftedBy": "CGY",
+              "draftYear": 2018,
+              "round": 4,
+              "overall": 108,
+              "mustSignBy": "-"
+          },
+          {
+              "name": "Laing, Hunter",
+              "slug": "hunter-laing",
+              "born": "May. 16, 2006",
+              "pos": "C",
+              "draftedBy": "CGY",
+              "draftYear": 2024,
+              "round": 6,
+              "overall": 170,
+              "mustSignBy": "Jun. 1, 2026"
+          },
+          {
+              "name": "Lipinski, Jaden",
+              "slug": "jaden-lipinski",
+              "born": "Dec. 2, 2004",
+              "pos": "C",
+              "draftedBy": "CGY",
+              "draftYear": 2023,
+              "round": 4,
+              "overall": 112,
+              "mustSignBy": "Jun. 1, 2025"
+          },
+          {
+              "name": "Littler, Cade",
+              "slug": "cade-littler",
+              "born": "Jul. 12, 2004",
+              "pos": "C",
+              "draftedBy": "CGY",
+              "draftYear": 2022,
+              "round": 7,
+              "overall": 219,
+              "mustSignBy": "Aug. 15, 2028"
+          },
+          {
+              "name": "Mews, Henry",
+              "slug": "henry-mews",
+              "born": "Mar. 9, 2006",
+              "pos": "RD",
+              "draftedBy": "CGY",
+              "draftYear": 2024,
+              "round": 3,
+              "overall": 74,
+              "mustSignBy": "Jun. 1, 2026"
+          },
+          {
+              "name": "Misa, Luke",
+              "slug": "luke-misa",
+              "born": "Nov. 25, 2005",
+              "pos": "C",
+              "draftedBy": "CGY",
+              "draftYear": 2024,
+              "round": 5,
+              "overall": 150,
+              "mustSignBy": "Jun. 1, 2026"
+          },
+          {
+              "name": "Suniev, Aydar",
+              "slug": "aydar-suniev",
+              "born": "Nov. 16, 2004",
+              "pos": "LW",
+              "draftedBy": "CGY",
+              "draftYear": 2023,
+              "round": 3,
+              "overall": 80,
+              "mustSignBy": "Aug. 15, 2027"
+          },
+          {
+              "name": "Sergeev, Arsenii",
+              "slug": "arsenii-sergeev",
+              "born": "Dec. 16, 2002",
+              "pos": "G",
+              "draftedBy": "CGY",
+              "draftYear": 2021,
+              "round": 7,
+              "overall": 205,
+              "mustSignBy": "Aug. 15, 2026"
+          },
+          {
+              "name": "Yegorov, Yegor",
+              "slug": "yegor-yegorov",
+              "born": "Aug. 30, 2005",
+              "pos": "G",
+              "draftedBy": "CGY",
+              "draftYear": 2023,
+              "round": 6,
+              "overall": 176,
+              "mustSignBy": "-"
+          },
+          {
+              "name": "Zarubin, Kirill",
+              "slug": "kirill-zarubin",
+              "born": "Sep. 20, 2005",
+              "pos": "G",
+              "draftedBy": "CGY",
+              "draftYear": 2024,
+              "round": 3,
+              "overall": 84,
+              "mustSignBy": "-"
+          },
+          {
+              "name": "Tuulola, Eetu",
+              "slug": "eetu-tuulola",
+              "born": "Mar. 17, 1998",
+              "pos": "RW",
+              "draftedBy": "CGY",
+              "draftYear": 2016,
+              "round": 6,
+              "overall": 156,
+              "mustSignBy": "Mar. 17, 2025"
+          }
       ]
-    }
-  }
-  
+  },
+  "__N_SSG": true
+}

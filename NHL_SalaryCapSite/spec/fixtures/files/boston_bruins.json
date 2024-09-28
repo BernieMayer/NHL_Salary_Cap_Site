@@ -1,0 +1,3491 @@
+{
+    "pageProps": {
+        "team": "boston_bruins",
+        "teamName": "Boston Bruins",
+        "teamMetadata": {
+            "slug": "boston_bruins",
+            "tricode": "BOS",
+            "logo": "boston_bruins.svg",
+            "shortName": "bruins",
+            "name": "Boston Bruins",
+            "gm": "Don Sweeney",
+            "coach": "Jim Montgomery"
+        },
+        "data": {
+            "roster": {
+                "forwards": [
+                    {
+                        "name": "Pastrnak, David",
+                        "slug": "david-pastrnak",
+                        "note": "\"A\"",
+                        "terms": "NMC",
+                        "termsDetails": "No-Move Clause - (Years 1 - 5: NMC | Year 6: NMC + 8 team TO trade list | Year 7: 10 team TO trade list | Year 8: 10 team NO trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2014 Round 1, #25 Overall",
+                        "born": "May. 25, 1996",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "NMC",
+                                        "capHit": "$11,250,000",
+                                        "aav": "$11,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$4,500,000",
+                                        "baseSalary": "$8,500,000",
+                                        "totalSalary": "$13,000,000",
+                                        "minorsSalary": "$13,000,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "NMC",
+                                        "capHit": "$11,250,000",
+                                        "aav": "$11,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$4,500,000",
+                                        "baseSalary": "$8,500,000",
+                                        "totalSalary": "$13,000,000",
+                                        "minorsSalary": "$13,000,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "NMC",
+                                        "capHit": "$11,250,000",
+                                        "aav": "$11,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$4,000,000",
+                                        "baseSalary": "$8,500,000",
+                                        "totalSalary": "$12,500,000",
+                                        "minorsSalary": "$12,500,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "NMC",
+                                        "capHit": "$11,250,000",
+                                        "aav": "$11,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$3,000,000",
+                                        "baseSalary": "$8,250,000",
+                                        "totalSalary": "$11,250,000",
+                                        "minorsSalary": "$11,250,000"
+                                    },
+                                    {
+                                        "season": "2027-28",
+                                        "clause": "NMC",
+                                        "capHit": "$11,250,000",
+                                        "aav": "$11,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$3,000,000",
+                                        "baseSalary": "$8,250,000",
+                                        "totalSalary": "$11,250,000",
+                                        "minorsSalary": "$11,250,000"
+                                    },
+                                    {
+                                        "season": "2028-29",
+                                        "clause": "M-NTC, NMC",
+                                        "capHit": "$11,250,000",
+                                        "aav": "$11,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$3,000,000",
+                                        "baseSalary": "$7,500,000",
+                                        "totalSalary": "$10,500,000",
+                                        "minorsSalary": "$10,500,000"
+                                    },
+                                    {
+                                        "season": "2029-30",
+                                        "clause": "M-NTC",
+                                        "capHit": "$11,250,000",
+                                        "aav": "$11,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$2,500,000",
+                                        "baseSalary": "$7,000,000",
+                                        "totalSalary": "$9,500,000",
+                                        "minorsSalary": "$9,500,000"
+                                    },
+                                    {
+                                        "season": "2030-31",
+                                        "clause": "M-NTC",
+                                        "capHit": "$11,250,000",
+                                        "aav": "$11,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$2,000,000",
+                                        "baseSalary": "$7,000,000",
+                                        "totalSalary": "$9,000,000",
+                                        "minorsSalary": "$9,000,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 764,
+                        "careerSeasonsPlayed": 10,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RW": 60804
+                        }
+                    },
+                    {
+                        "name": "Lindholm, Elias",
+                        "slug": "elias-lindholm",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, RW, LW",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2013 Round 1, #5 Overall",
+                        "born": "Dec. 2, 1994",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$7,750,000",
+                                        "aav": "$7,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,750,000",
+                                        "totalSalary": "$7,750,000",
+                                        "minorsSalary": "$7,750,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$7,750,000",
+                                        "aav": "$7,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,750,000",
+                                        "totalSalary": "$7,750,000",
+                                        "minorsSalary": "$7,750,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$7,750,000",
+                                        "aav": "$7,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,750,000",
+                                        "totalSalary": "$7,750,000",
+                                        "minorsSalary": "$7,750,000"
+                                    },
+                                    {
+                                        "season": "2027-28",
+                                        "clause": "",
+                                        "capHit": "$7,750,000",
+                                        "aav": "$7,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,750,000",
+                                        "totalSalary": "$7,750,000",
+                                        "minorsSalary": "$7,750,000"
+                                    },
+                                    {
+                                        "season": "2028-29",
+                                        "clause": "",
+                                        "capHit": "$7,750,000",
+                                        "aav": "$7,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,750,000",
+                                        "totalSalary": "$7,750,000",
+                                        "minorsSalary": "$7,750,000"
+                                    },
+                                    {
+                                        "season": "2029-30",
+                                        "clause": "",
+                                        "capHit": "$7,750,000",
+                                        "aav": "$7,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,750,000",
+                                        "totalSalary": "$7,750,000",
+                                        "minorsSalary": "$7,750,000"
+                                    },
+                                    {
+                                        "season": "2030-31",
+                                        "clause": "",
+                                        "capHit": "$7,750,000",
+                                        "aav": "$7,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$7,750,000",
+                                        "totalSalary": "$7,750,000",
+                                        "minorsSalary": "$7,750,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$4,850,000",
+                                        "aav": "$4,850,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,850,000",
+                                        "totalSalary": "$4,850,000",
+                                        "minorsSalary": "$4,850,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 858,
+                        "careerSeasonsPlayed": 12,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "C": 8884,
+                            "LW": 1621,
+                            "RW": 3453
+                        }
+                    },
+                    {
+                        "name": "Marchand, Brad",
+                        "slug": "brad-marchand",
+                        "note": "\"C\"",
+                        "terms": "M-NTC",
+                        "termsDetails": "Modified No-Trade Clause - (NMC year one to five (July 1, 2017 - May 31, 2022); M-NTC year six: 6 team trade; M-NTC year 7: 15 team no trade list; M-NTC year 8: 8 team no trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2006 Round 3, #71 Overall",
+                        "born": "May. 11, 1988",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,125,000",
+                                        "aav": "$6,125,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$2,000,000",
+                                        "baseSalary": "$3,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,125,000",
+                                        "aav": "$6,125,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$3,000,000",
+                                        "baseSalary": "$1,000,000",
+                                        "totalSalary": "$4,000,000",
+                                        "minorsSalary": "$4,000,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 1186,
+                        "careerSeasonsPlayed": 15,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RW": 5051,
+                            "LW": 49945
+                        }
+                    },
+                    {
+                        "name": "Coyle, Charlie",
+                        "slug": "charlie-coyle",
+                        "note": "",
+                        "terms": "M-NTC, NMC",
+                        "termsDetails": "Modified No-Trade Clause, No-Move Clause - (2020-22: Player submits a 10 team no trade list; 2022-25: Player submits an 8 team no trade list; 2025-26: Player submits a 3 team no trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, RW",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2010 Round 1, #28 Overall",
+                        "born": "Mar. 2, 1992",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "M-NTC, NMC",
+                                        "capHit": "$5,250,000",
+                                        "aav": "$5,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,500,000",
+                                        "totalSalary": "$4,500,000",
+                                        "minorsSalary": "$4,500,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "M-NTC, NMC",
+                                        "capHit": "$5,250,000",
+                                        "aav": "$5,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,500,000",
+                                        "totalSalary": "$4,500,000",
+                                        "minorsSalary": "$4,500,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "M-NTC, NMC",
+                                        "capHit": "$5,250,000",
+                                        "aav": "$5,250,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,500,000",
+                                        "totalSalary": "$4,500,000",
+                                        "minorsSalary": "$4,500,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 986,
+                        "careerSeasonsPlayed": 13,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "C": 51741
+                        }
+                    },
+                    {
+                        "name": "Zacha, Pavel",
+                        "slug": "pavel-zacha",
+                        "note": "",
+                        "terms": "M-NTC",
+                        "termsDetails": "Modified No-Trade Clause - (23-24 & 24-25: 10 team no-trade list | 25-26 & 26-27: 8 team no-trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, LW",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2015 Round 1, #6 Overall",
+                        "born": "Apr. 6, 1997",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,750,000",
+                                        "aav": "$4,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,750,000",
+                                        "totalSalary": "$5,750,000",
+                                        "minorsSalary": "$5,750,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,750,000",
+                                        "aav": "$4,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$1,000,000",
+                                        "baseSalary": "$3,750,000",
+                                        "totalSalary": "$4,750,000",
+                                        "minorsSalary": "$4,750,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,750,000",
+                                        "aav": "$4,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$1,000,000",
+                                        "baseSalary": "$3,750,000",
+                                        "totalSalary": "$4,750,000",
+                                        "minorsSalary": "$4,750,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,750,000",
+                                        "aav": "$4,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,750,000",
+                                        "totalSalary": "$3,750,000",
+                                        "minorsSalary": "$3,750,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 571,
+                        "careerSeasonsPlayed": 8,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "C": 48824
+                        }
+                    },
+                    {
+                        "name": "Frederic, Trent",
+                        "slug": "trent-frederic",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW, C",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2016 Round 1, #29 Overall",
+                        "born": "Feb. 11, 1998",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$2,300,000",
+                                        "aav": "$2,300,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$250,000",
+                                        "baseSalary": "$2,050,000",
+                                        "totalSalary": "$2,300,000",
+                                        "minorsSalary": "$2,300,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$2,300,000",
+                                        "aav": "$2,300,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$2,300,000",
+                                        "totalSalary": "$2,300,000",
+                                        "minorsSalary": "$2,300,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 302,
+                        "careerSeasonsPlayed": 5,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RW": 34467,
+                            "C": 8888,
+                            "LW": 1681
+                        }
+                    },
+                    {
+                        "name": "Geekie, Morgan",
+                        "slug": "morgan-geekie",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, RW, LW",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2017 Round 3, #67 Overall",
+                        "born": "Jul. 20, 1998",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$2,000,000",
+                                        "aav": "$2,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$2,000,000",
+                                        "totalSalary": "$2,000,000",
+                                        "minorsSalary": "$2,000,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$2,000,000",
+                                        "aav": "$2,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$2,000,000",
+                                        "totalSalary": "$2,000,000",
+                                        "minorsSalary": "$2,000,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA (No QO)",
+                                "details": []
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 293,
+                        "careerSeasonsPlayed": 4,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "C": 33349,
+                            "RW": 8029,
+                            "LW": 5803
+                        }
+                    },
+                    {
+                        "name": "Jones, Max",
+                        "slug": "max-jones",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2016 Round 1, #24 Overall",
+                        "born": "Feb. 17, 1998",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$1,000,000",
+                                        "aav": "$1,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,000,000",
+                                        "totalSalary": "$1,000,000",
+                                        "minorsSalary": "$1,000,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$1,000,000",
+                                        "aav": "$1,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,000,000",
+                                        "totalSalary": "$1,000,000",
+                                        "minorsSalary": "$1,000,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA (No QO)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$1,295,000",
+                                        "aav": "$1,295,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$1,500,000",
+                                        "totalSalary": "$1,500,000",
+                                        "minorsSalary": "$1,500,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 5,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "LW": 18391,
+                            "RW": 5901
+                        }
+                    },
+                    {
+                        "name": "Beecher, John",
+                        "slug": "john-beecher",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, RW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2019 Round 1, #30 Overall",
+                        "born": "Apr. 5, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$70,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$70,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 64,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "C": 14829,
+                            "RW": 1471
+                        }
+                    },
+                    {
+                        "name": "Poitras, Matthew",
+                        "slug": "matthew-poitras",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $80,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, LW, RW",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2022 Round 2, #54 Overall",
+                        "born": "Mar. 10, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$870,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$870,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$870,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "LW": 3548,
+                            "C": 10428,
+                            "RW": 2909
+                        }
+                    },
+                    {
+                        "name": "Lysell, Fabian",
+                        "slug": "fabian-lysell",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $212,500, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2021 Round 1, #21 Overall",
+                        "born": "Jan. 19, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$863,333",
+                                        "aav": "$1,034,167",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$863,333",
+                                        "aav": "$1,034,167",
+                                        "performanceBonuses": "$212,500",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$832,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$863,333",
+                                        "aav": "$1,034,167",
+                                        "performanceBonuses": "$300,000",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$832,500",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Kastelic, Mark",
+                        "slug": "mark-kastelic",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C, RW, LW",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2019 Round 5, #125 Overall",
+                        "born": "Mar. 11, 1999",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$835,000",
+                                        "aav": "$835,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$800,000",
+                                        "totalSalary": "$800,000",
+                                        "minorsSalary": "$800,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$835,000",
+                                        "aav": "$835,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$870,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$870,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": []
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 3,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "C": 9667,
+                            "RW": 6330,
+                            "LW": 1894
+                        }
+                    },
+                    {
+                        "name": "Brazeau, Justin",
+                        "slug": "justin-brazeau",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Feb. 2, 1998",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$135,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$165,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 28,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RW": 7293
+                        }
+                    },
+                    {
+                        "name": "Lettieri, Vinni",
+                        "slug": "vinni-lettieri",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW, LW",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Feb. 6, 1995",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$550,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$550,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 4,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RW": 8583,
+                            "C": 601,
+                            "LW": 6874
+                        }
+                    }
+                ],
+                "defense": [
+                    {
+                        "name": "McAvoy, Charlie",
+                        "slug": "charlie-mcavoy",
+                        "note": "\"A\"",
+                        "terms": "NMC",
+                        "termsDetails": "No-Move Clause - (Starting on July 1, 2024 to May 31, 2028: Full No Move Clause; From June 1, 2028 to May 31, 2029: Player submits a 10 team trade list; From June 1, 2029 to June 30, 2030: Player submits a 10 team NO trade list.)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2016 Round 1, #14 Overall",
+                        "born": "Dec. 21, 1997",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$9,500,000",
+                                        "aav": "$9,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$3,250,000",
+                                        "baseSalary": "$7,750,000",
+                                        "totalSalary": "$11,000,000",
+                                        "minorsSalary": "$11,000,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "NMC",
+                                        "capHit": "$9,500,000",
+                                        "aav": "$9,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$3,000,000",
+                                        "baseSalary": "$8,500,000",
+                                        "totalSalary": "$11,500,000",
+                                        "minorsSalary": "$11,500,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "NMC",
+                                        "capHit": "$9,500,000",
+                                        "aav": "$9,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$3,000,000",
+                                        "baseSalary": "$8,500,000",
+                                        "totalSalary": "$11,500,000",
+                                        "minorsSalary": "$11,500,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "NMC",
+                                        "capHit": "$9,500,000",
+                                        "aav": "$9,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$4,000,000",
+                                        "baseSalary": "$6,000,000",
+                                        "totalSalary": "$10,000,000",
+                                        "minorsSalary": "$10,000,000"
+                                    },
+                                    {
+                                        "season": "2027-28",
+                                        "clause": "NMC",
+                                        "capHit": "$9,500,000",
+                                        "aav": "$9,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$4,000,000",
+                                        "baseSalary": "$3,750,000",
+                                        "totalSalary": "$7,750,000",
+                                        "minorsSalary": "$7,750,000"
+                                    },
+                                    {
+                                        "season": "2028-29",
+                                        "clause": "M-NTC",
+                                        "capHit": "$9,500,000",
+                                        "aav": "$9,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$3,000,000",
+                                        "baseSalary": "$4,500,000",
+                                        "totalSalary": "$7,500,000",
+                                        "minorsSalary": "$7,500,000"
+                                    },
+                                    {
+                                        "season": "2029-30",
+                                        "clause": "M-NTC",
+                                        "capHit": "$9,500,000",
+                                        "aav": "$9,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$3,000,000",
+                                        "baseSalary": "$4,500,000",
+                                        "totalSalary": "$7,500,000",
+                                        "minorsSalary": "$7,500,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 545,
+                        "careerSeasonsPlayed": 7,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RD": 77599,
+                            "LD": 2830
+                        }
+                    },
+                    {
+                        "name": "Lindholm, Hampus",
+                        "slug": "hampus-lindholm",
+                        "note": "",
+                        "terms": "NTC, NMC",
+                        "termsDetails": "No-Trade Clause, No-Move Clause - (2027-28 to 2029-30: 15 team no trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2012 Round 1, #6 Overall",
+                        "born": "Jan. 20, 1994",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "NTC, NMC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$2,000,000",
+                                        "baseSalary": "$6,000,000",
+                                        "totalSalary": "$8,000,000",
+                                        "minorsSalary": "$8,000,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "NTC, NMC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$2,000,000",
+                                        "baseSalary": "$6,000,000",
+                                        "totalSalary": "$8,000,000",
+                                        "minorsSalary": "$8,000,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "NTC, NMC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$2,000,000",
+                                        "baseSalary": "$6,000,000",
+                                        "totalSalary": "$8,000,000",
+                                        "minorsSalary": "$8,000,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "NTC, NMC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$2,000,000",
+                                        "baseSalary": "$4,350,000",
+                                        "totalSalary": "$6,350,000",
+                                        "minorsSalary": "$6,350,000"
+                                    },
+                                    {
+                                        "season": "2027-28",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,800,000",
+                                        "totalSalary": "$4,800,000",
+                                        "minorsSalary": "$4,800,000"
+                                    },
+                                    {
+                                        "season": "2028-29",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,800,000",
+                                        "totalSalary": "$4,800,000",
+                                        "minorsSalary": "$4,800,000"
+                                    },
+                                    {
+                                        "season": "2029-30",
+                                        "clause": "M-NTC",
+                                        "capHit": "$6,500,000",
+                                        "aav": "$6,500,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,800,000",
+                                        "totalSalary": "$4,800,000",
+                                        "minorsSalary": "$4,800,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 824,
+                        "careerSeasonsPlayed": 12,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "LD": 78586
+                        }
+                    },
+                    {
+                        "name": "Zadorov, Nikita",
+                        "slug": "nikita-zadorov",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD, RD",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2013 Round 1, #16 Overall",
+                        "born": "Apr. 16, 1995",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    },
+                                    {
+                                        "season": "2027-28",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    },
+                                    {
+                                        "season": "2028-29",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    },
+                                    {
+                                        "season": "2029-30",
+                                        "clause": "",
+                                        "capHit": "$5,000,000",
+                                        "aav": "$5,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$3,750,000",
+                                        "aav": "$3,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,750,000",
+                                        "totalSalary": "$3,750,000",
+                                        "minorsSalary": "$3,750,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 700,
+                        "careerSeasonsPlayed": 11,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "LD": 45076,
+                            "RD": 3587
+                        }
+                    },
+                    {
+                        "name": "Carlo, Brandon",
+                        "slug": "brandon-carlo",
+                        "note": "",
+                        "terms": "M-NTC",
+                        "termsDetails": "Modified No-Trade Clause - (2023-24 & 2024-25: 10 team no-trade list. 2025-26: 8 team no-trade list. 2026-27: 3 team no-trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2015 Round 2, #37 Overall",
+                        "born": "Nov. 26, 1996",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,100,000",
+                                        "aav": "$4,100,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$1,000,000",
+                                        "baseSalary": "$4,700,000",
+                                        "totalSalary": "$5,700,000",
+                                        "minorsSalary": "$5,700,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,100,000",
+                                        "aav": "$4,100,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,450,000",
+                                        "totalSalary": "$5,450,000",
+                                        "minorsSalary": "$5,450,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,100,000",
+                                        "aav": "$4,100,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,200,000",
+                                        "totalSalary": "$4,200,000",
+                                        "minorsSalary": "$4,200,000"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,100,000",
+                                        "aav": "$4,100,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,250,000",
+                                        "totalSalary": "$3,250,000",
+                                        "minorsSalary": "$3,250,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 626,
+                        "careerSeasonsPlayed": 8,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RD": 73923
+                        }
+                    },
+                    {
+                        "name": "Peeke, Andrew",
+                        "slug": "andrew-peeke",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD, LD",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2016 Round 2, #34 Overall",
+                        "born": "Mar. 17, 1998",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$2,750,000",
+                                        "aav": "$2,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$2,750,000",
+                                        "totalSalary": "$2,750,000",
+                                        "minorsSalary": "$2,750,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$2,750,000",
+                                        "aav": "$2,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$2,750,000",
+                                        "totalSalary": "$2,750,000",
+                                        "minorsSalary": "$2,750,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$2,750,000",
+                                        "aav": "$2,750,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$2,750,000",
+                                        "totalSalary": "$2,750,000",
+                                        "minorsSalary": "$2,750,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 239,
+                        "careerSeasonsPlayed": 5,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RD": 8899,
+                            "LD": 4482
+                        }
+                    },
+                    {
+                        "name": "Lohrei, Mason",
+                        "slug": "mason-lohrei",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $250,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD, RD",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2020 Round 2, #58 Overall",
+                        "born": "Jan. 17, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$1,050,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$1,050,000",
+                                        "performanceBonuses": "$250,000",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 52,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "LD": 35347,
+                            "RD": 2074
+                        }
+                    },
+                    {
+                        "name": "Wotherspoon, Parker",
+                        "slug": "parker-wotherspoon",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD, RD",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2015 Round 4, #112 Overall",
+                        "born": "Aug. 24, 1997",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$800,000",
+                                        "aav": "$800,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$800,000",
+                                        "totalSalary": "$800,000",
+                                        "minorsSalary": "$800,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$450,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 63,
+                        "careerSeasonsPlayed": 2,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "LD": 33304,
+                            "RD": 4696
+                        }
+                    }
+                ],
+                "goalies": [
+                    {
+                        "name": "Korpisalo, Joonas",
+                        "slug": "joonas-korpisalo",
+                        "note": "",
+                        "terms": "RSM-NTC",
+                        "termsDetails": "Retained Salary Transaction, Modified No-Trade Clause - (Player submits a 10 team no trade list)",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "NHL",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2012 Round 3, #62 Overall",
+                        "born": "Apr. 28, 1994",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,000,000",
+                                        "totalSalary": "$4,000,000",
+                                        "minorsSalary": "$4,000,000",
+                                        "retention": {
+                                            "Ottawa Senators": {
+                                                "capHit": "$1,000,000",
+                                                "retention": "25.00%"
+                                            },
+                                            "Boston Bruins": {
+                                                "capHit": "$3,000,000",
+                                                "retention": "75.00%"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$5,000,000",
+                                        "totalSalary": "$5,000,000",
+                                        "minorsSalary": "$5,000,000",
+                                        "retention": {
+                                            "Ottawa Senators": {
+                                                "capHit": "$1,000,000",
+                                                "retention": "25.00%"
+                                            },
+                                            "Boston Bruins": {
+                                                "capHit": "$3,000,000",
+                                                "retention": "75.00%"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,500,000",
+                                        "totalSalary": "$4,500,000",
+                                        "minorsSalary": "$4,500,000",
+                                        "retention": {
+                                            "Ottawa Senators": {
+                                                "capHit": "$1,000,000",
+                                                "retention": "25.00%"
+                                            },
+                                            "Boston Bruins": {
+                                                "capHit": "$3,000,000",
+                                                "retention": "75.00%"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,500,000",
+                                        "totalSalary": "$3,500,000",
+                                        "minorsSalary": "$3,500,000",
+                                        "retention": {
+                                            "Ottawa Senators": {
+                                                "capHit": "$1,000,000",
+                                                "retention": "25.00%"
+                                            },
+                                            "Boston Bruins": {
+                                                "capHit": "$3,000,000",
+                                                "retention": "75.00%"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "season": "2027-28",
+                                        "clause": "M-NTC",
+                                        "capHit": "$4,000,000",
+                                        "aav": "$4,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,000,000",
+                                        "totalSalary": "$3,000,000",
+                                        "minorsSalary": "$3,000,000",
+                                        "retention": {
+                                            "Ottawa Senators": {
+                                                "capHit": "$1,000,000",
+                                                "retention": "25.00%"
+                                            },
+                                            "Boston Bruins": {
+                                                "capHit": "$3,000,000",
+                                                "retention": "75.00%"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 291,
+                        "careerSeasonsPlayed": 9,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Swayman, Jeremy",
+                        "slug": "jeremy-swayman",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "NHL",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2017 Round 4, #111 Overall",
+                        "born": "Nov. 24, 1998",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$3,475,000",
+                                        "aav": "$3,475,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$3,475,000",
+                                        "totalSalary": "$3,475,000",
+                                        "minorsSalary": "$3,475,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 152,
+                        "careerSeasonsPlayed": 3,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    }
+                ]
+            },
+            "dead cap": {
+                "buyout history": [
+                    {
+                        "name": "Reilly, Mike",
+                        "slug": "mike-reilly",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD, RD",
+                        "status": "NHL",
+                        "acquired": "Waivers",
+                        "acquisitionDetails": "Claimed off waivers on November 25 2023",
+                        "born": "Jul. 13, 1993",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$3,000,000",
+                                        "aav": "$3,000,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$4,000,000",
+                                        "totalSalary": "$4,000,000",
+                                        "minorsSalary": "$4,000,000",
+                                        "buyout": {
+                                            "teamName": "Boston Bruins",
+                                            "cost": "$1,333,333",
+                                            "earning": "$1,333,333",
+                                            "savings": "$2,666,667",
+                                            "capHit": "$333,333"
+                                        }
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "",
+                                        "aav": "",
+                                        "performanceBonuses": "",
+                                        "signingBonuses": "",
+                                        "baseSalary": "",
+                                        "totalSalary": "",
+                                        "minorsSalary": "",
+                                        "buyout": {
+                                            "teamName": "Boston Bruins",
+                                            "cost": "$1,333,333",
+                                            "earning": "$1,333,333",
+                                            "savings": "-$1,333,333",
+                                            "capHit": "$1,333,333"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 421,
+                        "careerSeasonsPlayed": 11,
+                        "currentTeam": "New York Islanders",
+                        "currentTeamTricode": "NYI",
+                        "currentTeamSlug": "new_york_islanders",
+                        "positions": {
+                            "LD": 29853,
+                            "RD": 22479
+                        }
+                    }
+                ]
+            },
+            "non-roster": {
+                "forwards": [
+                    {
+                        "name": "Merkulov, Georgii",
+                        "slug": "georgii-merkulov",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Oct. 10, 2000",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Farinacci, John",
+                        "slug": "john-farinacci",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2019 Round 3, #76 Overall",
+                        "born": "Feb. 14, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$910,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$910,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$855,000",
+                                        "totalSalary": "$950,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Nelson, Jaxon",
+                        "slug": "jaxon-nelson",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $80,000, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Mar. 30, 2000",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$870,000",
+                                        "aav": "$950,000",
+                                        "performanceBonuses": "$80,000",
+                                        "signingBonuses": "$95,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$870,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Duran, Riley",
+                        "slug": "riley-duran",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $57,500, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2020 Round 6, #182 Overall",
+                        "born": "Jan. 25, 2002",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$867,500",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$867,500",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Kuntar, Trevor",
+                        "slug": "trevor-kuntar",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $57,500, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2020 Round 3, #89 Overall",
+                        "born": "Jun. 20, 2001",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$867,500",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$867,500",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Harrison, Brett",
+                        "slug": "brett-harrison",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $57,500, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2021 Round 3, #85 Overall",
+                        "born": "Jun. 7, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$836,667",
+                                        "aav": "$902,500",
+                                        "performanceBonuses": "$82,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$836,667",
+                                        "aav": "$902,500",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$836,667",
+                                        "aav": "$902,500",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Brown, Patrick",
+                        "slug": "patrick-brown",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RW, LW, C",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "May. 29, 1992",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$800,000",
+                                        "aav": "$800,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$800,000",
+                                        "totalSalary": "$800,000",
+                                        "minorsSalary": "$800,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$800,000",
+                                        "aav": "$800,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$800,000",
+                                        "totalSalary": "$800,000",
+                                        "minorsSalary": "$800,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": []
+                            }
+                        ],
+                        "careerGamesPlayed": 172,
+                        "careerSeasonsPlayed": 4,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "LW": 1112,
+                            "RW": 2011
+                        }
+                    },
+                    {
+                        "name": "Koepke, Cole",
+                        "slug": "cole-koepke",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW, RW",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2018 Round 6, #183 Overall",
+                        "born": "May. 17, 1998",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA (Group 6)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$100,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RW": 1037,
+                            "LW": 1172
+                        }
+                    },
+                    {
+                        "name": "Tufte, Riley",
+                        "slug": "riley-tufte",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "2016 Round 1, #25 Overall",
+                        "born": "Apr. 10, 1998",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA (Group 6)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$375,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "LW": 857
+                        }
+                    },
+                    {
+                        "name": "Viel, Jeffrey",
+                        "slug": "jeffrey-viel",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LW",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Jan. 28, 1997",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$775,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$775,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "McLaughlin, Marc",
+                        "slug": "marc-mclaughlin",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "C",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Jul. 26, 1999",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$100,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    }
+                ],
+                "defense": [
+                    {
+                        "name": "Bavaro, Drew",
+                        "slug": "drew-bavaro",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Maximum Potential Performance Bonuses: $57,500, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Jun. 10, 2000",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$867,500",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$57,500",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$867,500",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Brunet, Frederic",
+                        "slug": "frederic-brunet",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2022 Round 5, #132 Overall",
+                        "born": "Aug. 21, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$860,000",
+                                        "aav": "$860,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$85,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$860,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$860,000",
+                                        "aav": "$860,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$85,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$860,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$860,000",
+                                        "aav": "$860,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$85,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$860,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Edward, Jackson",
+                        "slug": "jackson-edward",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD",
+                        "status": "Junior",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2022 Round 7, #200 Overall",
+                        "born": "Feb. 27, 2004",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$860,000",
+                                        "aav": "$860,000",
+                                        "performanceBonuses": "\u2013",
+                                        "signingBonuses": "$85,000",
+                                        "baseSalary": "ENTRY-LEVEL SLIDE"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$831,667",
+                                        "aav": "$831,667",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$85,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$860,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$831,667",
+                                        "aav": "$831,667",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$85,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$860,000",
+                                        "minorsSalary": "$82,500"
+                                    },
+                                    {
+                                        "season": "2026-27",
+                                        "clause": "",
+                                        "capHit": "$831,667",
+                                        "aav": "$831,667",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$82,500"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Mast, Ryan",
+                        "slug": "ryan-mast",
+                        "note": "",
+                        "terms": "ELC",
+                        "termsDetails": "Entry-Level Contract, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "Minor",
+                        "acquired": "Draft",
+                        "acquisitionDetails": "2021 Round 6, #181 Overall",
+                        "born": "Jan. 14, 2003",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$830,556",
+                                        "aav": "$850,556",
+                                        "performanceBonuses": "$60,000",
+                                        "signingBonuses": "$80,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$855,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$830,556",
+                                        "aav": "$850,556",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$80,000",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$855,000",
+                                        "minorsSalary": "$80,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$830,556",
+                                        "aav": "$850,556",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": false,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Mitchell, Ian",
+                        "slug": "ian-mitchell",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "Minor",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2017 Round 2, #57 Overall",
+                        "born": "Jan. 18, 1999",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$450,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$775,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 3,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "RD": 10613
+                        }
+                    },
+                    {
+                        "name": "Oesterle, Jordan",
+                        "slug": "jordan-oesterle",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD, RD",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Jun. 25, 1992",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$425,000"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$425,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$925,000",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$925,000",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$925,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 380,
+                        "careerSeasonsPlayed": 8,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins",
+                        "positions": {
+                            "LD": 13672,
+                            "RD": 2600
+                        }
+                    },
+                    {
+                        "name": "Sweezey, Billy",
+                        "slug": "billy-sweezey",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "Minor",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Feb. 6, 1996",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    },
+                                    {
+                                        "season": "2025-26",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$762,500",
+                                        "aav": "$762,500",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$135,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Callahan, Michael",
+                        "slug": "michael-callahan",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "Waivers Exempt, Waivers Exempt",
+                        "termsWaiversExempt": true,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "LD",
+                        "status": "Minor",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2018 Round 5, #142 Overall",
+                        "born": "Sep. 23, 1999",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$883,750",
+                                        "aav": "$925,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$92,500",
+                                        "baseSalary": "$832,500",
+                                        "totalSalary": "$925,000",
+                                        "minorsSalary": "$70,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "Regula, Alec",
+                        "slug": "alec-regula",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "RD",
+                        "status": "Minor",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2018 Round 3, #67 Overall",
+                        "born": "Aug. 6, 2000",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$0"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$100,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 1,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    }
+                ],
+                "goalies": [
+                    {
+                        "name": "Bussi, Brandon",
+                        "slug": "brandon-bussi",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "The contract details displayed have not yet been confirmed and are subject to change",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "NHL",
+                        "acquired": "Signed",
+                        "acquisitionDetails": "Undrafted",
+                        "born": "Jun. 25, 1998",
+                        "contracts": [
+                            {
+                                "expiryStatus": "UFA",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$225,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$100,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    },
+                    {
+                        "name": "DiPietro, Michael",
+                        "slug": "michael-dipietro",
+                        "note": "",
+                        "terms": "",
+                        "termsDetails": "",
+                        "termsWaiversExempt": false,
+                        "termsSlideCandidate": false,
+                        "termsSPCExempt": false,
+                        "pos": "G",
+                        "status": "Minor",
+                        "acquired": "Trade",
+                        "acquisitionDetails": "2017 Round 3, #64 Overall",
+                        "born": "Jun. 9, 1999",
+                        "contracts": [
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2024-25",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$200,000"
+                                    }
+                                ]
+                            },
+                            {
+                                "expiryStatus": "RFA (Arb)",
+                                "details": [
+                                    {
+                                        "season": "2023-24",
+                                        "clause": "",
+                                        "capHit": "$775,000",
+                                        "aav": "$775,000",
+                                        "performanceBonuses": "$0",
+                                        "signingBonuses": "$0",
+                                        "baseSalary": "$775,000",
+                                        "totalSalary": "$775,000",
+                                        "minorsSalary": "$80,000"
+                                    }
+                                ]
+                            }
+                        ],
+                        "arbitrationEligible": true,
+                        "careerGamesPlayed": 0,
+                        "careerSeasonsPlayed": 0,
+                        "currentTeam": "Boston Bruins",
+                        "currentTeamTricode": "BOS",
+                        "currentTeamSlug": "boston_bruins"
+                    }
+                ]
+            }
+        },
+        "teamSummary": {
+            "capHit": {
+                "total": 79426666,
+                "forwards": 45468333,
+                "defense": 29575000,
+                "goalies": 3000000,
+                "deadCap": 0,
+                "dead cap": null
+            },
+            "capSpace": 8573334,
+            "ltir": 0,
+            "roster": 22,
+            "totalContracts": 44,
+            "carryover": 50000,
+            "upperLimit": 88000000,
+            "lowerLimit": 65000000
+        },
+        "draftPicks": [
+            {
+                "year": "2025",
+                "round": 1,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 2,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": true,
+                "tradedDate": "Feb. 23, 2023"
+            },
+            {
+                "year": "2025",
+                "round": 3,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 4,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": true,
+                "tradedDate": "Mar. 2, 2023"
+            },
+            {
+                "year": "2025",
+                "round": 5,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 6,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2025",
+                "round": 7,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 1,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 2,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 3,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 4,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 5,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2026",
+                "round": 6,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": true,
+                "tradedDate": "Mar. 8, 2024"
+            },
+            {
+                "year": "2026",
+                "round": 7,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 1,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 2,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 3,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": true,
+                "tradedDate": "Mar. 8, 2024"
+            },
+            {
+                "year": "2027",
+                "round": 4,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 5,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 6,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            },
+            {
+                "year": "2027",
+                "round": 7,
+                "team": "Boston Bruins",
+                "conditions": [],
+                "isTradedAway": false,
+                "tradedDate": null
+            }
+        ],
+        "reserves": [
+            {
+                "name": "Bychkov, Roman",
+                "slug": "roman-bychkov",
+                "born": "Feb. 10, 2001",
+                "pos": "LD",
+                "draftedBy": "BOS",
+                "draftYear": 2019,
+                "round": 5,
+                "overall": 154,
+                "mustSignBy": "-"
+            },
+            {
+                "name": "Gallagher, Ty",
+                "slug": "ty-gallagher",
+                "born": "Mar. 6, 2003",
+                "pos": "RD",
+                "draftedBy": "BOS",
+                "draftYear": 2021,
+                "round": 7,
+                "overall": 217,
+                "mustSignBy": "Aug. 15, 2025"
+            },
+            {
+                "name": "Gasseau, Andre",
+                "slug": "andre-gasseau",
+                "born": "Jul. 3, 2003",
+                "pos": "C",
+                "draftedBy": "BOS",
+                "draftYear": 2021,
+                "round": 7,
+                "overall": 213,
+                "mustSignBy": "Aug. 15, 2026"
+            },
+            {
+                "name": "Groenewold, Elliott",
+                "slug": "elliott-groenewold",
+                "born": "Feb. 4, 2006",
+                "pos": "LD",
+                "draftedBy": "BOS",
+                "draftYear": 2024,
+                "round": 4,
+                "overall": 110,
+                "mustSignBy": "Aug. 15, 2028"
+            },
+            {
+                "name": "Hendrickson, Beckett",
+                "slug": "beckett-hendrickson",
+                "born": "Jun. 24, 2005",
+                "pos": "LW",
+                "draftedBy": "BOS",
+                "draftYear": 2023,
+                "round": 4,
+                "overall": 124,
+                "mustSignBy": "Aug. 15, 2028"
+            },
+            {
+                "name": "Jellvik, Oskar",
+                "slug": "oskar-jellvik",
+                "born": "Feb. 8, 2003",
+                "pos": "LW",
+                "draftedBy": "BOS",
+                "draftYear": 2021,
+                "round": 5,
+                "overall": 149,
+                "mustSignBy": "Aug. 15, 2026"
+            },
+            {
+                "name": "Johansson, Loke",
+                "slug": "loke-johansson",
+                "born": "Dec. 14, 2005",
+                "pos": "D",
+                "draftedBy": "BOS",
+                "draftYear": 2024,
+                "round": 6,
+                "overall": 186,
+                "mustSignBy": "Jun. 1, 2028"
+            },
+            {
+                "name": "Kostadinski, Kristian",
+                "slug": "kristian-kostadinski",
+                "born": "May. 20, 2005",
+                "pos": "LD",
+                "draftedBy": "BOS",
+                "draftYear": 2023,
+                "round": 7,
+                "overall": 220,
+                "mustSignBy": "Jun. 1, 2027"
+            },
+            {
+                "name": "Langenbrunner, Mason",
+                "slug": "mason-langenbrunner",
+                "born": "Sep. 14, 2002",
+                "pos": "RD",
+                "draftedBy": "BOS",
+                "draftYear": 2020,
+                "round": 5,
+                "overall": 151,
+                "mustSignBy": "Aug. 15, 2026"
+            },
+            {
+                "name": "Letourneau, Dean",
+                "slug": "dean-letourneau",
+                "born": "Feb. 21, 2006",
+                "pos": "C",
+                "draftedBy": "BOS",
+                "draftYear": 2024,
+                "round": 1,
+                "overall": 25,
+                "mustSignBy": "Aug. 15, 2029"
+            },
+            {
+                "name": "Locmelis, Dans",
+                "slug": "dans-locmelis",
+                "born": "Jan. 21, 2004",
+                "pos": "C, LW, RW",
+                "draftedBy": "BOS",
+                "draftYear": 2022,
+                "round": 4,
+                "overall": 119,
+                "mustSignBy": "Aug. 15, 2027"
+            },
+            {
+                "name": "Morello, Jonathan",
+                "slug": "jonathan-morello",
+                "born": "Jul. 31, 2006",
+                "pos": "C, LW, RW",
+                "draftedBy": "BOS",
+                "draftYear": 2024,
+                "round": 5,
+                "overall": 154,
+                "mustSignBy": "Aug. 15, 2029"
+            },
+            {
+                "name": "Myrenberg, Jonathan",
+                "slug": "jonathan-myrenberg",
+                "born": "Apr. 11, 2003",
+                "pos": "RD",
+                "draftedBy": "VAN",
+                "draftYear": 2021,
+                "round": 5,
+                "overall": 140,
+                "mustSignBy": "Jun. 1, 2025"
+            },
+            {
+                "name": "Nassen, Casper",
+                "slug": "casper-nassen",
+                "born": "Apr. 11, 2004",
+                "pos": "RW, LW",
+                "draftedBy": "BOS",
+                "draftYear": 2023,
+                "round": 7,
+                "overall": 214,
+                "mustSignBy": "Aug. 15, 2028"
+            },
+            {
+                "name": "Pelosi, Christopher",
+                "slug": "christopher-pelosi",
+                "born": "Mar. 6, 2005",
+                "pos": "C",
+                "draftedBy": "BOS",
+                "draftYear": 2023,
+                "round": 3,
+                "overall": 92,
+                "mustSignBy": "Aug. 15, 2028"
+            },
+            {
+                "name": "Schmaltz, Jake",
+                "slug": "jake-schmaltz",
+                "born": "Apr. 24, 2001",
+                "pos": "C",
+                "draftedBy": "BOS",
+                "draftYear": 2019,
+                "round": 7,
+                "overall": 192,
+                "mustSignBy": "Aug. 15, 2025"
+            },
+            {
+                "name": "Spicer, Cole",
+                "slug": "cole-spicer",
+                "born": "Jun. 13, 2004",
+                "pos": "C",
+                "draftedBy": "BOS",
+                "draftYear": 2022,
+                "round": 4,
+                "overall": 117,
+                "mustSignBy": "Aug. 15, 2026"
+            },
+            {
+                "name": "Svedeback, Philip",
+                "slug": "philip-svedeback",
+                "born": "May. 28, 2002",
+                "pos": "G",
+                "draftedBy": "BOS",
+                "draftYear": 2021,
+                "round": 4,
+                "overall": 117,
+                "mustSignBy": "Aug. 15, 2026"
+            },
+            {
+                "name": "Walsh, Ryan",
+                "slug": "ryan-walsh",
+                "born": "Aug. 25, 2003",
+                "pos": "C, LW, RW",
+                "draftedBy": "BOS",
+                "draftYear": 2023,
+                "round": 6,
+                "overall": 188,
+                "mustSignBy": "Aug. 15, 2027"
+            }
+        ]
+    },
+    "__N_SSG": true
+}
