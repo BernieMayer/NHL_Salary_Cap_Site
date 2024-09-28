@@ -54,6 +54,35 @@ describe 'salary_cap:populate' do
             expect(Player.all.count).to eq(2)
             expect(SalaryCapTotal.all.count).to eq(2)
         end
+
+        context "A player has retention" do
+            let!(:team_a_cap_hit) { 7500000.0 }
+            let!(:team_b_cap_hit) { 2500000.0 }
+          
+            let!(:team_b) { Team.create(name: "New Jersey Devils", code: "NJD") }
+            let!(:retention_player) { Player.create(name: "Jacob Markstrom", position: "G", team: team_b) }
+            let!(:contract_ret) { Contract.create(player: retention_player)}
+            let!(:salary_retention) { SalaryRetention.create(contract: contract_ret, season: "2024-25", team: team_1, 
+            retained_cap_hit: team_a_cap_hit, retention_percentage: 0.75 )}
+            let!(:salary_retention_1) { SalaryRetention.create(contract: contract_ret, season: "2024-25", team: team_b, 
+            retained_cap_hit: team_b_cap_hit, retention_percentage: 0.25 )}
+  
+            let!(:expected_team_a_cap_hit) { player_cap_hit + team_a_cap_hit }
+            let!(:expected_team_b_cap_hit) {2500000.0}
+  
+            let!(:salary_cap_total_4) {SalaryCapTotal.create(team: team_b, year: 2024, total: 0.0)}
+  
+  
+              it "should include the retention cap hit" do
+                  Rake::Task['salary_cap:populate'].invoke
+
+                  expect(SalaryRetention.all.length).to eq(2)
+                  expect(SalaryCapTotal.find_by(team: team_b).total).to eq(expected_team_b_cap_hit)
+                  
+                  expect(SalaryCapTotal.find_by(team: team_1).total).to eq(expected_team_a_cap_hit)
+
+              end
+          end
     end
 
     context "Multiple players" do 
