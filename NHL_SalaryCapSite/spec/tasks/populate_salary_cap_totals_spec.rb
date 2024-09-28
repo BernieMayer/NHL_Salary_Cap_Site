@@ -11,7 +11,7 @@ describe 'salary_cap:populate' do
         let!(:team) { Team.create(name: "Calgary Flames", code: "CGY")}
         let!(:player) { Player.create(name: "Dustin Wolf", team: team, position: "G")}
         let!(:player_cap_hit) { 9000000.0 }
-        let!(:cap_hit) {CapHit.create(team_id: team.id, player_id: player.id, year: 2024, cap_value:player_cap_hit )}
+        let!(:contract_detail) { create_contract_with_cap_hit(player_cap_hit,player, "2024-25") }
         let!(:salary_cap_total) {SalaryCapTotal.create(team: team, year: 2024, total: 0.0)}
 
         it "the total should equal the cap hit" do
@@ -32,12 +32,12 @@ describe 'salary_cap:populate' do
         let!(:team_2) { Team.create(name: "Edmonton Oilers", code: "EDM")}
         let!(:player) { Player.create(name: "Dustin Wolf", team: team_1, position: "G")}
         let!(:player_cap_hit) { 9000000.0 }
-        let!(:cap_hit) {CapHit.create(team_id: team_1.id, player_id: player.id, year: 2024, cap_value:player_cap_hit )}
+        let!(:contract_detail) { create_contract_with_cap_hit(player_cap_hit,player, "2024-25") }
         let!(:salary_cap_total) {SalaryCapTotal.create(team: team_1, year: 2024, total: 0.0)}
 
         let!(:player_2) {Player.create(name: "Staurt Skinner", team: team_2, position: "G")}
         let!(:player_cap_hit_2) { 34000000.0 }
-        let!(:cap_hit_2) {CapHit.create(team_id: team_2.id, player_id: player_2.id, year: 2024, cap_value:player_cap_hit_2 )}
+        let!(:contract_detail_2) { create_contract_with_cap_hit(player_cap_hit_2,player_2, "2024-25") }
         let!(:salary_cap_total_2) {SalaryCapTotal.create(team: team_2, year: 2024, total: 0.0)}
 
         
@@ -52,7 +52,6 @@ describe 'salary_cap:populate' do
 
             expect(Team.all.count).to eq(2)
             expect(Player.all.count).to eq(2)
-            expect(CapHit.all.count).to eq(2)
             expect(SalaryCapTotal.all.count).to eq(2)
         end
     end
@@ -65,9 +64,9 @@ describe 'salary_cap:populate' do
         let!(:player_cap_hit) {  9000000.0 }
         let!(:blake_coleman_cap_hit) { 43000000.0 }
         let!(:kevin_bahl_cap_hit) {10000000.0 }
-        let!(:cap_hit) { CapHit.create(team_id: team.id, player_id: player.id, year: 2024, cap_value: player_cap_hit )}
-        let!(:cap_hit_1) { CapHit.create(team_id: team.id, player_id: player_2.id, year: 2024, cap_value: blake_coleman_cap_hit)}
-        let!(:cap_hit_2) { CapHit.create(team_id: team.id, player_id: player_3.id, year: 2024, cap_value: kevin_bahl_cap_hit )}
+        let!(:contract_detail) { create_contract_with_cap_hit(player_cap_hit, player, "2024-25") }
+        let!(:contract_detail_2) {create_contract_with_cap_hit(blake_coleman_cap_hit, player_2, "2024-25")}
+        let!(:contract_detail_3) {create_contract_with_cap_hit(kevin_bahl_cap_hit, player_3, "2024-25")}
         let!(:salary_cap_total) {SalaryCapTotal.create(team: team, year: 2024, total: 0.0)}
         let!(:expected_cap_hit) {62000000.0}
 
@@ -77,7 +76,6 @@ describe 'salary_cap:populate' do
             expect(SalaryCapTotal.all.count).to eq(1)
             expect(Player.all.count).to eq(3)
             expect(team.players.length).to eq(3)
-            expect(CapHit.all.count).to eq(3)
            
             expect(SalaryCapTotal.find_by(team: team).total).to eq(expected_cap_hit)
         end
@@ -108,8 +106,8 @@ describe 'salary_cap:populate' do
         end
 
         context "multiple years" do
-            let!(:cap_hit_3) { CapHit.create(team_id: team.id, player_id: player.id, year: 2025, cap_value: player_cap_hit )}
-            let!(:cap_hit_4) { CapHit.create(team_id: team.id, player_id: player_2.id, year: 2025, cap_value: blake_coleman_cap_hit)}
+            let!(:contract_detail_4) { create_contract_with_cap_hit(player_cap_hit, player, "2025-26") }
+            let!(:contract_detail_5) { create_contract_with_cap_hit(blake_coleman_cap_hit, player_2, "2025-26") }
             let!(:expected_cap_hit_2025) {52000000.0}
             let!(:salary_cap_total_2) {SalaryCapTotal.create(team: team, year: 2025, total: 0.0)}
 
@@ -124,5 +122,10 @@ describe 'salary_cap:populate' do
                 
             end 
         end
-    end     
+    end
+    
+    def create_contract_with_cap_hit(cap_hit, player, season)
+        contract =Contract.create(player_id: player.id)
+         ContractDetail.create( season: season, contract:contract, cap_hit: cap_hit)
+    end
 end
