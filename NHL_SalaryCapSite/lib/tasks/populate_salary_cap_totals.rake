@@ -1,14 +1,16 @@
 namespace :salary_cap do
+    include SeasonHelper
     desc 'Populate salary cap totals'
     task populate: :environment do
 
         def sum_roster_player_cap_hits(team, year)
             cap_hits_total = 0.0
             team.players.roster.each do |player|
-                cap_hit =  player.cap_hits.find_by(year: year)
-                next if cap_hit.nil?
+                cap_hit = player.cap_hit_for_team_in_season(team, format_year_to_season(year))
                 
-                cap_hits_total += cap_hit.cap_value
+                next if cap_hit.nil?
+                cap_hits_total += cap_hit
+
             end
             cap_hits_total 
         end
