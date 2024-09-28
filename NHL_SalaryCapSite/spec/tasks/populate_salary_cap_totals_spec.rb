@@ -83,13 +83,13 @@ describe 'salary_cap:populate' do
         context "A player is bought out" do
             let!(:buyout_player) { Player.create(name: "Kevin Smith", position: "D") }
             let!(:buyout_cap_hit) { 2000000.0 }
-            let!(:buyout_cap_hit_obj) { CapHit.create(team_id: team.id, player_id: buyout_player.id, year: 2024,
-                             cap_value: buyout_cap_hit, cap_type: CapHit::BUYOUT )}
+            let!(:contract) { Contract.create(player: buyout_player)}
+            let!(:buyout_cap_hit_obj) { Buyout.create(team: team, contract: contract, season: format_year_to_season(2024),
+                             cap_hit: buyout_cap_hit)}
             let!(:expected_cap_hit) {64000000.0}
 
             it "the total should include the buyout" do
                 Rake::Task['salary_cap:populate'].invoke
-
                 expect(SalaryCapTotal.find_by(team: team).total).to eq(expected_cap_hit)
             end
         end

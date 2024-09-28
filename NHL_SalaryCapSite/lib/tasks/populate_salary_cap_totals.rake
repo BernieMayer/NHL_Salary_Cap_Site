@@ -17,12 +17,11 @@ namespace :salary_cap do
 
         def sum_buyout_player_cap_hits(team, year)
             cap_hits_total = 0.0
-            buyout_cap_hits = CapHit.buyout.where(year: year).where(team: team)
-            return 0 if buyout_cap_hits.nil?
-            buyout_cap_hits.each do |cap_hit|
-                next if cap_hit.nil?
-                puts "Adding buyout cap hit of #{cap_hit.cap_value}"
-                cap_hits_total += cap_hit.cap_value
+            buyouts = Buyout.get_buyouts_for_team_season(format_year_to_season(year), team)
+            return 0 if buyouts.nil?
+            buyouts.all.each do |buyout|
+                next if buyout.cap_hit.nil?
+                cap_hits_total += buyout.cap_hit
             end
             cap_hits_total 
         end

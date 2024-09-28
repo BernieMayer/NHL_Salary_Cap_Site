@@ -11,4 +11,10 @@ class Buyout < ApplicationRecord
     .first
   end
 
+  def self.get_buyouts_for_team_season(season, team)
+    Buyout
+      .where(team: team)
+      .where(season: season)
+  end
+
 end
