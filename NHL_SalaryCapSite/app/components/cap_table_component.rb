@@ -11,9 +11,13 @@ class CapTableComponent < ViewComponent::Base
 
     def get_cap_hit(player, year)
         if @cap_type == "Buyout"
-            1234
+            Buyout.get_buyout_for_season(format_year_to_season(year), @team, player)&.cap_hit
         else 
-            player.cap_hit_for_team_in_season(@team, "#{year}-#{(year + 1).to_s[-2..]}")
+            player.cap_hit_for_team_in_season(@team, format_year_to_season(year))
         end  
+    end
+
+    def format_year_to_season(year)
+      "#{year}-#{(year + 1).to_s[-2..]}"
     end
 end
