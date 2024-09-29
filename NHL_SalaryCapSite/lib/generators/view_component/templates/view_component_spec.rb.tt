@@ -1,0 +1,8 @@
+require 'rails_helper'
+
+RSpec.describe <%= class_name %>Component, type: :component do
+  it "renders something useful" do
+    render_inline(<%= class_name %>Component.new)
+    expect(rendered_content).to include("some expected output")
+  end
+end

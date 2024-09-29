@@ -1,0 +1,9 @@
+Description:
+    A generator to create a view component and a respective rspec unit test
+
+Example:
+    bin/rails generate view_component Thing
+
+    This will create:
+        app/components/thing_component.rb
+        spec/components/thing_component_spec.rb
