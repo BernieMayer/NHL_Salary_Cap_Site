@@ -9,6 +9,7 @@ RSpec.describe "API::Imports", type: :request do
 
   before do
     # Mock the Rake task invocation
+    allow(Rake::Task).to receive(:clear)
     allow(Rake::Task['import:contracts']).to receive(:invoke)
   end
 
