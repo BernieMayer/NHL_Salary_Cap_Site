@@ -17,7 +17,7 @@ namespace :salary_cap do
 
         def sum_buyout_player_cap_hits(team, year)
             cap_hits_total = 0.0
-            buyouts = Buyout.get_buyouts_for_team_season(format_year_to_season(year), team)
+            buyouts = team.buyouts.season(format_year_to_season(year))
             return 0 if buyouts.nil?
             buyouts.all.each do |buyout|
                 cap_hits_total += buyout.cap_hit
@@ -27,7 +27,7 @@ namespace :salary_cap do
 
         def sum_retention_player_cap_hits(team, year)
             cap_hits_total = 0.0
-            retentions = SalaryRetention.retention_for_season_and_team(format_year_to_season(year), team)
+            retentions = team.salary_retentions.season(format_year_to_season(year))
             return 0 if retentions.nil?
             retentions.all.each do |retention|
                 cap_hits_total += retention.retained_cap_hit

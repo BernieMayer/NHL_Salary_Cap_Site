@@ -28,14 +28,16 @@ class Player < ApplicationRecord
     end
 
     def cap_hit_for_team_in_season(team, season)
-        ContractDetail
-            .left_joins(contract: :salary_retentions)
-            .where(contracts: { player_id: id })
-            .where(contract_details: { season: season })
-            .where("salary_retentions.team_id = ? OR salary_retentions.team_id IS NULL", team.id)
-            .select("COALESCE(salary_retentions.retained_cap_hit, contract_details.cap_hit) AS cap_hit")
-            .first
-            &.cap_hit
+        contracts
+        .joins(:contract_details)
+        .left_joins(:salary_retentions)
+        .where(contract_details: { season: season })
+        .where("salary_retentions.team_id = ? AND salary_retentions.season = ? OR salary_retentions.team_id IS NULL", team.id, season)
+        .select("COALESCE(salary_retentions.retained_cap_hit, contract_details.cap_hit) AS cap_hit")
+        .order("salary_retentions.team_id DESC") # Prioritize rows with salary retention
+        .first
+        &.cap_hit
+      
     end
 
 
