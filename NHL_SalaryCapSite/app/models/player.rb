@@ -27,6 +27,34 @@ class Player < ApplicationRecord
       self.cap_hits.where(team: self.team)
     end
 
+    def self.cap_hits_ordered_by_current_season(team, season)
+        seasons = ['2024-25', '2025-26', '2026-27'] # Example seasons
+
+        select_statements = seasons.map do |season|
+          "MAX(CASE WHEN contract_details.season = '#{season}' THEN COALESCE(salary_retentions.retained_cap_hit, contract_details.cap_hit) ELSE 0 END) AS \"#{season}\""
+        end
+        
+        results = self
+          .left_joins(contracts: :contract_details)
+          .left_joins(contracts: :salary_retentions)
+          .select("players.name", *select_statements)
+          .where("salary_retentions.team_id = ? OR salary_retentions.team_id IS NULL", team.id)
+          .group("players.name")
+          .order(Arel.sql("\"#{seasons[0]}\" DESC")) # Order by the first season's cap hit in descending order
+        
+        
+        
+          formatted_results = results.map do |record|
+            {
+              "name" => record.name
+            }.merge(seasons.each_with_object({}) do |season, hash|
+              hash[season] = record.attributes[season]
+            end)
+          end
+        
+          return formatted_results 
+    end
+
     def cap_hit_for_team_in_season(team, season)
         ContractDetail
             .left_joins(contract: :salary_retentions)
