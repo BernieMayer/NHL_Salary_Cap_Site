@@ -18,6 +18,93 @@ RSpec.describe Player, type: :model do
         end
     end
 
+    describe '.cap_hits_ordered_by_current_season' do
+        let!(:team) { Team.create!(name: 'Test Team', code: "TST") }
+        let!(:player1) { Player.create!(name: 'Player One', position: 'Forward', team: team) }
+        let!(:player2) { Player.create!(name: 'Player Two', position: 'Defenseman', team: team) }
+
+        let!(:contract1) { Contract.create!(player: player1) }
+        let!(:contract2) { Contract.create!(player: player2) }
+
+        let!(:contract_detail1) { ContractDetail.create!(contract: contract1, season: '2024', cap_hit: 5000000) }
+        let!(:contract_detail2) { ContractDetail.create!(contract: contract2, season: '2024', cap_hit: 3000000) }
+
+        context 'when there is no salary retention' do
+        it 'returns cap hits for each season with correct formatting' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024'])
+
+            expect(result).to eq([
+            ['Player One', 'Forward', '$5,000,000.00'],
+            ['Player Two', 'Defenseman', '$3,000,000.00']
+            ])
+        end
+    end
+
+    context 'when salary retention is present' do
+        let!(:salary_retention1) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 2000000, retention_percentage: 0.50, season: '2024') }
+
+        it 'prioritizes retained cap hit over the original cap hit' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024'])
+
+            expect(result).to eq([
+                ['Player Two', 'Defenseman', '$3,000,000.00'],
+                ['Player One', 'Forward', '$2,000,000.00']
+                ])
+            end
+        end
+
+        context 'when there are multiple seasons' do
+        let!(:contract_detail3) { ContractDetail.create!(contract: contract1, season: '2025', cap_hit: 6000000) }
+
+        it 'returns cap hits for multiple seasons' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2025'])
+
+            expect(result).to eq([
+            ['Player One', 'Forward', '$5,000,000.00', '$6,000,000.00'],
+            ['Player Two', 'Defenseman', '$3,000,000.00']
+            ])
+        end
+    end
+
+        context 'when salary retention is present for multiple seasons' do
+        let!(:contract_detail3) { ContractDetail.create!(contract: contract1, season: '2025', cap_hit: 6000000) }
+        let!(:salary_retention2) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 4000000, retention_percentage: 0.50, season: '2025') }
+
+        it 'applies retained cap hits correctly across multiple seasons' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2025'])
+
+            expect(result).to eq([
+            ['Player One', 'Forward', '$4,000,000.00', '$4,000,000.00'], # Retained cap hit in both 2024 and 2025
+            ['Player Two', 'Defenseman', '$3,000,000.00']
+            ])
+        end
+        end
+
+        context 'when no cap hit for a season' do
+        it 'filters out seasons with no cap hit' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2026'])
+
+            expect(result).to eq([
+            ['Player One', 'Forward', '$5,000,000.00'],
+            ['Player Two', 'Defenseman', '$3,000,000.00']
+            ])
+        end
+        end
+
+        context 'when ordering by the first season' do
+        it 'orders players by cap hit in descending order for the first season' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024'])
+
+            expect(result).to eq([
+            ['Player One', 'Forward', '$5,000,000.00'],
+            ['Player Two', 'Defenseman', '$3,000,000.00']
+            ])
+        end
+        end
+    end
+
+
+
     describe "#cap_hit_for_team_in_season" do
         let!(:team) { Team.create(name: "Sample Team", code: "STM") }
         let!(:player) { Player.create(name: "Sample Player", team: team) }
