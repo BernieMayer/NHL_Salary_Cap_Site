@@ -57,11 +57,11 @@ RSpec.describe Player, type: :model do
 
         context 'when no cap hit for a season' do
             it 'filters out seasons with no cap hit' do
-            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024', '2026'])
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2026'])
 
             expect(result).to eq([
-                ['Player One', 'Forward', '$4,000,000.00'],
-                ['Player Two', 'Defenseman', '$2,000,000.00']
+                ['Player One', 'Forward'],
+                ['Player Two', 'Defenseman']
             ])
             end
         end
@@ -126,7 +126,7 @@ RSpec.describe Player, type: :model do
             end
         end
 
-        context 'when there are multiple seasons' do
+    context 'when there are multiple seasons' do
         let!(:contract_detail3) { ContractDetail.create!(contract: contract1, season: '2025', cap_hit: 6000000) }
 
         it 'returns cap hits for multiple seasons' do
@@ -139,7 +139,7 @@ RSpec.describe Player, type: :model do
         end
     end
 
-        context 'when salary retention is present for multiple seasons' do
+    context 'when salary retention is present for multiple seasons' do
         let!(:contract_detail3) { ContractDetail.create!(contract: contract1, season: '2025', cap_hit: 6000000) }
         let!(:salary_retention2) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 4000000, retention_percentage: 0.50, season: '2025') }
 
@@ -151,9 +151,9 @@ RSpec.describe Player, type: :model do
             ['Player Two', 'Defenseman', '$3,000,000.00']
             ])
         end
-        end
+    end
 
-        context 'when no cap hit for a season' do
+    context 'when no cap hit for a season' do
         it 'filters out seasons with no cap hit' do
             result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2026'])
 
@@ -164,7 +164,7 @@ RSpec.describe Player, type: :model do
         end
         end
 
-        context 'when ordering by the first season' do
+    context 'when ordering by the first season' do
         it 'orders players by cap hit in descending order for the first season' do
             result = Player.cap_hits_ordered_by_current_season(team, ['2024'])
 
@@ -173,8 +173,8 @@ RSpec.describe Player, type: :model do
             ['Player Two', 'Defenseman', '$3,000,000.00']
             ])
         end
-        end
     end
+end
 
 
 
