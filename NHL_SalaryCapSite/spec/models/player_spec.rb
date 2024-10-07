@@ -18,6 +18,79 @@ RSpec.describe Player, type: :model do
         end
     end
 
+
+
+    describe '.buyout_cap_hits_ordered_by_current_season' do
+        let!(:team) { Team.create!(name: 'Test Team', code: "TST") }
+        let!(:player1) { Player.create!(name: 'Player One', position: 'Forward') }
+        let!(:player2) { Player.create!(name: 'Player Two', position: 'Defenseman') }
+
+        let!(:contract1) { Contract.create!(player: player1) }
+        let!(:contract2) { Contract.create!(player: player2) }
+
+        let!(:buyout1) { Buyout.create!(contract: contract1, team: team, cap_hit: 4000000, season: '2024') }
+        let!(:buyout2) { Buyout.create!(contract: contract2, team: team, cap_hit: 2000000, season: '2024') }
+
+        context 'when buyout cap hits are present' do
+            it 'returns buyout cap hits for each season with correct formatting' do
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024'])
+
+            expect(result).to eq([
+                ['Player One', 'Forward', '$4,000,000.00'],
+                ['Player Two', 'Defenseman', '$2,000,000.00']
+            ])
+            end
+        end
+
+        context 'when there are multiple seasons' do
+            let!(:buyout3) { Buyout.create!(contract: contract1, team: team, cap_hit: 3000000, season: '2025') }
+
+            it 'returns buyout cap hits for multiple seasons' do
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024', '2025'])
+
+            expect(result).to eq([
+                ['Player One', 'Forward', '$4,000,000.00', '$3,000,000.00'],
+                ['Player Two', 'Defenseman', '$2,000,000.00']
+            ])
+            end
+        end
+
+        context 'when no cap hit for a season' do
+            it 'filters out seasons with no cap hit' do
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024', '2026'])
+
+            expect(result).to eq([
+                ['Player One', 'Forward', '$4,000,000.00'],
+                ['Player Two', 'Defenseman', '$2,000,000.00']
+            ])
+            end
+        end
+
+        context 'when ordering by the first season' do
+            it 'orders players by buyout cap hit in descending order for the first season' do
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024'])
+
+            expect(result).to eq([
+                ['Player One', 'Forward', '$4,000,000.00'],
+                ['Player Two', 'Defenseman', '$2,000,000.00']
+            ])
+            end
+        end
+
+        context 'when buyouts are present for multiple seasons' do
+            let!(:buyout4) { Buyout.create!(contract: contract1, team: team, cap_hit: 1000000, season: '2025') }
+
+            it 'returns the correct buyout cap hits across seasons' do
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024', '2025'])
+
+            expect(result).to eq([
+                ['Player One', 'Forward', '$4,000,000.00', '$1,000,000.00'],
+                ['Player Two', 'Defenseman', '$2,000,000.00']
+            ])
+            end
+        end
+    end
+
     describe '.cap_hits_ordered_by_current_season' do
         let!(:team) { Team.create!(name: 'Test Team', code: "TST") }
         let!(:player1) { Player.create!(name: 'Player One', position: 'Forward', team: team) }
