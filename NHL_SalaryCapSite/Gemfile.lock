@@ -352,6 +352,7 @@ DEPENDENCIES
   shoulda-matchers
   sprockets-rails
   stimulus-rails
+  tailwind_merge
   tailwindcss-rails (~> 2.6)
   turbo-rails
   tzinfo-data
