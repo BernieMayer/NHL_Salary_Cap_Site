@@ -6,8 +6,8 @@ module.exports = {
     "./public/*.html",
     "./app/helpers/**/*.rb",
     "./app/javascript/**/*.js",
-    "./app/components/**/*.{html,erb}",
-    "./app/views/**/*.{erb,haml,html,slim}",
+    "./app/components/**/*.{html,erb,rb}",
+    "./app/views/**/*.{erb,haml,html,slim}"
   ],
   safelist: [
     "text-green-500",
