@@ -82,3 +82,5 @@ gem "pg", "~> 1.5"
 gem "motor-admin", "~> 0.4.27"
 
 gem "devise", "~> 4.9"
+
+gem "shadcn-ui", "~> 0.0.15"

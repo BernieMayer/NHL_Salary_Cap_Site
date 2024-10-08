@@ -4,6 +4,8 @@
   },
   "scripts": {
     "build": "tailwindcss build ./app/assets/stylesheets/application.css -o ./public/assets/application.css"
+  },
+  "devDependencies": {
+    "tailwindcss-animate": "^1.0.7"
   }
-
 }
