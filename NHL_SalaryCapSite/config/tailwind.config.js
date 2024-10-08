@@ -6,6 +6,7 @@ module.exports = {
     "./public/*.html",
     "./app/helpers/**/*.rb",
     "./app/javascript/**/*.js",
+    './app/components/**/*.{html,erb}',
     "./app/views/**/*.{erb,haml,html,slim}",
   ],
   safelist: [
