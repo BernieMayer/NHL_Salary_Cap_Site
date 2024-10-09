@@ -93,8 +93,8 @@ RSpec.describe Player, type: :model do
 
     describe '.cap_hits_ordered_by_current_season' do
         let!(:team) { Team.create!(name: 'Test Team', code: 'TST') }
-        let!(:player1) { Player.create!(name: 'Player One', position: 'Forward') }
-        let!(:player2) { Player.create!(name: 'Player Two', position: 'Defenseman') }
+        let!(:player1) { Player.create!(name: 'Player One', position: 'Forward', team: team) }
+        let!(:player2) { Player.create!(name: 'Player Two', position: 'Defenseman', team: team) }
       
         let!(:contract1) { Contract.create!(player: player1) }
         let!(:contract2) { Contract.create!(player: player2) }
