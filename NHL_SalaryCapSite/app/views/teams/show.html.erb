@@ -8,19 +8,19 @@
 
       <div class="overflow-x-auto">
         <h2 class="text-lg font-semibold"><%= @forwards.length %> Forwards</h2>
-        <%= render(TableComponent.new(headers: @table_headers, rows: @forwards_rows)) %> 
+        <%= render(SalaryTableComponent.new(headers: @table_headers, rows: @forwards_rows)) %> 
 
         <h2 class="text-lg font-semibold"><%= @defence.length %> Defence</h2>
-        <%= render(TableComponent.new(headers: @table_headers, rows: @defence_rows)) %> 
+        <%= render(SalaryTableComponent.new(headers: @table_headers, rows: @defence_rows)) %>
 
         <h2 class="text-lg font-semibold"><%= @goalies.length %> Goalies</h2>
-        <%= render(TableComponent.new(headers: @table_headers, rows: @goalies_rows)) %> 
+        <%= render(SalaryTableComponent.new(headers: @table_headers, rows: @goalies_rows)) %>
 
         <h2 class="text-lg font-semibold"><%= @retained_players.length %> Retained players</h2>
-        <%= render(TableComponent.new(headers: @table_headers, rows: @retained_players_rows)) %> 
+        <%= render(SalaryTableComponent.new(headers: @table_headers, rows: @retained_players_rows)) %>
 
         <h2 class="text-lg font-semibold"><%= @buyout_players.length %> Buyout players</h2>
-        <%= render(TableComponent.new(headers: @table_headers, rows: @buyout_players_rows)) %> 
+        <%= render(SalaryTableComponent.new(headers: @table_headers, rows: @buyout_players_rows)) %>
       </div>
     </div>
   </div>

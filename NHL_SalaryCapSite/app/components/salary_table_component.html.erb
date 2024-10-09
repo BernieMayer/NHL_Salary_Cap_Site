@@ -1,0 +1,21 @@
+<%= render_table do %>
+  <%= table_head do %>
+    <% @headers.each do |header| %>
+      <%= table_header do %>
+        <%= header %>
+      <% end %>
+    <% end %>
+  <% end %>
+  
+  <%= table_body do %>
+    <% @rows.each do |row| %>
+      <%= table_row do %>
+        <% row.each do |cell| %>
+          <%= table_column do %>
+            <%= cell %>
+          <% end %>
+        <% end %>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>
