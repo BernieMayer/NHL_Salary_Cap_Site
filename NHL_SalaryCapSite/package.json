@@ -1,9 +1,12 @@
 {
   "dependencies": {
+    "tailwind-merge": "^2.5.3",
     "tailwindcss": "^3.4.4"
   },
   "scripts": {
     "build": "tailwindcss build ./app/assets/stylesheets/application.css -o ./public/assets/application.css"
+  },
+  "devDependencies": {
+    "tailwindcss-animate": "^1.0.7"
   }
-
 }
