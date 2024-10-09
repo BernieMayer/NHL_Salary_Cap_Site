@@ -39,14 +39,8 @@ class Player < ApplicationRecord
             .group("players.name", "players.position")
             .order(Arel.sql("\"#{seasons[0]}\" DESC")) # Order by the first season's cap hit in descending order
         
-        formatted_results = results.map do |record|
-            [record.name, record.position] +
-            seasons
-                .filter { |season| record.attributes[season] > 0 }
-                .map { |season| number_to_currency(record.attributes[season]) }
-        end
         
-        return formatted_results
+        return results
     end
           
 
@@ -66,16 +60,7 @@ class Player < ApplicationRecord
           .group("players.name", "players.position")
           .order(Arel.sql("\"#{seasons[0]}\" DESC")) # Order by the first season's cap hit in descending order
         
-        
-        
-          formatted_results = results.map do |record|
-            [record.name, record.position] +
-            seasons
-                .filter { |season| record.attributes[season] > 0 }
-                .map { |season| number_to_currency(record.attributes[season]) }
-          end
-        
-          return formatted_results 
+          return results 
     end
 
     def cap_hit_for_team_in_season(team, season)
