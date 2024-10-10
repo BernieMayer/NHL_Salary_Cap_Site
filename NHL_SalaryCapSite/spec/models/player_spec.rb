@@ -128,12 +128,16 @@ RSpec.describe Player, type: :model do
       
         context 'when there are multiple seasons' do
           let!(:contract_detail3) { ContractDetail.create!(contract: contract1, season: '2025', cap_hit: 6000000) }
-      
+
+           # Salary retention for Player One across multiple seasons
+          let!(:salary_retention_2024) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 2000000, retention_percentage: 0.50, season: '2024') }
+          let!(:salary_retention_2025) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 5000000, retention_percentage: 0.80, season: '2025') }
+
           it 'returns cap hits for multiple seasons' do
             result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2025']).map { |r| [r.name, r.position, r['2024'], r['2025']] }
       
             expect(result).to eq([
-              ['Player One', 'Forward', 5000000, 6000000],
+              ['Player One', 'Forward', 5000000, 5000000],
               ['Player Two', 'Defenseman', 3000000, 0] # No cap hit for 2025 for player2
             ])
           end
