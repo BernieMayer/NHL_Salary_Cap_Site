@@ -18,6 +18,166 @@ RSpec.describe Player, type: :model do
         end
     end
 
+
+
+    describe '.buyout_cap_hits_ordered_by_current_season' do
+        let!(:team) { Team.create!(name: 'Test Team', code: "TST") }
+        let!(:player1) { Player.create!(name: 'Player One', position: 'Forward') }
+        let!(:player2) { Player.create!(name: 'Player Two', position: 'Defenseman') }
+      
+        let!(:contract1) { Contract.create!(player: player1) }
+        let!(:contract2) { Contract.create!(player: player2) }
+      
+        let!(:buyout1) { Buyout.create!(contract: contract1, team: team, cap_hit: 4000000, season: '2024') }
+        let!(:buyout2) { Buyout.create!(contract: contract2, team: team, cap_hit: 2000000, season: '2024') }
+      
+        context 'when buyout cap hits are present' do
+          it 'returns buyout cap hits for the current season in the correct format' do
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024'])
+      
+            expect(result.map(&:attributes)).to contain_exactly(
+              hash_including("name" => "Player One", "position" => "Forward", "2024" => 4000000),
+              hash_including("name" => "Player Two", "position" => "Defenseman", "2024" => 2000000)
+            )
+          end
+        end
+      
+        context 'when multiple seasons are requested' do
+          let!(:buyout3) { Buyout.create!(contract: contract1, team: team, cap_hit: 3000000, season: '2025') }
+      
+          it 'returns buyout cap hits for multiple seasons' do
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024', '2025'])
+      
+            expect(result.map(&:attributes)).to contain_exactly(
+              hash_including("name" => "Player One", "position" => "Forward", "2024" => 4000000, "2025" => 3000000),
+              hash_including("name" => "Player Two", "position" => "Defenseman", "2024" => 2000000, "2025" => 0)
+            )
+          end
+        end
+      
+        context 'when no cap hit exists for the requested season' do
+          it 'returns cap hits with 0 for seasons with no buyout' do
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2026'])
+      
+            expect(result.map(&:attributes)).to contain_exactly(
+              hash_including("name" => "Player One", "position" => "Forward", "2026" => 0),
+              hash_including("name" => "Player Two", "position" => "Defenseman", "2026" => 0)
+            )
+          end
+        end
+      
+        context 'when ordering by the first season' do
+            it 'orders players by the first season’s cap hit in descending order' do
+              result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024'])
+        
+              expect(result.map { |r| [r['name'], r['position'], r['2024'].to_i] }).to eq([
+                ['Player One', 'Forward', 4000000],
+                ['Player Two', 'Defenseman', 2000000]
+              ])
+            end
+        end
+      
+        context 'when buyouts span multiple seasons' do
+          let!(:buyout4) { Buyout.create!(contract: contract1, team: team, cap_hit: 1000000, season: '2025') }
+      
+          it 'returns the correct cap hits across multiple seasons' do
+            result = Player.buyout_cap_hits_ordered_by_current_season(team, ['2024', '2025'])
+      
+            expect(result.map(&:attributes)).to contain_exactly(
+              hash_including("name" => "Player One", "position" => "Forward", "2024" => 4000000, "2025" => 1000000),
+              hash_including("name" => "Player Two", "position" => "Defenseman", "2024" => 2000000, "2025" => 0)
+            )
+          end
+        end
+    end
+
+    describe '.cap_hits_ordered_by_current_season' do
+        let!(:team) { Team.create!(name: 'Test Team', code: 'TST') }
+        let!(:player1) { Player.create!(name: 'Player One', position: 'Forward', team: team) }
+        let!(:player2) { Player.create!(name: 'Player Two', position: 'Defenseman', team: team) }
+      
+        let!(:contract1) { Contract.create!(player: player1) }
+        let!(:contract2) { Contract.create!(player: player2) }
+      
+        let!(:contract_detail1) { ContractDetail.create!(contract: contract1, season: '2024', cap_hit: 5000000) }
+        let!(:contract_detail2) { ContractDetail.create!(contract: contract2, season: '2024', cap_hit: 3000000) }
+      
+        context 'when there is no salary retention' do
+          it 'returns cap hits for each season with correct formatting' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024']).map { |r| [r.name, r.position, r['2024']] }
+      
+            expect(result).to eq([
+              ['Player One', 'Forward', 5000000],
+              ['Player Two', 'Defenseman', 3000000]
+            ])
+          end
+        end
+      
+        context 'when salary retention is present' do
+            let!(:salary_retention1) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 2000000, retention_percentage: 0.50, season: '2024') }
+        
+            it 'prioritizes retained cap hit over the original cap hit' do
+              result = Player.cap_hits_ordered_by_current_season(team, ['2024'])
+        
+              expect(result.map { |r| [r['name'], r['position'], r['2024'].to_i] }).to eq([
+                ['Player Two', 'Defenseman', 3000000], # Original cap hit
+                ['Player One', 'Forward', 2000000]     # Retained cap hit
+              ])
+            end
+        end
+      
+        context 'when there are multiple seasons' do
+          let!(:contract_detail3) { ContractDetail.create!(contract: contract1, season: '2025', cap_hit: 6000000) }
+
+          it 'returns cap hits for multiple seasons' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2025']).map { |r| [r.name, r.position, r['2024'], r['2025']] }
+      
+            expect(result).to eq([
+              ['Player One', 'Forward', 5000000, 6000000],
+              ['Player Two', 'Defenseman', 3000000, 0] # No cap hit for 2025 for player2
+            ])
+          end
+        end
+      
+        context 'when salary retention is present for multiple seasons' do
+
+            # Salary retention for Player One across multiple seasons
+            let!(:salary_retention_2024) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 12000000, retention_percentage: 0.50, season: '2024') }
+            let!(:salary_retention_2025) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 5000000, retention_percentage: 0.80, season: '2025') }
+            
+            it 'applies retained cap hits correctly across multiple seasons' do
+              result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2025'])
+        
+              expect(result.map { |r| [r['name'], r['position'], r['2024'].to_i, r['2025'].to_i] }).to eq([
+                ['Player One', 'Forward', 12000000, 0], # Retained cap hits for both seasons
+                ['Player Two', 'Defenseman', 3000000, 0]
+              ])
+            end
+          end
+      
+        context 'when no cap hit for a season' do
+          it 'filters out seasons with no cap hit' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2026']).map { |r| [r.name, r.position, r['2024'], r['2026']] }
+      
+            expect(result).to eq([
+              ['Player One', 'Forward', 5000000, 0],
+              ['Player Two', 'Defenseman', 3000000, 0] # No cap hit for 2026 for either player
+            ])
+          end
+        end
+      
+        context 'when ordering by the first season' do
+          it 'orders players by cap hit in descending order for the first season' do
+            result = Player.cap_hits_ordered_by_current_season(team, ['2024']).map { |r| [r.name, r.position, r['2024']] }
+      
+            expect(result).to eq([
+              ['Player One', 'Forward', 5000000], # Higher cap hit first
+              ['Player Two', 'Defenseman', 3000000]
+            ])
+          end
+        end
+      end
+
     describe "#cap_hit_for_team_in_season" do
         let!(:team) { Team.create(name: "Sample Team", code: "STM") }
         let!(:player) { Player.create(name: "Sample Player", team: team) }
