@@ -177,9 +177,6 @@ RSpec.describe Player, type: :model do
           end
         end
       end
-      
-
-
 
     describe "#cap_hit_for_team_in_season" do
         let!(:team) { Team.create(name: "Sample Team", code: "STM") }
