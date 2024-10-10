@@ -129,26 +129,27 @@ RSpec.describe Player, type: :model do
         context 'when there are multiple seasons' do
           let!(:contract_detail3) { ContractDetail.create!(contract: contract1, season: '2025', cap_hit: 6000000) }
 
-           # Salary retention for Player One across multiple seasons
-          let!(:salary_retention_2024) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 2000000, retention_percentage: 0.50, season: '2024') }
-          let!(:salary_retention_2025) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 5000000, retention_percentage: 0.80, season: '2025') }
-
           it 'returns cap hits for multiple seasons' do
             result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2025']).map { |r| [r.name, r.position, r['2024'], r['2025']] }
       
             expect(result).to eq([
-              ['Player One', 'Forward', 5000000, 5000000],
+              ['Player One', 'Forward', 5000000, 6000000],
               ['Player Two', 'Defenseman', 3000000, 0] # No cap hit for 2025 for player2
             ])
           end
         end
       
         context 'when salary retention is present for multiple seasons' do
+
+            # Salary retention for Player One across multiple seasons
+            let!(:salary_retention_2024) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 12000000, retention_percentage: 0.50, season: '2024') }
+            let!(:salary_retention_2025) { SalaryRetention.create!(contract: contract1, team: team, retained_cap_hit: 5000000, retention_percentage: 0.80, season: '2025') }
+            
             it 'applies retained cap hits correctly across multiple seasons' do
               result = Player.cap_hits_ordered_by_current_season(team, ['2024', '2025'])
         
               expect(result.map { |r| [r['name'], r['position'], r['2024'].to_i, r['2025'].to_i] }).to eq([
-                ['Player One', 'Forward', 5000000, 0], # Retained cap hits for both seasons
+                ['Player One', 'Forward', 12000000, 0], # Retained cap hits for both seasons
                 ['Player Two', 'Defenseman', 3000000, 0]
               ])
             end
