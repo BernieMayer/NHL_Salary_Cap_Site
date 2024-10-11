@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_09_22_201921) do
+ActiveRecord::Schema[7.1].define(version: 2024_10_11_212051) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -297,6 +297,8 @@ ActiveRecord::Schema[7.1].define(version: 2024_09_22_201921) do
     t.text "terms_details"
     t.integer "career_games_played"
     t.integer "career_seasons_played"
+    t.string "slug"
+    t.index ["slug"], name: "index_players_on_slug", unique: true
     t.index ["team_id"], name: "idx_16931_index_players_on_team_id"
   end
 
