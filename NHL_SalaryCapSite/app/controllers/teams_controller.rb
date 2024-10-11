@@ -11,23 +11,27 @@ class TeamsController < ApplicationController
     @salary_cap_space_current_year = @team.salary_cap_totals.year(2024).first.calculate_cap_space
     
 
-    seasons = ["2024-25", "2025-26", "2026-27", "2027-28", "2028-29", "2029-30"]
-    @table_headers = ["Player name", "Position"] + seasons
+    @seasons = ["2024-25", "2025-26", "2026-27", "2027-28", "2028-29", "2029-30"]
+    @table_headers = ["Player name", "Position"] + @seasons
                        
 
     @forwards = @players.forwards
-    @forwards_rows = format_results(@forwards.cap_hits_ordered_by_current_season(@team, seasons), seasons)
+    @forwards_data = @forwards.cap_hits_ordered_by_current_season(@team, @seasons)
+    # @forwards_rows = format_results(@forwards.cap_hits_ordered_by_current_season(@team, seasons), seasons)
     
     @defence = @players.defence
-    @defence_rows = format_results(@defence.cap_hits_ordered_by_current_season(@team, seasons), seasons)
+    @defence_data = @defence.cap_hits_ordered_by_current_season(@team, @seasons)
+    # @defence_rows = format_results(@defence.cap_hits_ordered_by_current_season(@team, seasons), seasons)
 
     @goalies = @players.goalies
-    @goalies_rows = format_results(@goalies.cap_hits_ordered_by_current_season(@team, seasons), seasons)
+    @goalies_data = @goalies.cap_hits_ordered_by_current_season(@team, @seasons)
+
 
     @buyout_players = @team.buyout_players
-    @buyout_players_rows = format_results(@team.buyout_players.buyout_cap_hits_ordered_by_current_season(@team, seasons), seasons)
+    @buyout_players_data = @team.buyout_players.buyout_cap_hits_ordered_by_current_season(@team, @seasons)
+
     @retained_players = @team.retained_players
-    @retained_players_rows = format_results(@retained_players.cap_hits_ordered_by_current_season(@team, seasons), seasons)
+    @retained_players_data = @retained_players.cap_hits_ordered_by_current_season(@team, @seasons)
   end
 
   def format_results(results, seasons)

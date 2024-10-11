@@ -1,18 +1,29 @@
 <%= render_table do %>
   <%= table_head do %>
-    <% @headers.each do |header| %>
+    <%= table_header "Player name" %>
+    <%= table_header "Position" %>
+    <% @seasons.each do |season| %>
       <%= table_header do %>
-        <%= header %>
+        <%= season %>
       <% end %>
     <% end %>
   <% end %>
   
   <%= table_body do %>
-    <% @rows.each do |row| %>
+    <% @player_data.each do |player| %>
       <%= table_row do %>
-        <% row.each do |cell| %>
+
+        <%= table_column do %>
+          <%= player.name %>
+        <% end %>
+
+        <%= table_column do %>
+          <%= player.position %>
+        <% end %>
+
+        <% @seasons.each do |season| %> 
           <%= table_column do %>
-            <%= cell %>
+            <%= number_to_currency(player.attributes[season]) if player.attributes[season].to_f > 0 %>
           <% end %>
         <% end %>
       <% end %>

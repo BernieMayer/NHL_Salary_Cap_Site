@@ -3,9 +3,9 @@
 class SalaryTableComponent < ViewComponent::Base
   include ComponentsHelper
   include Components::TableHelper
- 
-  def initialize(headers:, rows:)
-    @headers = headers
-    @rows = rows
+
+  def initialize(seasons:, player_data:)
+    @seasons = seasons
+    @player_data = player_data
   end
 end
