@@ -1,8 +1,8 @@
 class PlayersController < ApplicationController
   def index
-    @players = Player.all
+    @players = Player.page(params[:page]).per(50)  # Displays 10 players per page
   end
-
+  
   def show
     @player = Player.find_by(slug: params[:slug])
 
