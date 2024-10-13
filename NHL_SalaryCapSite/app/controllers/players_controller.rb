@@ -4,7 +4,11 @@ class PlayersController < ApplicationController
   end
 
   def show
-    @player = Player.find_by(name: convert_param_name_to_database_name(params[:name]))
+    @player = Player.find_by(slug: params[:slug])
+
+    if @player.nil?
+      render status: :not_found, json: { error: "Player not found" }
+    end
   end
 
   private def convert_param_name_to_database_name(name)
