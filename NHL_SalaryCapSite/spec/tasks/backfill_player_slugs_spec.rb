@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe 'Rake Task: players:backfill_slugs', type: :task do
   let(:task) { Rake::Task['players:backfill_slugs'] }
 
-  before do
-    Rake.application.rake_require('tasks/backfill_slugs')
-    Rake::Task.define_task(:environment) # Needed to load the environment
+  before(:each) do
+    Rake.application.load_rakefile
+    Rake::Task['players:backfill_slugs'].reenable
   end
 
   after do
