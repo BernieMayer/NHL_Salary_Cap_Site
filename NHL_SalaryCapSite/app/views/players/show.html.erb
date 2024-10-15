@@ -8,7 +8,11 @@
       
       <div class="py-4">
         <dt class="text-sm font-medium text-gray-500">Team:</dt>
-        <dd class="mt-1 text-lg font-semibold text-gray-900"><%= @player.team.name %></dd>
+        <dd class="mt-1 text-lg font-semibold text-gray-900">
+          <%= render(LinkComponent.new(href: team_path(code: @player.team.code))) do %>
+            <%= @player.team.name %>
+          <% end %>
+          </dd>
       </div>
       
       <div class="py-4">
@@ -17,8 +21,18 @@
       </div>
 
       <div class="py-4">
-        <dt class="text-sm font-medium text-gray-500">Cap Hit:</dt>
-        <dd class="mt-1 text-lg font-semibold text-gray-900"><%= number_to_currency @player.current_salary%></dd>
+        <dt class="text-sm font-medium text-gray-500">Born:</dt>
+        <dd class="mt-1 text-lg font-semibold text-gray-900"><%=  @player.born.strftime("%B %d, %Y")%></dd>
+      </div>
+
+       <div class="py-4">
+        <dt class="text-sm font-medium text-gray-500">Drafted:</dt>
+        <dd class="mt-1 text-lg font-semibold text-gray-900"><%=  @player.draft_details%></dd>
+      </div>
+
+       <div class="py-4">
+        <dt class="text-sm font-medium text-gray-500">Acquired:</dt>
+        <dd class="mt-1 text-lg font-semibold text-gray-900"><%=  @player.acquired%></dd>
       </div>
       
     </dl>
