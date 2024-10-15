@@ -34,9 +34,9 @@ class Player < ApplicationRecord
         
         results = self
             .joins(contracts: :buyouts)
-            .select("players.name, players.position", *select_statements)
+            .select("players.name, players.position, players.slug", *select_statements)
             .where("buyouts.team_id = ?", team.id)
-            .group("players.name", "players.position")
+            .group("players.name", "players.position", "players.slug")
             .order(Arel.sql("\"#{seasons[0]}\" DESC")) # Order by the first season's cap hit in descending order
         
         
@@ -55,9 +55,9 @@ class Player < ApplicationRecord
         results = self
           .left_joins(contracts: :contract_details)
           .left_joins(contracts: :salary_retentions)
-          .select("players.name, players.position", *select_statements)
+          .select("players.name, players.position, players.slug", *select_statements)
           .where("salary_retentions.team_id = ? OR salary_retentions.team_id IS NULL", team.id)
-          .group("players.name", "players.position")
+          .group("players.name", "players.position", "players.slug" )
           .order(Arel.sql("\"#{seasons[0]}\" DESC")) # Order by the first season's cap hit in descending order
         
           return results 

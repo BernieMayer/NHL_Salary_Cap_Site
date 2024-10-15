@@ -14,7 +14,10 @@
       <%= table_row do %>
 
         <%= table_column do %>
+        <%= render(LinkComponent.new(href: player_path(slug: player.slug))) do %>
           <%= player.name %>
+        <% end %>
+
         <% end %>
 
         <%= table_column do %>
