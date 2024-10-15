@@ -2,8 +2,6 @@
 
 This is the repo for the website [Cap Smarter](https://www.capsmarter.com)
 
-Things you may want to cover:
-
 * Ruby version 3.3.3
 
 * System dependencies
