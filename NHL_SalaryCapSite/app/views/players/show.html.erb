@@ -9,8 +9,12 @@
       <div class="py-4">
         <dt class="text-sm font-medium text-gray-500">Team:</dt>
         <dd class="mt-1 text-lg font-semibold text-gray-900">
-          <%= render(LinkComponent.new(href: team_path(code: @player.team.code))) do %>
-            <%= @player.team.name %>
+          <% if @player.team.nil? %>
+              <h1>Free Agent</h1>
+          <% else %>
+            <%= render(LinkComponent.new(href: team_path(code: @player.team.code))) do %>
+              <%= @player.team.name %>
+            <% end %>
           <% end %>
           </dd>
       </div>
