@@ -1,1 +1,28 @@
-<div>Add Contract template here</div>
+<%= render_table do %>
+  <%= table_head do %>
+    <%= table_header "" %>
+    <%= table_header "Test" %>
+  <% end %>
+  
+  <%= table_body do %>
+    <%= table_row do %>
+        <%= table_column "AAV" %>
+    <% end %>
+    <%= table_row do %>
+        <%= table_column "Base" %>
+    <% end %>
+
+    <%= table_row do %>
+        <%= table_column "Cap Hit" %>
+    <% end %>
+
+    <%= table_row do %>
+        <%= table_column "Signing Bonus" %>
+    <% end %>
+
+     <%= table_row do %>
+        <%= table_column "Minors Salary" %>
+    <% end %>
+  <% end %>
+<% end %>
+
