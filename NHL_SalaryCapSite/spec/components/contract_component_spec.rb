@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "test_helper"
+require 'rails_helper'
 
 RSpec.describe ContractComponent, type: :component do
 
