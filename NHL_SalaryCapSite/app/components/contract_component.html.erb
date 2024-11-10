@@ -1,28 +1,45 @@
 <%= render_table do %>
   <%= table_head do %>
-    <%= table_header "" %>
-    <%= table_header "Test" %>
+    <%= table_header "Contract Detail" %>
+    <% @contract_details.each do |detail| %>
+      <%= table_header detail.season %>
+    <% end %>
   <% end %>
   
   <%= table_body do %>
     <%= table_row do %>
-        <%= table_column "AAV" %>
-    <% end %>
-    <%= table_row do %>
-        <%= table_column "Base" %>
-    <% end %>
-
-    <%= table_row do %>
-        <%= table_column "Cap Hit" %>
+      <%= table_column "AAV" %>
+      <% @contract_details.each do |detail| %>
+        <%= table_column number_to_currency(detail.aav) %>
+      <% end %>
     <% end %>
 
     <%= table_row do %>
-        <%= table_column "Signing Bonus" %>
+      <%= table_column "Base Salary" %>
+      <% @contract_details.each do |detail| %>
+        <%= table_column number_to_currency(detail.base_salary) %>
+      <% end %>
     <% end %>
 
-     <%= table_row do %>
-        <%= table_column "Minors Salary" %>
+    <%= table_row do %>
+      <%= table_column "Cap Hit" %>
+      <% @contract_details.each do |detail| %>
+        <%= table_column number_to_currency(detail.cap_hit) %>
+      <% end %>
+    <% end %>
+
+    <%= table_row do %>
+      <%= table_column "Signing Bonus" %>
+      <% @contract_details.each do |detail| %>
+        <%= table_column number_to_currency(detail.signing_bonuses) %>
+      <% end %>
+    <% end %>
+
+    <%= table_row do %>
+      <%= table_column "Minors Salary" %>
+      <% @contract_details.each do |detail| %>
+        <%= table_column number_to_currency(detail.minors_salary) %>
+      <% end %>
     <% end %>
   <% end %>
 <% end %>
-
