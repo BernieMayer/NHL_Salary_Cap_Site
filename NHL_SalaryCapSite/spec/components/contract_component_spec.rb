@@ -29,6 +29,13 @@ RSpec.describe ContractComponent, type: :component do
     expect(rendered_component.to_html).to include('Minors Salary')
   end
 
+  it "renders the contract start, end and expiry" do
+    page = Capybara::Node::Simple.new(rendered_content)
+
+    expect(page).to have_selector("p", text: "Contract start: 2024-2025 Contract end: 2025-2026", normalize_ws: true)
+    expect(page).to have_selector("h2", text: "Expiry status: UFA")
+  end
+
   it "renders the table headers correctly" do
     page = Capybara::Node::Simple.new(rendered_content)
 

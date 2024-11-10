@@ -5,6 +5,7 @@ class ContractComponent < ViewComponent::Base
   include Components::TableHelper
 
   def initialize(contract:)
+    @contract = contract
     @contract_details = contract.contract_details
   end
 

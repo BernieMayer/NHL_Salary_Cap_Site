@@ -1,5 +1,6 @@
-<a class="p-4"> Contract start: <%= @contract_details.first.season %> </a>
-<a class=""> Contract end: <%= @contract_details.last.season %> </a>
+<p class="px-4"> Contract start: <%= @contract_details.first.season %> &emsp;
+Contract end: <%= @contract_details.last.season %> </p>
+<h2 class="px-4"> Expiry status: <%= @contract.expiry_status %> </h2>
 <%= render_table do %>
   <%= table_head do %>
     <%= table_header "Contract Detail" %>
