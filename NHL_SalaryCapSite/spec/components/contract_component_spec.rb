@@ -9,8 +9,10 @@ RSpec.describe ContractComponent, type: :component do
 
   let!(:contract_details) do
     [
-      ContractDetail.create!(contract: contract, season: "2024-2025", aav: 5000000, base_salary: 3000000, cap_hit: 4500000, signing_bonuses: 500000, minors_salary: 200000),
-      ContractDetail.create!(contract: contract, season: "2025-2026", aav: 5500000, base_salary: 3500000, cap_hit: 4700000, signing_bonuses: 600000, minors_salary: 220000)
+      ContractDetail.create!(contract: contract, season: "2024-2025", aav: 5000000, base_salary: 3000000, cap_hit: 4500000,
+       signing_bonuses: 500000, total_salary:  8000000, minors_salary: 200000, clause: "NMC"),
+      ContractDetail.create!(contract: contract, season: "2025-2026", aav: 5500000, base_salary: 3500000, cap_hit: 4700000,
+       signing_bonuses: 600000, total_salary:  9500000, minors_salary: 220000, clause: "NTC")
     ]
   end
 
@@ -50,6 +52,22 @@ RSpec.describe ContractComponent, type: :component do
     expect(page).to have_selector("td", text: "AAV")
     expect(page).to have_selector("td", text: "$5,000,000")
     expect(page).to have_selector("td", text: "$5,500,000")
+  end
+
+  it "renders the Total Salary row correctly" do
+    page = Capybara::Node::Simple.new(rendered_content)
+
+    expect(page).to have_selector("td", text: "Total Salary")
+    expect(page).to have_selector("td", text: "$8,000,000")
+    expect(page).to have_selector("td", text: "$9,500,000")
+  end
+
+  it "renders the Clause row correctly" do
+    page = Capybara::Node::Simple.new(rendered_content)
+
+    expect(page).to have_selector("td", text: "Clause")
+    expect(page).to have_selector("td", text: "NMC")
+    expect(page).to have_selector("td", text: "NTC")
   end
 
   it "renders the Minors Salary row correctly" do

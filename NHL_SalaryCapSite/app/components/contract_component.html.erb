@@ -39,6 +39,20 @@ Contract end: <%= @contract_details.last.season %> </p>
     <% end %>
 
     <%= table_row do %>
+      <%= table_column "Total Salary" %>
+      <% @contract_details.each do |detail| %>
+        <%= table_column number_to_currency(detail.total_salary) %>
+      <% end %>
+    <% end %>
+
+     <%= table_row do %>
+      <%= table_column "Clause" %>
+      <% @contract_details.each do |detail| %>
+        <%= table_column detail.clause %>
+      <% end %>
+    <% end %>
+
+    <%= table_row do %>
       <%= table_column "Minors Salary" %>
       <% @contract_details.each do |detail| %>
         <%= table_column number_to_currency(detail.minors_salary) %>
