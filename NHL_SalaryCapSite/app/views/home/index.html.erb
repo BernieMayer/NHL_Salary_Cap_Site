@@ -1,1 +1,10 @@
-  <%= render(LeagueCapTableComponent.new(teams: Team.all)) %> 
+  <div>
+<div class="player-search-component">
+  <input type="text" class="player-search-input p-2 border rounded-md w-full" placeholder="Search for a player..." />
+  <ul class="player-search-list mt-2 bg-white shadow-lg rounded-md absolute w-full max-h-60 overflow-y-auto z-10"></ul>
+</div>
+
+      <%= render(LeagueCapTableComponent.new(teams: Team.all)) %> 
+  </div>
+
+

@@ -1,4 +1,6 @@
 import { Application } from "@hotwired/stimulus"
+import 'controllers/player_search_controller';
+
 
 const application = Application.start()
 
