@@ -1,1 +1,8 @@
-  <%= render(LeagueCapTableComponent.new(teams: Team.all)) %> 
+  <div>
+    <div class="pt-2">
+      <%= render(PlayerSearchComponent.new) %>
+    </div>
+    <%= render(LeagueCapTableComponent.new(teams: Team.all)) %> 
+  </div>
+
+

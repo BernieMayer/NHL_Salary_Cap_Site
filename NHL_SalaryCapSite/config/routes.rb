@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   
   get 'home/index'
   get 'players/index'
+  get '/player_search', to: 'players#search', as: :player_search
   get 'contact', to: 'contact#contact'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

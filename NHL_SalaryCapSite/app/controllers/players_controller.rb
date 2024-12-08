@@ -11,6 +11,19 @@ class PlayersController < ApplicationController
     end
   end
 
+  def search
+    query = params[:query]
+
+    if query.blank?
+      render json: []
+      return
+    end
+
+    players = Player.where("name ILIKE ?", "%#{query}%").select(:id, :name, :slug)
+
+    render json: players
+  end
+
   private def convert_param_name_to_database_name(name)
     url_name = name
     database_name = url_name.split("-").map(&:capitalize).join(" ")
