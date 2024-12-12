@@ -1,5 +1,17 @@
 <div class="container mx-auto px-2 py-2">
   <div class="bg-white shadow-md rounded-lg overflow-hidden">
+    <div data-controller="teams-combo-box" class="relative pb-4">
+      <input type="text" 
+         placeholder="Search for a team..." 
+         class="form-input block w-full mt-1 border border-gray-300 rounded-md shadow-sm"
+         data-teams-combo-box-target="input"
+         data-action="input->teams-combo-box#filter">
+  
+      <ul class="absolute z-10 bg-white border border-gray-300 mt-1 rounded-md shadow-lg w-full max-h-60 overflow-auto"
+        data-teams-combo-box-target="list">
+    </ul>
+  </div>
+
     <div>
       <%= image_tag "logos/#{@team.name.downcase.parameterize}.gif" %>
       <h1 class="text-3xl font-bold mb-4"><%= @team.name %></h1>

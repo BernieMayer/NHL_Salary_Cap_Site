@@ -4,6 +4,30 @@ class TeamsController < ApplicationController
     @teams = Team.all
   end
 
+
+  def search
+    query = params[:query]
+
+    if query.blank?
+      render json: []
+      return
+    end
+    
+    teams_search_results = Team.where("name ILIKE ?", "%#{query}%")
+                               .select(:id, :name, :code)
+                               .map do |team|
+                                 {
+                                   id: team.id,
+                                   name: team.name,
+                                   code: team.code,
+                                   url: Rails.application.routes.url_helpers.team_path(team.code)
+                                 }
+                               end
+    
+    render json: teams_search_results
+    
+  end
+
   def show
     @team = Team.find_by!(code: params[:code]) 
     @players = @team.players.roster.includes(:cap_hits)
