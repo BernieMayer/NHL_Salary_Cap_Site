@@ -7,6 +7,12 @@ class TeamsController < ApplicationController
 
   def search
     query = params[:query]
+
+    if query.blank?
+      render json: []
+      return
+    end
+    
     teams_search_results = Team.where("name ILIKE ?", "%#{query}%")
                                .select(:id, :name, :code)
                                .map do |team|
