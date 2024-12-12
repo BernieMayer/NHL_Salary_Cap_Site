@@ -1,10 +1,8 @@
 <div class="container mx-auto px-2 py-2">
   <div class="bg-white shadow-md rounded-lg overflow-hidden">
     <div data-controller="teams-combo-box" class="relative pb-4">
-      <%= label_tag :team, "Select a Team", class: "block text-sm font-medium text-gray-700" %>
-  
       <input type="text" 
-         placeholder="Type to search..." 
+         placeholder="Search for a team..." 
          class="form-input block w-full mt-1 border border-gray-300 rounded-md shadow-sm"
          data-teams-combo-box-target="input"
          data-action="input->teams-combo-box#filter">
