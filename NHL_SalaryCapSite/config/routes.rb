@@ -22,7 +22,13 @@ Rails.application.routes.draw do
   resources :players, param: :slug
   root 'home#index'
 
-  resources :teams, param: :code  # Use code as a parameter
+  resources :teams, only: [] do
+    collection do
+      get :search
+    end
+  end
+  
+  resources :teams, param: :code
 
   # Defines the root path route ("/")
   # root "posts#index"
