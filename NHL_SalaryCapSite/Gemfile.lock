@@ -150,6 +150,8 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
+    meta-tags (2.22.1)
+      actionpack (>= 6.0.0, < 8.1)
     method_source (1.1.0)
     mini_mime (1.1.5)
     minitest (5.24.1)
@@ -342,6 +344,7 @@ DEPENDENCIES
   dockerfile-rails (>= 1.6)
   importmap-rails
   jbuilder
+  meta-tags
   motor-admin (~> 0.4.27)
   pg (~> 1.5)
   puma (>= 5.0)
