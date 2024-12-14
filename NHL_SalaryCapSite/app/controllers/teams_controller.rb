@@ -56,6 +56,15 @@ class TeamsController < ApplicationController
 
     @retained_players = @team.retained_players
     @retained_players_data = @retained_players.cap_hits_ordered_by_current_season(@team, @seasons)
+
+    set_meta_tags(
+      title: "Cap Smarter - #{@team.name}",
+      description: "See the contracts for #{@team.name} on Cap Smarter.",
+      og: {
+        title: "Cap Smarter",
+        description: "See the contracts for #{@team.name} on Cap Smarter."
+      }
+    )
   end
 
   def format_results(results, seasons)
