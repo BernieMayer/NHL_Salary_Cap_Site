@@ -8,6 +8,7 @@ Rails.application.routes.draw do
     post 'import_contracts', to: 'imports#import_contracts'
   end
   
+  match "/404", to: "errors#not_found", via: :all
   get 'home/index'
   get 'players/index'
   get '/player_search', to: 'players#search', as: :player_search
