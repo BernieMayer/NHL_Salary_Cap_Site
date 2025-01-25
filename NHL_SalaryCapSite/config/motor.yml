@@ -1,7 +1,21 @@
 ---
 engine_version: 0.4.27
-file_version: 2024-08-20 03:34:12.612156000 Z
-resources: []
+file_version: 2025-01-25 00:44:34.454579000 Z
+resources:
+- name: player
+  preferences:
+    actions:
+    - name: roster
+      display_name: Roster
+      action_type: method
+      preferences:
+        method_name: roster!
+    - name: non_roster
+      display_name: Non Roster
+      action_type: method
+      preferences:
+        method_name: non_roster!
+  updated_at: 2025-01-25 00:44:34.454579000 +00:00
 configs:
 - key: header.links
   value:

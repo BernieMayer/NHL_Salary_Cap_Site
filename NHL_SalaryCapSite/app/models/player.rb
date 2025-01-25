@@ -19,6 +19,19 @@ class Player < ApplicationRecord
     scope :goalies, -> { where(position: ["G"])}
 
 
+    def roster!
+        update(status: ROSTER)
+    end
+    
+    def non_roster!
+        update(status: NON_ROSTER)
+    end
+    
+    def minor!
+        update(status: MINOR)
+    end
+
+
     def current_salary
         self.cap_hits.where(year: 2024).sum{ |cap_hit| cap_hit.cap_value }
     end
