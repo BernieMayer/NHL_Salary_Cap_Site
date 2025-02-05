@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'players/index'
   get '/player_search', to: 'players#search', as: :player_search
   get 'contact', to: 'contact#contact'
+  get 'trade_analyzer', to: 'trade_analyzer#index'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
