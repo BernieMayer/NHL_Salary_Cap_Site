@@ -56,7 +56,17 @@ class Player < ApplicationRecord
         return results
     end
           
-
+    def get_current_cap_hit
+        Player
+            .left_joins(contracts: :contract_details)
+            .left_joins(contracts: :salary_retentions)
+            .where(id: self.id)  # Filter for this specific player
+            .where("salary_retentions.team_id = ? OR salary_retentions.team_id IS NULL", team.id)
+            .where(contract_details: { season: "2024-25" })
+            .select("COALESCE(salary_retentions.retained_cap_hit, contract_details.cap_hit) AS cap_hit")
+            .first
+            &.cap_hit
+    end
     
     def self.cap_hits_ordered_by_current_season(team, seasons)
 

@@ -289,4 +289,80 @@ RSpec.describe Player, type: :model do
         end
 
     end
+
+    describe '#get_current_cap_hit' do
+        let(:team) { Team.create!(name: 'Toronto Maple Leafs', code: "TOR") }
+        let(:player) { Player.create!(name: 'Auston Matthews', team: team) }
+      
+        context 'with a regular contract' do
+            before do
+                contract = Contract.create!(player: player)
+                ContractDetail.create!(
+                    contract: contract,
+                    season: '2024-25',
+                    cap_hit: 11_640_250
+                )
+            end
+    
+            it 'returns the correct cap hit for current season' do
+                expect(player.get_current_cap_hit).to eq(11_640_250)
+            end
+        end
+    
+        context 'with salary retention' do
+            before do
+                contract = Contract.create!(player: player)
+                ContractDetail.create!(
+                    contract: contract,
+                    season: '2024-25',
+                    cap_hit: 11_640_250
+                )
+                SalaryRetention.create!(
+                    contract: contract,
+                    team: team,
+                    retained_cap_hit: 5_820_125,
+                    retention_percentage: 0.50
+                )
+            end
+    
+            it 'returns the retained cap hit' do
+                expect(player.get_current_cap_hit).to eq(5_820_125)
+            end
+        end
+    
+        context 'with multiple salary retentions' do
+            let(:other_team) { Team.create!(name: 'Boston Bruins', code: "BOS") }
+    
+            before do
+                contract = Contract.create!(player: player)
+                ContractDetail.create!(
+                    contract: contract,
+                    season: '2024-25',
+                    cap_hit: 11_640_250
+                )
+                SalaryRetention.create!(
+                    contract: contract,
+                    team: team,
+                    retained_cap_hit: 2_910_062,
+                    retention_percentage: 0.25
+                )
+                SalaryRetention.create!(
+                    contract: contract,
+                    team: other_team,
+                    retained_cap_hit: 2_910_062,
+                    retention_percentage: 0.25
+                )
+            end
+    
+            it 'returns the correct retained cap hit for the specified team' do
+                expect(player.get_current_cap_hit).to eq(2_910_062)
+            end
+        end
+    
+        context 'without a contract for the current season' do
+            it 'returns nil' do
+                expect(player.get_current_cap_hit).to be_nil
+            end
+        end
+    end
 end
