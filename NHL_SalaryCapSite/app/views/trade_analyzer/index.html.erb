@@ -30,22 +30,37 @@
 
     <!-- Selected Players Section -->
     <div class="flex-1 border rounded-lg shadow p-4">
-      <div class="mb-4">
-        <h3 class="font-bold text-lg mb-2">Trade Details</h3>
-        <div class="space-y-4">
-          <div>
-            <h4 class="font-medium" data-trade-analyzer-target="team1Label">Team 1 receives</h4>
-            <div id="team1-selected-players" class="space-y-2" data-trade-analyzer-target="selectedPlayers">
-              <!-- Selected players from team 1 will appear here -->
+      <div class="mb-4" data-trade-analyzer-target="tradeDetails">
+        <div class="bg-white p-4 rounded-lg">
+          <h3 class="text-xl font-bold mb-4 text-center">Trade Details</h3>
+          <div class="space-y-4">
+            <div>
+              <h4 class="text-base font-semibold mb-2 text-blue-600" data-trade-analyzer-target="team1Label">
+                Team 1 receives
+              </h4>
+              <div id="team1-selected-players" class="space-y-2" data-trade-analyzer-target="selectedPlayers">
+                <!-- Selected players from team 1 will appear here -->
+              </div>
             </div>
-          </div>
-          <div>
-            <h4 class="font-medium" data-trade-analyzer-target="team2Label">Team 2 receives</h4>
-            <div id="team2-selected-players" class="space-y-2" data-trade-analyzer-target="selectedPlayers">
-              <!-- Selected players from team 2 will appear here -->
+            <div class="border-t border-gray-200 my-3"></div>
+            <div>
+              <h4 class="text-base font-semibold mb-2 text-blue-600" data-trade-analyzer-target="team2Label">
+                Team 2 receives
+              </h4>
+              <div id="team2-selected-players" class="space-y-2" data-trade-analyzer-target="selectedPlayers">
+                <!-- Selected players from team 2 will appear here -->
+              </div>
             </div>
           </div>
         </div>
+      </div>
+      
+      <div class="text-center mt-4">
+        <button type="button" 
+                class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded"
+                data-action="click->trade-analyzer#downloadTradeImage">
+          Download Trade Image
+        </button>
       </div>
     </div>
 

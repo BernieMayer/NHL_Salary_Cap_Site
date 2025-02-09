@@ -7,7 +7,8 @@ export default class extends Controller {
     "searchInput", 
     "selectedPlayers", 
     "team1Label", 
-    "team2Label"
+    "team2Label",
+    "tradeDetails"
   ]
 
   connect() {
@@ -91,10 +92,13 @@ export default class extends Controller {
           const selectedPlayersDiv = document.getElementById(`team${teamNumber}-selected-players`)
           
           const playerDiv = document.createElement('div')
-          playerDiv.className = 'flex justify-between items-center p-2 bg-gray-50 rounded'
+          playerDiv.className = 'flex justify-between items-center p-2 bg-gray-50 rounded shadow-sm'
           playerDiv.innerHTML = `
-            <span>${option.dataset.playerName} - $${option.dataset.playerCapHit}</span>
-            <button type="button" class="text-red-500 hover:text-red-700" 
+            <div class="flex-1">
+              <span class="text-base font-medium">${option.dataset.playerName}</span>
+              <span class="ml-2 text-sm text-gray-600">$${option.dataset.playerCapHit}</span>
+            </div>
+            <button type="button" class="ml-2 text-red-500 hover:text-red-700 text-lg font-bold" 
                     onclick="removePlayer('${teamNumber}', '${option.dataset.playerId}', this)">
               ×
             </button>
@@ -111,5 +115,25 @@ export default class extends Controller {
 
   removePlayer(teamNumber, playerId, button) {
     button.closest('div').remove()
+  }
+
+  downloadTradeImage() {
+    const element = this.tradeDetailsTarget.querySelector('.bg-white')
+    
+    html2canvas(element, {
+      backgroundColor: 'white',
+      scale: 2,
+      logging: false,
+      useCORS: true,
+      padding: 20,
+      margin: 20,
+      windowWidth: 1200,
+      windowHeight: 800
+    }).then(canvas => {
+      const link = document.createElement('a')
+      link.download = 'trade-details.png'
+      link.href = canvas.toDataURL('image/png')
+      link.click()
+    })
   }
 } 
