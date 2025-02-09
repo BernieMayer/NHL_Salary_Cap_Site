@@ -1,1 +1,173 @@
-<h1>Trade Analyzer</h1> 
+<div class="w-full max-w-7xl mx-auto p-4">
+  <h2 class="text-2xl font-bold mb-6">Trade Analyzer</h2>
+
+  <div class="flex flex-col md:flex-row gap-4">
+    <!-- Team 1 Section -->
+    <div class="flex-1">
+      <div class="border rounded-lg shadow">
+        <div class="bg-blue-500 text-white px-4 py-2 rounded-t-lg">
+          Team 1
+        </div>
+        <div class="p-4">
+          <%= form_tag '#', method: :get, class: 'space-y-4' do %>
+            <div>
+              <%= select_tag 'team1', 
+                  options_from_collection_for_select(@teams, 'id', 'name'), 
+                  class: 'w-full border rounded-md px-3 py-2',
+                  prompt: 'Select Team',
+                  data: { 
+                    controller: "team-select",
+                    action: "change->team-select#loadPlayers",
+                    target: "team1-players"
+                  } %>
+            </div>
+            <div id="team1-players" class="mt-4">
+              <!-- Players will be loaded here dynamically -->
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <!-- Selected Players Section -->
+    <div class="flex-1 border rounded-lg shadow p-4">
+      <div class="mb-4">
+        <h3 class="font-bold text-lg mb-2">Trade Details</h3>
+        <div class="space-y-4">
+          <div>
+            <h4 class="font-medium">Team 1 Players</h4>
+            <div id="team1-selected-players" class="space-y-2">
+              <!-- Selected players from team 1 will appear here -->
+            </div>
+          </div>
+          <div>
+            <h4 class="font-medium">Team 2 Players</h4>
+            <div id="team2-selected-players" class="space-y-2">
+              <!-- Selected players from team 2 will appear here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team 2 Section -->
+    <div class="flex-1">
+      <div class="border rounded-lg shadow">
+        <div class="bg-blue-500 text-white px-4 py-2 rounded-t-lg">
+          Team 2
+        </div>
+        <div class="p-4">
+          <%= form_tag '#', method: :get, class: 'space-y-4' do %>
+            <div>
+              <%= select_tag 'team2', 
+                  options_from_collection_for_select(@teams, 'id', 'name'), 
+                  class: 'w-full border rounded-md px-3 py-2',
+                  prompt: 'Select Team',
+                  data: { 
+                    controller: "team-select",
+                    action: "change->team-select#loadPlayers",
+                    target: "team2-players"
+                  } %>
+            </div>
+            <div id="team2-players" class="mt-4">
+              <!-- Players will be loaded here dynamically -->
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= javascript_tag do %>
+  document.addEventListener('DOMContentLoaded', function() {
+    const teamSelects = document.querySelectorAll('select[id^="team"]');
+    
+    teamSelects.forEach(select => {
+      select.addEventListener('change', function() {
+        const teamId = this.value;
+        const playersDiv = document.getElementById(this.dataset.target);
+        
+        if (teamId) {
+          fetch(`/trade_analyzer/get_players?team_id=${teamId}`)
+            .then(response => response.text())
+            .then(html => {
+              playersDiv.innerHTML = html;
+              initializePlayerSelects();
+            });
+        } else {
+          playersDiv.innerHTML = '';
+        }
+      });
+    });
+
+    function initializePlayerSelects() {
+      const playerLists = document.querySelectorAll('[data-player-list]');
+      
+      playerLists.forEach(list => {
+        // Remove existing event listeners by cloning and replacing the elements
+        const searchInput = list.previousElementSibling;
+        const newSearchInput = searchInput.cloneNode(true);
+        searchInput.parentNode.replaceChild(newSearchInput, searchInput);
+        
+        const newList = list.cloneNode(true);
+        list.parentNode.replaceChild(newList, list);
+        
+        const options = newList.querySelectorAll('[data-player-option]');
+        
+        // Show/hide dropdown on input focus/blur
+        newSearchInput.addEventListener('focus', () => {
+          newList.classList.remove('hidden');
+        });
+
+        // Handle clicking outside
+        document.addEventListener('click', (e) => {
+          if (!newList.contains(e.target) && !newSearchInput.contains(e.target)) {
+            newList.classList.add('hidden');
+          }
+        });
+
+        // Filter players as user types
+        newSearchInput.addEventListener('input', (e) => {
+          const searchText = e.target.value.toLowerCase();
+          
+          options.forEach(option => {
+            const playerName = option.dataset.playerName.toLowerCase();
+            if (playerName.includes(searchText)) {
+              option.classList.remove('hidden');
+            } else {
+              option.classList.add('hidden');
+            }
+          });
+        });
+
+        // Handle player selection
+        options.forEach(option => {
+          option.addEventListener('click', () => {
+            const teamNumber = newList.closest('[id^="team"]').id.includes('team1') ? '1' : '2';
+            const selectedPlayersDiv = document.getElementById(`team${teamNumber}-selected-players`);
+            
+            const playerDiv = document.createElement('div');
+            playerDiv.className = 'flex justify-between items-center p-2 bg-gray-50 rounded';
+            playerDiv.innerHTML = `
+              <span>${option.dataset.playerName} - $${option.dataset.playerCapHit}</span>
+              <button type="button" class="text-red-500 hover:text-red-700" 
+                      onclick="removePlayer('${teamNumber}', '${option.dataset.playerId}', this)">
+                ×
+              </button>
+            `;
+            selectedPlayersDiv.appendChild(playerDiv);
+            
+            // Reset search and hide dropdown
+            newSearchInput.value = '';
+            newList.classList.add('hidden');
+          });
+        });
+      });
+    }
+  });
+
+  function removePlayer(teamNumber, playerId, button) {
+    button.closest('div').remove();
+  }
+<% end %> 
