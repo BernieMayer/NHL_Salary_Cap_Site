@@ -15,14 +15,19 @@
   <body>
     <nav class="bg-blue-500 p-4 h-14">
       <div class="container mx-auto flex justify-between items-center">
-        <div>
-          <%= link_to "Home", root_path, class: "text-white text-lg font-semibold hover:underline" %>
-          <%= link_to "Teams", teams_path, class: "ml-4 text-white text-lg font-semibold hover:underline" %>
-          <%= link_to "Contact Me", contact_path, class: "ml-4 text-white text-lg font-semibold hover:underline" %>
+        <div class="flex items-center">
+          <%= link_to "Home", root_path, class: "text-white text-lg font-semibold hover:underline px-2" %>
+          <%= link_to "Teams", teams_path, class: "text-white text-lg font-semibold hover:underline px-2" %>
+          <%= link_to "Contact Me", contact_path, class: "text-white text-lg font-semibold hover:underline px-2" %>
+          <div class="flex items-center px-4">
+            <a href='https://ko-fi.com/X8X717V2XR' target='_blank'>
+              <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+            </a>
+          </div>
         </div>
       </div>
     </nav>
-    <main class="container  px-5 flex">
+    <main class="container px-5 flex">
       <%= yield %>
     </main>
   </body>
