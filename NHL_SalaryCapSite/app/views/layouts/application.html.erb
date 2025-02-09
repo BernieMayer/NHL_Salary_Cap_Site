@@ -7,21 +7,37 @@
     <%= csp_meta_tag %>
     <%= display_meta_tags %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <nav class="bg-blue-500 p-4 h-14">
-      <div class="container mx-auto flex justify-between items-center">
-        <div class="flex items-center">
-          <%= link_to "Home", root_path, class: "text-white text-lg font-semibold hover:underline px-2" %>
-          <%= link_to "Teams", teams_path, class: "text-white text-lg font-semibold hover:underline px-2" %>
-          <%= link_to "Contact Me", contact_path, class: "text-white text-lg font-semibold hover:underline px-2" %>
-          <div class="flex items-center px-4">
+    <nav class="bg-blue-500 p-2 md:p-4">
+      <div class="container mx-auto">
+        <!-- Mobile Menu -->
+        <div class="flex flex-wrap items-center justify-between md:hidden">
+          <div class="flex items-center space-x-2">
+            <%= link_to "Home", root_path, class: "text-white text-sm font-semibold hover:underline" %>
+            <%= link_to "Teams", teams_path, class: "text-white text-sm font-semibold hover:underline" %>
+            <%= link_to "Contact", contact_path, class: "text-white text-sm font-semibold hover:underline" %>
+          </div>
+          <div class="mt-1">
             <a href='https://ko-fi.com/X8X717V2XR' target='_blank'>
-              <img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+              <img height='30' style='height:30px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' alt='Buy Me a Coffee at ko-fi.com' />
+            </a>
+          </div>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex md:items-center md:justify-between">
+          <div class="flex items-center space-x-4">
+            <%= link_to "Home", root_path, class: "text-white text-lg font-semibold hover:underline" %>
+            <%= link_to "Teams", teams_path, class: "text-white text-lg font-semibold hover:underline" %>
+            <%= link_to "Contact", contact_path, class: "text-white text-lg font-semibold hover:underline" %>
+          </div>
+          <div>
+            <a href='https://ko-fi.com/X8X717V2XR' target='_blank'>
+              <img height='36' style='height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' alt='Buy Me a Coffee at ko-fi.com' />
             </a>
           </div>
         </div>
