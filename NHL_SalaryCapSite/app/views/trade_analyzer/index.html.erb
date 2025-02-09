@@ -1,4 +1,4 @@
-<div class="w-full max-w-7xl mx-auto p-4">
+<div class="w-full max-w-7xl mx-auto p-4" data-controller="trade-analyzer">
   <h2 class="text-2xl font-bold mb-6">Trade Analyzer</h2>
 
   <div class="flex flex-col md:flex-row gap-4">
@@ -16,12 +16,11 @@
                   class: 'w-full border rounded-md px-3 py-2',
                   prompt: 'Select Team',
                   data: { 
-                    controller: "team-select",
-                    action: "change->team-select#loadPlayers",
+                    trade_analyzer_target: "teamSelect",
                     target: "team1-players"
                   } %>
             </div>
-            <div id="team1-players" class="mt-4">
+            <div id="team1-players" class="mt-4" data-trade-analyzer-target="playerList">
               <!-- Players will be loaded here dynamically -->
             </div>
           <% end %>
@@ -36,13 +35,13 @@
         <div class="space-y-4">
           <div>
             <h4 class="font-medium">Team 1 Players</h4>
-            <div id="team1-selected-players" class="space-y-2">
+            <div id="team1-selected-players" class="space-y-2" data-trade-analyzer-target="selectedPlayers">
               <!-- Selected players from team 1 will appear here -->
             </div>
           </div>
           <div>
             <h4 class="font-medium">Team 2 Players</h4>
-            <div id="team2-selected-players" class="space-y-2">
+            <div id="team2-selected-players" class="space-y-2" data-trade-analyzer-target="selectedPlayers">
               <!-- Selected players from team 2 will appear here -->
             </div>
           </div>
@@ -64,12 +63,11 @@
                   class: 'w-full border rounded-md px-3 py-2',
                   prompt: 'Select Team',
                   data: { 
-                    controller: "team-select",
-                    action: "change->team-select#loadPlayers",
+                    trade_analyzer_target: "teamSelect",
                     target: "team2-players"
                   } %>
             </div>
-            <div id="team2-players" class="mt-4">
+            <div id="team2-players" class="mt-4" data-trade-analyzer-target="playerList">
               <!-- Players will be loaded here dynamically -->
             </div>
           <% end %>
