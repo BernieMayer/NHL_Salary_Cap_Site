@@ -1,7 +1,14 @@
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
-  static targets = ["teamSelect", "playerList", "searchInput", "selectedPlayers"]
+  static targets = [
+    "teamSelect", 
+    "playerList", 
+    "searchInput", 
+    "selectedPlayers", 
+    "team1Label", 
+    "team2Label"
+  ]
 
   connect() {
     this.initializeTeamSelects()
@@ -18,8 +25,13 @@ export default class extends Controller {
   loadPlayers(select) {
     const teamId = select.value
     const playersDiv = document.getElementById(select.dataset.target)
+    const isTeam1 = select.id.includes('team1')
+    const receivingTeamNumber = isTeam1 ? '2' : '1'
     
     if (teamId) {
+      const teamName = select.options[select.selectedIndex].text
+      this[`team${receivingTeamNumber}LabelTarget`].textContent = `${teamName} receives`
+
       fetch(`/trade_analyzer/get_players?team_id=${teamId}`)
         .then(response => response.text())
         .then(html => {
@@ -28,6 +40,7 @@ export default class extends Controller {
         })
     } else {
       playersDiv.innerHTML = ''
+      this[`team${receivingTeamNumber}LabelTarget`].textContent = `Team ${receivingTeamNumber} receives`
     }
   }
 
