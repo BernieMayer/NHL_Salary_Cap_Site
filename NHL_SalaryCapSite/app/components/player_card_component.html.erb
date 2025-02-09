@@ -1,0 +1,21 @@
+<div class="relative rounded-lg p-4 text-black shadow-lg min-h-[80px] w-[300px]">
+  <%# Name and salary %>
+  <div>
+    <h3 class="text-xl font-bold mb-1 text-black"><%= player.name %></h3>
+    <p class="text-lg">
+      $<%= player.get_current_cap_hit.present? ? number_with_delimiter(player.get_current_cap_hit.to_i) : "No cap hit" %>
+    </p>
+  </div>
+
+  <%# Position - top right %>
+  <div class="absolute top-4 right-8">
+    <span class="text-lg text-black"><%= player.position %></span>
+  </div>
+
+  <%# Menu dots button %>
+  <button class="absolute top-2 right-2">
+    <svg class="w-5 h-5 text-black" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+    </svg>
+  </button>
+</div> 
