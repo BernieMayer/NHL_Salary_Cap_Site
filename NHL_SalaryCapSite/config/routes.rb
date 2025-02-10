@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'players/index'
   get '/player_search', to: 'players#search', as: :player_search
-  get 'contact', to: 'contact#index'
+  get 'contact', to: 'contact#contact'
   get '/trade_analyzer', to: 'trade_analyzer#index'
   get '/trade_analyzer/get_players', to: 'trade_analyzer#get_players'
 
