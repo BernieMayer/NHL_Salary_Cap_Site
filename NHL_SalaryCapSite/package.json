@@ -4,9 +4,26 @@
     "tailwindcss": "^3.4.4"
   },
   "scripts": {
-    "build": "tailwindcss build ./app/assets/stylesheets/application.css -o ./public/assets/application.css"
+    "build": "tailwindcss build ./app/assets/stylesheets/application.css -o ./public/assets/application.css",
+    "test": "jest"
   },
   "devDependencies": {
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "@babel/preset-env": "^7.x",
+    "@hotwired/stimulus": "^3.x",
+    "babel-jest": "^29.x",
+    "jest": "^29.x",
+    "jest-environment-jsdom": "^29.x"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFiles": [
+      "./spec/javascript/setup.js"
+    ],
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "moduleFileExtensions": ["js", "json", "jsx"],
+    "moduleDirectories": ["node_modules", "app/javascript"]
   }
 }
