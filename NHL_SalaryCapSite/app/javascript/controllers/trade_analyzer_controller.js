@@ -16,12 +16,30 @@ export default class extends Controller {
   }
 
   initializeTeamSelects() {
-    const teamSelects = this.element.querySelectorAll('select[id^="team"]')
-    
+    const teamSelects = this.element.querySelectorAll('select[id^="team"]');
+  
     teamSelects.forEach(select => {
-      select.addEventListener('change', (e) => this.loadPlayers(e.target))
-    })
+      select.addEventListener('change', (e) => {
+        this.loadPlayers(e.target);
+        this.updateTeamOptions();
+      });
+    });
   }
+  
+  updateTeamOptions() {
+    const teamSelects = this.element.querySelectorAll('select[id^="team"]');
+    const selectedTeams = new Set(
+      Array.from(teamSelects).map(select => select.value).filter(value => value)
+    );
+  
+    teamSelects.forEach(select => {
+      const currentValue = select.value;
+      Array.from(select.options).forEach(option => {
+        option.disabled = selectedTeams.has(option.value) && option.value !== currentValue;
+      });
+    });
+  }
+  
 
   loadPlayers(select) {
     const teamId = select.value
