@@ -108,31 +108,36 @@ export default class extends Controller {
         option.addEventListener('click', () => {
           const teamNumber = newList.closest('[id^="team"]').id.includes('team1') ? '1' : '2'
           const selectedPlayersDiv = document.getElementById(`team${teamNumber}-selected-players`)
-          
+          const playerId = option.dataset.playerId;
+
+          // Prevent duplicate selection
+          const alreadySelected = selectedPlayersDiv.querySelector(`[data-player-id="${playerId}"]`);
+          if (alreadySelected) return;
+
           const playerDiv = document.createElement('div')
           playerDiv.className = 'flex justify-between items-center p-2 bg-gray-50 rounded shadow-sm'
+          playerDiv.dataset.playerId = playerId
           playerDiv.innerHTML = `
             <div class="flex-1">
               <span class="text-base font-medium">${option.dataset.playerName}</span>
               <span class="ml-2 text-sm text-gray-600">$${option.dataset.playerCapHit}</span>
             </div>
             <button type="button" class="ml-2 text-red-500 hover:text-red-700 text-lg font-bold" 
-                    onclick="removePlayer('${teamNumber}', '${option.dataset.playerId}', this)">
+                    data-action="click->trade-analyzer#removePlayer">
               ×
             </button>
           `
           selectedPlayersDiv.appendChild(playerDiv)
           
           // Reset search and hide dropdown
-          newSearchInput.value = ''
-          newList.classList.add('hidden')
+          newSearchInput.value = '';
         })
       })
     })
   }
 
-  removePlayer(teamNumber, playerId, button) {
-    button.closest('div').remove()
+   removePlayer(event) {
+    event.target.closest('div').remove();
   }
 
   downloadTradeImage() {
