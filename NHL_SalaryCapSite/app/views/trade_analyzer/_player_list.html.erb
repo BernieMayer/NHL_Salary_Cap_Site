@@ -1,0 +1,20 @@
+<div class="space-y-2">
+  <div class="relative">
+    <input type="text" 
+           class="w-full border rounded-md px-3 py-2" 
+           placeholder="Search players..."
+           data-search-input>
+    <div class="hidden absolute z-10 w-full mt-1 bg-white border rounded-md shadow-lg max-h-60 overflow-y-auto" 
+         data-player-list>
+      <% players.each do |player| %>
+        <div class="px-3 py-2 hover:bg-gray-100 cursor-pointer" 
+             data-player-option
+             data-player-id="<%= player.id %>"
+             data-player-name="<%= player.name %>"
+             data-player-cap-hit="<%= number_with_delimiter(player.get_current_cap_hit) %>">
+          <%= player.name %> - $<%= number_with_delimiter(player.get_current_cap_hit) %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div> 
