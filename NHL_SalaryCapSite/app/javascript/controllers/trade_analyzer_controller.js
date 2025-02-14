@@ -129,8 +129,8 @@ export default class extends Controller {
           `
           selectedPlayersDiv.appendChild(playerDiv)
           
-          // Reset search and hide dropdown
           newSearchInput.value = '';
+          newList.classList.add('hidden')
         })
       })
     })
