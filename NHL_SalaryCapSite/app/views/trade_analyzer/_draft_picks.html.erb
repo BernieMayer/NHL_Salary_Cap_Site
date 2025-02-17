@@ -1,14 +1,26 @@
-
 <% (2025..2027).each do |year| %>
     <%= render_accordion do %>
-    
-        <%= accordion_title do %>
-            <%= year %>
+      <%= accordion_title do %>
+        <%= year %>
+      <% end %>
+      <%= accordion_description do %>
+        <% (1..7).each do |round| %>
+          <% picks = draft_picks.select { |pick| pick.year == year && pick.round == round } %>
+          <% if picks.any? %>
+            <div class="mb-2">
+              <strong>Round <%= round %> Picks:</strong>
+              <% picks.each_with_index do |pick, index| %>
+                <div>
+                  <%= check_box_tag("draft_picks[#{year}][round_#{round}][]", pick.id, false, id: "pick_#{year}_#{round}_#{index}") %>
+                  <%= label_tag("pick_#{year}_#{round}_#{index}", "Original Owner: #{pick.original_team.name}") %>
+                </div>
+              <% end %>
+            </div>
+          <% else %>
+            <div class="text-gray-500">No picks in Round <%= round %></div>
+          <% end %>
         <% end %>
-        <%= accordion_description do %>
-            <%= check_box_tag(:pick_1) %>
-            <%= label_tag(:pick_1, "Round 1 Draft Picks for Team 1") %>
-        <% end %>
+      <% end %>
     <% end %>
-<% end %>
+  <% end %>
   
