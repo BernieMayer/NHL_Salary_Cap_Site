@@ -5,7 +5,7 @@
       <% end %>
       <%= accordion_description do %>
         <% (1..7).each do |round| %>
-          <% picks = draft_picks.select { |pick| pick.year == year && pick.round == round } %>
+          <% picks = draft_picks.select { |pick| pick.year == year && pick.round == round && pick.isTradedAway == false } %>
           <% if picks.any? %>
             <div class="mb-2">
               <strong>Round <%= round %> Picks:</strong>
