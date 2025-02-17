@@ -1,0 +1,14 @@
+
+<% (2025..2027).each do |year| %>
+    <%= render_accordion do %>
+    
+        <%= accordion_title do %>
+            <%= year %>
+        <% end %>
+        <%= accordion_description do %>
+            <%= check_box_tag(:pick_1) %>
+            <%= label_tag(:pick_1, "Round 1 Draft Picks for Team 1") %>
+        <% end %>
+    <% end %>
+<% end %>
+  

@@ -9,4 +9,10 @@ class TradeAnalyzerController < ApplicationController
     
     render partial: 'player_list', locals: { players: @players }
   end
+
+  def get_draft_picks
+    team = Team.find(params[:team_id])
+    @draft_picks = team.current_draft_picks
+    render partial: 'draft_picks', locals: { draft_picks: @draft_picks }
+  end
 end 

@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get 'contact', to: 'contact#contact'
   get '/trade_analyzer', to: 'trade_analyzer#index'
   get '/trade_analyzer/get_players', to: 'trade_analyzer#get_players'
+  get '/trade_analyzer/get_draft_picks', to: 'trade_analyzer#get_draft_picks'
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

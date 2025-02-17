@@ -8,7 +8,8 @@ export default class extends Controller {
     "selectedPlayers", 
     "team1Label", 
     "team2Label",
-    "tradeDetails"
+    "tradeDetails",
+    "draftPicks"
   ]
 
   connect() {
@@ -45,6 +46,7 @@ export default class extends Controller {
     const teamId = select.value
     const playersDiv = document.getElementById(select.dataset.target)
     const isTeam1 = select.id.includes('team1')
+    const currentTeamNumber = isTeam1 ? '1' : '2'
     const receivingTeamNumber = isTeam1 ? '2' : '1'
     
     if (teamId) {
@@ -57,6 +59,13 @@ export default class extends Controller {
           playersDiv.innerHTML = html
           this.initializePlayerSelects()
         })
+
+        fetch(`/trade_analyzer/get_draft_picks?team_id=${teamId}`)
+          .then(response => response.text())
+          .then(html => {
+            const draftPicksDiv = document.getElementById(`team${currentTeamNumber}-draft-picks`)
+            draftPicksDiv.innerHTML = html
+          })
     } else {
       playersDiv.innerHTML = ''
       this[`team${receivingTeamNumber}LabelTarget`].textContent = `Team ${receivingTeamNumber} receives`
