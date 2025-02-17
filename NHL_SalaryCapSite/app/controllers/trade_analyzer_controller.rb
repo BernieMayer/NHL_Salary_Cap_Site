@@ -12,7 +12,7 @@ class TradeAnalyzerController < ApplicationController
 
   def get_draft_picks
     team = Team.find(params[:team_id])
-    @draft_picks = team.current_draft_picks
+    @draft_picks = team.current_draft_picks.tradeable_picks
     render partial: 'draft_picks', locals: { draft_picks: @draft_picks }
   end
 end 

@@ -4,4 +4,8 @@ class DraftPick < ApplicationRecord
 
   validates :year, presence: true
   validates :round, presence: true
+
+  def self.tradeable_picks
+    where(isTradedAway: false)
+  end
 end
