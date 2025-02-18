@@ -5,13 +5,22 @@
       <% end %>
       <%= accordion_description do %>
         <% (1..7).each do |round| %>
-          <% picks = draft_picks.select { |pick| pick.year == year && pick.round == round  } %>
+          <% picks = draft_picks.select { |pick| pick.year == year && pick.round == round } %>
           <% if picks.any? %>
             <div class="mb-2">
               <strong>Round <%= round %> Picks:</strong>
               <% picks.each_with_index do |pick, index| %>
                 <div>
-                  <%= check_box_tag("draft_picks[#{year}][round_#{round}][]", pick.id, false, id: "pick_#{year}_#{round}_#{index}") %>
+                  <%= check_box_tag("draft_picks[#{year}][round_#{round}][]", pick.id, false, 
+                    id: "pick_#{year}_#{round}_#{index}",
+                    data: { 
+                      action: "click->trade-analyzer#toggleDraftPick", 
+                      pick_id: pick.id, 
+                      pick_year: year, 
+                      pick_round: round, 
+                      pick_team: pick.original_team.name 
+                    }) 
+                  %>
                   <%= label_tag("pick_#{year}_#{round}_#{index}", "Original Owner: #{pick.original_team.name}") %>
                 </div>
               <% end %>

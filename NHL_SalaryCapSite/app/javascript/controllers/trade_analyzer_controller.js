@@ -9,7 +9,8 @@ export default class extends Controller {
     "team1Label", 
     "team2Label",
     "tradeDetails",
-    "draftPicks"
+    "draftPicks",
+    "selectedDraftPicks"
   ]
 
   connect() {
@@ -146,6 +147,46 @@ export default class extends Controller {
   }
 
    removePlayer(event) {
+    event.target.closest('div').remove();
+  }
+
+  toggleDraftPick(event) {
+    const pickId = event.target.dataset.pickId
+    const pickYear = event.target.dataset.pickYear
+    const pickRound = event.target.dataset.pickRound
+    const pickTeam = event.target.dataset.pickTeam
+    const teamNumber = event.target.closest('[id^="team"]').id.includes('team1') ? '1' : '2'
+    const selectedDraftPicksDiv = document.getElementById(`team${teamNumber}-selected-draft-picks`)
+
+   // if a pick is already selected, remove it by the data set attribute
+   const draftPick = selectedDraftPicksDiv.querySelector(`[data-pick-id="${pickId}"]`);
+
+  
+   if (draftPick) {
+      // remove the pick from the DOM
+      console.log("The draft pick is", draftPick)
+      draftPick.closest('div').remove();
+      return;
+   }
+    
+
+    const pickDiv = document.createElement('div')
+    pickDiv.className = 'flex justify-between items-center p-2 bg-gray-50 rounded shadow-sm'
+    pickDiv.dataset.pickId = pickId
+    pickDiv.innerHTML = `
+      <div class="flex-1">
+        <span class="text-base font-medium">${pickTeam} Round ${pickRound} </span>
+      </div>
+      <button type="button" class="ml-2 text-red-500 hover:text-red-700 text-lg font-bold" 
+              data-action="click->trade-analyzer#removeDraftPick">
+        ×
+      </button>
+    `
+
+    selectedDraftPicksDiv.appendChild(pickDiv)      
+  }
+
+  removeDraftPick(event) {
     event.target.closest('div').remove();
   }
 
