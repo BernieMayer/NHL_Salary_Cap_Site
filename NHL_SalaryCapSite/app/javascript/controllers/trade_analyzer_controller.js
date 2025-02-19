@@ -125,12 +125,12 @@ export default class extends Controller {
           if (alreadySelected) return;
 
           const playerDiv = document.createElement('div')
-          playerDiv.className = 'flex justify-between items-center p-2 bg-gray-50 rounded shadow-sm'
+          playerDiv.className = 'flex justify-between items-center p-1 bg-gray-50 rounded shadow-sm'
           playerDiv.dataset.playerId = playerId
           playerDiv.innerHTML = `
-            <div class="flex-1">
-              <span class="text-base font-medium">${option.dataset.playerName}</span>
-              <span class="ml-2 text-sm text-gray-600">$${option.dataset.playerCapHit}</span>
+            <div class="">
+              <span class="text-xs font-medium">${option.dataset.playerName}</span>
+              <span class="ml-2 text-xs text-gray-600">$${option.dataset.playerCapHit}</span>
             </div>
             <button type="button" class="ml-2 text-red-500 hover:text-red-700 text-lg font-bold" 
                     data-action="click->trade-analyzer#removePlayer">
@@ -171,11 +171,11 @@ export default class extends Controller {
     
 
     const pickDiv = document.createElement('div')
-    pickDiv.className = 'flex justify-between items-center p-2 bg-gray-50 rounded shadow-sm'
+    pickDiv.className = 'flex justify-between items-center p-1 bg-gray-50 rounded shadow-sm'
     pickDiv.dataset.pickId = pickId
     pickDiv.innerHTML = `
       <div class="flex-1">
-        <span class="text-base font-medium">${pickTeam} Round ${pickRound} </span>
+        <span class="text-xs font-medium">${pickTeam} Round ${pickRound} </span>
       </div>
       <button type="button" class="ml-2 text-red-500 hover:text-red-700 text-lg font-bold" 
               data-action="click->trade-analyzer#removeDraftPick">
