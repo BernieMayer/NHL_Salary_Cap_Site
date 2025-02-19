@@ -8,7 +8,9 @@ export default class extends Controller {
     "selectedPlayers", 
     "team1Label", 
     "team2Label",
-    "tradeDetails"
+    "tradeDetails",
+    "draftPicks",
+    "selectedDraftPicks"
   ]
 
   connect() {
@@ -45,6 +47,7 @@ export default class extends Controller {
     const teamId = select.value
     const playersDiv = document.getElementById(select.dataset.target)
     const isTeam1 = select.id.includes('team1')
+    const currentTeamNumber = isTeam1 ? '1' : '2'
     const receivingTeamNumber = isTeam1 ? '2' : '1'
     
     if (teamId) {
@@ -57,6 +60,13 @@ export default class extends Controller {
           playersDiv.innerHTML = html
           this.initializePlayerSelects()
         })
+
+        fetch(`/trade_analyzer/get_draft_picks?team_id=${teamId}`)
+          .then(response => response.text())
+          .then(html => {
+            const draftPicksDiv = document.getElementById(`team${currentTeamNumber}-draft-picks`)
+            draftPicksDiv.innerHTML = html
+          })
     } else {
       playersDiv.innerHTML = ''
       this[`team${receivingTeamNumber}LabelTarget`].textContent = `Team ${receivingTeamNumber} receives`
@@ -115,12 +125,12 @@ export default class extends Controller {
           if (alreadySelected) return;
 
           const playerDiv = document.createElement('div')
-          playerDiv.className = 'flex justify-between items-center p-2 bg-gray-50 rounded shadow-sm'
+          playerDiv.className = 'flex justify-between items-center p-1 bg-gray-50 rounded shadow-sm'
           playerDiv.dataset.playerId = playerId
           playerDiv.innerHTML = `
-            <div class="flex-1">
-              <span class="text-base font-medium">${option.dataset.playerName}</span>
-              <span class="ml-2 text-sm text-gray-600">$${option.dataset.playerCapHit}</span>
+            <div class="">
+              <span class="text-xs font-medium">${option.dataset.playerName}</span>
+              <span class="ml-2 text-xs text-gray-600">$${option.dataset.playerCapHit}</span>
             </div>
             <button type="button" class="ml-2 text-red-500 hover:text-red-700 text-lg font-bold" 
                     data-action="click->trade-analyzer#removePlayer">
@@ -137,6 +147,46 @@ export default class extends Controller {
   }
 
    removePlayer(event) {
+    event.target.closest('div').remove();
+  }
+
+  toggleDraftPick(event) {
+    const pickId = event.target.dataset.pickId
+    const pickYear = event.target.dataset.pickYear
+    const pickRound = event.target.dataset.pickRound
+    const pickTeam = event.target.dataset.pickTeam
+    const teamNumber = event.target.closest('[id^="team"]').id.includes('team1') ? '1' : '2'
+    const selectedDraftPicksDiv = document.getElementById(`team${teamNumber}-selected-draft-picks`)
+
+   // if a pick is already selected, remove it by the data set attribute
+   const draftPick = selectedDraftPicksDiv.querySelector(`[data-pick-id="${pickId}"]`);
+
+  
+   if (draftPick) {
+      // remove the pick from the DOM
+      console.log("The draft pick is", draftPick)
+      draftPick.closest('div').remove();
+      return;
+   }
+    
+
+    const pickDiv = document.createElement('div')
+    pickDiv.className = 'flex justify-between items-center p-1 bg-gray-50 rounded shadow-sm'
+    pickDiv.dataset.pickId = pickId
+    pickDiv.innerHTML = `
+      <div class="flex-1">
+        <span class="text-xs font-medium">${pickTeam} Round ${pickRound} </span>
+      </div>
+      <button type="button" class="ml-2 text-red-500 hover:text-red-700 text-lg font-bold" 
+              data-action="click->trade-analyzer#removeDraftPick">
+        ×
+      </button>
+    `
+
+    selectedDraftPicksDiv.appendChild(pickDiv)      
+  }
+
+  removeDraftPick(event) {
     event.target.closest('div').remove();
   }
 

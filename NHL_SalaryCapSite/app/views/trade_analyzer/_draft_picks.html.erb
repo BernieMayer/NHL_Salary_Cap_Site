@@ -1,0 +1,32 @@
+<% (2025..2027).each do |year| %>
+  <%= render_accordion do %>
+    <%= accordion_title do %>
+      <%= year %>
+    <% end %>
+    <%= accordion_description do %>
+      <% (1..7).each do |round| %>
+        <% picks = draft_picks.select { |pick| pick.year == year && pick.round == round } %>
+        <% if picks.any? %>
+          <div class="mb-2">
+            <strong>Round <%= round %> Picks:</strong>
+            <%= collection_check_boxes("draft_picks[#{year}][round_#{round}]", :id, picks, :id, :id) do |b| %>
+              <div>
+                <%= b.check_box data: { 
+                    action: "click->trade-analyzer#toggleDraftPick", 
+                    pick_id: b.object.id, 
+                    pick_year: year, 
+                    pick_round: round, 
+                    pick_team: b.object.original_team.name 
+                  } 
+                %>
+                <%= b.label { "Original Owner: #{b.object.original_team.name}" } %>
+              </div>
+            <% end %>
+          </div>
+        <% else %>
+          <div class="text-gray-500">No picks in Round <%= round %></div>
+        <% end %>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>

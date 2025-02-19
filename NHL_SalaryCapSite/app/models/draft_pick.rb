@@ -4,4 +4,5 @@ class DraftPick < ApplicationRecord
 
   validates :year, presence: true
   validates :round, presence: true
+
 end
