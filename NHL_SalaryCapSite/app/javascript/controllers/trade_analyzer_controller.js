@@ -175,7 +175,7 @@ export default class extends Controller {
     pickDiv.dataset.pickId = pickId
     pickDiv.innerHTML = `
       <div class="flex-1">
-        <span class="text-xs font-medium">${pickTeam} Round ${pickRound} </span>
+        <span class="text-xs font-medium">${pickTeam} ${pickYear} Round ${pickRound} </span>
       </div>
       <button type="button" class="ml-2 text-red-500 hover:text-red-700 text-lg font-bold" 
               data-action="click->trade-analyzer#removeDraftPick">
