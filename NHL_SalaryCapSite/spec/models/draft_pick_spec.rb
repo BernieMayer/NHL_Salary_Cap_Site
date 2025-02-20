@@ -65,6 +65,29 @@ RSpec.describe DraftPick, type: :model do
   end
 
   describe "Custom Methods" do
-    # If you have any custom methods, you can test them here.
+    describe '#swap_original_and_current_team' do
+
+      let(:team1) { Team.create!(name: "Anaheim Ducks", code: "ANA") }
+      let(:team2) { Team.create!(name: "Boston Bruins", code: "BOS") }
+      let(:draft_pick) { DraftPick.create!(year: 2025, round: 1, original_team: team1, current_team: team2) }
+      
+      it 'swaps the original and current team' do
+        expect(draft_pick.original_team).to eq(team1)
+        expect(draft_pick.current_team).to eq(team2)
+  
+        draft_pick.swap_original_and_current_team
+  
+        expect(draft_pick.reload.original_team).to eq(team2)
+        expect(draft_pick.reload.current_team).to eq(team1)
+      end
+
+      it 'persists the changes to the database' do
+        draft_pick.swap_original_and_current_team
+        draft_pick.reload
+  
+        expect(draft_pick.original_team).to eq(team2)
+        expect(draft_pick.current_team).to eq(team1)
+      end
+    end
   end
 end
