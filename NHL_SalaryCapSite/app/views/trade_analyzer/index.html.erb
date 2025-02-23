@@ -1,5 +1,12 @@
 <div class="w-full max-w-7xl mx-auto p-4" data-controller="trade-analyzer">
   <h2 class="text-2xl font-bold mb-6">Trade Analyzer</h2>
+  <div class="p-4 mb-4 text-sm text-yellow-800 rounded-lg bg-yellow-50 dark:bg-gray-800 dark:text-yellow-300" role="alert">
+    <svg class="shrink-0 inline w-4 h-4 me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5ZM9.5 4a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM12 15H8a1 1 0 0 1 0-2h1v-3H8a1 1 0 0 1 0-2h2a1 1 0 0 1 1 1v4h1a1 1 0 0 1 0 2Z"/>
+    </svg>
+    <span class="font-medium">Warning!</span> Beta feature some draft picks or players on teams may not be fully accurate, feel free to <%= link_to "contact me", contact_path, class: "text-black font-semibold hover:underline underline" %>
+    for corrections
+  </div>
 
   <div class="flex flex-col md:flex-row gap-4">
     <!-- Team 1 Section -->
@@ -37,7 +44,7 @@
     <div class="flex-1 border rounded-lg shadow p-4">
       <div class="mb-4" data-trade-analyzer-target="tradeDetails">
         <div class="bg-white p-4 rounded-lg">
-          <h3 class="text-xl font-bold mb-4 text-center">Trade Details</h3>
+          <h3 class="text-xl font-bold mb-4 text-center">Cap Smarter Mock Trade</h3>
           <div class="space-y-4">
             <div>
               <h4 class="text-base font-semibold mb-2 text-blue-600" data-trade-analyzer-target="team1Label">
