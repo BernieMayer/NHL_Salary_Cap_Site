@@ -290,6 +290,27 @@ RSpec.describe Player, type: :model do
 
     end
 
+    describe '#get_signing_bonus_for_season' do
+      let(:team) { Team.create!(name: 'Toronto Maple Leafs', code: "TOR") }
+      let(:player) { Player.create!(name: 'Auston Matthews', team: team) }
+    
+      context 'with a regular contract' do
+          before do
+              contract = Contract.create!(player: player)
+              ContractDetail.create!(
+                  contract: contract,
+                  season: '2024-25',
+                  signing_bonuses: 5_640_250,
+                  cap_hit: 11_640_250
+              )
+          end
+
+          it 'returns the signing_bonus' do
+            expect(player.get_signing_bonus_for_season("2024-25")).to eq(5_640_250)
+          end
+        end
+    end
+
     describe '#get_current_cap_hit' do
         let(:team) { Team.create!(name: 'Toronto Maple Leafs', code: "TOR") }
         let(:player) { Player.create!(name: 'Auston Matthews', team: team) }

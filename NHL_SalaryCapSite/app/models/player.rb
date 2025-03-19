@@ -67,6 +67,18 @@ class Player < ApplicationRecord
             .first
             &.cap_hit
     end
+
+    
+    def get_signing_bonus_for_season(season)
+            Player
+            .left_joins(contracts: :contract_details)
+            .where(id: self.id)
+            .where(contract_details: { season: season})
+            .select(:signing_bonuses)
+            .first
+            &.signing_bonuses
+
+    end
     
     def self.cap_hits_ordered_by_current_season(team, seasons)
 
