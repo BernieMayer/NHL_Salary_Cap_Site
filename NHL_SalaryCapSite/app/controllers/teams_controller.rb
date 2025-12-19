@@ -35,7 +35,7 @@ class TeamsController < ApplicationController
     @salary_cap_space_current_year = @team.salary_cap_totals.year(2024).first.calculate_cap_space
     
 
-    @seasons = ["2024-25", "2025-26", "2026-27", "2027-28", "2028-29", "2029-30"]
+    @seasons = Constants::DISPLAY_SEASONS
     @table_headers = ["Player name", "Position"] + @seasons
                        
 
